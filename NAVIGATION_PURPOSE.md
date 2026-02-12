@@ -19,7 +19,11 @@ Experimental, niche, and user-submitted prompts.
 
 *   [General Purpose](./community_base/purpose/general.md)
 *   [Academic & Science](./community_base/purpose/science.md)
-*   [Creative & Roleplay](./community_base/purpose/creative_roleplay.md)
+*   [Gaming & Roleplay](./community_base/purpose/gaming.md)
+*   [Creative Writing (Community)](./community_base/purpose/creative_writing.md)
+*   [Image / Video / Audio (Community)](./community_base/purpose/multimodal.md)
 *   [Personal Development & Coaching](./community_base/purpose/personal_development.md)
+*   [Prompt Engineering Templates](./community_base/purpose/prompt_engineering.md)
+*   [Others / Misc](./community_base/purpose/other.md)
 
 [← Back to Home](./README.md)
