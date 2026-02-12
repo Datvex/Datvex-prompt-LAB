@@ -3,8 +3,8 @@
 Find prompts based on your specific task:
 
 ## 💎 Curated Base (Verified)
-Core, high-impact categories used by most people weekly.
 
+### 🧠 Text / LLM (Language Models)
 *   [Programming & Tech](./main_base/purpose/programming.md)
 *   [Writing & Content](./main_base/purpose/writing.md)
 *   [Marketing, SEO & Growth](./main_base/purpose/marketing.md)
@@ -14,16 +14,29 @@ Core, high-impact categories used by most people weekly.
 *   [Career & Hiring](./main_base/purpose/career.md)
 *   [Customer Support & Success](./main_base/purpose/customer_support.md)
 
-## 👥 Community Base
-Experimental, niche, and user-submitted prompts.
+### 🎨 Image Generation
+*   [Image Prompts (General)](./main_base/purpose/image_general.md)
+*   [Product & E-commerce](./main_base/purpose/image_product.md)
+*   [Logos & Branding](./main_base/purpose/image_branding.md)
+*   [Illustration & Concept Art](./main_base/purpose/image_concept_art.md)
+*   [Photography Styles & Lighting](./main_base/purpose/image_photography.md)
 
-*   [General Purpose](./community_base/purpose/general.md)
-*   [Academic & Science](./community_base/purpose/science.md)
-*   [Gaming & Roleplay](./community_base/purpose/gaming.md)
-*   [Creative Writing (Community)](./community_base/purpose/creative_writing.md)
-*   [Image / Video / Audio (Community)](./community_base/purpose/multimodal.md)
-*   [Personal Development & Coaching](./community_base/purpose/personal_development.md)
-*   [Prompt Engineering Templates](./community_base/purpose/prompt_engineering.md)
-*   [Others / Misc](./community_base/purpose/other.md)
+### 🎬 Video Generation
+*   [Video Prompts (General)](./main_base/purpose/video_general.md)
+*   [Storyboards & Shot Lists](./main_base/purpose/video_storyboard.md)
+*   [Ads & Social Clips](./main_base/purpose/video_ads.md)
+*   [Cinematic Styles & Camera Moves](./main_base/purpose/video_cinematic.md)
+
+### 🎧 Audio / Music Generation
+*   [Music Prompts (General)](./main_base/purpose/music_general.md)
+*   [Genres, Mood & Structure](./main_base/purpose/music_genres.md)
+*   [Lyrics & Songwriting](./main_base/purpose/music_lyrics.md)
+*   [Sound Effects (SFX)](./main_base/purpose/audio_sfx.md)
+
+### 🎙️ Voice Generation
+*   [Voice Prompts (General)](./main_base/purpose/voice_general.md)
+*   [Voiceovers & Narration](./main_base/purpose/voiceover.md)
+*   [Characters & Acting](./main_base/purpose/voice_characters.md)
+*   [Dubbing & Localization](./main_base/purpose/voice_dubbing.md)
 
 [← Back to Home](./README.md)
