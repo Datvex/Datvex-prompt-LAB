@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" width="400" alt="Datvex prompt LAB Logo">
+  <img src="https://images.weserv.nl/?url=raw.githubusercontent.com/Datvex/Datvex-prompt-LAB/main/logo.png&w=400&h=400&fit=cover&mask=rect&radius=50&bd=10&bc=white" alt="Datvex prompt LAB Logo">
 </p>
 
 # Datvex prompt LAB
