@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" width="400" alt="Datvex prompt LAB Logo">
+</p>
+
 # Datvex prompt LAB
 
 Welcome to the **Datvex prompt LAB**. This is a professional, structured repository containing high-quality English-language prompts designed for various AI models and specialized tasks.
