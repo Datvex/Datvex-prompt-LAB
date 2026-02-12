@@ -1,10 +1,7 @@
 - id: bugfix_min_repro
-  title: "Bugfix: Minimal Repro → Patch"
   category: "Programming & Tech"
-  difficulty: "beginner"
-  tags: ["debug", "patch", "tests"]
-  best_for: ["GPT-5.x", "Claude 4.x", "Gemini 3.x"]
-  output: ["root cause", "diff patch", "tests"]
+  title: "Bugfix: Minimal Repro → Patch"
+  description: "Turns a messy bug report into a minimal repro, finds the root cause, and returns a small patch with tests."
   prompt: |
     You are a senior software engineer.
     Goal: fix the bug in the code below.
