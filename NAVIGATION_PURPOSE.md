@@ -2,15 +2,24 @@
 
 Find prompts based on your specific task:
 
-### 💎 Curated Base
-*   [Programming & Tech](./main_base/purpose/programming.md)
-*   [Psychology & Coaching](./main_base/purpose/psychology.md)
-*   [Marketing & SEO](./main_base/purpose/marketing.md)
-*   [Creative Writing](./main_base/purpose/writing.md)
+## 💎 Curated Base (Verified)
+Core, high-impact categories used by most people weekly.
 
-### 👥 Community Base
+*   [Programming & Tech](./main_base/purpose/programming.md)
+*   [Writing & Content](./main_base/purpose/writing.md)
+*   [Marketing, SEO & Growth](./main_base/purpose/marketing.md)
+*   [Business & Strategy](./main_base/purpose/business.md)
+*   [Productivity & Workflow](./main_base/purpose/productivity.md)
+*   [Education & Learning](./main_base/purpose/education.md)
+*   [Career & Hiring](./main_base/purpose/career.md)
+*   [Customer Support & Success](./main_base/purpose/customer_support.md)
+
+## 👥 Community Base
+Experimental, niche, and user-submitted prompts.
+
 *   [General Purpose](./community_base/purpose/general.md)
 *   [Academic & Science](./community_base/purpose/science.md)
-*   [Gaming & Roleplay](./community_base/purpose/gaming.md)
+*   [Creative & Roleplay](./community_base/purpose/creative_roleplay.md)
+*   [Personal Development & Coaching](./community_base/purpose/personal_development.md)
 
 [← Back to Home](./README.md)
