@@ -6,16 +6,15 @@
 
 # Datvex prompt LAB
 
-Welcome to the **Datvex prompt LAB**. This is a professional, structured repository containing high-quality English-language prompts designed for various AI models and specialized tasks.
+Welcome to the **Datvex prompt LAB**. This is a professional, structured repository containing high-quality English-language prompts designed for specialized tasks across multiple AI systems.
 
 The collection includes carefully curated prompts gathered from various sources across the global AI community – including GitHub repositories, Discord channels, and other professional resources – as well as original prompts developed specifically for this LAB.
 
 ---
 
 ## 📂 Navigation
-Select how you want to browse the library. At this stage, all links lead to the official curated database:
+Browse the library by task and use-case. At this stage, all links lead to the official curated database:
 
-*   [**Browse by AI Model**](./NAVIGATION_MODELS.md) – Find prompts optimized for specific AI architectures (ChatGPT, Midjourney, Claude, etc.).
 *   [**Browse by Purpose**](./NAVIGATION_PURPOSE.md) – Find prompts categorized by field (Programming, Psychology, Marketing, etc.).
 
 ---
