@@ -2,8 +2,6 @@
 
 Find prompts based on your specific task:
 
-## 💎 Curated Base (Verified)
-
 ### 🧠 Text / LLM (Language Models)
 *   [Programming & Tech](./main_base/purpose/programming.md)
 *   [Writing & Content](./main_base/purpose/writing.md)
