@@ -1,0 +1,21 @@
+- id: bugfix_min_repro
+  title: "Bugfix: Minimal Repro → Patch"
+  category: "Programming & Tech"
+  difficulty: "beginner"
+  tags: ["debug", "patch", "tests"]
+  best_for: ["GPT-5.x", "Claude 4.x", "Gemini 3.x"]
+  output: ["root cause", "diff patch", "tests"]
+  prompt: |
+    You are a senior software engineer.
+    Goal: fix the bug in the code below.
+
+    Input:
+    - Language/Stack: [LANG]
+    - Error/Behavior: [ERROR_OR_BEHAVIOR]
+    - Code:
+    [CODE]
+
+    Output format:
+    1) Root cause
+    2) Patch (unified diff)
+    3) Tests
