@@ -1,28 +1,31 @@
 # Datvex prompt LAB
 
-Welcome to the **Datvex prompt LAB**. This is a professional, structured repository containing high-quality English-language prompts for various AI models.
+Welcome to the **Datvex prompt LAB**. This is a professional, structured repository containing high-quality English-language prompts designed for various AI models and specialized tasks.
+
+The collection includes carefully curated prompts gathered from various sources across the global AI community — including GitHub repositories, Discord channels, and other professional resources — as well as original prompts developed specifically for this LAB.
 
 ---
 
 ## 📂 Navigation
-Select how you want to browse the library:
+Select how you want to browse the library. At this stage, all links lead to the official curated database:
 
-*   [**Browse by AI Model**](./NAVIGATION_MODELS.md) — Find prompts optimized for specific AI architectures (ChatGPT, Midjourney, etc.)
-*   [**Browse by Purpose**](./NAVIGATION_PURPOSE.md) — Find prompts categorized by field (Programming, Psychology, Marketing, etc.)
+*   [**Browse by AI Model**](./NAVIGATION_MODELS.md) — Find prompts optimized for specific AI architectures (ChatGPT, Midjourney, Claude, etc.).
+*   [**Browse by Purpose**](./NAVIGATION_PURPOSE.md) — Find prompts categorized by field (Programming, Psychology, Marketing, etc.).
 
 ---
 
-## 🗄 Prompt Databases
-Our laboratory is divided into two distinct sections:
+## 🚀 Roadmap
+We are constantly evolving to provide the best prompting resources.
 
-1.  [**Curated Base**](./main_base/) — High-performance prompts added by the author or selected from the best community submissions.
-2.  [**Community Base**](./community_base/) — An open repository for various prompts contributed by users.
+- [x] **Phase 1:** Launch of the official curated database (Current).
+- [ ] **Phase 2:** Expansion of categories and advanced prompt engineering templates.
+- [ ] **Phase 3:** **Community Database.** A dedicated space will be added for users to share, test, and store their own prompts.
 
 ---
 
 ## 📖 Essential Information
-*   [**Usage Guide**](./USAGE_GUIDE.md) — Learn how to use variables and placeholders in our prompts.
-*   [**Contribution Rules**](./CONTRIBUTING.md) — How to add your own prompts to the lab.
+*   [**Usage Guide**](./USAGE_GUIDE.md) — Essential instructions on how to use variables `[like this]` and placeholders.
+*   [**Contribution Rules**](./CONTRIBUTING.md) — Guidelines on how to suggest improvements or new prompts for future updates.
 
 ---
 
