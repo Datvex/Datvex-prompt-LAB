@@ -4,178 +4,118 @@ Find prompts based on your specific task.
 
 ## Index
 
-- [4-Panel Studio Portrait Grid](#4-panel-studio-portrait-grid)
-- [Billie Eilish Era Selfie](#billie-eilish-era-selfie)
-- [Candid Tokyo Street Photo](#candid-tokyo-street-photo)
-- [Cinematic Lofi Cafe Still](#cinematic-lofi-cafe-still)
-- [Close-up Beach Selfie](#close-up-beach-selfie)
-- [Gothic Cathedral Interior](#gothic-cathedral-interior)
-- [High Fashion Runway Shot](#high-fashion-runway-shot)
-- [Macro Eye Detail](#macro-eye-detail)
-- [Macro Nature Cinematography](#macro-nature-cinematography)
-- [Mediterranean Getaway Portrait](#mediterranean-getaway-portrait)
-- [Otaku Corner Mirror Selfie](#otaku-corner-mirror-selfie)
-- [Zen Yoga Portrait](#zen-yoga-portrait)
+- [Detailed Mirror-Selfie Otaku Room Scene](#detailed-mirror-selfie-otaku-room-scene)
+- [Dramatic Black & White Portrait](#dramatic-black-white-portrait)
+- [Nostalgic 90s Disposable Camera Snapshot](#nostalgic-90s-disposable-camera-snapshot)
+- [Watercolor Map of Germany](#watercolor-map-of-germany)
 
 ---
 
-## 4-Panel Studio Portrait Grid
+## Detailed Mirror-Selfie Otaku Room Scene
 
-A 2x2 grid showing four distinct angles of a person to highlight a haircut or style.
+Generates a very detailed mirror selfie in an otaku-style computer corner with blue color tone.
 
 ```text
-Generate a 2x2 grid studio photograph of a man.
-Angles: Front, right profile, left profile, and rear view.
-Purpose: Highlight a modern fade haircut.
-Setting: White cyclorama background, professional studio lighting.
-Keep facial features consistent with the reference image.
+### Scene
+Mirror selfie in an otaku-style computer corner, blue color tone.
+
+### Subject
+* Gender expression: female
+* Age: around 25
+* Ethnicity: East Asian
+* Body type: slim, with a defined waist; natural body proportions
+* Skin tone: light neutral tone
+* Hairstyle:
+    * Length: waist-length hair
+    * Style: straight with slightly curled ends
+    * Color: medium brown
+* Pose:
+    * Stance: standing in a slight contrapposto pose
+    * Right hand: holding a smartphone in front of her face (identity hidden)
+    * Left arm: naturally hanging down alongside the torso
+    * Torso: body leaning slightly back; waist and abdomen exposed
+* Clothing:
+    * Top: light blue cropped knit cardigan, top two buttons fastened; a blue French-style bra faintly visible
+    * Bottom: denim ultra-short shorts, with a blue satin ribbon bow on each side of the hips
+    * Socks: blue and white horizontal striped over-the-knee socks
+    * Accessory: a blue cute mascot phone case
+
+### Environment
+* Description: bedroom computer corner seen through a wall-mounted mirror
+* Furnishings:
+    * White desk
+    * Single monitor showing a soft blue wallpaper (no readable text)
+    * Mechanical keyboard with white keycaps on a blue desk mat
+    * Mouse on a small blue mouse pad
+    * PC tower on the right side with blue case lighting
+    * Three anime figures on or near the PC tower
+    * A poster of a pagoda on the wall
+    * Cat-shaped desk lamp with blue accents
+    * A transparent glass of water
+    * A tall green leafy plant by the window (on the left side of the frame)
+* Color replacement: replace all originally pink elements (clothes and room decor) with blue tones (baby blue to sky blue/periwinkle blue).
+
+### Lighting
+* Light source: daylight coming from a large window on the left side of the camera, through sheer curtains
+* Light quality: soft, diffused light
+* White balance (K): 5200
+
+### Camera
+* Mode: smartphone rear camera shooting via the mirror (no portrait/bokeh mode)
+* Equivalent focal length (mm): 26
+* Distances (m):
+    * Subject to mirror: 0.6
+    * Camera to mirror: 0.5
+* Exposure:
+    * Aperture (f): 1.8
+    * ISO: 100
+    * Shutter speed (s): 0.01
+    * Exposure compensation (EV): -0.3
+* Focus: focus on the torso and shorts in the mirror image
+* Depth of field: natural smartphone deep depth of field; background clearly visible with no artificial blur
+* Composition:
+    * Aspect ratio: 1:1
+    * Crop: from the top of the head to mid-thigh; include the desk, monitor, PC tower, and plant in the frame
+    * Angle: slightly high angle from the mirror's point of view
+    * Composition note: keep the subject centered; to avoid wide-angle edge distortion, have her stand a bit further away and crop to a square later.
+
+### Negative prompts
+* Any appearance of pink/magenta anywhere
+* Beauty filters/over-smoothed skin; poreless skin look
+* Exaggerated or distorted anatomy
+* NSFW, see-through fabrics, wardrobe malfunctions
+* Logos, brand names, or readable user interface text
+* Fake portrait-mode blur, CGI/illustration feel
 ```
 
 ---
 
-## Billie Eilish Era Selfie
+## Dramatic Black & White Portrait
 
-Mimics a 2021-era smartphone selfie with specific hair and lighting.
+Creates a cinematic black and white portrait of a young man with unaltered facial features.
 
 ```text
-Vertical, photorealistic 4K selfie portrait. 
-Style: Billie Eilish 2021 blonde era.
-Appearance: Platinum blonde shag, heavy-lidded eyes, natural skin texture.
-Accessories: Pearl and chain necklaces, black hoop earrings.
-Setting: Indoor, warm lighting, window background at night.
+Create a professional promptet of a handsome young man with 100% unaltered facial features and hair, using a high-definition Full HD camera in 8K resolution. The aperture is 3:4. The young man appears at a narrow 30-degree angle, his upper body in black and white, looking down with his hand on his chest towards his heart. He wears a dark black wool sweater and a stylish, sporty, rubberized watch with a dark black bezel and hands, perfectly complementing the scene and his face. The lighting is very shallow and subdued, creating a dramatic effect against a dark black background, while preserving the original facial features and hair.
 ```
 
 ---
 
-## Candid Tokyo Street Photo
+## Nostalgic 90s Disposable Camera Snapshot
 
-Gritty, cinematic street photography in Shinjuku.
+Creates a classic 90s disposable-camera snapshot of a young woman.
 
 ```text
-Street photography shot in Shinjuku, Tokyo. 
-Style: Daido Moriyama inspired, high-contrast black and white. 
-Details: Heavy grain, blurred movement of pedestrians, bright neon lights. 
-Mood: Raw, urban, energetic.
+A young woman with the same unchanged face, pale soft complexion, caught in a classic 90s disposable-camera snapshot. Loose black hair, calm relaxed look. She's wearing a pastel lavender hoodie with a soft worn texture. Background cluttered with polaroids and taped photos. Gentle flash, soft nostalgic tone.
 ```
 
 ---
 
-## Cinematic Lofi Cafe Still
+## Watercolor Map of Germany
 
-Warm, nostalgic coffee shop scene at Golden Hour with film grain.
-
-```text
-Cinematic, emotional portrait shot on Kodak Portra 400 film. 
-Setting: Urban street coffee shop window at Golden Hour.
-Lighting: Warm, nostalgic side lighting.
-Atmosphere: Subtle film grain, soft focus, bokeh background city lights.
-```
-
----
-
-## Close-up Beach Selfie
-
-Ultra-photorealistic close-up with sweat droplets and harsh sunlight.
+Creates a watercolor-style map of Germany with all federal states labeled in ballpoint pen.
 
 ```text
-Ultra-photorealistic, close-up beach selfie portrait of a woman. 
-Details: Vibrant red wet hair, porcelain skin with visible sweat droplets.
-Outfit: Red bikini. 
-Lighting: Harsh midday sun. 
-Constraints: No tattoos, no artificial look, natural textures.
-```
-
----
-
-## Gothic Cathedral Interior
-
-Atmospheric shot of a cathedral with light rays through stained glass.
-
-```text
-Interior of a grand Gothic cathedral. 
-Feature: Volumetric light rays (God rays) piercing through colorful stained glass windows. 
-Details: Dust motes dancing in the light, intricate stone carvings, tall arches. 
-Mood: Spiritual, ancient, silent.
-```
-
----
-
-## High Fashion Runway Shot
-
-Candid-style photo of a model on a futuristic runway.
-
-```text
-Fashion photography from a runway show. 
-Subject: Model wearing avant-garde metallic clothing. 
-Lighting: Harsh flash photography, silhouettes of the audience in the dark. 
-Atmosphere: High energy, luxury, modern.
-```
-
----
-
-## Macro Eye Detail
-
-Extreme close-up of a human eye showing intricate iris patterns.
-
-```text
-Extreme macro photography of a human eye. 
-Details: Intricate iris patterns, reflections of a window in the pupil, visible eyelashes. 
-Color: Deep emerald green or amber. 
-Lighting: Soft ring-light reflection.
-```
-
----
-
-## Macro Nature Cinematography
-
-Extreme close-up of nature with dramatic lighting.
-
-```text
-Macro photograph of a dewdrop on a leaf.
-Lighting: Morning sun refracting through the water.
-Depth of Field: Extremely shallow, dreamy bokeh.
-Quality: 8K, national geographic style.
-```
-
----
-
-## Mediterranean Getaway Portrait
-
-Photorealistic luxury lifestyle portrait by a pool in the midday sun.
-
-```text
-Photorealistic vertical portrait of a woman resembling Sydney Sweeney. 
-Setting: Mediterranean luxury outdoor pool.
-Outfit: Black and cream one-piece swimsuit, oversized white shirt.
-Lighting: Warm midday sun.
-Camera: 35mm lens, high fidelity.
-```
-
----
-
-## Otaku Corner Mirror Selfie
-
-Blue-toned mirror selfie in a detailed gaming/otaku room.
-
-```text
-Female mirror selfie in a blue-toned otaku computer corner. 
-Environment: Detailed PC setup, anime figures, neon lights.
-Lighting: Cold blue ambient light, smartphone flash.
-Quality: High detail, realistic smartphone camera lens distortion.
-```
-
----
-
-## Zen Yoga Portrait
-
-Serene portrait of a yoga instructor in a bright studio.
-
-```text
-Professional lifestyle portrait of a yoga instructor. 
-Setting: Bright, airy studio with wooden floors and large windows. 
-Action: Meditating in a lotus pose. 
-Lighting: Soft, natural morning light. 
-Mood: Peaceful, balanced.
+Generate a map of Germany in watercolor style, on which all federal states are labeled in ballpoint pen.
 ```
 
 ---

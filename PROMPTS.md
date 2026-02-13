@@ -47,7 +47,6 @@ This file is generated from `data/prompts.yaml`.
 - **Chef** — Creates recipes and provides cooking advice and tips.
 - **English Translator and Improver** — Translates text from any language to English and provides corrected, polished versions.
 - **Football Commentator** — Provides play-by-play commentary for a football match, creating a vivid experience for the user.
-- **Hand-Drawn Style Article Header** — Transforms a photo into a hand-drawn style header image for technical articles.
 - **Magician** — Provides ideas and instructions for magic tricks, helping users learn and perform illusions.
 - **Movie Critic** — Reviews and analyzes films, providing insights into their quality, themes, and impact.
 - **Novelist** — Writes long-form fiction, creating complex characters and immersive worlds.
@@ -56,22 +55,11 @@ This file is generated from `data/prompts.yaml`.
 - **Screenwriter** — Develops scripts for films, television shows, or other visual media, including dialogue and scene descriptions.
 - **Stand-up Comedian** — Writes and performs jokes and routines on various topics to entertain the user.
 - **Storyteller** — Weaves engaging and imaginative stories tailored to specific audiences or themes.
-- **Tea Taster1** — Reviews and describes different types of tea, providing insights into their flavor, aroma, and quality.
 
 ## Marketing, SEO & Growth
 
 - **Advertiser** — Creates advertising campaigns for products or services, choosing target audiences and key messaging.
-- **Artistic Chalkboard Menu** — Hand-drawn style menu for a coffee shop.
-- **Fashion Magazine Photo Collage** — 2x2 grid collage of a character in 4 outfits solving a '2026' puzzle.
-- **Futuristic Crypto Dashboard** — Dark-mode financial visualization with neon and glassmorphism.
-- **Minimalist Fiction Book Cover** — A clean and intriguing book cover design for a mystery novel.
-- **Retro Polaroid App Interface** — Visual for a web app that mimics a Polaroid camera with draggable photos.
-- **SaaS Landing Page Design** — Modern UI/UX design for a software-as-a-service website.
-- **Streetwear Urban Lookbook** — Candid-style fashion photography for streetwear brands.
-- **Sustainability Infographic Base** — Clean layout for an environmental or green energy infographic.
-- **Tech Professional LinkedIn Banner** — Clean abstract background for a professional LinkedIn profile.
-- **Vintage Style Travel Poster** — Mid-century modern travel poster for a fictional location.
-- **YouTube Vlogger Thumbnail** — Illustration for a late-night piano practice session, suitable for VTubers.
+- **Train-ad Style Book Advertisement** — Generates a 16:9 business-book-style advertisement featuring a specific book image.
 
 ## Business & Strategy
 
@@ -94,6 +82,7 @@ This file is generated from `data/prompts.yaml`.
 
 ## Education & Learning
 
+- **Chalkboard-Style AI News Summary** — Transforms AI news content into a hand-drawn, teacher-style chalkboard diagram with explanations.
 - **Debate Coach** — Provides feedback and guidance to help users improve their debating and argumentation skills.
 - **Debater** — Argues for or against a specific topic, using logic and evidence to support a position.
 - **English Pronunciation Helper** — Helps users practice English pronunciation based on provided text inputs.
@@ -102,13 +91,12 @@ This file is generated from `data/prompts.yaml`.
 - **Philosopher** — Explores complex questions about existence, knowledge, and ethics, providing thoughtful analysis.
 - **Philosophy Teacher** — Explains philosophical concepts and history to students in an accessible and engaging way.
 - **Spoken English Teacher** — Engages in conversation to help improve spoken English skills through practice and correction.
+- **Trappist Abbey Beer Making Infographic** — Generates a high-quality infographic explaining beer making in a Trappist Abbey.
 
 ## Career & Hiring
 
 - **Career Counselor** — Provides advice and guidance on career choices, job searching, and professional development.
-- **Executive Business Portrait** — Standard professional portrait in a navy suit with vignette background.
 - **Job Interviewer** — Simulates a job interview for a specific position, asking questions and waiting for candidate responses.
-- **Professional Studio Headshot** — Turns a casual photo into a premium charcoal-themed business portrait.
 - **Recruiter** — Helps find and evaluate candidates for specific job positions, providing advice on the hiring process.
 
 ## Customer Support & Success
@@ -119,85 +107,72 @@ This file is generated from `data/prompts.yaml`.
 
 ## Image Prompts (General)
 
-- **Cosmic Nebula Art** — Vibrant space scene with swirling gases and stars.
-- **Liquid Metal Abstract Background** — Flowing iridescent liquid metal texture.
-- **Vaporwave Retro Sunset** — Classic 80s aesthetic with a grid floor and wireframe mountains.
-- **Wide Quote Card with Portrait** — A wide quote card featuring a famous person's portrait with a brown background and light-gold serif text.
+- **Abstract Microscopic Coffee Crema** — Creates an abstract, surreal macro photograph of coffee crema as a living substance.
+- **Billie Eilish Fortnite-Style 3D Character** — Creates a high-fidelity 3D character render of Billie Eilish in Fortnite aesthetic.
+- **Candid Smartphone Selfie with Playful Expression** — Generates an ultra-photorealistic, candid selfie image with a young woman playfully sticking her tongue out.
+- **Caricature Bobblehead Figurine** — Creates a highly detailed caricature figurine as a cute but intense bobblehead-style collectible.
+- **Character Generation Prompt** — Generates a high-resolution image of a main character with K-pop idol aesthetic.
+- **Cinematic Concept Art of Sadie Sink as Jean Grey** — Creates a cinematic 3D render or concept art of Sadie Sink as Jean Grey.
+- **Cinematic Portrait of Sydney Sweeney as Wanda Maximoff** — Creates a cinematic realistic portrait of Sydney Sweeney as Wanda Maximoff.
+- **Fisheye Product Photo with Forced Perspective** — Creates a high-impact fisheye product photo with warped forced perspective.
+- **Hyper-realistic Cinematic Portrait** — Generates a hyper-realistic, cinematic close-up portrait of Sydney Sweeney.
+- **K-pop Star Jennie Kim Stage Performance** — Creates a high-contrast, cinematic image of Jennie Kim during a performance.
+- **Macro Shot of Miniature Sniper Scene** — Creates a hyper-realistic macro close-up shot of a giant hand holding a keyring with a miniature sniper.
+- **Passport Photo Grid Generation** — Generates a grid of six identical passport-size photos based on an uploaded image.
+- **Ultra-Photorealistic iPhone Mirror Selfie** — Creates an ultra-photorealistic mirror selfie of a woman in a small bedroom at night.
+- **Ultra-Realistic 3D Inflatable Object Render** — Creates ultra-realistic 3D renders of an object with glossy inflated plastic material.
+- **Ultra-Realistic Fashion Editorial** — Creates an ultra-realistic fashion editorial portrait with a lit cigarette prop.
+- **Vintage Patent Document** — Generates a vintage United States patent document from the late 1800s with technical drawings and aged paper texture.
+- **Vintage Patent Document for Invention** — Generates a vintage patent document with technical drawings and aged paper texture.
+- **Wide Quote Card with Portrait** — Generates a wide quote card featuring a famous person's portrait with a brown background and light-gold serif quote text.
 
 ## Product & E-commerce
 
-- **Futuristic VR Headset Shot** — Product photography of a sleek, next-gen VR device.
-- **Gourmet Burger Food Photography** — Hyper-realistic commercial shot of a juicy burger with melting cheese.
-- **Liquid Glass Bento Grid Infographic** — Create a bento-style product infographic with 8 modules and liquid glass aesthetics.
-- **Luxury Perfume Splash** — Perfume bottle with elegant water and petal splashes.
-- **Luxury Sportscar Rolling Shot** — A high-speed motion blur shot of a sports car on a coastal road.
-- **Luxury Watch Product Scene** — High-end 3D render of a wristwatch with holographic and metallic effects.
-- **Organic Skincare Product Shot** — Minimalist bottle on a stone pedestal with water ripples.
-- **Premium Food Product Render** — Zero-gravity commercial photo of chocolate wafers with dynamic splashes.
+- **1/7 Scale Collectible Figure Product Shot** — Creates a high-resolution commercial product photograph of a detailed 1/7 scale collectible figure.
+- **8K Product Photography with Conceptual Cutaway** — Creates an 8K studio product photograph of a Borjomi flavored water can with conceptual cutaway.
+- **Bento Grid Product Infographic** — Creates a bento grid infographic for product marketing with customizable modules.
+- **Carbon Pattern Printed Ehomaki Sushi Roll** — Generates an Ehomaki sushi roll with carbon fiber pattern printed on nori.
+- **Chrome Ripple Flow Product Photography** — Creates a floating product with matte black and metallic silver finishes on a ribbed surface.
+- **Cinematic Grunge Collage Portrait** — Creates an ultra-photorealistic editorial fashion portrait with dark grunge aesthetic.
+- **Cinematic Low-Key Portrait in Red Rose Room** — Creates a dramatic, low-key cinematic portrait of a woman in a red dress surrounded by red roses.
+- **Cinematic Portrait of Man on Motorbike** — Creates an ultra-realistic cinematic portrait of a man on a modern motorbike during golden hour.
+- **Crystal Hologram Product Photography** — Creates ultra-high-fidelity product photography with crystal hologram effect.
+- **Editorial Fashion Portrait Series Grid** — Generates a multi-frame editorial fashion portrait series grid template.
+- **Ethereal Product Visual with Frosted Glass Hands** — Creates a photorealistic product visual with abstract frosted glass hands behind it.
+- **Gorpcore Fashion Campaign Image** — Creates a high-end streetwear fashion campaign image with a male model next to a Mercedes G Wagon.
+- **High-Fashion Editorial Portrait** — Creates a high-fashion editorial portrait resembling Ana de armas.
+- **Louis Vuitton Sneaker Editorial Grid** — Creates a 9-panel grid concept for a Louis Vuitton sneaker editorial campaign.
+- **Luxury Bucket Hat Product Editorial** — Generates a luxury editorial photograph of a fictional bucket hat.
+- **Luxury Product Photography Black Oudh Diffuser** — Creates ultra-realistic luxury product photography of a black glass reed diffuser bottle.
+- **Neon X-Ray Photorealistic Scan** — Generates a photorealistic image of an object shown as a glowing X-ray scan.
+- **Premium Liquid Glass Bento Grid Product Infographic** — Creates a premium liquid glass Bento grid product infographic with 8 modules for any product.
+- **Premium Studio Shot of Blueberry Mint Iced Drink** — Creates ultra-realistic commercial product photograph of a blueberry mint iced drink.
+- **Summer Skincare Product Photography on Beach** — Creates AI-edited photorealistic product photograph of a cosmetic serum dropper bottle on sandy beach.
+- **Ultra-Macro Cherry in Milk Splash** — Creates a hyper-realistic, ultra-macro food photograph of a cherry suspended in creamy milk splash.
+- **Ultra-Realistic Luxury Perfume Ad** — Creates ultra-realistic cinematic product photography of a luxury perfume bottle.
+- **Ultra-Realistic Skincare Product on Wet Beach** — Creates ultra-realistic product photography of a bronzing drop bottle on wet beach sand.
 
 ## Logos & Branding
 
-- **Custom Neon Sign Text** — Vibrant glowing neon sign against a dark brick wall.
-- **Minimalist Tech Logo** — Vector-style minimal logo for a modern technology company.
+- (No prompts yet)
 
 ## Illustration & Concept Art
 
-- **8-Bit Cyberpunk Cityscape** — Retro pixel art of a rainy futuristic city street.
-- **Ancient Greek Sculpture** — Realistic marble statue of a Greek god with museum lighting.
-- **Architectural Blueprint Sketch** — Hand-drawn architectural sketch mixed with technical blueprint elements.
 - **Artist Advisor** — Provides feedback and guidance to artists, helping them improve their work and develop their style.
-- **Cinematic Viking Warrior** — Realistic portrait of a Viking in the snow.
-- **Cute Claymation Character** — 3D render mimicking a handcrafted clay figure.
-- **Cyberpunk Street Food Stall** — Neon-drenched nighttime scene of a futuristic food stall.
-- **Dark Fantasy Dragon Encounter** — Epic scene of a black dragon on a volcanic mountain.
-- **Digital Glitch Art Portrait** — Distorted, artistic portrait with digital errors and color shifts.
-- **Double Exposure Artistic Portrait** — Merges a human silhouette with a dense forest landscape.
-- **Dream Tarot Card Illustration** — Generates tarot-style cards based on dream descriptions using sticker collages.
-- **Dynamic Comic Book Cover** — Modern superhero comic style with action and halftones.
-- **Edo-Period Modern Scene** — Reimagines a modern scene (like tech use) in the style of Japanese woodblock prints.
-- **Exploded View Tech Diagram** — Technical illustration showing all internal parts of a smartphone.
-- **Flash-Lit Jester-Girl Editorial** — 90s shōjo style anime with harsh lighting and complex material textures.
-- **Flat Design Character Set** — Characters in a modern flat design style for web illustrations.
-- **Ghibli Inspired Forest Spirit** — Soft, magical forest scene with a hidden spirit creature.
-- **Impressionist Oil Landscape** — A field of lavender in the style of Claude Monet.
-- **Industrial Loft Apartment** — New York style loft with brick walls and large factory windows.
-- **Isometric 3D Startup Office** — A clean, modern isometric view of a tech startup office space.
-- **Isometric Smart Home Diagram** — 3D isometric view of a modern smart home interior.
-- **Kawaii Animal Sticker Pack** — A set of cute Japanese-style animal stickers with white borders.
-- **Layered Paper Cutout Art** — 3D effect using physical-looking paper layers to create a forest.
-- **Low Poly Fantasy Island** — Stylized low polygon count 3D model of a floating island.
-- **Medieval Alchemy Laboratory** — Dark, cluttered room filled with potions and ancient books.
-- **Minimalist Continuous Line Art** — A single-line drawing of a woman's face, elegant and simple.
-- **Modern Minimalist Villa** — Exterior shot of a glass and concrete house at twilight.
-- **Mythological Griffin Portrait** — A majestic griffin standing on a mountain peak.
-- **Neon Noir Detective Scene** — Hard-boiled detective in a rainy, futuristic cyberpunk setting.
-- **Overgrown Post-Apocalyptic City** — Abandoned city street reclaimed by nature.
-- **Pixel Art RPG Interior** — 16-bit style interior of a fantasy item shop.
-- **Renaissance Style Pet Portrait** — Pet portrait in the style of classic oil paintings.
-- **Scandinavian Interior Design** — Photorealistic render of a minimalist Nordic living room.
-- **Sci-Fi Spaceship Cockpit** — First-person view from inside a futuristic starship looking at a nebula.
-- **Seamless Watercolor Florals** — Soft and romantic floral pattern for textiles or wallpaper.
-- **Soft Watercolor Storybook** — Whimsical watercolor illustration for children's books.
-- **Steampunk Mechanical Gadget** — Intricate brass pocket watch with gears and steam pipes.
-- **Surrealist Desert Landscape** — Inspired by Salvador Dali, featuring melting objects in a desert.
-- **Vast Open-World Environment** — Cinematic fantasy game environment generator for high-budget vistas.
-- **Vintage US Patent Document** — Generates an image of an 1800s patent document with technical drawings and stamps.
-- **Warhol Style Pop Art** — Modern portrait in the iconic Andy Warhol screen-print style.
+- **Chibi-Style NBA Matchup** — Creates a chibi-style screenshot of a fictional NBA game with Kobe Bryant vs LeBron James.
+- **Cosmic Chessboard Checkmate Scene** — Creates a surreal, epic digital art image of a massive cosmic chessboard floating in deep space.
+- **Edo-Period Ukiyo-e Reinterpretation** — Reimagines a modern-day scene as an Edo-period Japanese Ukiyo-e woodblock print.
+- **Hand-Drawn Style Header Image** — Generates a hand-drawn style header image of a person introducing Nano Banana Pro.
+- **Octane-Rendered Floating Ecological Island** — Creates a massive, photorealistic floating island that functions as a living ecological system.
+- **Surreal Rubber-House Ink Style** — Creates a black and white illustration in the surreal 1930s rubber hose animation style.
+- **Whimsical 3D Clay Sculpture of Stacked Children** — Creates a highly detailed 3D cartoon sculpture of three whimsical children stacked on a rustic house.
 
 ## Photography Styles & Lighting
 
-- **4-Panel Studio Portrait Grid** — A 2x2 grid showing four distinct angles of a person to highlight a haircut or style.
-- **Billie Eilish Era Selfie** — Mimics a 2021-era smartphone selfie with specific hair and lighting.
-- **Candid Tokyo Street Photo** — Gritty, cinematic street photography in Shinjuku.
-- **Cinematic Lofi Cafe Still** — Warm, nostalgic coffee shop scene at Golden Hour with film grain.
-- **Close-up Beach Selfie** — Ultra-photorealistic close-up with sweat droplets and harsh sunlight.
-- **Gothic Cathedral Interior** — Atmospheric shot of a cathedral with light rays through stained glass.
-- **High Fashion Runway Shot** — Candid-style photo of a model on a futuristic runway.
-- **Macro Eye Detail** — Extreme close-up of a human eye showing intricate iris patterns.
-- **Macro Nature Cinematography** — Extreme close-up of nature with dramatic lighting.
-- **Mediterranean Getaway Portrait** — Photorealistic luxury lifestyle portrait by a pool in the midday sun.
-- **Otaku Corner Mirror Selfie** — Blue-toned mirror selfie in a detailed gaming/otaku room.
-- **Zen Yoga Portrait** — Serene portrait of a yoga instructor in a bright studio.
+- **Detailed Mirror-Selfie Otaku Room Scene** — Generates a very detailed mirror selfie in an otaku-style computer corner with blue color tone.
+- **Dramatic Black & White Portrait** — Creates a cinematic black and white portrait of a young man with unaltered facial features.
+- **Nostalgic 90s Disposable Camera Snapshot** — Creates a classic 90s disposable-camera snapshot of a young woman.
+- **Watercolor Map of Germany** — Creates a watercolor-style map of Germany with all federal states labeled in ballpoint pen.
 
 ## Video Prompts (General)
 
@@ -205,11 +180,14 @@ This file is generated from `data/prompts.yaml`.
 
 ## Storyboards & Shot Lists
 
-- (No prompts yet)
+- **Cinematic Wuxia Scene** — Creates a detailed Wuxia fantasy style scene with dramatic confrontation between two characters.
+- **Comic Book Poster Illustration Template** — Generates a dynamic, modern comic book poster illustration with a collage of comic panels.
+- **New Year's Day Four-Panel Puzzle** — Creates a 2x2 grid photo collage where a character pieces together a puzzle spelling '2026 New Year's Day Happy'.
 
 ## Ads & Social Clips
 
-- (No prompts yet)
+- **Dynamic Anime Battle Poster** — Creates a super dynamic anime battle poster with Japanese text.
+- **Neon Pink Gas Station Portrait** — Creates a vibrant, high-contrast image at a wet asphalt gas station at night.
 
 ## Cinematic Styles & Camera Moves
 

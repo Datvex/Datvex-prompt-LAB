@@ -4,6 +4,7 @@ Find prompts based on your specific task.
 
 ## Index
 
+- [Chalkboard-Style AI News Summary](#chalkboard-style-ai-news-summary)
 - [Debate Coach](#debate-coach)
 - [Debater](#debater)
 - [English Pronunciation Helper](#english-pronunciation-helper)
@@ -12,6 +13,19 @@ Find prompts based on your specific task.
 - [Philosopher](#philosopher)
 - [Philosophy Teacher](#philosophy-teacher)
 - [Spoken English Teacher](#spoken-english-teacher)
+- [Trappist Abbey Beer Making Infographic](#trappist-abbey-beer-making-infographic)
+
+---
+
+## Chalkboard-Style AI News Summary
+
+Transforms AI news content into a hand-drawn, teacher-style chalkboard diagram with explanations.
+
+```text
+Using the following content, summarize the news in a chalkboard-style, hand-written look, and break it down with diagrams and easy-to-understand expressions as if a teacher had written it.
+—-
+Search results from Grok
+```
 
 ---
 
@@ -91,6 +105,16 @@ Engages in conversation to help improve spoken English skills through practice a
 
 ```text
 I want you to act as a spoken English teacher and improver. I will speak to you in English and you will reply to me in English to practice my spoken English. I want you to keep your reply neat, limiting the reply to 100 words. I want you to strictly correct my grammar mistakes, typos, and factual errors. I want you to ask me a question in your reply. Now let's start practicing, you could ask me a question first. Remember, I want you to strictly correct my grammar mistakes, typos, and factual errors.
+```
+
+---
+
+## Trappist Abbey Beer Making Infographic
+
+Generates a high-quality infographic explaining beer making in a Trappist Abbey.
+
+```text
+Generate a high quality infographic explaining beer making in a Trappist Abbey with rich illustrations.
 ```
 
 ---
