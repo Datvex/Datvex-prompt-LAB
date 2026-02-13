@@ -16,14 +16,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
       - run: pip install pyyaml
+
       - run: python scripts/build_prompts.py
+
       - run: |
-          git config user.name "prompt-bot"
-          git config user.email "prompt-bot@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add main_base/purpose/*.md PROMPTS.md
-          git commit -m "chore: rebuild prompt pages" || exit 0
+          if git diff --staged --quiet; then
+            exit 0
+          fi
+          git commit -m "chore: rebuild prompt pages"
           git push
