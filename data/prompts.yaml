@@ -346,4 +346,412 @@
   title: "Tea Taster1"
   description: "Reviews and describes different types of tea, providing insights into their flavor, aroma, and quality."
   prompt: |
-    I want you to act as a tea taster. I will provide you with some tea samples and your goal is to describe their flavor profile, aroma, and other characteristics in detail. You should also provide suggestions for brewing methods, food pairings, and other information that can help people appreciate the nuances of each tea. My first request is "I have a sample of [INPUT] and I want to know more about it."
+    I want you to act as a tea taster. I will provide you with some tea samples and your goal is to describe their flavor profile, aroma, and other characteristics in detail. You should also provide suggestions for brewing methods, food pairings, and other information that can help people appreciate the nuances of each tea. My first request is "I have a sample of [INPUT] and I want to know more about it.
+    
+- id: wide_quote_card_portrait
+  category: "Image Prompts (General)"
+  title: "Wide Quote Card with Portrait"
+  description: "A wide quote card featuring a famous person's portrait with a brown background and light-gold serif text."<!--citation:1-->
+  prompt: |
+    Generate a wide quote card featuring a famous person's portrait.<!--citation:1--> 
+    Background: solid brown.<!--citation:1--> 
+    Text: light-gold serif font, occupying two-thirds of the frame.<!--citation:1--> 
+    Portrait: placed in the remaining one-third.<!--citation:1--> 
+    Quote: [INSERT QUOTE]
+    Author: [INSERT AUTHOR]
+
+- id: premium_liquid_glass_bento
+  category: "Product & E-commerce"
+  title: "Liquid Glass Bento Grid Infographic"
+  description: "Create a bento-style product infographic with 8 modules and liquid glass aesthetics."
+  prompt: |
+    Create an Infographic with bento grid 8-module layout. 
+    Style: Premium liquid glass, glossy textures.<!--citation:1-->
+    Product: [INSERT PRODUCT]
+    Background: [INSERT STYLE]
+    Hero Grid: [INSERT HERO STYLE]
+    Include specific modules for features, ingredients/specs, and lifestyle shots.
+
+- id: hand_drawn_header_image
+  category: "Writing & Content"
+  title: "Hand-Drawn Style Article Header"
+  description: "Transforms a photo into a hand-drawn style header image for technical articles."
+  prompt: |
+    Completely recreate the uploaded person.<!--citation:1--> 
+    Usage: Header image for a note article introducing 'Nano Banana Pro'. 
+    Aspect ratio: 16:9.<!--citation:1--> 
+    Style: Simple, hand-drawn, italic, with a blue and green gradient. 
+    Title text: 'In-depth explanation of Google\'s new AI "Nano Banana Pro"'.
+
+- id: studio_portrait_grid_4panel
+  category: "Photography Styles & Lighting"
+  title: "4-Panel Studio Portrait Grid"
+  description: "A 2x2 grid showing four distinct angles of a person to highlight a haircut or style."<!--citation:1-->
+  prompt: |
+    Generate a 2x2 grid studio photograph of a man.<!--citation:1--> 
+    Angles: Front, right profile, left profile, and rear view.<!--citation:1--> 
+    Purpose: Highlight a modern fade haircut.<!--citation:1--> 
+    Setting: White cyclorama background, professional studio lighting.<!--citation:1--> 
+    Keep facial features consistent with the reference image.<!--citation:1-->
+
+- id: vintage_patent_document
+  category: "Illustration & Concept Art"
+  title: "Vintage US Patent Document"
+  description: "Generates an image of an 1800s patent document with technical drawings and stamps."<!--citation:1-->
+  prompt: |
+    Image of a vintage United States patent document from the late 1800s. 
+    Details: Precise technical drawings, handwritten annotations, aged paper texture, foxing stains.<!--citation:1--> 
+    Elements: Embossed seal, wax stamp.<!--citation:1--> 
+    Aesthetic: Historical and archival.<!--citation:1-->
+
+- id: edo_period_ukiyo_e_modern
+  category: "Illustration & Concept Art"
+  title: "Edo-Period Modern Scene"
+  description: "Reimagines a modern scene (like tech use) in the style of Japanese woodblock prints."<!--citation:1-->
+  prompt: |
+    Depict a modern-day scene (e.g., people using smartphones in a cafe) reimagined as an Edo-period Japanese Ukiyo-e woodblock print. 
+    Details: Flat colors, bold outlines, traditional patterns, aged paper texture.<!--citation:1--> 
+    Contrast modern technology with anachronistic traditional settings.
+
+- id: social_media_flash_jester
+  category: "Illustration & Concept Art"
+  title: "Flash-Lit Jester-Girl Editorial"
+  description: "90s shōjo style anime with harsh lighting and complex material textures."<!--citation:1-->
+  prompt: |
+    Vertical editorial anime image.<!--citation:1--> 
+    Style: 90s shōjo, harlequin character design.<!--citation:1--> 
+    Lighting: Harsh flash-lit, high contrast.<!--citation:1--> 
+    Materials: Stack of chrome, velvet, and marble.<!--citation:1--> 
+    Action: Frozen acrobatic dance in an ancient castle.<!--citation:1--> 
+    Details: Micro-flaws for authenticity.
+
+- id: sydney_sweeney_mediterranean
+  category: "Photography Styles & Lighting"
+  title: "Mediterranean Getaway Portrait"
+  description: "Photorealistic luxury lifestyle portrait by a pool in the midday sun."<!--citation:1-->
+  prompt: |
+    Photorealistic vertical portrait of a woman resembling Sydney Sweeney. 
+    Setting: Mediterranean luxury outdoor pool.<!--citation:1--> 
+    Outfit: Black and cream one-piece swimsuit, oversized white shirt.<!--citation:1--> 
+    Lighting: Warm midday sun.<!--citation:1--> 
+    Camera: 35mm lens, high fidelity.<!--citation:1-->
+
+- id: vlogger_piano_thumbnail
+  category: "Marketing, SEO & Growth"
+  title: "YouTube Vlogger Thumbnail"
+  description: "Illustration for a late-night piano practice session, suitable for VTubers."
+  prompt: |
+    Generate a YouTube thumbnail illustration.<!--citation:1--> 
+    Theme: Late-night relaxed piano practice. 
+    Vibe: Lo-fi, cozy, dim lighting.<!--citation:1--> 
+    Character: Female VTuber style sitting at a piano.<!--citation:1--> 
+    Text: [INSERT TITLE] in bold, catchy font.
+
+- id: chocolate_wafer_ecommerce
+  category: "Product & E-commerce"
+  title: "Premium Food Product Render"
+  description: "Zero-gravity commercial photo of chocolate wafers with dynamic splashes."<!--citation:1-->
+  prompt: |
+    Premium commercial food photograph. 
+    Subject: Chocolate wafer rolls and hazelnuts. 
+    Composition: Zero-gravity, floating elements.<!--citation:1--> 
+    Effects: Dynamic chocolate liquid splash.<!--citation:1--> 
+    Quality: Hyper-realistic textures, 8K, professional studio lighting.<!--citation:1-->
+
+- id: open_world_game_vista
+  category: "Illustration & Concept Art"
+  title: "Vast Open-World Environment"
+  description: "Cinematic fantasy game environment generator for high-budget vistas."<!--citation:1-->
+  prompt: |
+    Expansive, cinematic fantasy game environment illustration. 
+    Theme: [INSERT CONCEPT, e.g., Floating Isles]. 
+    Camera: Distant, wide environment-focused.<!--citation:1--> 
+    Features: Monumental sky, uninhabited landscape, high-budget open-world vista.<!--citation:1-->
+
+- id: billie_eilish_selfie_style
+  category: "Photography Styles & Lighting"
+  title: "Billie Eilish Era Selfie"
+  description: "Mimics a 2021-era smartphone selfie with specific hair and lighting."<!--citation:1-->
+  prompt: |
+    Vertical, photorealistic 4K selfie portrait. 
+    Style: Billie Eilish 2021 blonde era.<!--citation:1--> 
+    Appearance: Platinum blonde shag, heavy-lidded eyes, natural skin texture.<!--citation:1--> 
+    Accessories: Pearl and chain necklaces, black hoop earrings.<!--citation:1--> 
+    Setting: Indoor, warm lighting, window background at night.<!--citation:1-->
+
+- id: beach_selfie_luna
+  category: "Photography Styles & Lighting"
+  title: "Close-up Beach Selfie"
+  description: "Ultra-photorealistic close-up with sweat droplets and harsh sunlight."<!--citation:1-->
+  prompt: |
+    Ultra-photorealistic, close-up beach selfie portrait of a woman. 
+    Details: Vibrant red wet hair, porcelain skin with visible sweat droplets.<!--citation:1--> 
+    Outfit: Red bikini. 
+    Lighting: Harsh midday sun. 
+    Constraints: No tattoos, no artificial look, natural textures.<!--citation:1-->
+
+- id: otaku_corner_mirror_selfie
+  category: "Photography Styles & Lighting"
+  title: "Otaku Corner Mirror Selfie"
+  description: "Blue-toned mirror selfie in a detailed gaming/otaku room."<!--citation:1-->
+  prompt: |
+    Female mirror selfie in a blue-toned otaku computer corner. 
+    Environment: Detailed PC setup, anime figures, neon lights.<!--citation:1--> 
+    Lighting: Cold blue ambient light, smartphone flash.<!--citation:1--> 
+    Quality: High detail, realistic smartphone camera lens distortion.<!--citation:1-->
+
+- id: fashion_collage_2026
+  category: "Marketing, SEO & Growth"
+  title: "Fashion Magazine Photo Collage"
+  description: "2x2 grid collage of a character in 4 outfits solving a '2026' puzzle."<!--citation:1-->
+  prompt: |
+    Multi-panel 2x2 grid photo collage. 
+    Character: Single female, four different outfits/settings.<!--citation:1--> 
+    Centerpiece: Puzzle pieces spelling '2026 New Year's Day Happy'. 
+    Style: Fashion magazine editorial, consistent facial features.<!--citation:1-->
+
+- id: luxury_watch_3d_render
+  category: "Product & E-commerce"
+  title: "Luxury Watch Product Scene"
+  description: "High-end 3D render of a wristwatch with holographic and metallic effects."<!--citation:1-->
+  prompt: |
+    3D product render for a luxury wristwatch. 
+    Aesthetic: Luxury x Tech.<!--citation:1--> 
+    Effects: Holographic reflections, Fresnel rim light, metallic GLSL-style reflections.<!--citation:1--> 
+    Background: Abstract gradient mesh.<!--citation:1--> 
+    Quality: 8K, cinematic depth of field.<!--citation:1-->
+
+- id: futuristic_crypto_dashboard
+  category: "Marketing, SEO & Growth"
+  title: "Futuristic Crypto Dashboard"
+  description: "Dark-mode financial visualization with neon and glassmorphism."<!--citation:1-->
+  prompt: |
+    Futuristic dark-mode cryptocurrency data dashboard. 
+    Elements: Glassmorphism UI, neon lighting effects, gradient outlines.<!--citation:1--> 
+    Background: High-contrast obsidian.<!--citation:1--> 
+    Typography: Slim Inter font.
+
+- id: retro_polaroid_app_ui
+  category: "Marketing, SEO & Growth"
+  title: "Retro Polaroid App Interface"
+  description: "Visual for a web app that mimics a Polaroid camera with draggable photos."<!--citation:1-->
+  prompt: |
+    Interface design for a retro Polaroid camera web app. 
+    Features: Webcam preview, developing photo animation, collage wall of draggable photos.<!--citation:1--> 
+    Vibe: Nostalgic, tactile, analog feel in a digital space.<!--citation:1-->
+
+- id: dream_tarot_card_app
+  category: "Illustration & Concept Art"
+  title: "Dream Tarot Card Illustration"
+  description: "Generates tarot-style cards based on dream descriptions using sticker collages."<!--citation:1-->
+  prompt: |
+    Generate a dream card that looks like a tarot card. 
+    Style: Illustration stickers, collage aesthetic.<!--citation:1--> 
+    Theme: [INSERT DREAM THEME]. 
+    Details: Dreamy, surreal, symbolic imagery.<!--citation:1-->
+
+- id: cinematic_lofi_cafe
+  category: "Photography Styles & Lighting"
+  title: "Cinematic Lofi Cafe Still"
+  description: "Warm, nostalgic coffee shop scene at Golden Hour with film grain."<!--citation:1-->
+  prompt: |
+    Cinematic, emotional portrait shot on Kodak Portra 400 film. 
+    Setting: Urban street coffee shop window at Golden Hour.<!--citation:1--> 
+    Lighting: Warm, nostalgic side lighting.<!--citation:1--> 
+    Atmosphere: Subtle film grain, soft focus, bokeh background city lights.<!--citation:1-->
+
+- id: professional_headshot_charcoal
+  category: "Career & Hiring"
+  title: "Professional Studio Headshot"
+  description: "Turns a casual photo into a premium charcoal-themed business portrait."<!--citation:1-->
+  prompt: |
+    Professional high-resolution profile photo.<!--citation:1--> 
+    Framing: Chest up, looking at camera.<!--citation:1--> 
+    Style: Premium charcoal gray blazer, smart casual.<!--citation:1--> 
+    Background: Solid '#562226' neutral studio color.<!--citation:1--> 
+    Lighting: Professional studio setup.<!--citation:1-->
+
+- id: navy_suit_business_portrait
+  category: "Career & Hiring"
+  title: "Executive Business Portrait"
+  description: "Standard professional portrait in a navy suit with vignette background."<!--citation:1-->
+  prompt: |
+    Executive portrait.<!--citation:1--> 
+    Outfit: Professional navy blue business suit, white shirt.<!--citation:1--> 
+    Background: Dark gray studio backdrop with a subtle vignette.<!--citation:1--> 
+    Focus: Exact facial consistency with input.
+
+- id: isometric_smart_home
+  category: "Illustration & Concept Art"
+  title: "Isometric Smart Home Diagram"
+  description: "3D isometric view of a modern smart home interior."<!--citation:1-->
+  prompt: |
+    Isometric 3D render of a smart home interior. 
+    Details: Cutaway view, IoT devices, modern furniture, clean lighting.<!--citation:1--> 
+    Style: Minimalism, bright colors.<!--citation:1-->
+
+- id: streetwear_lookbook_urban
+  category: "Marketing, SEO & Growth"
+  title: "Streetwear Urban Lookbook"
+  description: "Candid-style fashion photography for streetwear brands."<!--citation:1-->
+  prompt: |
+    Streetwear fashion photography. 
+    Location: Gritty urban alleyway with graffiti.<!--citation:1--> 
+    Lighting: Moody evening light with street lamp highlights.<!--citation:1--> 
+    Subject: Model in [INSERT BRAND CLOTHING]. 
+    Feel: Authentic, raw, high fashion.<!--citation:1-->
+
+- id: minimal_logo_tech_startup
+  category: "Logos & Branding"
+  title: "Minimalist Tech Logo"
+  description: "Vector-style minimal logo for a modern technology company."<!--citation:1-->
+  prompt: |
+    Minimalist vector logo for a tech startup named [NAME]. 
+    Symbol: Abstract geometric shape representing connectivity.<!--citation:1--> 
+    Colors: Electric blue and slate gray.<!--citation:1--> 
+    Background: White.<!--citation:1-->
+
+- id: cyberpunk_street_food
+  category: "Illustration & Concept Art"
+  title: "Cyberpunk Street Food Stall"
+  description: "Neon-drenched nighttime scene of a futuristic food stall."<!--citation:1-->
+  prompt: |
+    Futuristic cyberpunk street food stall at night. 
+    Lighting: Pink and cyan neon signs, steam rising from pans.<!--citation:1--> 
+    Subject: Android chef serving glowing noodles. 
+    Aesthetic: Rainy pavement, high detail.<!--citation:1-->
+
+- id: oil_painting_renaissance_cat
+  category: "Illustration & Concept Art"
+  title: "Renaissance Style Pet Portrait"
+  description: "Pet portrait in the style of classic oil paintings."<!--citation:1-->
+  prompt: |
+    Oil painting of a cat in the style of a Renaissance nobleman. 
+    Details: Ornate ruff collar, velvet cape, dark moody background.<!--citation:1--> 
+    Texture: Visible brushstrokes, cracked paint effect.<!--citation:1-->
+
+- id: architectural_sketch_blueprint
+  category: "Illustration & Concept Art"
+  title: "Architectural Blueprint Sketch"
+  description: "Hand-drawn architectural sketch mixed with technical blueprint elements."<!--citation:1-->
+  prompt: |
+    Architectural concept sketch. 
+    Mix of hand-drawn pencil lines and blue blueprint grids.<!--citation:1--> 
+    Subject: Futuristic sustainable skyscraper. 
+    Details: Notes, measurements, and cross-sections.
+
+- id: flat_design_character_work
+  category: "Illustration & Concept Art"
+  title: "Flat Design Character Set"
+  description: "Characters in a modern flat design style for web illustrations."<!--citation:1-->
+  prompt: |
+    Flat design vector illustration of people working in a modern office. 
+    Style: Corporate Memphis, vibrant but limited color palette.<!--citation:1--> 
+    Background: Simple geometric shapes.<!--citation:1-->
+
+- id: pixel_art_rpg_shop
+  category: "Illustration & Concept Art"
+  title: "Pixel Art RPG Interior"
+  description: "16-bit style interior of a fantasy item shop."<!--citation:1-->
+  prompt: |
+    16-bit pixel art interior of a fantasy RPG potion shop. 
+    Details: Glowing bottles, wooden shelves, a cat sleeping on the counter.<!--citation:1--> 
+    Perspective: Side-view or top-down.
+
+- id: cinematic_nature_macro
+  category: "Photography Styles & Lighting"
+  title: "Macro Nature Cinematography"
+  description: "Extreme close-up of nature with dramatic lighting."<!--citation:1-->
+  prompt: |
+    Macro photograph of a dewdrop on a leaf.<!--citation:1--> 
+    Lighting: Morning sun refracting through the water.<!--citation:1--> 
+    Depth of Field: Extremely shallow, dreamy bokeh.<!--citation:1--> 
+    Quality: 8K, national geographic style.<!--citation:1-->
+
+- id: abstract_liquid_metal_bg
+  category: "Image Prompts (General)"
+  title: "Liquid Metal Abstract Background"
+  description: "Flowing iridescent liquid metal texture."<!--citation:1-->
+  prompt: |
+    Abstract 3D render of flowing liquid metal. 
+    Color: Iridescent, pearlescent gradients.<!--citation:1--> 
+    Motion: Rippling, smooth waves.<!--citation:1--> 
+    Lighting: Studio softbox reflections.
+
+- id: children_book_watercolor
+  category: "Illustration & Concept Art"
+  title: "Soft Watercolor Storybook"
+  description: "Whimsical watercolor illustration for children's books."<!--citation:1-->
+  prompt: |
+    Whimsical watercolor illustration for a children's book. 
+    Subject: A bear and a rabbit sharing tea in a forest. 
+    Style: Soft edges, pastel colors, hand-painted texture.<!--citation:1-->
+
+- id: vintage_travel_poster
+  category: "Marketing, SEO & Growth"
+  title: "Vintage Style Travel Poster"
+  description: "Mid-century modern travel poster for a fictional location."<!--citation:1-->
+  prompt: |
+    Vintage 1950s travel poster for 'Mars Colony'. 
+    Style: Mid-century modern, bold typography, flat illustration.<!--citation:1--> 
+    Colors: Burnt orange, mustard yellow, teal.<!--citation:1-->
+
+- id: product_splash_perfume
+  category: "Product & E-commerce"
+  title: "Luxury Perfume Splash"
+  description: "Perfume bottle with elegant water and petal splashes."<!--citation:1-->
+  prompt: |
+    Commercial photography of a luxury perfume bottle. 
+    Action: Mid-air water splash with floating rose petals. 
+    Lighting: High-key, clean, elegant. 
+    Background: Soft pink gradient.<!--citation:1-->
+
+- id: superhero_comic_cover
+  category: "Illustration & Concept Art"
+  title: "Dynamic Comic Book Cover"
+  description: "Modern superhero comic style with action and halftones."<!--citation:1-->
+  prompt: |
+    Modern comic book cover illustration. 
+    Subject: A hero soaring through a futuristic city. 
+    Effects: Action lines, halftone dots, bold 'KAPOW' text.<!--citation:1--> 
+    Colors: High saturation.<!--citation:1-->
+
+- id: interior_design_scandinavian
+  category: "Illustration & Concept Art"
+  title: "Scandinavian Interior Design"
+  description: "Photorealistic render of a minimalist Nordic living room."<!--citation:1-->
+  prompt: |
+    Photorealistic interior design render. 
+    Style: Scandinavian minimalism.<!--citation:1--> 
+    Elements: Light wood, neutral tones, large windows with natural light.<!--citation:1--> 
+    Quality: Architectural Digest style.<!--citation:1-->
+
+- id: claymation_character_style
+  category: "Illustration & Concept Art"
+  title: "Cute Claymation Character"
+  description: "3D render mimicking a handcrafted clay figure."<!--citation:1-->
+  prompt: |
+    3D render of a cute monster in claymation style. 
+    Texture: Fingerprint marks on clay, soft matte finish.<!--citation:1--> 
+    Lighting: Soft studio lights.<!--citation:1--> 
+    Vibe: Playful, handmade look.<!--citation:1-->
+
+- id: double_exposure_forest_man
+  category: "Illustration & Concept Art"
+  title: "Double Exposure Artistic Portrait"
+  description: "Merges a human silhouette with a dense forest landscape."<!--citation:1-->
+  prompt: |
+    Double exposure photography. 
+    Subject 1: Profile silhouette of a man. 
+    Subject 2: A dense pine forest in the mist.<!--citation:1--> 
+    Effect: Ethereal, artistic blending of textures.<!--citation:1-->
+
+- id: neon_noir_detective
+  category: "Illustration & Concept Art"
+  title: "Neon Noir Detective Scene"
+  description: "Hard-boiled detective in a rainy, futuristic cyberpunk setting."<!--citation:1-->
+  prompt: |
+    Neon noir cinematic scene. 
+    Subject: A detective in a trench coat standing under a neon sign. 
+    Details: Rainy night, reflection in puddles, smoke from a cigarette.<!--citation:1--> 
+    Colors: Deep shadows, vibrant neon pink and blue.<!--citation:1-->
