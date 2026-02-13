@@ -54,3 +54,11 @@
 
 ## 📜 ライセンス
 このプロジェクトは **MIT ライセンス** の下でライセンスされています。
+
+---
+
+## 👤 著者/ソース
+
+このリストには、このリポジトリのためにプロンプトが収集されたソースが含まれています:
+
+*   **YouMind Nano Banana Pro Library** – [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)

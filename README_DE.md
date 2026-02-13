@@ -54,3 +54,11 @@ Wir entwickeln uns ständig weiter, um die besten Prompt-Ressourcen bereitzustel
 
 ## 📜 Lizenz
 Dieses Projekt ist unter der **MIT-Lizenz** lizenziert.
+
+---
+
+## 👤 Urheberschaft / Quellen
+
+Diese Liste enthält die Quellen, aus denen Prompts für dieses Repository gesammelt wurden:
+
+*   **YouMind Nano Banana Pro Library** – [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)
