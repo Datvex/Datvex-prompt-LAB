@@ -7,10 +7,10 @@
 <p align="center">
   <b>选择语言：</b><br>
   <a href="README.md"><img src="https://img.shields.io/badge/English-点击查看-grey" alt="EN"></a>
-  <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-Просмотр-grey" alt="RU"></a>
+  <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-点击查看-grey" alt="RU"></a>
   <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-当前-brightgreen" alt="ZH"></a>
   <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-点击查看-grey" alt="ES"></a>
-  <a href="README_HI.md"><img src="https://img.shields.io/badge/Hindi%20-%20%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-点击查看-grey" alt="HI"></a>
+  <a href="README_HI.md"><img src="https://img.shields.io/badge/हिन्दी-点击查看-grey" alt="HI"></a>
   <br>
   <a href="README_FR.md"><img src="https://img.shields.io/badge/Français-点击查看-grey" alt="FR"></a>
   <a href="README_DE.md"><img src="https://img.shields.io/badge/Deutsch-点击查看-grey" alt="DE"></a>
