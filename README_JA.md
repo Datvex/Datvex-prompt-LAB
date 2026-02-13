@@ -10,7 +10,7 @@
   <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-表示-grey" alt="RU"></a>
   <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-表示-grey" alt="ZH"></a>
   <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-表示-grey" alt="ES"></a>
-  <a href="README_HI.md"><img src="https://img.shields.io/badge/Hindi%20-%20%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-表示-grey" alt="HI"></a>
+  <a href="README_HI.md"><img src="https://img.shields.io/badge/हिन्दी-表示-grey" alt="HI"></a>
   <br>
   <a href="README_FR.md"><img src="https://img.shields.io/badge/Français-表示-grey" alt="FR"></a>
   <a href="README_DE.md"><img src="https://img.shields.io/badge/Deutsch-表示-grey" alt="DE"></a>
