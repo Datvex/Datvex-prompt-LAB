@@ -5,6 +5,7 @@
 </p>
 
 <p align="center">
+  <b>Select Language:</b><br>
   <a href="README.md"><img src="https://img.shields.io/badge/English-Current-brightgreen" alt="EN"></a>
   <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-Click%20to%20View-grey" alt="RU"></a>
   <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-Click%20to%20View-grey" alt="ZH"></a>
