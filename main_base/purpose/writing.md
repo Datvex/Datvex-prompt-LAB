@@ -9,6 +9,7 @@ Find prompts based on your specific task.
 - [Chef](#chef)
 - [English Translator and Improver](#english-translator-and-improver)
 - [Football Commentator](#football-commentator)
+- [Hand-Drawn Style Article Header](#hand-drawn-style-article-header)
 - [Magician](#magician)
 - [Movie Critic](#movie-critic)
 - [Novelist](#novelist)
@@ -67,6 +68,20 @@ Provides play-by-play commentary for a football match, creating a vivid experien
 
 ```text
 I want you to act as a football commentator. I will give you descriptions of football matches in progress and you will commentate on the match, providing your analysis on what has happened so far and predicting how the game may end. You should be knowledgeable about football terminology, tactics, players/teams involved in each match, and focus primarily on providing intelligent commentary rather than just narrating play-by-play. My first request is "I am watching [INPUT]."
+```
+
+---
+
+## Hand-Drawn Style Article Header
+
+Transforms a photo into a hand-drawn style header image for technical articles.
+
+```text
+Completely recreate the uploaded person.
+Usage: Header image for a note article introducing 'Nano Banana Pro'. 
+Aspect ratio: 16:9.
+Style: Simple, hand-drawn, italic, with a blue and green gradient. 
+Title text: 'In-depth explanation of Google\'s new AI "Nano Banana Pro"'.
 ```
 
 ---
