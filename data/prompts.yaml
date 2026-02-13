@@ -341,819 +341,989 @@
   prompt: |
     I want you to act as an investment manager. I will provide you with an individual looking for guidance on their investments, and your task is to help them determine which assets they should invest in based on their financial goals, risk tolerance and time horizon. You should also conduct research into various asset classes, explain the benefits and risks associated with each and provide recommendations for building a diversified portfolio. My first request is "I want to advise someone who wants to invest in [INPUT]."
 
-- id: act_as_tea_taster
-  category: "Writing & Content"
-  title: "Tea Taster1"
-  description: "Reviews and describes different types of tea, providing insights into their flavor, aroma, and quality."
-  prompt: |
-    I want you to act as a tea taster. I will provide you with some tea samples and your goal is to describe their flavor profile, aroma, and other characteristics in detail. You should also provide suggestions for brewing methods, food pairings, and other information that can help people appreciate the nuances of each tea. My first request is "I have a sample of [INPUT] and I want to know more about it."
-
 - id: wide_quote_card_portrait
   category: "Image Prompts (General)"
   title: "Wide Quote Card with Portrait"
-  description: "A wide quote card featuring a famous person's portrait with a brown background and light-gold serif text."
+  description: "Generates a wide quote card featuring a famous person's portrait with a brown background and light-gold serif quote text."
   prompt: |
-    Generate a wide quote card featuring a famous person's portrait.
-    Background: solid brown.
-    Text: light-gold serif font, occupying two-thirds of the frame.
-    Portrait: placed in the remaining one-third.
-    Quote: [INSERT QUOTE]
-    Author: [INSERT AUTHOR]
+    A wide quote card featuring a famous person, with a brown background and a light-gold serif font for the quote: "{argument name="famous_quote" default="Stay Hungry, Stay Foolish"}" and smaller text: "—{argument name="author" default="Steve Jobs"}." There is a large, subtle quotation mark before the text. The portrait of the person is on the left, the text on the right. The text occupies two-thirds of the image and the portrait one-third, with a slight gradient transition effect on the portrait.
 
-- id: premium_liquid_glass_bento
+- id: premium_bento_grid_infographic
   category: "Product & E-commerce"
-  title: "Liquid Glass Bento Grid Infographic"
-  description: "Create a bento-style product infographic with 8 modules and liquid glass aesthetics."
+  title: "Premium Liquid Glass Bento Grid Product Infographic"
+  description: "Creates a premium liquid glass Bento grid product infographic with 8 modules for any product."
   prompt: |
-    Create an Infographic with bento grid 8-module layout. 
-    Style: Premium liquid glass, glossy textures.
-    Product: [INSERT PRODUCT]
-    Background: [INSERT STYLE]
-    Hero Grid: [INSERT HERO STYLE]
-    Include specific modules for features, ingredients/specs, and lifestyle shots.
+    Input Variable: [insert product name]
+    Language: [insert language]
+
+    System Instruction:
+    Create an image of premium liquid glass Bento grid product infographic with 8 modules (card 2 to 8 show text titles only).
+    1) Product Analysis:
+    → Identify product's dominant natural color → "hero color"
+    → Identify category: FOOD / MEDICINE / TECH
+    2) Color Palette (derived from hero):
+    → Product + accents: full saturation hero color
+    → Icons, borders: muted hero (30-40% saturation, never black)
+    3) Visual Style:
+    → Hero product: real photography (authentic, premium), 3D Glass version [choose one]
+    → Cards: Apple liquid glass (85-90% transparent) with Whisper-thin borders and Subtle drop shadow for floating depth and reflecting the background color
+    → Background stays behind cards and high blur where cards are [choose one]:
+      - Ethereal: product essence, light caustics, abstract glow
+      - Macro: product texture close-up, heavily blurred
+      - Pattern: product repeated softly at 10-15% opacity
+      - Context: relevant environment, blurred + desaturated
+    → Add subtle motion effect
+    → Asymmetric Bento grid, 16:9 landscape
+    → Hero card: 28-30% | Info modules: 70-72%
+    4) Module Content (8 Cards):
+    M1 — Hero: Product displayed as real photo / 3D glass / stylized interpretation (choose one)in beautiful form + product name label
+    M2 — Core Benefits: 4 unique benefits + hero-color icons
+    M3 — How to Use: 4 usage methods + icons
+    M4 — Key Metrics: 5 EXACT data points
+    Format: [icon] [Label] [Bold Value] [Unit]
+    FOOD: Calories: [X] kcal/100g, Carbs: [X]g (fiber [X]g, sugar [X]g), Protein: [X]g, [Key Vitamin]: [X]mg ([X]% DV), [Key Mineral]: [X]mg ([X]% DV)
+    MEDICINE:Active: [name], Strength: [X] mg, Onset: [X] min, Duration: [X] hrs, Half-life: [X] hrs 
+    TECH:Chip: [model], Battery: [X] hrs, Weight: [X]g,[Key spec]: [value], Connectivity: [protocols]
+    M5 — Who It's For: 4 recommended groups with green checkmark icons | 3 caution groups with amber warning icons
+    M6 — Important Notes: 4 precautions + warning icons
+    M7 — Quick Reference:
+    → FOOD: Glycemic Index + dietary tags with icons
+    → MEDICINE: Side effects + severity with icons
+    → TECH: Compatibility + certifications with icons
+    M8 — Did You Know: 3 facts (origin, science, global stat) + icons
+    Output: 1 image, 16:9 landscape, ultra-premium liquid glass infographic.
 
 - id: hand_drawn_header_image
-  category: "Writing & Content"
-  title: "Hand-Drawn Style Article Header"
-  description: "Transforms a photo into a hand-drawn style header image for technical articles."
+  category: "Illustration & Concept Art"
+  title: "Hand-Drawn Style Header Image"
+  description: "Generates a hand-drawn style header image of a person introducing Nano Banana Pro."
   prompt: |
     Completely recreate the uploaded person.
-    Usage: Header image for a note article introducing 'Nano Banana Pro'. 
-    Aspect ratio: 16:9.
-    Style: Simple, hand-drawn, italic, with a blue and green gradient. 
-    Title text: 'In-depth explanation of Google\'s new AI "Nano Banana Pro"'.
+    Make it a header image for a note article where that person introduces "Nano Banana Pro".
+    Aspect ratio: horizontal 16:9.
+    Style and colors: simple, hand-drawn style, italic, with a blue and green gradient.
+    Title text: "In-depth explanation of Google's new AI 'Nano Banana Pro'".
 
-- id: studio_portrait_grid_4panel
+- id: watercolor_germany_map
   category: "Photography Styles & Lighting"
-  title: "4-Panel Studio Portrait Grid"
-  description: "A 2x2 grid showing four distinct angles of a person to highlight a haircut or style."
+  title: "Watercolor Map of Germany"
+  description: "Creates a watercolor-style map of Germany with all federal states labeled in ballpoint pen."
   prompt: |
-    Generate a 2x2 grid studio photograph of a man.
-    Angles: Front, right profile, left profile, and rear view.
-    Purpose: Highlight a modern fade haircut.
-    Setting: White cyclorama background, professional studio lighting.
-    Keep facial features consistent with the reference image.
+    Generate a map of Germany in watercolor style, on which all federal states are labeled in ballpoint pen.
+
+- id: new_year_puzzle_2026
+  category: "Storyboards & Shot Lists"
+  title: "New Year's Day Four-Panel Puzzle"
+  description: "Creates a 2x2 grid photo collage where a character pieces together a puzzle spelling '2026 New Year's Day Happy'."
+  prompt: |
+    [Key: Maintain precise facial features, retain original face structure, the character in the image must be completely consistent with the uploaded reference image] High-end photo studio 2x2 grid photo. Top-left panel (Navy Blue background): The character wears a navy blue uniform-style dress, decorated with gold buttons, vintage curls with a blue beret and pearl earrings. She holds up a huge puzzle piece (top-left piece, with the number "20" on it) with both hands, moving it towards the center of the frame. Her eyes are focused on the central puzzle area, her expression is serious, with a slight smile. The background features navy stripes, an anchor, and the text "Set Sail for the New Year". Top-right panel (Cherry Blossom Pink background): The same woman wears a pink lace dress, a pearl necklace, a princess hairstyle with a pink rose hairpin and crystal earrings. She holds up the top-right puzzle piece (with the number "26" on it) with both hands, moving it towards the center to connect with the top-left piece. Her eyes look at the puzzle seam, her expression is focused and expectant, and her body leans forward. The background features pink cherry blossoms, the text "Beautiful Encounter", butterflies, and petals. Bottom-left panel (Mint Green background): The same woman wears a mint green cotton and linen dress, in an artistic style, with natural long hair, a green hairband, and wooden earrings. She holds up the bottom-left puzzle piece (with the text "New Year's Day" on it) with both hands, moving it upwards to connect with the top-left piece. Her eyes look at the puzzle, her expression is serious, and her mouth is slightly pursed. The background features green plants, the text "Hope Grows", new sprouts, and leaves. Bottom-right panel (Lemon Yellow background): The same woman wears a yellow dress with a sunflower pattern, pigtails with yellow bows. She pushes in the last bottom-right puzzle piece (with the text "Happy" on it) to complete the puzzle. The four pieces perfectly form the complete pattern "2026 New Year's Day Happy" in the center of the frame. She tilts her head back, looking at the completed puzzle, her face beaming with a successful, joyful smile. The center of the frame bursts with golden light and confetti. The background features a yellow sun, the text "Complete Success", smiley faces, and sunflowers. The puzzle pieces converge from the four corners to the center to form a complete picture. Clear makeup, bright ring light, 85mm lens, f/1.8 aperture, four-panel composition with puzzle interaction, fashion magazine style.
 
 - id: vintage_patent_document
-  category: "Illustration & Concept Art"
-  title: "Vintage US Patent Document"
-  description: "Generates an image of an 1800s patent document with technical drawings and stamps."
-  prompt: |
-    Image of a vintage United States patent document from the late 1800s. 
-    Details: Precise technical drawings, handwritten annotations, aged paper texture, foxing stains.
-    Elements: Embossed seal, wax stamp.
-    Aesthetic: Historical and archival.
-
-- id: edo_period_ukiyo_e_modern
-  category: "Illustration & Concept Art"
-  title: "Edo-Period Modern Scene"
-  description: "Reimagines a modern scene (like tech use) in the style of Japanese woodblock prints."
-  prompt: |
-    Depict a modern-day scene (e.g., people using smartphones in a cafe) reimagined as an Edo-period Japanese Ukiyo-e woodblock print. 
-    Details: Flat colors, bold outlines, traditional patterns, aged paper texture.
-    Contrast modern technology with anachronistic traditional settings.
-
-- id: social_media_flash_jester
-  category: "Illustration & Concept Art"
-  title: "Flash-Lit Jester-Girl Editorial"
-  description: "90s shōjo style anime with harsh lighting and complex material textures."
-  prompt: |
-    Vertical editorial anime image.
-    Style: 90s shōjo, harlequin character design.
-    Lighting: Harsh flash-lit, high contrast.
-    Materials: Stack of chrome, velvet, and marble.
-    Action: Frozen acrobatic dance in an ancient castle.
-    Details: Micro-flaws for authenticity.
-
-- id: sydney_sweeney_mediterranean
-  category: "Photography Styles & Lighting"
-  title: "Mediterranean Getaway Portrait"
-  description: "Photorealistic luxury lifestyle portrait by a pool in the midday sun."
-  prompt: |
-    Photorealistic vertical portrait of a woman resembling Sydney Sweeney. 
-    Setting: Mediterranean luxury outdoor pool.
-    Outfit: Black and cream one-piece swimsuit, oversized white shirt.
-    Lighting: Warm midday sun.
-    Camera: 35mm lens, high fidelity.
-
-- id: vlogger_piano_thumbnail
-  category: "Marketing, SEO & Growth"
-  title: "YouTube Vlogger Thumbnail"
-  description: "Illustration for a late-night piano practice session, suitable for VTubers."
-  prompt: |
-    Generate a YouTube thumbnail illustration.
-    Theme: Late-night relaxed piano practice. 
-    Vibe: Lo-fi, cozy, dim lighting.
-    Character: Female VTuber style sitting at a piano.
-    Text: [INSERT TITLE] in bold, catchy font.
-
-- id: chocolate_wafer_ecommerce
-  category: "Product & E-commerce"
-  title: "Premium Food Product Render"
-  description: "Zero-gravity commercial photo of chocolate wafers with dynamic splashes."
-  prompt: |
-    Premium commercial food photograph. 
-    Subject: Chocolate wafer rolls and hazelnuts. 
-    Composition: Zero-gravity, floating elements.
-    Effects: Dynamic chocolate liquid splash.
-    Quality: Hyper-realistic textures, 8K, professional studio lighting.
-
-- id: open_world_game_vista
-  category: "Illustration & Concept Art"
-  title: "Vast Open-World Environment"
-  description: "Cinematic fantasy game environment generator for high-budget vistas."
-  prompt: |
-    Expansive, cinematic fantasy game environment illustration. 
-    Theme: [INSERT CONCEPT, e.g., Floating Isles]. 
-    Camera: Distant, wide environment-focused.
-    Features: Monumental sky, uninhabited landscape, high-budget open-world vista.
-
-- id: billie_eilish_selfie_style
-  category: "Photography Styles & Lighting"
-  title: "Billie Eilish Era Selfie"
-  description: "Mimics a 2021-era smartphone selfie with specific hair and lighting."
-  prompt: |
-    Vertical, photorealistic 4K selfie portrait. 
-    Style: Billie Eilish 2021 blonde era.
-    Appearance: Platinum blonde shag, heavy-lidded eyes, natural skin texture.
-    Accessories: Pearl and chain necklaces, black hoop earrings.
-    Setting: Indoor, warm lighting, window background at night.
-
-- id: beach_selfie_luna
-  category: "Photography Styles & Lighting"
-  title: "Close-up Beach Selfie"
-  description: "Ultra-photorealistic close-up with sweat droplets and harsh sunlight."
-  prompt: |
-    Ultra-photorealistic, close-up beach selfie portrait of a woman. 
-    Details: Vibrant red wet hair, porcelain skin with visible sweat droplets.
-    Outfit: Red bikini. 
-    Lighting: Harsh midday sun. 
-    Constraints: No tattoos, no artificial look, natural textures.
-
-- id: otaku_corner_mirror_selfie
-  category: "Photography Styles & Lighting"
-  title: "Otaku Corner Mirror Selfie"
-  description: "Blue-toned mirror selfie in a detailed gaming/otaku room."
-  prompt: |
-    Female mirror selfie in a blue-toned otaku computer corner. 
-    Environment: Detailed PC setup, anime figures, neon lights.
-    Lighting: Cold blue ambient light, smartphone flash.
-    Quality: High detail, realistic smartphone camera lens distortion.
-
-- id: fashion_collage_2026
-  category: "Marketing, SEO & Growth"
-  title: "Fashion Magazine Photo Collage"
-  description: "2x2 grid collage of a character in 4 outfits solving a '2026' puzzle."
-  prompt: |
-    Multi-panel 2x2 grid photo collage. 
-    Character: Single female, four different outfits/settings.
-    Centerpiece: Puzzle pieces spelling '2026 New Year's Day Happy'. 
-    Style: Fashion magazine editorial, consistent facial features.
-
-- id: luxury_watch_3d_render
-  category: "Product & E-commerce"
-  title: "Luxury Watch Product Scene"
-  description: "High-end 3D render of a wristwatch with holographic and metallic effects."
-  prompt: |
-    3D product render for a luxury wristwatch. 
-    Aesthetic: Luxury x Tech.
-    Effects: Holographic reflections, Fresnel rim light, metallic GLSL-style reflections.
-    Background: Abstract gradient mesh.
-    Quality: 8K, cinematic depth of field.
-
-- id: futuristic_crypto_dashboard
-  category: "Marketing, SEO & Growth"
-  title: "Futuristic Crypto Dashboard"
-  description: "Dark-mode financial visualization with neon and glassmorphism."
-  prompt: |
-    Futuristic dark-mode cryptocurrency data dashboard. 
-    Elements: Glassmorphism UI, neon lighting effects, gradient outlines.
-    Background: High-contrast obsidian.
-    Typography: Slim Inter font.
-
-- id: retro_polaroid_app_ui
-  category: "Marketing, SEO & Growth"
-  title: "Retro Polaroid App Interface"
-  description: "Visual for a web app that mimics a Polaroid camera with draggable photos."
-  prompt: |
-    Interface design for a retro Polaroid camera web app. 
-    Features: Webcam preview, developing photo animation, collage wall of draggable photos.
-    Vibe: Nostalgic, tactile, analog feel in a digital space.
-
-- id: dream_tarot_card_app
-  category: "Illustration & Concept Art"
-  title: "Dream Tarot Card Illustration"
-  description: "Generates tarot-style cards based on dream descriptions using sticker collages."
-  prompt: |
-    Generate a dream card that looks like a tarot card. 
-    Style: Illustration stickers, collage aesthetic.
-    Theme: [INSERT DREAM THEME]. 
-    Details: Dreamy, surreal, symbolic imagery.
-
-- id: cinematic_lofi_cafe
-  category: "Photography Styles & Lighting"
-  title: "Cinematic Lofi Cafe Still"
-  description: "Warm, nostalgic coffee shop scene at Golden Hour with film grain."
-  prompt: |
-    Cinematic, emotional portrait shot on Kodak Portra 400 film. 
-    Setting: Urban street coffee shop window at Golden Hour.
-    Lighting: Warm, nostalgic side lighting.
-    Atmosphere: Subtle film grain, soft focus, bokeh background city lights.
-
-- id: professional_headshot_charcoal
-  category: "Career & Hiring"
-  title: "Professional Studio Headshot"
-  description: "Turns a casual photo into a premium charcoal-themed business portrait."
-  prompt: |
-    Professional high-resolution profile photo.
-    Framing: Chest up, looking at camera.
-    Style: Premium charcoal gray blazer, smart casual.
-    Background: Solid '#562226' neutral studio color.
-    Lighting: Professional studio setup.
-
-- id: navy_suit_business_portrait
-  category: "Career & Hiring"
-  title: "Executive Business Portrait"
-  description: "Standard professional portrait in a navy suit with vignette background."
-  prompt: |
-    Executive portrait.
-    Outfit: Professional navy blue business suit, white shirt.
-    Background: Dark gray studio backdrop with a subtle vignette.
-    Focus: Exact facial consistency with input.
-
-- id: isometric_smart_home
-  category: "Illustration & Concept Art"
-  title: "Isometric Smart Home Diagram"
-  description: "3D isometric view of a modern smart home interior."
-  prompt: |
-    Isometric 3D render of a smart home interior. 
-    Details: Cutaway view, IoT devices, modern furniture, clean lighting.
-    Style: Minimalism, bright colors.
-
-- id: streetwear_lookbook_urban
-  category: "Marketing, SEO & Growth"
-  title: "Streetwear Urban Lookbook"
-  description: "Candid-style fashion photography for streetwear brands."
-  prompt: |
-    Streetwear fashion photography. 
-    Location: Gritty urban alleyway with graffiti.
-    Lighting: Moody evening light with street lamp highlights.
-    Subject: Model in [INSERT BRAND CLOTHING]. 
-    Feel: Authentic, raw, high fashion.
-
-- id: minimal_logo_tech_startup
-  category: "Logos & Branding"
-  title: "Minimalist Tech Logo"
-  description: "Vector-style minimal logo for a modern technology company."
-  prompt: |
-    Minimalist vector logo for a tech startup named [NAME]. 
-    Symbol: Abstract geometric shape representing connectivity.
-    Colors: Electric blue and slate gray.
-    Background: White.
-
-- id: cyberpunk_street_food
-  category: "Illustration & Concept Art"
-  title: "Cyberpunk Street Food Stall"
-  description: "Neon-drenched nighttime scene of a futuristic food stall."
-  prompt: |
-    Futuristic cyberpunk street food stall at night. 
-    Lighting: Pink and cyan neon signs, steam rising from pans.
-    Subject: Android chef serving glowing noodles. 
-    Aesthetic: Rainy pavement, high detail.
-
-- id: oil_painting_renaissance_cat
-  category: "Illustration & Concept Art"
-  title: "Renaissance Style Pet Portrait"
-  description: "Pet portrait in the style of classic oil paintings."
-  prompt: |
-    Oil painting of a cat in the style of a Renaissance nobleman. 
-    Details: Ornate ruff collar, velvet cape, dark moody background.
-    Texture: Visible brushstrokes, cracked paint effect.
-
-- id: architectural_sketch_blueprint
-  category: "Illustration & Concept Art"
-  title: "Architectural Blueprint Sketch"
-  description: "Hand-drawn architectural sketch mixed with technical blueprint elements."
-  prompt: |
-    Architectural concept sketch. 
-    Mix of hand-drawn pencil lines and blue blueprint grids.
-    Subject: Futuristic sustainable skyscraper. 
-    Details: Notes, measurements, and cross-sections.
-
-- id: flat_design_character_work
-  category: "Illustration & Concept Art"
-  title: "Flat Design Character Set"
-  description: "Characters in a modern flat design style for web illustrations."
-  prompt: |
-    Flat design vector illustration of people working in a modern office. 
-    Style: Corporate Memphis, vibrant but limited color palette.
-    Background: Simple geometric shapes.
-
-- id: pixel_art_rpg_shop
-  category: "Illustration & Concept Art"
-  title: "Pixel Art RPG Interior"
-  description: "16-bit style interior of a fantasy item shop."
-  prompt: |
-    16-bit pixel art interior of a fantasy RPG potion shop. 
-    Details: Glowing bottles, wooden shelves, a cat sleeping on the counter.
-    Perspective: Side-view or top-down.
-
-- id: cinematic_nature_macro
-  category: "Photography Styles & Lighting"
-  title: "Macro Nature Cinematography"
-  description: "Extreme close-up of nature with dramatic lighting."
-  prompt: |
-    Macro photograph of a dewdrop on a leaf.
-    Lighting: Morning sun refracting through the water.
-    Depth of Field: Extremely shallow, dreamy bokeh.
-    Quality: 8K, national geographic style.
-
-- id: abstract_liquid_metal_bg
   category: "Image Prompts (General)"
-  title: "Liquid Metal Abstract Background"
-  description: "Flowing iridescent liquid metal texture."
+  title: "Vintage Patent Document"
+  description: "Generates a vintage United States patent document from the late 1800s with technical drawings and aged paper texture."
   prompt: |
-    Abstract 3D render of flowing liquid metal. 
-    Color: Iridescent, pearlescent gradients.
-    Motion: Rippling, smooth waves.
-    Lighting: Studio softbox reflections.
+    A vintage patent document for {argument name="invention" default="INVENTION"}, styled after late 1800s United States Patent Office filings. The page features precise technical drawings with numbered callouts (Fig. 1, Fig. 2, Fig. 3) showing front, side, and exploded views. Handwritten annotations in fountain-pen ink describe mechanisms. The paper is aged ivory with foxing stains and soft fold creases. An official embossed seal and red wax stamp appear in hand-signed inventor's the corner. A name and date appear at the bottom. The entire image feels like a recovered archival document—authoritative, historic, and slightly mysterious.
 
-- id: children_book_watercolor
+- id: chalkboard_ai_news
+  category: "Education & Learning"
+  title: "Chalkboard-Style AI News Summary"
+  description: "Transforms AI news content into a hand-drawn, teacher-style chalkboard diagram with explanations."
+  prompt: |
+    Using the following content, summarize the news in a chalkboard-style, hand-written look, and break it down with diagrams and easy-to-understand expressions as if a teacher had written it.
+    —-
+    Search results from Grok
+
+- id: mirror_selfie_otaku_room
+  category: "Photography Styles & Lighting"
+  title: "Detailed Mirror-Selfie Otaku Room Scene"
+  description: "Generates a very detailed mirror selfie in an otaku-style computer corner with blue color tone."
+  prompt: |
+    ### Scene
+    Mirror selfie in an otaku-style computer corner, blue color tone.
+
+    ### Subject
+    * Gender expression: female
+    * Age: around 25
+    * Ethnicity: East Asian
+    * Body type: slim, with a defined waist; natural body proportions
+    * Skin tone: light neutral tone
+    * Hairstyle:
+        * Length: waist-length hair
+        * Style: straight with slightly curled ends
+        * Color: medium brown
+    * Pose:
+        * Stance: standing in a slight contrapposto pose
+        * Right hand: holding a smartphone in front of her face (identity hidden)
+        * Left arm: naturally hanging down alongside the torso
+        * Torso: body leaning slightly back; waist and abdomen exposed
+    * Clothing:
+        * Top: light blue cropped knit cardigan, top two buttons fastened; a blue French-style bra faintly visible
+        * Bottom: denim ultra-short shorts, with a blue satin ribbon bow on each side of the hips
+        * Socks: blue and white horizontal striped over-the-knee socks
+        * Accessory: a blue cute mascot phone case
+
+    ### Environment
+    * Description: bedroom computer corner seen through a wall-mounted mirror
+    * Furnishings:
+        * White desk
+        * Single monitor showing a soft blue wallpaper (no readable text)
+        * Mechanical keyboard with white keycaps on a blue desk mat
+        * Mouse on a small blue mouse pad
+        * PC tower on the right side with blue case lighting
+        * Three anime figures on or near the PC tower
+        * A poster of a pagoda on the wall
+        * Cat-shaped desk lamp with blue accents
+        * A transparent glass of water
+        * A tall green leafy plant by the window (on the left side of the frame)
+    * Color replacement: replace all originally pink elements (clothes and room decor) with blue tones (baby blue to sky blue/periwinkle blue).
+
+    ### Lighting
+    * Light source: daylight coming from a large window on the left side of the camera, through sheer curtains
+    * Light quality: soft, diffused light
+    * White balance (K): 5200
+
+    ### Camera
+    * Mode: smartphone rear camera shooting via the mirror (no portrait/bokeh mode)
+    * Equivalent focal length (mm): 26
+    * Distances (m):
+        * Subject to mirror: 0.6
+        * Camera to mirror: 0.5
+    * Exposure:
+        * Aperture (f): 1.8
+        * ISO: 100
+        * Shutter speed (s): 0.01
+        * Exposure compensation (EV): -0.3
+    * Focus: focus on the torso and shorts in the mirror image
+    * Depth of field: natural smartphone deep depth of field; background clearly visible with no artificial blur
+    * Composition:
+        * Aspect ratio: 1:1
+        * Crop: from the top of the head to mid-thigh; include the desk, monitor, PC tower, and plant in the frame
+        * Angle: slightly high angle from the mirror's point of view
+        * Composition note: keep the subject centered; to avoid wide-angle edge distortion, have her stand a bit further away and crop to a square later.
+
+    ### Negative prompts
+    * Any appearance of pink/magenta anywhere
+    * Beauty filters/over-smoothed skin; poreless skin look
+    * Exaggerated or distorted anatomy
+    * NSFW, see-through fabrics, wardrobe malfunctions
+    * Logos, brand names, or readable user interface text
+    * Fake portrait-mode blur, CGI/illustration feel
+
+- id: edo_ukiyoe_modern_scene
   category: "Illustration & Concept Art"
-  title: "Soft Watercolor Storybook"
-  description: "Whimsical watercolor illustration for children's books."
+  title: "Edo-Period Ukiyo-e Reinterpretation"
+  description: "Reimagines a modern-day scene as an Edo-period Japanese Ukiyo-e woodblock print."
   prompt: |
-    Whimsical watercolor illustration for a children's book. 
-    Subject: A bear and a rabbit sharing tea in a forest. 
-    Style: Soft edges, pastel colors, hand-painted texture.
+    A Japanese Edo-period Ukiyo-e woodblock print. The overall feeling is a surreal collaboration between masters like Hokusai and Hiroshige, reimagining modern technology through an ancient lens.
 
-- id: vintage_travel_poster
-  category: "Marketing, SEO & Growth"
-  title: "Vintage Style Travel Poster"
-  description: "Mid-century modern travel poster for a fictional location."
-  prompt: |
-    Vintage 1950s travel poster for 'Mars Colony'. 
-    Style: Mid-century modern, bold typography, flat illustration.
-    Colors: Burnt orange, mustard yellow, teal.
+    **The scene:** {argument name="modern scene" default="a busy Shibuya scramble crossing"}
 
-- id: product_splash_perfume
-  category: "Product & E-commerce"
-  title: "Luxury Perfume Splash"
-  description: "Perfume bottle with elegant water and petal splashes."
-  prompt: |
-    Commercial photography of a luxury perfume bottle. 
-    Action: Mid-air water splash with floating rose petals. 
-    Lighting: High-key, clean, elegant. 
-    Background: Soft pink gradient.
+    **Edo transformation logic:**
+    Characters wear Edo-era kimono but perform modern actions. All technology is transformed into surreal Edo equivalents:
+    * Smartphones are glowing, illustrated paper scrolls being read intently.
+    * Metro stations and trains are giant articulated wooden centipede carriages shuffling through crowds.
+    * Skyscrapers are reimagined as endless, towering wooden pagodas reaching into dramatic clouds.
+    * Robots and mecha appear as giant, armored woodblock golems.
 
-- id: superhero_comic_cover
-  category: "Illustration & Concept Art"
-  title: "Dynamic Comic Book Cover"
-  description: "Modern superhero comic style with action and halftones."
-  prompt: |
-    Modern comic book cover illustration. 
-    Subject: A hero soaring through a futuristic city. 
-    Effects: Action lines, halftone dots, bold 'KAPOW' text.
-    Colors: High saturation.
+    The composition uses a flattened perspective with large, bold, hand-carved ink outlines. The background features heavily stylized Ukiyo-e wave patterns and dramatic, swirling clouds, with a distant Mt. Fuji visible on the horizon.
 
-- id: interior_design_scandinavian
-  category: "Illustration & Concept Art"
-  title: "Scandinavian Interior Design"
-  description: "Photorealistic render of a minimalist Nordic living room."
-  prompt: |
-    Photorealistic interior design render. 
-    Style: Scandinavian minimalism.
-    Elements: Light wood, neutral tones, large windows with natural light.
-    Quality: Architectural Digest style.
+    The image must look like a physical print, not a digital painting.
+    * Texture: strong visible wood grain texture and rough paper fibers throughout the piece.
+    * Printing imperfections: pigment bleeding is evident. Simulate hand-pressed plates with slight color misalignment for authenticity.
+    * Color palette: strictly limited to traditional mineral pigments, with dominant use of Prussian blue, vermilion red, and muted yellow ochre.
+    * Lighting: soft, flat, shadow-free lighting with no digital gradients.
 
-- id: claymation_character_style
-  category: "Illustration & Concept Art"
-  title: "Cute Claymation Character"
-  description: "3D render mimicking a handcrafted clay figure."
-  prompt: |
-    3D render of a cute monster in claymation style. 
-    Texture: Fingerprint marks on clay, soft matte finish.
-    Lighting: Soft studio lights.
-    Vibe: Playful, handmade look.
+    Aspect ratio is 3:4 vertical poster. Include vertical Japanese calligraphy describing the scene and a traditional red artist seal stamp in a corner.
 
-- id: double_exposure_forest_man
-  category: "Illustration & Concept Art"
-  title: "Double Exposure Artistic Portrait"
-  description: "Merges a human silhouette with a dense forest landscape."
-  prompt: |
-    Double exposure photography. 
-    Subject 1: Profile silhouette of a man. 
-    Subject 2: A dense pine forest in the mist.
-    Effect: Ethereal, artistic blending of textures.
-
-- id: neon_noir_detective
-  category: "Illustration & Concept Art"
-  title: "Neon Noir Detective Scene"
-  description: "Hard-boiled detective in a rainy, futuristic cyberpunk setting."
-  prompt: |
-    Neon noir cinematic scene. 
-    Subject: A detective in a trench coat standing under a neon sign. 
-    Details: Rainy night, reflection in puddles, smoke from a cigarette.
-    Colors: Deep shadows, vibrant neon pink and blue.
-
-- id: isometric_3d_office
-  category: "Illustration & Concept Art"
-  title: "Isometric 3D Startup Office"
-  description: "A clean, modern isometric view of a tech startup office space."
-  prompt: |
-    Isometric 3D render of a modern open-plan office. 
-    Details: Standing desks, bean bags, plants, glass meeting rooms, and tiny 3D characters working. 
-    Style: Minimalist, soft lighting, vibrant pastel accents. 
-    Software: Blender Cycles render style.
-
-- id: vaporwave_city_sunset
+- id: candid_selfie_playful
   category: "Image Prompts (General)"
-  title: "Vaporwave Retro Sunset"
-  description: "Classic 80s aesthetic with a grid floor and wireframe mountains."
+  title: "Candid Smartphone Selfie with Playful Expression"
+  description: "Generates an ultra-photorealistic, candid selfie image with a young woman playfully sticking her tongue out."
   prompt: |
-    Vaporwave aesthetic illustration. 
-    Elements: Large glowing sun, purple wireframe mountains, grid floor receding into infinity. 
-    Color Palette: Neon pink, electric blue, and deep violet. 
-    Atmosphere: Lo-fi, nostalgic, VHS glitch effect.
+    {
+      "meta": {
+        "quality": "ultra photorealistic",
+        "resolution": "4k",
+        "camera": "smartphone front camera",
+        "lens": "26mm equivalent",
+        "aspect_ratio": "9:16",
+        "style": "natural light, iphone realism, soft tones, candid selfie"
+      },
 
-- id: minimal_line_art_woman
-  category: "Illustration & Concept Art"
-  title: "Minimalist Continuous Line Art"
-  description: "A single-line drawing of a woman's face, elegant and simple."
-  prompt: |
-    Minimalist continuous line art drawing. 
-    Subject: A woman's profile with a flower tucked behind her ear. 
-    Style: Single black line on a textured beige paper background. 
-    Vibe: Elegant, sophisticated, Scandinavian decor style.
+      "subject": {
+        "description": "A natural selfie of a young woman indoors, playfully sticking her tongue out toward the camera.",
+        "age": "young adult",
+        "gender": "female",
+        "expression": "playful, relaxed, fun mood",
+        "pose": "close-up selfie, head slightly tilted, face filling most of the frame",
+        "features": {
+          "hair": "long, straight, light brown hair",
+          "eyes": "brown",
+          "skin": "fair, natural texture",
+          "details": "soft natural makeup, defined eyelashes"
+        }
+      },
 
-- id: gourmet_burger_commercial
-  category: "Product & E-commerce"
-  title: "Gourmet Burger Food Photography"
-  description: "Hyper-realistic commercial shot of a juicy burger with melting cheese."
-  prompt: |
-    Professional food photography of a gourmet cheeseburger. 
-    Details: Melting cheddar, crisp lettuce, steam rising, sesame seeds on a brioche bun. 
-    Lighting: Warm side-lighting to highlight textures. 
-    Background: Dark, moody restaurant setting with bokeh.
+      "wardrobe": {
+        "top": "casual oversized white sweatshirt",
+        "style": "relaxed, everyday home wear"
+      },
 
-- id: spaceship_cockpit_interior
-  category: "Illustration & Concept Art"
-  title: "Sci-Fi Spaceship Cockpit"
-  description: "First-person view from inside a futuristic starship looking at a nebula."
-  prompt: |
-    Interior view of a futuristic spaceship cockpit. 
-    Details: Holographic displays, glowing buttons, ergonomic pilot seat. 
-    View: Through the window, a vibrant colorful nebula and distant stars. 
-    Lighting: Cool blue and amber interior lights.
+      "scene": {
+        "location": "indoor bedroom",
+        "time": "daytime",
+        "environment": "soft sunlight entering from the side, warm natural interior",
+        "background": "simple room interior with wall decor slightly out of focus"
+      },
 
-- id: gothic_cathedral_light
-  category: "Photography Styles & Lighting"
-  title: "Gothic Cathedral Interior"
-  description: "Atmospheric shot of a cathedral with light rays through stained glass."
-  prompt: |
-    Interior of a grand Gothic cathedral. 
-    Feature: Volumetric light rays (God rays) piercing through colorful stained glass windows. 
-    Details: Dust motes dancing in the light, intricate stone carvings, tall arches. 
-    Mood: Spiritual, ancient, silent.
+      "lighting": {
+        "type": "natural window light",
+        "direction": "side lighting",
+        "effect": "soft shadows, warm skin tones, realistic highlights"
+      },
 
-- id: pop_art_marilyn_style
-  category: "Illustration & Concept Art"
-  title: "Warhol Style Pop Art"
-  description: "Modern portrait in the iconic Andy Warhol screen-print style."
-  prompt: |
-    Pop art silk-screen style portrait of a [SUBJECT]. 
-    Style: High contrast, 4-panel grid with different vibrant color combinations. 
-    Details: Halftone dots, slightly misaligned ink layers, bold outlines.
+      "camera": {
+        "angle": "slightly low-to-eye-level selfie angle",
+        "focus": "sharp focus on face",
+        "depth_of_field": "shallow, soft background blur",
+        "grain": "minimal natural smartphone grain"
+      },
 
-- id: linkedin_banner_tech
-  category: "Marketing, SEO & Growth"
-  title: "Tech Professional LinkedIn Banner"
-  description: "Clean abstract background for a professional LinkedIn profile."
-  prompt: |
-    Professional LinkedIn background banner. 
-    Aesthetic: Abstract network lines, dark blue gradient, subtle tech patterns. 
-    Composition: Clean space on the left for the profile picture. 
-    Feel: Trustworthy, modern, corporate.
+      "mood": "casual, playful, candid, social-media-style realism",
 
-- id: eco_friendly_infographic
-  category: "Marketing, SEO & Growth"
-  title: "Sustainability Infographic Base"
-  description: "Clean layout for an environmental or green energy infographic."
-  prompt: |
-    Infographic layout for sustainability. 
-    Elements: Icons of wind turbines, solar panels, and recycling symbols. 
-    Color Palette: Earthy greens, soft browns, and sky blue. 
-    Style: Flat vector illustration, clean typography areas.
+      "negative_prompt": [
+        "nudity",
+        "explicit sexual content",
+        "overprocessed skin",
+        "studio lighting",
+        "heavy makeup",
+        "blurry face",
+        "distorted anatomy",
+        "AI artifacts"
+      ]
+    }
 
-- id: kawaii_sticker_sheet
-  category: "Illustration & Concept Art"
-  title: "Kawaii Animal Sticker Pack"
-  description: "A set of cute Japanese-style animal stickers with white borders."
-  prompt: |
-    A sheet of Kawaii-style stickers. 
-    Subjects: Tiny cat, panda, and frog with rosy cheeks. 
-    Details: Bold white borders, pastel colors, simple shapes. 
-    Background: Isolated on white for easy cutting.
-
-- id: dark_fantasy_dragon
-  category: "Illustration & Concept Art"
-  title: "Dark Fantasy Dragon Encounter"
-  description: "Epic scene of a black dragon on a volcanic mountain."
-  prompt: |
-    Dark fantasy illustration of a colossal black dragon. 
-    Setting: Perched on a jagged volcanic cliff with flowing lava. 
-    Atmosphere: Ash falling from the sky, smoky embers, moody red lighting. 
-    Quality: Highly detailed scales and glowing eyes.
-
-- id: modern_architectural_exterior
-  category: "Illustration & Concept Art"
-  title: "Modern Minimalist Villa"
-  description: "Exterior shot of a glass and concrete house at twilight."
-  prompt: |
-    Architectural photography of a modern minimalist villa. 
-    Materials: Glass, smooth white concrete, dark wood accents. 
-    Setting: Lush garden with a pool, shot at twilight with warm interior lights glowing. 
-    Camera: Wide angle, high-end real estate style.
-
-- id: macro_human_eye
-  category: "Photography Styles & Lighting"
-  title: "Macro Eye Detail"
-  description: "Extreme close-up of a human eye showing intricate iris patterns."
-  prompt: |
-    Extreme macro photography of a human eye. 
-    Details: Intricate iris patterns, reflections of a window in the pupil, visible eyelashes. 
-    Color: Deep emerald green or amber. 
-    Lighting: Soft ring-light reflection.
-
-- id: pixel_art_cyberpunk_city
-  category: "Illustration & Concept Art"
-  title: "8-Bit Cyberpunk Cityscape"
-  description: "Retro pixel art of a rainy futuristic city street."
-  prompt: |
-    Pixel art 8-bit style cityscape. 
-    Subject: A street in Tokyo in the year 2099. 
-    Details: Neon signs in Japanese, flying cars, rain puddles reflecting lights. 
-    Vibe: Retro-futuristic, arcade game aesthetic.
-
-- id: luxury_car_rolling_shot
-  category: "Product & E-commerce"
-  title: "Luxury Sportscar Rolling Shot"
-  description: "A high-speed motion blur shot of a sports car on a coastal road."
-  prompt: |
-    Commercial automotive photography. 
-    Subject: A sleek silver Porsche driving on a winding coastal road. 
-    Effect: Motion blur on the wheels and background, sharp focus on the car body. 
-    Lighting: Golden hour sunlight.
-
-- id: steampunk_pocket_watch
-  category: "Illustration & Concept Art"
-  title: "Steampunk Mechanical Gadget"
-  description: "Intricate brass pocket watch with gears and steam pipes."
-  prompt: |
-    Close-up of a steampunk pocket watch. 
-    Details: Exposed brass gears, tiny copper pipes, hissing steam, ornate engravings. 
-    Background: Dark velvet cloth. 
-    Aesthetic: Victorian industrial, highly detailed mechanical parts.
-
-- id: watercolor_floral_pattern
-  category: "Illustration & Concept Art"
-  title: "Seamless Watercolor Florals"
-  description: "Soft and romantic floral pattern for textiles or wallpaper."
-  prompt: |
-    Seamless watercolor floral pattern. 
-    Elements: Peonies, eucalyptus leaves, and small wildflowers. 
-    Style: Soft washes, bleeding colors, delicate textures. 
-    Background: Off-white linen texture.
-
-- id: tech_landing_page_ui
-  category: "Marketing, SEO & Growth"
-  title: "SaaS Landing Page Design"
-  description: "Modern UI/UX design for a software-as-a-service website."
-  prompt: |
-    UI/UX design for a SaaS landing page. 
-    Style: Apple-inspired minimalism, large hero text, clean navigation. 
-    Elements: Glassmorphism cards, 3D abstract shapes, high-contrast buttons. 
-    Color: Dark mode with electric purple accents.
-
-- id: mythological_griffin
-  category: "Illustration & Concept Art"
-  title: "Mythological Griffin Portrait"
-  description: "A majestic griffin standing on a mountain peak."
-  prompt: |
-    Majestic griffin illustration. 
-    Body: Half lion, half eagle. 
-    Action: Standing proudly on a snowy mountain peak. 
-    Details: Golden feathers, powerful talons, piercing eagle eyes. 
-    Style: Digital painting, cinematic fantasy.
-
-- id: paper_cutout_forest
-  category: "Illustration & Concept Art"
-  title: "Layered Paper Cutout Art"
-  description: "3D effect using physical-looking paper layers to create a forest."
-  prompt: |
-    3D layered paper cutout art. 
-    Subject: A mystical forest with a deer. 
-    Style: Different depths of paper, visible shadows between layers, textured cardstock. 
-    Colors: Monochromatic blue or deep forest green.
-
-- id: futuristic_vr_headset
-  category: "Product & E-commerce"
-  title: "Futuristic VR Headset Shot"
-  description: "Product photography of a sleek, next-gen VR device."
-  prompt: |
-    Studio product shot of a futuristic VR headset. 
-    Materials: Matte black polymer and glowing glass visor. 
-    Lighting: Dramatic rim lighting, floating in mid-air (zero-gravity). 
-    Background: Minimalist dark gray.
-
-- id: impressionist_landscape_oil
-  category: "Illustration & Concept Art"
-  title: "Impressionist Oil Landscape"
-  description: "A field of lavender in the style of Claude Monet."
-  prompt: |
-    Impressionist oil painting. 
-    Subject: A vast field of lavender in Provence at sunrise. 
-    Style: Thick impasto brushstrokes, vibrant colors, emphasis on light and movement. 
-    Aesthetic: Romantic and peaceful.
-
-- id: street_photography_tokyo
-  category: "Photography Styles & Lighting"
-  title: "Candid Tokyo Street Photo"
-  description: "Gritty, cinematic street photography in Shinjuku."
-  prompt: |
-    Street photography shot in Shinjuku, Tokyo. 
-    Style: Daido Moriyama inspired, high-contrast black and white. 
-    Details: Heavy grain, blurred movement of pedestrians, bright neon lights. 
-    Mood: Raw, urban, energetic.
-
-- id: chalkboard_menu_design
-  category: "Marketing, SEO & Growth"
-  title: "Artistic Chalkboard Menu"
-  description: "Hand-drawn style menu for a coffee shop."
-  prompt: |
-    Hand-drawn chalkboard menu for a boutique coffee shop. 
-    Details: Intricate chalk lettering, drawings of coffee beans and croissants. 
-    Background: Dusty black chalkboard texture. 
-    Vibe: Cozy, artisan, local cafe.
-
-- id: cosmic_nebula_explosion
+- id: iphone_mirror_selfie
   category: "Image Prompts (General)"
-  title: "Cosmic Nebula Art"
-  description: "Vibrant space scene with swirling gases and stars."
+  title: "Ultra-Photorealistic iPhone Mirror Selfie"
+  description: "Creates an ultra-photorealistic mirror selfie of a woman in a small bedroom at night."
   prompt: |
-    Breathtaking cosmic nebula illustration. 
-    Colors: Deep pinks, teals, and golds. 
-    Details: Star clusters, celestial dust, light refracting through gas clouds. 
-    Quality: 8K, NASA Hubble photography style.
+    {
+      "meta": {
+        "quality": "ultra photorealistic",
+        "resolution": "8k",
+        "camera": "iPhone 15 Pro",
+        "lens": "26mm",
+        "aspect_ratio": "4:3",
+        "style": "raw iphone realism, soft indoor lighting, subtle grain, candid snapshot feel"
+      },
 
-- id: yoga_instructor_portrait
+      "character_lock": {
+        "age": "mid 20s",
+        "ethnicity": "Mediterranean / brunette",
+        "hair": { "color": "dark brown", "style": "loose messy bun with soft strands falling" },
+        "eyes": "brown",
+        "body": { "type": "curvy hourglass", "chest": "full", "waist": "defined", "hips": "round" }
+      },
+
+      "scene": {
+        "location": "small bedroom",
+        "time": "late night",
+        "atmosphere": "quiet, intimate, relaxed nighttime mood"
+      },
+
+      "camera_perspective": {
+        "pov": "we ARE her phone",
+        "angle": "slightly high angled selfie",
+        "framing": "upper thighs to head",
+        "phone_visibility": "not visible"
+      },
+
+      "subject": {
+        "action": "standing near bed taking a casual mirror selfie",
+        "pose": {
+          "hips": "slightly tilted to one side",
+          "upper_body": "relaxed posture",
+          "expression": "sleepy eyes, faint soft smile"
+        },
+
+        "outfit": {
+          "top": {
+            "type": "thin ribbed tank top",
+            "color": "off-white",
+            "fit": "soft, lightly fitted",
+            "details": "natural fabric folds, slightly loose straps"
+          },
+          "bottom": {
+            "type": "cotton lounge shorts",
+            "color": "light grey",
+            "fit": "comfortable, slightly loose"
+          }
+        }
+      },
+
+      "lighting": {
+        "type": "warm bedside lamp",
+        "effect": "soft shadows, warm skin tones, gentle falloff into darker edges"
+      },
+
+      "negative_prompt": [
+        "men",
+        "nudity",
+        "explicit sexual content",
+        "overexposed lighting",
+        "plastic skin",
+        "studio setup",
+        "AI artifacts",
+        "unnatural anatomy"
+      ]
+    }
+
+- id: passport_photo_grid
+  category: "Image Prompts (General)"
+  title: "Passport Photo Grid Generation"
+  description: "Generates a grid of six identical passport-size photos based on an uploaded image."
+  prompt: |
+    {
+      "description": "Ultra-realistic passport-size photo of me (exact face likeness, 99% match, no facial changes).",
+      "style": "Professional studio portrait suitable for official ID or passport use.",
+      "outfit": "as per uploaded pic",
+      "expression": "Neutral closed-lip smile, straight look, both ears visible, shoulders included.",
+      "lighting": "Even balanced front lighting, no harsh shadows, soft studio tone.",
+      "background": "Plain light cream or light blue background, clean and uniform.",
+      "composition": "Centered head and shoulder framing with natural proportions as per passport standards.",
+      "output": "Generate 6 identical passport/ticket-size photos (3x2 grid layout vertical) on one sheet, evenly spaced, print-ready, high-resolution studio quality."
+    }
+
+- id: cinematic_bw_portrait
   category: "Photography Styles & Lighting"
-  title: "Zen Yoga Portrait"
-  description: "Serene portrait of a yoga instructor in a bright studio."
+  title: "Dramatic Black & White Portrait"
+  description: "Creates a cinematic black and white portrait of a young man with unaltered facial features."
   prompt: |
-    Professional lifestyle portrait of a yoga instructor. 
-    Setting: Bright, airy studio with wooden floors and large windows. 
-    Action: Meditating in a lotus pose. 
-    Lighting: Soft, natural morning light. 
-    Mood: Peaceful, balanced.
+    Create a professional promptet of a handsome young man with 100% unaltered facial features and hair, using a high-definition Full HD camera in 8K resolution. The aperture is 3:4. The young man appears at a narrow 30-degree angle, his upper body in black and white, looking down with his hand on his chest towards his heart. He wears a dark black wool sweater and a stylish, sporty, rubberized watch with a dark black bezel and hands, perfectly complementing the scene and his face. The lighting is very shallow and subdued, creating a dramatic effect against a dark black background, while preserving the original facial features and hair.
 
-- id: low_poly_game_island
-  category: "Illustration & Concept Art"
-  title: "Low Poly Fantasy Island"
-  description: "Stylized low polygon count 3D model of a floating island."
+- id: hyper_realistic_celebrity_portrait
+  category: "Image Prompts (General)"
+  title: "Hyper-realistic Cinematic Portrait"
+  description: "Generates a hyper-realistic, cinematic close-up portrait of Sydney Sweeney."
   prompt: |
-    Low poly 3D art of a floating fantasy island. 
-    Elements: A small waterfall, a single low-poly tree, and a treasure chest. 
-    Style: Sharp edges, flat shaded colors, cute toy-like aesthetic. 
-    Background: Gradient blue sky.
+    {
+      "prompt_configuration": {
+        "version": "v4.0",
+        "target_aspect_ratio": "3:4",
+        "mode": "Photorealistic_Cinematic"
+      },
+      "scene_graph": {
+        "main_subject": {
+          "identity": {
+            "name": "{argument name="subject name" default="Sydney Sweeney"}",
+            "archetype": "Celebrity Portrait",
+            "age_appearance": "20s"
+          },
+          "hair_simulation": {
+            "color": "Light Brown",
+            "texture": "Wet, high-gloss",
+            "style": "Loose wavy strands",
+            "framing": "Face-framing locks",
+            "physics": "Damp, heavy drape"
+          },
+          "facial_details": {
+            "eyes": {
+              "color": "Blue",
+              "gaze": "Direct, striking, expressive",
+              "makeup": "Natural, clear, no dark eyeliner, clean look",
+              "eyebrows": "Well-defined, brushed up"
+            },
+            "skin": {
+              "texture_map": "Hyper-realistic, pore-level detail",
+              "finish": "Dewy, luminous, wet sheen",
+              "complexion": "Fair, natural redness"
+            },
+            "mouth": {
+              "texture": "Glossy",
+              "finish": "High-shine lip gloss",
+              "expression": "Neutral, slightly parted"
+            }
+          },
+          "clothing_and_accessories": {
+            "visible_apparel": "Minimalist/None visible in close-up",
+            "jewelry": "None"
+          }
+        },
+        "environment_lighting": {
+          "global_illumination": "Cool ambient",
+          "key_light": {
+            "type": "Softbox",
+            "position": "Front-left",
+            "gel": "Cyan/Blue tint",
+            "intensity": "Medium-High"
+          },
+          "mood": {
+            "atmosphere": "Dramatic, moody, melancholic",
+            "color_grading": "Teal and Orange (muted), cool bluish cast"
+          }
+        },
+        "virtual_camera": {
+          "lens_focal_length": "105mm (Macro Portrait)",
+          "aperture": "f/1.4",
+          "shutter_speed": "1/125",
+          "iso": "100",
+          "focus_point": "Eyes",
+          "depth_of_field": "Shallow, bokeh background"
+        },
+        "render_engine_keywords": [
+          "Octane Render",
+          "Unreal Engine 5",
+          "Ray Tracing",
+          "Subsurface Scattering (SSS)",
+          "Global Illumination",
+          "8k Resolution"
+        ]
+      },
+      "final_compiled_prompt": "Hyper-realistic close-up portrait of {argument name="subject name" default="Sydney Sweeney"}, wet light brown hair styled in loose wavy strands framing face. Striking expressive eyes, natural look without dark eyeliner, well-defined eyebrows. Skin texture is smooth with a dewy luminous finish, glossy lips. Lighting is dramatic and moody with a cool bluish tint. Shot on 105mm macro lens, f/1.4, shallow depth of field, 8k resolution, cinematic lighting, raw photograph."
+    }
 
-- id: medieval_alchemy_lab
-  category: "Illustration & Concept Art"
-  title: "Medieval Alchemy Laboratory"
-  description: "Dark, cluttered room filled with potions and ancient books."
-  prompt: |
-    Interior of a medieval alchemist's lab. 
-    Details: Bubbling flasks, dusty scrolls, a human skull, candlelight. 
-    Atmosphere: Mysterious, dark, filled with smoke and magic. 
-    Style: Highly detailed digital illustration.
-
-- id: glitch_art_portrait
-  category: "Illustration & Concept Art"
-  title: "Digital Glitch Art Portrait"
-  description: "Distorted, artistic portrait with digital errors and color shifts."
-  prompt: |
-    Glitch art portrait of a man. 
-    Effects: Data moshing, RGB split, horizontal digital lines, distorted facial features. 
-    Color: High-saturation neon accents. 
-    Mood: Cyberpunk, chaotic, modern.
-
-- id: skincare_product_minimal
-  category: "Product & E-commerce"
-  title: "Organic Skincare Product Shot"
-  description: "Minimalist bottle on a stone pedestal with water ripples."
-  prompt: |
-    High-end skincare product photography. 
-    Subject: Glass serum bottle with a dropper. 
-    Setting: Placed on a natural zen stone pedestal. 
-    Details: Soft water ripples in the background, a single green leaf. 
-    Lighting: Clean, soft, high-key.
-
-- id: viking_warrior_cinematic
-  category: "Illustration & Concept Art"
-  title: "Cinematic Viking Warrior"
-  description: "Realistic portrait of a Viking in the snow."
-  prompt: |
-    Cinematic portrait of a rugged Viking warrior. 
-    Details: Fur cloak, braided beard with beads, war paint on face, holding an axe. 
-    Setting: Blinding snowstorm in the mountains. 
-    Quality: Hyper-realistic, movie poster style.
-
-- id: minimalist_book_cover
+- id: train_ad_book
   category: "Marketing, SEO & Growth"
-  title: "Minimalist Fiction Book Cover"
-  description: "A clean and intriguing book cover design for a mystery novel."
+  title: "Train-ad Style Book Advertisement"
+  description: "Generates a 16:9 business-book-style advertisement featuring a specific book image."
   prompt: |
-    Book cover design. 
-    Subject: A single lonely key on a vast white space. 
-    Typography: Elegant serif font for the title. 
-    Style: Minimalist, high-concept, professional publishing quality.
+    Please generate an advertisement image.
 
-- id: surreal_desert_clocks
-  category: "Illustration & Concept Art"
-  title: "Surrealist Desert Landscape"
-  description: "Inspired by Salvador Dali, featuring melting objects in a desert."
-  prompt: |
-    Surrealist oil painting. 
-    Subject: Melting clocks draped over giant desert cacti. 
-    Atmosphere: Dreamlike, illogical, vast orange desert under a green sky. 
-    Style: Fine art, detailed textures.
+    ==== Ad specifications ===
+    - Aspect ratio: 16:9 (horizontal)
+    - Product to advertise: the book in the first attached image
+    - Main eye-catcher: place the book from the first attached image in a three-dimensional way
+    - Language: Japanese
+    - Taste: advertisement for a business book
 
-- id: industrial_loft_interior
-  category: "Illustration & Concept Art"
-  title: "Industrial Loft Apartment"
-  description: "New York style loft with brick walls and large factory windows."
-  prompt: |
-    Interior design of an industrial loft. 
-    Features: Exposed red brick walls, black metal beams, leather sofa, large factory-style windows. 
-    Lighting: Warm Edison bulbs and natural daylight. 
-    Mood: Trendy, urban, masculine.
+    # Text to include:
+    - Pre-head copy: 【New print run decided about one week after release】
 
-- id: neon_sign_typography
-  category: "Logos & Branding"
-  title: "Custom Neon Sign Text"
-  description: "Vibrant glowing neon sign against a dark brick wall."
-  prompt: |
-    Glowing neon sign on a dark brick wall. 
-    Text: 'OPEN LATE'. 
-    Color: Electric pink and flickering yellow. 
-    Details: Realistic glass tubes, wires, and light reflection on the bricks.
+    Book "{argument name="book_title_en" default="Designing from Zero with AI"}" now on sale and doing well.
 
-- id: greek_sculpture_digital
-  category: "Illustration & Concept Art"
-  title: "Ancient Greek Sculpture"
-  description: "Realistic marble statue of a Greek god with museum lighting."
-  prompt: |
-    High-resolution photo of an ancient Greek marble sculpture. 
-    Subject: A muscular god in a dynamic pose. 
-    Details: Realistic marble texture, fine cracks, smooth polished surface. 
-    Lighting: Dramatic museum spotlights (chiaroscuro).
+    Amazon Best Seller Ranking
+    Ranked No.1 in commercial design sales (as of 10/15)
+    https://t.co/QxbYpfFVj6
 
-- id: forest_spirit_ghibli
-  category: "Illustration & Concept Art"
-  title: "Ghibli Inspired Forest Spirit"
-  description: "Soft, magical forest scene with a hidden spirit creature."
-  prompt: |
-    Studio Ghibli style illustration. 
-    Subject: A small glowing forest spirit sitting on a mossy log. 
-    Environment: Lush green ancient forest with sunlight filtering through leaves. 
-    Mood: Whimsical, peaceful, magical.
-
-- id: high_fashion_runway
+- id: vintage_disposable_camera
   category: "Photography Styles & Lighting"
-  title: "High Fashion Runway Shot"
-  description: "Candid-style photo of a model on a futuristic runway."
+  title: "Nostalgic 90s Disposable Camera Snapshot"
+  description: "Creates a classic 90s disposable-camera snapshot of a young woman."
   prompt: |
-    Fashion photography from a runway show. 
-    Subject: Model wearing avant-garde metallic clothing. 
-    Lighting: Harsh flash photography, silhouettes of the audience in the dark. 
-    Atmosphere: High energy, luxury, modern.
+    A young woman with the same unchanged face, pale soft complexion, caught in a classic 90s disposable-camera snapshot. Loose black hair, calm relaxed look. She's wearing a pastel lavender hoodie with a soft worn texture. Background cluttered with polaroids and taped photos. Gentle flash, soft nostalgic tone.
 
-- id: exploded_view_gadget
-  category: "Illustration & Concept Art"
-  title: "Exploded View Tech Diagram"
-  description: "Technical illustration showing all internal parts of a smartphone."
+- id: profile_portrait_character
+  category: "Image Prompts (General)"
+  title: "Character Generation Prompt"
+  description: "Generates a high-resolution image of a main character with K-pop idol aesthetic."
   prompt: |
-    Exploded view diagram of a high-tech smartphone. 
-    Details: All internal components (battery, chips, camera lenses) floating in an organized layout. 
-    Style: Technical blueprint, clean lines, labels with thin lines. 
-    Background: Solid neutral gray.
+    I. Composition & Spatial Layout
+    1.Framing & Scale: The subject occupies approximately 60–70% of the frame height. Leave at least 30% of the frame height as empty space above the head. Both left and right sides retain clearly visible empty wall space.
+    2.Visual Focus: A minimal, uncluttered background designed to strongly emphasize facial structure, eye expression, and skin quality.
 
-- id: post_apocalyptic_city_overgrown
-  category: "Illustration & Concept Art"
-  title: "Overgrown Post-Apocalyptic City"
-  description: "Abandoned city street reclaimed by nature."
+    II. Lighting & Shadow Style
+    1.Key Light: Intense natural daylight, side-backlit with a slight reverse angle, cool-toned, producing extreme high-contrast separation between highlights and shadows.
+    2.Light Characteristics: Dense, hard-edged leaf-shadow patterns projected across the wall and the subject's body and face. Shadow edges are razor-sharp with extremely narrow penumbra.
+    3.Highlight Control: Large areas of the background are deliberately overexposed while retaining faint surface texture, creating a glowing, almost blinding spatial atmosphere.
+
+    III. Subject Appearance (Face & Hair — Reference Applied)
+    1.Facial Structure:
+    A young Japanese woman in her 20s with a refined V-shaped face, sharp jawline, and high-definition facial contours. Overall facial balance is elegant yet striking, with high visual impact.
+    2.Skin Quality:
+    Porcelain-toned Japanese skin with a cool undertone. Ultra-smooth, luminous texture enhanced by strong contrast lighting while retaining realistic skin detail.
+    3.Eyes & Expression:
+    • Large, sharp fox-shaped eyes
+    • Confident gaze directed straight into the camera
+    • Expression carries a cool, playful, slightly teasing energy
+    • K-pop idol–inspired eyeliner with clearly emphasized aegyosal
+    • Overall expression is controlled, calm, and subtly provocative rather than smiling
+    4.Mouth:
+    Relaxed lips with a subtle, effortless smirk. Glossy gradient lips with a refined sheen, never exaggerated.
+    5.Hair Style:
+    Long, sleek, straight black hair reaching the waist, with perfectly straight, neatly trimmed Japanese bangs. Hair finish is glossy, clean, and fashion-forward, moving minimally in the light.
+    6.Makeup Style:
+    High-contrast K-pop idol–inspired makeup. Clean base, sculpted facial structure, cool-toned color balance, no warm or heavy blush.
+    7.Accessories (Minimal):
+    • Small gold pendant necklace
+    • Small gold hoop earrings
+    • Minimalist tattoo on the left inner forearm
+
+    IV. Clothing
+    • Cropped pure-white bandeau-style tube top
+    • Body-hugging but not tight, exposing the waist
+    • Fabric remains clean and structured, no wrinkles distracting from silhouette
+
+- id: bento_grid_product_infographic_2
+  category: "Product & E-commerce"
+  title: "Bento Grid Product Infographic"
+  description: "Creates a bento grid infographic for product marketing with customizable modules."
   prompt: |
-    Post-apocalyptic cityscape. 
-    Subject: An abandoned New York street with crumbling skyscrapers covered in vines and trees. 
-    Details: Rusty car wrecks, wild animals roaming the street, soft sunlight. 
-    Mood: Melancholic, beautiful decay.
+    Create an infographic with bento grid 8 module layout, user can specify any product name in Food, Medicine, tech etc category, choose language, Background style, Hero grid style.
+
+- id: retro_future_architecture
+  category: "Image Prompts (General)"
+  title: "Abstract Microscopic Coffee Crema"
+  description: "Creates an abstract, surreal macro photograph of coffee crema as a living substance."
+  prompt: |
+    "Abstract microscopic view of living coffee crema, delicate glowing tendrils and fractal networks spreading naturally across the dark espresso base, subtle bioluminescent effects in emerald and magenta hues, organic flowing forms with intricate details, surreal biological fantasy, ultra sharp macro photography style, dramatic volumetric lighting, no horror elements, artistic and wondrous atmosphere, 8k quality"
+
+- id: infographic_beer_making
+  category: "Education & Learning"
+  title: "Trappist Abbey Beer Making Infographic"
+  description: "Generates a high-quality infographic explaining beer making in a Trappist Abbey."
+  prompt: |
+    Generate a high quality infographic explaining beer making in a Trappist Abbey with rich illustrations.
+
+- id: neon_gas_station
+  category: "Ads & Social Clips"
+  title: "Neon Pink Gas Station Portrait"
+  description: "Creates a vibrant, high-contrast image at a wet asphalt gas station at night."
+  prompt: |
+    {
+      "subject": {
+        "identity": "Pop singer {argument name="subject name" default="Madison Beer"}, smiling confidently.",
+        "body": "Hourglass figure with athletic definition. Broad shoulders tapering to a narrow, cinched waist, contrasting with prominent, curvy hips and well-developed glutes (high waist-to-hip ratio). Muscular legs and calves are visible in socks.",
+        "wardrobe": {
+          "top": "Plain pink crop top",
+          "bottom": "White pleated mini skirt.",
+          "footwear": "White knee-high socks with pink stripes, pink and white sneakers.",
+          "accessories": "Large hoop earrings, long pink manicured nails. NO necklace.",
+          "props": "Holding a white styrofoam cup with a straw in right hand, making a middle finger gesture with left hand."
+        }
+      },
+      "scene": {
+        "location": "Wet asphalt gas station at night under a large, triangular canopy illuminated by bright pink neon lights and overhead fixtures.",
+        "elements": "A pink sports car parked behind her, gas pumps, convenience store building in the background with an 'OPEN 24 HRS' sign.",
+        "atmosphere": "Vibrant, neon-lit, rainy, reflections on wet pavement."
+      },
+      "camera": {
+        "lens": "Wide-angle fisheye lens, creating a distinct circular distortion and perspective.",
+        "lighting": "Mixed artificial light: bright pink neon from the canopy, white overhead lights, creating strong highlights and colorful reflections on the wet ground and car.",
+        "angle": "Slightly low angle, looking up at the subject.",
+        "focus": "Sharp focus on the subject and the immediate foreground, with the background slightly distorted by the lens."
+      },
+      "aspect_ratio": "9:16"
+    }
+
+- id: kpop_stage_performance
+  category: "Image Prompts (General)"
+  title: "K-pop Star Jennie Kim Stage Performance"
+  description: "Creates a high-contrast, cinematic image of Jennie Kim during a performance."
+  prompt: |
+    {
+      "subject": {
+        "name": "Jennie Kim",
+        "alias": "Jennie",
+        "group": "BLACKPINK",
+        "persona": "Elegant, fierce stage presence, signature 'human Chanel' style",
+        "expression": "Focused, slightly intense, sharp gaze off-camera",
+        "pose": "Dynamic three-quarter profile, mid-choreography, hair in motion"
+      },
+      "physical_features": {
+        "hair": "Long, dark, voluminous waves framing face and flowing down back",
+        "skin": "Dewy, hyper-reflective, glass-skin style, warm skin tone",
+        "makeup": "Soft smoky eyeshadow, winged eyeliner, gradient red lips"
+      },
+      "clothing": {
+        "top": "Textured white lace crop top",
+        "bottom": "High-waisted black pleated bottoms",
+        "style": "Monochrome, chic stage outfit"
+      },
+      "lighting": {
+        "type": "Stage spotlights",
+        "contrast": "High",
+        "effects": "Cool blue rim light highlighting hair and skin, cinematic haze/fog in air"
+      },
+      "atmosphere": "Concert/focused performance, cinematic and ethereal mood, balance of vulnerability and power",
+      "image_details": {
+        "width": 504,
+        "height": 1002
+      }
+    }
+
+- id: anime_battle_poster
+  category: "Ads & Social Clips"
+  title: "Dynamic Anime Battle Poster"
+  description: "Creates a super dynamic anime battle poster with Japanese text."
+  prompt: |
+    Super dynamic Anime art of the 【{argument name="character name" default="REFERENCED CHARACTER OR ANIME CHARACTER NAME"}】referenced character 【〈 REMOVE SECTION FOR MORE CREATIVE RESULTS〉with his exact exact characteristics and facial expressions lineart-proportions】 in the exact same artstyle in battle with his signature energy matching the vibe of the referenced image, power and aura surrounding them, anime style, high resolution, high quality, high detail, dramatic anime background matching background of referenced image, anime key visual, write 【{argument name="text to write" default="TEXT"}】 on the 【{argument name="text position" default="POSITION"}】 in japanese at the attack in a chaotic and dramatic anime font that fits the power and energy of the attack, anime key poster.
+
+- id: cosmic_chessboard
+  category: "Illustration & Concept Art"
+  title: "Cosmic Chessboard Checkmate Scene"
+  description: "Creates a surreal, epic digital art image of a massive cosmic chessboard floating in deep space."
+  prompt: |
+    "Eternity's Checkmate, a massive cosmic chessboard floating in deep outer space, final move frozen in time, a radiant cracked king chess piece emitting starlight energy, a mysterious hooded cosmic entity formed from galaxies and nebula dust reaching forward to deliver checkmate, shattered chess pieces transforming into constellations, swirling colorful nebula clouds, deep space background with stars, cinematic wide-angle view, dramatic volumetric lighting, ultra detailed, epic scale, surreal symbolism, sharp focus, high dynamic range, dark blue and gold color scheme, professional digital art, 8k, masterpiece quality."
+
+- id: surreal_rubber_hose_ink
+  category: "Illustration & Concept Art"
+  title: "Surreal Rubber-House Ink Style"
+  description: "Creates a black and white illustration in the surreal 1930s rubber hose animation style."
+  prompt: |
+    {
+    "style_name": "Surreal Rubber-Hose Ink",
+    "Subject": "{argument name=\"Subject\" default=\"[SUBJECT]\"}",
+    "prompt_structure": {
+    "prefix": "A subject designed in a surreal 1930s rubber hose animation style.",
+    "core_aesthetic": "Hand-drawn black and white ink illustration, clean white background.",
+    "shading_technique": "High-contrast line art, heavy use of cross-hatching and stippling for shading.",
+    "character_features": "Melting and dripping aesthetic, wide toothy grins, hollow black eyes.",
+    "vibe": "Vintage underground comic, minimalist but detailed textures, clean outlines.",
+    "full_composite_prompt": "Designed in a surreal 1930s rubber hose animation style. Hand-drawn black and white ink illustration on a clean white background. Features high-contrast line art with heavy use of cross-hatching and stippling for shading. The character has a melting, dripping aesthetic, wide toothy grins, and hollow black eyes. Vintage underground comic vibe, minimalist but detailed textures, clean outlines."
+    },
+    "negative_prompt": "color, gradients, 3d render, photo, realistic, grey tones, blurry, messy lines, background scenery, cropped, out of frame, cut off",
+    "recommended_settings": {
+    "aspect_ratio": "1:1",
+    "color_palette": "Monochrome / Black and White"
+    }
+    }
+
+- id: cinematic_lowkey_rose_room
+  category: "Product & E-commerce"
+  title: "Cinematic Low-Key Portrait in Red Rose Room"
+  description: "Creates a dramatic, low-key cinematic portrait of a woman in a red dress surrounded by red roses."
+  prompt: |
+    {
+      "generation_request": {
+        "meta_data": {
+          "task_type": "cinematic_lowkey_valentines_rose_room_red_dress",
+          "language": "en",
+          "priority": "highest",
+          "version": "v1.0_RED_DRESS_ROSE_ROOM_LOWKEY_DRAMA"
+        },
+        "output": {
+          "aspect_ratio": "4:5",
+          "resolution": "ultra_high",
+          "num_images": 4,
+          "sharpness": "high",
+          "grain": "fine_film_grain"
+        },
+        "scene": {
+          "concept": "dramatic low-key cinematic portrait of a woman in a room filled with red roses",
+          "environment": "dark minimalist interior room, glossy white floor, multiple large glass vases filled with dense red rose bouquets arranged around the subject in a circle",
+          "composition": "top-down or slightly elevated angle, subject centered, surrounded by roses, strong negative space in shadows, deep vignette edges",
+          "mood": "luxury, moody, intimate, dramatic"
+        },
+        "subject": {
+          "person": "adult woman",
+          "pose": "sitting on the floor with legs folded to the side, holding or resting arms on a bouquet, head slightly bowed, gaze downward",
+          "expression": "soft, introspective, calm",
+          "hair": "very long straight black hair, sleek and glossy, center part",
+          "makeup": "full glam: defined lashes, soft contour, nude-pink lips or subtle rose tone",
+          "wardrobe": {
+            "dress": "fitted red maxi dress with thin straps, smooth fabric, clean silhouette, realistic folds at seated position"
+          },
+          "accessories": "minimal jewelry, small necklace"
+        },
+        "lighting": {
+          "setup": "single strong soft spotlight from above-left creating dramatic shadows; minimal fill",
+          "look": "low-key, chiaroscuro style, deep blacks",
+          "highlights": "controlled highlights on roses and hair; no blown whites on floor"
+        }
+      }
+    }
+
+- id: luxury_bucket_hat
+  category: "Product & E-commerce"
+  title: "Luxury Bucket Hat Product Editorial"
+  description: "Generates a luxury editorial photograph of a fictional bucket hat."
+  prompt: |
+    Premium fictional bucket hat with a softly structured crown.
+    Balanced crown height, neither too tall nor too shallow.
+    Brim has a gentle downward slope with a rounded edge.
+    Fabric is premium brushed cotton in deep espresso brown.
+    Front embroidery is a small star symbol stitched in warm amber thread.
+    No other branding.
+
+    Cinematic portrait lighting with a single soft side light.
+    Deep shadows and warm highlights.
+    Background is an amber-to-dark-brown gradient.
+    Analog film grain, luxury editorial photography.
+
+- id: neon_xray_scan
+  category: "Product & E-commerce"
+  title: "Neon X-Ray Photorealistic Scan"
+  description: "Generates a photorealistic image of an object shown as a glowing X-ray scan."
+  prompt: |
+    Neon X-Ray Photorealistic {argument name="object" default="[OBJECT]"} shown as glowing X-ray scan against pure black background. Internal structure visible in electric {argument name="color" default="[COLOR]"} neon wireframe, outer shell semi-transparent. Floating holographic labels pointing to key [COMPONENTS]. Cyberpunk medical scan aesthetic, ultra-sharp, dramatic glow effects.
+
+- id: ultra_macro_cherry
+  category: "Product & E-commerce"
+  title: "Ultra-Macro Cherry in Milk Splash"
+  description: "Creates a hyper-realistic, ultra-macro food photograph of a cherry suspended in creamy milk splash."
+  prompt: |
+    A single ripe {argument name="fruit type" default="cherry"} suspended in a creamy milk splash, ultra-macro food photography, glossy red skin with fine texture, soft {argument name="background color" default="pastel pink"} background, liquid frozen mid-motion, smooth flowing curves, shallow depth of field, cinematic studio lighting, hyper-realistic, high detail, luxury advertising style
+
+- id: floating_ecological_island
+  category: "Illustration & Concept Art"
+  title: "Octane-Rendered Floating Ecological Island"
+  description: "Creates a massive, photorealistic floating island that functions as a living ecological system."
+  prompt: |
+    [SUBJECT]
+    A massive floating island captured as a photoreal, physically plausible environment, rendered with Octane-level realism. The island is a living ecological system integrated with inhabitable architecture grown from stone, crystal, and bio-organic materials. The scene feels like a real, observable place suspended in the sky, not a stylized illustration.
+
+    [RENDERING STYLE]
+    Ultra-photoreal rendering with Octane Render characteristics: physically accurate global illumination, realistic light falloff, high dynamic range sky lighting, true-to-scale materials, micro-surface detail, subtle imperfections, and natural color response. No painterly effects, no stylization, no exaggerated fantasy lighting.
+
+    [COMPOSITION]
+    Wide-angle aerial shot, slightly offset perspective, as if photographed from a hovering drone or aircraft. The full vertical mass of the island is visible, with architectural elements clearly readable. Horizon visible in the distance with atmospheric haze for scale.
+
+- id: wuxia_battle_scene
+  category: "Storyboards & Shot Lists"
+  title: "Cinematic Wuxia Scene"
+  description: "Creates a detailed Wuxia fantasy style scene with dramatic confrontation between two characters."
+  prompt: |
+    Overall Style Prompt: Chinese Wuxia fantasy style, cinematic quality, motion blur, abandoned ancient temple in heavy rain, gloomy sky, lightning occasionally illuminating raindrops and broken eaves, the image is full of power and speed.
+
+    • Scene 1: Dark Raven drags his sword, Azure Frost descends.
+    • Scene 2: Greatsword sweeps, light sword strikes like a flash.
+    • Scene 3: Mid-air clash, sparks fly.
+    • Scene 4: Azure shadows continuous, black wall defends.
+    • Scene 5: Ultimate collision, swallowing the universe.
+
+- id: comic_poster_template
+  category: "Storyboards & Shot Lists"
+  title: "Comic Book Poster Illustration Template"
+  description: "Generates a dynamic, modern comic book poster illustration with a collage of comic panels."
+  prompt: |
+    {
+      "meta": {
+        "purpose": "Comic book poster illustration for viral sci-fi storytelling or graphic novels",
+        "style": "Modern comic/graphic novel with halftone and dynamic effects, 4K resolution"
+      },
+      "reference_image": {
+        "use": true,
+        "identity_preservation": "strict",
+        "face_similarity": "high"
+      },
+      "canvas": {
+        "aspect_ratio": "16:9",
+        "orientation": "horizontal poster"
+      },
+      "title_text": {
+        "text": "{argument name="title text" default="ZOOM!!! OR Your Title"}",
+        "position": "top_center",
+        "style": "bold comic lettering, thick hand-drawn font"
+      }
+    }
+
+- id: vintage_patent_invention
+  category: "Image Prompts (General)"
+  title: "Vintage Patent Document for Invention"
+  description: "Generates a vintage patent document with technical drawings and aged paper texture."
+  prompt: |
+    A vintage patent document for {argument name="invention" default="INVENTION"}, styled after late 1800s United States Patent Office filings. The page features precise technical drawings with numbered callouts (Fig. 1, Fig. 2, Fig. 3) showing front, side, and exploded views. Handwritten annotations in fountain-pen ink describe mechanisms. The paper is aged ivory with foxing stains and soft fold creases. An official embossed seal and red wax stamp appear in the corner. A hand-signed inventor's name and date appear at the bottom. The entire image feels like a recovered archival document—authoritative, historic, and slightly mysterious.
+
+- id: luxury_perfume_ad
+  category: "Product & E-commerce"
+  title: "Ultra-Realistic Luxury Perfume Ad"
+  description: "Creates ultra-realistic cinematic product photography of a luxury perfume bottle."
+  prompt: |
+    Ultra-realistic cinematic product photography of a luxury perfume bottle filled with deep red liquid, standing upright and centered. Thick glass bottle with sharp edges and a bold sculptural cap, premium minimal label. Surrounded by dark rugged wood textures, bark, and crushed wood chips, creating a rich woody atmosphere. Dramatic red and black background with smoky haze and glowing embers, intense contrast lighting. Strong rim light highlighting the bottle silhouette, glossy reflections on glass, deep shadows for a mysterious mood. High-end fragrance advertising style, moody, sensual, powerful aesthetic, hyper-detailed textures, ultra-sharp focus, photorealistic, 8K quality.
+
+- id: chrome_ripple_product
+  category: "Product & E-commerce"
+  title: "Chrome Ripple Flow Product Photography"
+  description: "Creates a floating product with matte black and metallic silver finishes on a ribbed surface."
+  prompt: |
+    {
+      "image_generation_request": {
+        "subject": "{argument name="product name" default="PRODUCT"}",
+        "product_finish": {
+          "primary": "matte black with subtle light absorption",
+          "secondary": "polished metallic silver with mirror-like reflections",
+          "treatment": "duotone — matte black body with metallic silver accents, trim, edges, or panel insets"
+        },
+        "composition": {
+          "placement": "dead center, full view, floating suspended within the folded surface environment",
+          "scale": "product occupies roughly 30-40% of the frame",
+          "constraints": [
+            "product must be entirely visible with no cropping",
+            "no pedestals, stands, platforms, or ground planes"
+          ]
+        },
+        "background_environment": {
+          "description": "A single continuous undulating surface that fills the entire frame, folding over and around itself in large voluminous waves",
+          "surface_texture": {
+            "type": "fine parallel ribs embossed into the surface — like the grooves on a vinyl record or finely pleated accordion fabric"
+          }
+        }
+      }
+    }
+
+- id: gorpcore_fashion
+  category: "Product & E-commerce"
+  title: "Gorpcore Fashion Campaign Image"
+  description: "Creates a high-end streetwear fashion campaign image with a male model next to a Mercedes G Wagon."
+  prompt: |
+    Low Angle Shot Blur, Fashion Campaign Image For A High-end Streetwear Brand, Male In Their 20s Sat Next To A Mercedes G Wagon Car. He Is Wearing Gorpcore Styled Clothing, Nike Air Max Trainers. Shot With An Ultra-wide Lens Creating Strong Barrel Distortion And Curved Perspective. Harsh Handheld Flash Casts Raw Shadows And Emphasizes Texture. Background Fades Into Deep Blue Twilight With Scattered Field Lighting. The Entire Scene Feels Candid And Cinematic Grainy Film Texture, Slight Motion Blur, Imperfect Lighting, Warm Analog Tone Shifts. Inspired By Experimental Gorpcore Fashion. Shot On Kodak Portra 800, Handheld, F/2.0
+
+- id: ultra_realistic_fashion_editorial
+  category: "Image Prompts (General)"
+  title: "Ultra-Realistic Fashion Editorial"
+  description: "Creates an ultra-realistic fashion editorial portrait with a lit cigarette prop."
+  prompt: |
+    Ultra-realistic fashion editorial photography, 8k high resolution, 85mm f/1.8 portrait lens, soft cinematic studio lighting with warm tones. Adult female in her mid 20s, warm medium complexion with smooth luminous finish, slim natural proportions. Seated on the floor with one knee raised toward the camera, the other leg folded beneath, torso slightly angled forward. Calm, confident gaze directly into camera. Dark brown long voluminous wavy hair. Halter-style wrap crop top in ivory beige, flowing high-waisted skirt in matching ivory beige. Multiple thin gold bangles, small gold stud earrings. Lit cigarette held between fingers with thin delicate smoke trail rising naturally. Soft beige wall panels background, minimal indoor studio setting.
+
+- id: high_fashion_editorial_ana_armas
+  category: "Product & E-commerce"
+  title: "High-Fashion Editorial Portrait"
+  description: "Creates a high-fashion editorial portrait resembling Ana de armas."
+  prompt: |
+    Young woman with features resembling Ana de armas. Almond-shaped hazel-green eyes, focused gaze. Light brown hair with honey-blonde highlights, slicked back away from forehead, damp/wet-look texture, flowing straight down the back. Fair smooth skin with soft matte finish. Oval face, soft jawline, straight nose, naturally full lips slightly parted. Bold black winged eyeliner, nude satin-finish lipstick. Sheer black long-sleeved mesh top with fine vertical pleated texture, black spaghetti-strap camisole underneath. Soft diffused studio lighting, high-key setup, solid clean off-white/minimalist grey backdrop. Shot on 85mm lens, f/2.8.
+
+- id: cinematic_grunge_collage
+  category: "Product & E-commerce"
+  title: "Cinematic Grunge Collage Portrait"
+  description: "Creates an ultra-photorealistic editorial fashion portrait with dark grunge aesthetic."
+  prompt: |
+    Ultra photorealistic, 8K, 2:3 aspect ratio, 50mm prime lens f/1.8. Cinematic grunge collage portrait. Adult female early 20s, slim natural proportions. Confident fashion pose, right hand gently touching near face, left hand inside pants pocket. Calm self-assured expression. Voluminous curly shoulder-length dark brown hair. Loose black shirt, light beige pants. Artistic collage wall background with black-and-white cutouts: police car, Pegasus, perfume bottle, newspaper text clippings, abstract paint textures in charcoal and gray.
+
+- id: cinematic_motorbike_portrait
+  category: "Product & E-commerce"
+  title: "Cinematic Portrait of Man on Motorbike"
+  description: "Creates an ultra-realistic cinematic portrait of a man on a modern motorbike during golden hour."
+  prompt: |
+    Ultra-realistic cinematic photography. Man with same facial features as reference image. Sitting confidently on a stylish modern motorbike, one foot on the ground, relaxed but powerful posture. Calm confident slightly intense look. Black leather jacket, plain white crew-neck t-shirt, cool black sunglasses. Beautiful open road surrounded by greenery, soft-focus mountains in distance. Golden hour, natural warm sunlight with soft cinematic shadows, rim light. Low-angle slightly front-facing shot, 85mm DSLR lens, shallow depth of field.
+
+- id: editorial_fashion_grid
+  category: "Product & E-commerce"
+  title: "Editorial Fashion Portrait Series Grid"
+  description: "Generates a multi-frame editorial fashion portrait series grid template."
+  prompt: |
+    Editorial fashion portrait series (multi-frame grid style, high virality). Preserve original face structure and proportions exactly from reference. Direct flash or golden hour, high contrast, vintage/cinematic aesthetic, saturated colors, hyper-realistic textures, 8K. {argument name="hair description" default="long dark hair"}, {argument name="skin tone" default="fair skin"}. 16:9 or 1:1 grid layout.
+
+- id: luxury_oudh_diffuser
+  category: "Product & E-commerce"
+  title: "Luxury Product Photography Black Oudh Diffuser"
+  description: "Creates ultra-realistic luxury product photography of a black glass reed diffuser bottle."
+  prompt: |
+    Ultra-realistic luxury product photography of a black glass reed diffuser bottle labeled "{argument name="product name" default="BLACK OUDH – Private Collection – RITUALS"}" in elegant gold serif typography. Bottle has curved rectangular shape with soft edges, glossy reflective surface, gold wax-seal style emblem. Thin black diffuser reeds extend upward. Covered in realistic water droplets and condensation. Placed among deep black roses and dark burgundy petals with visible water droplets, rich green leaves. Moody dramatic with dark botanical background, softly blurred. Cinematic low-key lighting, cool-toned. Vertical portrait 4:5 ratio, centered product.
+
+- id: summer_skincare_beach
+  category: "Product & E-commerce"
+  title: "Summer Skincare Product Photography on Beach"
+  description: "Creates AI-edited photorealistic product photograph of a cosmetic serum dropper bottle on sandy beach."
+  prompt: |
+    8K UHD, AI-edited photorealistic product photography, portrait approximately 3:4. Sandy beach shoreline, fine golden-brown sand, wet compacted sand with small water-filled depressions. Sea water shallow moving, white sea foam. Cosmetic serum dropper bottle lying flat on sand, slightly diagonal. Transparent glass with deep translucent red liquid, matte white plastic dropper cap. Multiple visible water droplets on glass, light reflections. Multiple visible water droplets on glass, light reflections. Label with RED GLOW text in gold, rectangular with thin gold outline.
+
+- id: ultra_macro_product_beach
+  category: "Product & E-commerce"
+  title: "Ultra-Realistic Skincare Product on Wet Beach"
+  description: "Creates ultra-realistic product photography of a bronzing drop bottle on wet beach sand."
+  prompt: |
+    Ultra-realistic summer skincare product photography of a bronzing drop bottle named "{argument name="product name" default="Golden Glow - Bronzing Elixir"}", rectangular matte bottle in warm sun-kissed bronze tone with a clean white cap, placed diagonally on wet beach sand as a gentle ocean wave washes over it, delicate sea foam and tiny bubbles surrounding the base. Fine sand texture visible beneath shallow clear water, golden sunlight casting natural highlights and soft shadows. Warm golden-hour beach lighting, cinematic top-down flat lay composition. 4.5 aspect ratio.
+
+- id: blueberry_mint_drink
+  category: "Product & E-commerce"
+  title: "Premium Studio Shot of Blueberry Mint Iced Drink"
+  description: "Creates ultra-realistic commercial product photograph of a blueberry mint iced drink."
+  prompt: |
+    Blueberry Mint Iced Drink – Premium Studio Shot. Tall clear highball glass filled with blue blueberry mint soda. Vibrant gradient blue drink deep blue at bottom fading to clear at top. Large crystal-clear ice cubes. Fresh mint leaves inside and on top, whole blueberries inside the drink. Light wooden straw angled inside the glass. Soft misty vapor rising from top, tiny bubbles in liquid, water droplets on glass. Dark navy to black gradient backdrop, glossy black reflective surface. Professional studio lighting, soft diffused key light from left, cool rim light from right.
+
+- id: borjomi_cutaway
+  category: "Product & E-commerce"
+  title: "8K Product Photography with Conceptual Cutaway"
+  description: "Creates an 8K studio product photograph of a Borjomi flavored water can with conceptual cutaway."
+  prompt: |
+    8K studio product photography with conceptual cutaway, portrait orientation. Metallic beverage can labeled 'Borjomi Flavored Water', brushed aluminum. Horizontal torn-paper cutaway revealing densely packed red pomegranate seeds inside. White rough fibrous torn-paper texture at outer edges. Interior filled with deep red to ruby red pomegranate seeds, slightly translucent with glossy highlights. Soft studio lighting, frontal with slight top illumination. Light gray background with subtle cloudy texture.
+
+- id: ethereal_product_frosted_glass
+  category: "Product & E-commerce"
+  title: "Ethereal Product Visual with Frosted Glass Hands"
+  description: "Creates a photorealistic product visual with abstract frosted glass hands behind it."
+  prompt: |
+    Photorealistic_product_visual. User uploaded image as reference. Preserve product identity, label text, object shape, centered composition. High-key studio, pure white seamless background. Single product object, perfectly centered, floating, ultra-sharp. Two hands positioned behind a frosted glass surface, frosted glass diffusion, milky blur, softened edges. Semi-opaque, intentionally out of focus, slow delicate abstract reach. Soft diffused studio lighting, frontal with gentle top wash. 85mm f/2.0, eye-level camera.
+
+- id: crystal_hologram_product
+  category: "Product & E-commerce"
+  title: "Crystal Hologram Product Photography"
+  description: "Creates ultra-high-fidelity product photography with crystal hologram effect."
+  prompt: |
+    Ultra_high_fidelity_request: {argument name="product" default="[PRODUCT]"}. Strictly centered and levitating, full product visibility, zero cropping, isolated in 3D space. Solid pure black void background #000000. Extremely brilliant spectral iridescence, vivid neon oil-slick gradients. Internal volumetric lighting, ethereal inner glow. High-index caustic light refraction, prismatic color splitting at edges. Super-saturated holographic highlights, intense electric blues and deep magentas. Ultra-glossy liquid-smooth finish, deep translucent obsidian glass with infinite depth.
+
+- id: ehomaki_carbon_pattern
+  category: "Product & E-commerce"
+  title: "Carbon Pattern Printed Ehomaki Sushi Roll"
+  description: "Generates an Ehomaki sushi roll with carbon fiber pattern printed on nori."
+  prompt: |
+    I saw an Ehomaki with a checkered pattern printed on the nori, so I wondered what it would look like with a carbon fiber pattern?
+
+- id: louis_vuitton_sneaker_grid
+  category: "Product & E-commerce"
+  title: "Louis Vuitton Sneaker Editorial Grid"
+  description: "Creates a 9-panel grid concept for a Louis Vuitton sneaker editorial campaign."
+  prompt: |
+    Louis Vuitton Malletier, Luxury Leather Sneaker / Trainer, 3:4 aspect ratio, High-Fashion Editorial | Avant-Garde Luxury. Full-grain calf leather, Monogram Embossed Canvas, Polished Gold Hardware. Cognac Brown, Deep Obsidian, Champagne Gold. 9-panel grid: Row 1 Heritage: Hero profile on vintage LV trunk, extreme macro gold lace aglets, gold dust particles. Row 2 Innovation: Abstract floating glass V sculpture, deconstructed view, gloved hand adjusting tongue. Row 3 Surrealism: Monochromatic Havane brown, geometric desert landscape, mirror-still lake reflecting Parisian sunset.
+
+- id: inflatable_3d_render
+  category: "Image Prompts (General)"
+  title: "Ultra-Realistic 3D Inflatable Object Render"
+  description: "Creates ultra-realistic 3D renders of an object with glossy inflated plastic material."
+  prompt: |
+    {argument name="subject" default="SUBJECT"}, ultra realistic 3D render, smooth inflated glossy plastic material, soft pillowy balloon like contours, subtle stitched panel seams and paneling, high specular highlights, clean reflections, soft contact shadows, designer collectible toy aesthetic, cute proportions, premium polished finish, floating centered, plain light gray studio background, soft diffused studio lighting, sharp focus, high resolution, 8k, 1:1, no text, no logo, no watermark.
+
+- id: fisheye_forced_perspective
+  category: "Image Prompts (General)"
+  title: "Fisheye Product Photo with Forced Perspective"
+  description: "Creates a high-impact fisheye product photo with warped forced perspective."
+  prompt: |
+    A high impact fisheye product photo of the character, shown full-body in warped forced perspective. The head is immense in the foreground, limbs taper into blur, cartoonish yet grounded in realistic detail. Pose: The character leans slightly forward, stepping into the viewer's space. The oversized head pushes closest to the lens, eyes sharp and engaging, while the arms hang loosely at its sides. Shoes recede into deep blur, vanishing into the background. Fisheye macro, 15–20mm lens, tilted slightly upward. Strong frontal light reveals fine surface textures.
+
+- id: sydney_sweeney_wanda
+  category: "Image Prompts (General)"
+  title: "Cinematic Portrait of Sydney Sweeney as Wanda Maximoff"
+  description: "Creates a cinematic realistic portrait of Sydney Sweeney as Wanda Maximoff."
+  prompt: |
+    Cinematic realistic portrait, dramatic intense slightly surreal realism. Sydney Sweeney as Wanda Maximoff. Lips pressed together slightly pursed holding back emotion, determined conflicted restrained anger. Wide-eyed intense unblinking gaze directly into camera. Light brown to dark blonde shoulder length loose softly waved hair. Deep crimson red satin-like costume, sleeveless fitted bodice, structured ribbon tie at collarbone. Elbow-length matching red satin gloves. Dark red sharp angular crown/headpiece. Medium close-up portrait, head to mid-torso.
+
+- id: whimsical_clay_sculpture
+  category: "Illustration & Concept Art"
+  title: "Whimsical 3D Clay Sculpture of Stacked Children"
+  description: "Creates a highly detailed 3D cartoon sculpture of three whimsical children stacked on a rustic house."
+  prompt: |
+    A highly detailed 3D cartoon sculpture of three whimsical children stacked on top of each other on a small rustic house. The children have exaggerated features: large round eyes, big ears, small noses, and rosy cheeks. The top child has wild messy hair wearing blue checkered dress, looking excited with mouth open showing teeth. The middle child has short hair brown sweater gray pants gray cap looking surprised. The bottom child has wavy hair wearing muted patterned dress looking worried nervous. Each child has oversized shoes. Tiny house at bottom with stone walls, wooden windows, blue door slightly crooked. Realistic shading and textures, ultra-detailed, cinematic lighting depth of field, hyper-realistic clay sculpture style.
+
+- id: sadie_sink_jean_grey
+  category: "Image Prompts (General)"
+  title: "Cinematic Concept Art of Sadie Sink as Jean Grey"
+  description: "Creates a cinematic 3D render or concept art of Sadie Sink as Jean Grey."
+  prompt: |
+    Sadie Sink as Jean Grey (Marvel Comics). Long voluminous wavy ginger-red hair natural texture, pale blue/grey eyes, stoic determined heroic neutral expression, athletic slender build. Three costume variants: 1) Phoenix: Metallic emerald green with gold chrome gloves boots and waist sash, white Phoenix emblem. 2) Classic Xmen: Dark forest green leather with yellow X symbols, metallic green breastplate. 3) Tactical Armor: Deep crimson/burgundy with iridescent cobalt blue metallic plating. Cinematic 3D render, studio rim lighting volumetric glow, solid studio backdrop slate blue or charcoal, 2:3 aspect ratio, 4K, Unreal Engine 5 / Octane Render style.
+
+- id: caricature_bobblehead
+  category: "Image Prompts (General)"
+  title: "Caricature Bobblehead Figurine"
+  description: "Creates a highly detailed caricature figurine as a cute but intense bobblehead-style collectible."
+  prompt: |
+    Highly detailed caricature figurine of {argument name="subject" default="[SUBJECT]"} as a cute but intense bobblehead-style collectible statue, exaggerated oversized head with hyper-realistic facial features, deep wrinkles, fierce intense expression, slightly open mouth showing teeth, sitting relaxed in a vintage armchair, wearing {argument name="outfit" default="[OUTFIT]"}, dramatic colorful studio lighting, {argument name="background" default="[BACKGROUND]"}, modern collectible toy photography style, sharp focus, cinematic depth of field, extremely intricate sculpting details, realistic skin texture, professional product photography, 8k quality
+
+- id: collectible_figure_product
+  category: "Product & E-commerce"
+  title: "1/7 Scale Collectible Figure Product Shot"
+  description: "Creates a high-resolution commercial product photograph of a detailed 1/7 scale collectible figure."
+  prompt: |
+    A high-resolution commercial product photograph of an incredibly detailed 1/7 scale collectible figure. The figure features intricate clothing textures and realistic skin, standing on a pristine transparent circular acrylic base on a modern artist's desk surface. Eye-level close-up. In the soft-focus background, a computer monitor displays the complex 3D wireframe mesh of the same figure, next to a premium matte collector's box with vibrant 2D character art. Lighting is a mix of professional soft studio light and the subtle blue glow from the monitor screen creating rim lighting.
+
+- id: billie_eilish_fortnite
+  category: "Image Prompts (General)"
+  title: "Billie Eilish Fortnite-Style 3D Character"
+  description: "Creates a high-fidelity 3D character render of Billie Eilish in Fortnite aesthetic."
+  prompt: |
+    Billie Eilish, Fortnite stylized 3D character model, Dynamic mid-air jump forward-leaning action-oriented. Two high space buns black hair with vibrant neon green roots/highlights, light blue/grey calm focused eyes, smooth stylized porcelain complexion. Oversized neon lime green short-sleeved t-shirt, Matching neon lime green oversized shorts, All-over black graffiti print featuring 'Billie Eilish' text and 'Blohsh' stick-figure logos. Stacked chunky silver chrome chain necklaces. Monochromatic neon green high-top sneakers, Mid-calf neon green ribbed socks. Futuristic concert stage, Dramatic neon green volumetric lighting laser beams glowing floor panels. Low angle vertical aspect ratio dynamic motion blur.
+
+- id: chibi_nba_matchup
+  category: "Illustration & Concept Art"
+  title: "Chibi-Style NBA Matchup"
+  description: "Creates a chibi-style screenshot of a fictional NBA game with Kobe Bryant vs LeBron James."
+  prompt: |
+    Generate a screenshot of a real NBA game where Kobe Bryant is matched up against LeBron James at the Lakers' home court. James is defending Kobe's fadeaway jumper, and Kobe is depicted as a chibi-style baby.
+
+- id: macro_miniature_sniper
+  category: "Image Prompts (General)"
+  title: "Macro Shot of Miniature Sniper Scene"
+  description: "Creates a hyper-realistic macro close-up shot of a giant hand holding a keyring with a miniature sniper."
+  prompt: |
+    A hyper-realistic 8k high-fidelity close-up shot captured with a macro lens, showcasing a giant human hand holding a keyring against an extremely blurred background of a rugged outdoor forest range. The hand holds a rugged olive drab paracord survival strap with a small metal dog tag reading "{argument name="dog tag text" default="DUET AI : One Shot"}". Attached is a miniature character lying in a prone firing position behind a highly detailed tiny sniper rifle with a large scope. Character has large head with uploaded face as reference, wearing full miniature ghillie suit with tiny leaves and burlap. Natural dappled forest sunlight.
