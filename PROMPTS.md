@@ -61,10 +61,15 @@ This file is generated from `data/prompts.yaml`.
 ## Marketing, SEO & Growth
 
 - **Advertiser** — Creates advertising campaigns for products or services, choosing target audiences and key messaging.
+- **Artistic Chalkboard Menu** — Hand-drawn style menu for a coffee shop.
 - **Fashion Magazine Photo Collage** — 2x2 grid collage of a character in 4 outfits solving a '2026' puzzle.
 - **Futuristic Crypto Dashboard** — Dark-mode financial visualization with neon and glassmorphism.
+- **Minimalist Fiction Book Cover** — A clean and intriguing book cover design for a mystery novel.
 - **Retro Polaroid App Interface** — Visual for a web app that mimics a Polaroid camera with draggable photos.
+- **SaaS Landing Page Design** — Modern UI/UX design for a software-as-a-service website.
 - **Streetwear Urban Lookbook** — Candid-style fashion photography for streetwear brands.
+- **Sustainability Infographic Base** — Clean layout for an environmental or green energy infographic.
+- **Tech Professional LinkedIn Banner** — Clean abstract background for a professional LinkedIn profile.
 - **Vintage Style Travel Poster** — Mid-century modern travel poster for a fictional location.
 - **YouTube Vlogger Thumbnail** — Illustration for a late-night piano practice session, suitable for VTubers.
 
@@ -114,50 +119,85 @@ This file is generated from `data/prompts.yaml`.
 
 ## Image Prompts (General)
 
+- **Cosmic Nebula Art** — Vibrant space scene with swirling gases and stars.
 - **Liquid Metal Abstract Background** — Flowing iridescent liquid metal texture.
+- **Vaporwave Retro Sunset** — Classic 80s aesthetic with a grid floor and wireframe mountains.
 - **Wide Quote Card with Portrait** — A wide quote card featuring a famous person's portrait with a brown background and light-gold serif text.
 
 ## Product & E-commerce
 
+- **Futuristic VR Headset Shot** — Product photography of a sleek, next-gen VR device.
+- **Gourmet Burger Food Photography** — Hyper-realistic commercial shot of a juicy burger with melting cheese.
 - **Liquid Glass Bento Grid Infographic** — Create a bento-style product infographic with 8 modules and liquid glass aesthetics.
 - **Luxury Perfume Splash** — Perfume bottle with elegant water and petal splashes.
+- **Luxury Sportscar Rolling Shot** — A high-speed motion blur shot of a sports car on a coastal road.
 - **Luxury Watch Product Scene** — High-end 3D render of a wristwatch with holographic and metallic effects.
+- **Organic Skincare Product Shot** — Minimalist bottle on a stone pedestal with water ripples.
 - **Premium Food Product Render** — Zero-gravity commercial photo of chocolate wafers with dynamic splashes.
 
 ## Logos & Branding
 
+- **Custom Neon Sign Text** — Vibrant glowing neon sign against a dark brick wall.
 - **Minimalist Tech Logo** — Vector-style minimal logo for a modern technology company.
 
 ## Illustration & Concept Art
 
+- **8-Bit Cyberpunk Cityscape** — Retro pixel art of a rainy futuristic city street.
+- **Ancient Greek Sculpture** — Realistic marble statue of a Greek god with museum lighting.
 - **Architectural Blueprint Sketch** — Hand-drawn architectural sketch mixed with technical blueprint elements.
 - **Artist Advisor** — Provides feedback and guidance to artists, helping them improve their work and develop their style.
+- **Cinematic Viking Warrior** — Realistic portrait of a Viking in the snow.
 - **Cute Claymation Character** — 3D render mimicking a handcrafted clay figure.
 - **Cyberpunk Street Food Stall** — Neon-drenched nighttime scene of a futuristic food stall.
+- **Dark Fantasy Dragon Encounter** — Epic scene of a black dragon on a volcanic mountain.
+- **Digital Glitch Art Portrait** — Distorted, artistic portrait with digital errors and color shifts.
 - **Double Exposure Artistic Portrait** — Merges a human silhouette with a dense forest landscape.
 - **Dream Tarot Card Illustration** — Generates tarot-style cards based on dream descriptions using sticker collages.
 - **Dynamic Comic Book Cover** — Modern superhero comic style with action and halftones.
 - **Edo-Period Modern Scene** — Reimagines a modern scene (like tech use) in the style of Japanese woodblock prints.
+- **Exploded View Tech Diagram** — Technical illustration showing all internal parts of a smartphone.
 - **Flash-Lit Jester-Girl Editorial** — 90s shōjo style anime with harsh lighting and complex material textures.
 - **Flat Design Character Set** — Characters in a modern flat design style for web illustrations.
+- **Ghibli Inspired Forest Spirit** — Soft, magical forest scene with a hidden spirit creature.
+- **Impressionist Oil Landscape** — A field of lavender in the style of Claude Monet.
+- **Industrial Loft Apartment** — New York style loft with brick walls and large factory windows.
+- **Isometric 3D Startup Office** — A clean, modern isometric view of a tech startup office space.
 - **Isometric Smart Home Diagram** — 3D isometric view of a modern smart home interior.
+- **Kawaii Animal Sticker Pack** — A set of cute Japanese-style animal stickers with white borders.
+- **Layered Paper Cutout Art** — 3D effect using physical-looking paper layers to create a forest.
+- **Low Poly Fantasy Island** — Stylized low polygon count 3D model of a floating island.
+- **Medieval Alchemy Laboratory** — Dark, cluttered room filled with potions and ancient books.
+- **Minimalist Continuous Line Art** — A single-line drawing of a woman's face, elegant and simple.
+- **Modern Minimalist Villa** — Exterior shot of a glass and concrete house at twilight.
+- **Mythological Griffin Portrait** — A majestic griffin standing on a mountain peak.
 - **Neon Noir Detective Scene** — Hard-boiled detective in a rainy, futuristic cyberpunk setting.
+- **Overgrown Post-Apocalyptic City** — Abandoned city street reclaimed by nature.
 - **Pixel Art RPG Interior** — 16-bit style interior of a fantasy item shop.
 - **Renaissance Style Pet Portrait** — Pet portrait in the style of classic oil paintings.
 - **Scandinavian Interior Design** — Photorealistic render of a minimalist Nordic living room.
+- **Sci-Fi Spaceship Cockpit** — First-person view from inside a futuristic starship looking at a nebula.
+- **Seamless Watercolor Florals** — Soft and romantic floral pattern for textiles or wallpaper.
 - **Soft Watercolor Storybook** — Whimsical watercolor illustration for children's books.
+- **Steampunk Mechanical Gadget** — Intricate brass pocket watch with gears and steam pipes.
+- **Surrealist Desert Landscape** — Inspired by Salvador Dali, featuring melting objects in a desert.
 - **Vast Open-World Environment** — Cinematic fantasy game environment generator for high-budget vistas.
 - **Vintage US Patent Document** — Generates an image of an 1800s patent document with technical drawings and stamps.
+- **Warhol Style Pop Art** — Modern portrait in the iconic Andy Warhol screen-print style.
 
 ## Photography Styles & Lighting
 
 - **4-Panel Studio Portrait Grid** — A 2x2 grid showing four distinct angles of a person to highlight a haircut or style.
 - **Billie Eilish Era Selfie** — Mimics a 2021-era smartphone selfie with specific hair and lighting.
+- **Candid Tokyo Street Photo** — Gritty, cinematic street photography in Shinjuku.
 - **Cinematic Lofi Cafe Still** — Warm, nostalgic coffee shop scene at Golden Hour with film grain.
 - **Close-up Beach Selfie** — Ultra-photorealistic close-up with sweat droplets and harsh sunlight.
+- **Gothic Cathedral Interior** — Atmospheric shot of a cathedral with light rays through stained glass.
+- **High Fashion Runway Shot** — Candid-style photo of a model on a futuristic runway.
+- **Macro Eye Detail** — Extreme close-up of a human eye showing intricate iris patterns.
 - **Macro Nature Cinematography** — Extreme close-up of nature with dramatic lighting.
 - **Mediterranean Getaway Portrait** — Photorealistic luxury lifestyle portrait by a pool in the midday sun.
 - **Otaku Corner Mirror Selfie** — Blue-toned mirror selfie in a detailed gaming/otaku room.
+- **Zen Yoga Portrait** — Serene portrait of a yoga instructor in a bright studio.
 
 ## Video Prompts (General)
 
