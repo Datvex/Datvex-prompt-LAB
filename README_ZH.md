@@ -54,3 +54,11 @@
 
 ## 📜 许可证
 本项目采用 **MIT 许可证**。
+
+---
+
+## 👤 作者/来源
+
+以下是本仓库收集提示词的来源列表：
+
+*   **YouMind Nano Banana Pro Library** – [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)

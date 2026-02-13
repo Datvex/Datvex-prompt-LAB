@@ -54,3 +54,11 @@
 
 ## 📜 라이선스
 이 프로젝트는 **MIT 라이선스** 하에 배포됩니다.
+
+---
+
+## 👤 저작자 / 출처
+
+이 목록에는 이 저장소를 위해 프롬프트가 수집된 출처가 포함되어 있습니다:
+
+*   **YouMind Nano Banana Pro Library** – [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)

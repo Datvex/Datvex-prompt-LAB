@@ -54,3 +54,11 @@ Nous évoluons constamment pour fournir les meilleures ressources de prompting.
 
 ## 📜 Licence
 Ce projet est sous licence **MIT**.
+
+---
+
+## 👤 Auteurs / Sources
+
+Cette liste contient les sources à partir desquelles les prompts ont été collectés pour ce dépôt :
+
+*   **YouMind Nano Banana Pro Library** – [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)
