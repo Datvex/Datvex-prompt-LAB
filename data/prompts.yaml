@@ -755,3 +755,405 @@
     Subject: A detective in a trench coat standing under a neon sign. 
     Details: Rainy night, reflection in puddles, smoke from a cigarette.
     Colors: Deep shadows, vibrant neon pink and blue.
+
+- id: isometric_3d_office
+  category: "Illustration & Concept Art"
+  title: "Isometric 3D Startup Office"
+  description: "A clean, modern isometric view of a tech startup office space."
+  prompt: |
+    Isometric 3D render of a modern open-plan office. 
+    Details: Standing desks, bean bags, plants, glass meeting rooms, and tiny 3D characters working. 
+    Style: Minimalist, soft lighting, vibrant pastel accents. 
+    Software: Blender Cycles render style.
+
+- id: vaporwave_city_sunset
+  category: "Image Prompts (General)"
+  title: "Vaporwave Retro Sunset"
+  description: "Classic 80s aesthetic with a grid floor and wireframe mountains."
+  prompt: |
+    Vaporwave aesthetic illustration. 
+    Elements: Large glowing sun, purple wireframe mountains, grid floor receding into infinity. 
+    Color Palette: Neon pink, electric blue, and deep violet. 
+    Atmosphere: Lo-fi, nostalgic, VHS glitch effect.
+
+- id: minimal_line_art_woman
+  category: "Illustration & Concept Art"
+  title: "Minimalist Continuous Line Art"
+  description: "A single-line drawing of a woman's face, elegant and simple."
+  prompt: |
+    Minimalist continuous line art drawing. 
+    Subject: A woman's profile with a flower tucked behind her ear. 
+    Style: Single black line on a textured beige paper background. 
+    Vibe: Elegant, sophisticated, Scandinavian decor style.
+
+- id: gourmet_burger_commercial
+  category: "Product & E-commerce"
+  title: "Gourmet Burger Food Photography"
+  description: "Hyper-realistic commercial shot of a juicy burger with melting cheese."
+  prompt: |
+    Professional food photography of a gourmet cheeseburger. 
+    Details: Melting cheddar, crisp lettuce, steam rising, sesame seeds on a brioche bun. 
+    Lighting: Warm side-lighting to highlight textures. 
+    Background: Dark, moody restaurant setting with bokeh.
+
+- id: spaceship_cockpit_interior
+  category: "Illustration & Concept Art"
+  title: "Sci-Fi Spaceship Cockpit"
+  description: "First-person view from inside a futuristic starship looking at a nebula."
+  prompt: |
+    Interior view of a futuristic spaceship cockpit. 
+    Details: Holographic displays, glowing buttons, ergonomic pilot seat. 
+    View: Through the window, a vibrant colorful nebula and distant stars. 
+    Lighting: Cool blue and amber interior lights.
+
+- id: gothic_cathedral_light
+  category: "Photography Styles & Lighting"
+  title: "Gothic Cathedral Interior"
+  description: "Atmospheric shot of a cathedral with light rays through stained glass."
+  prompt: |
+    Interior of a grand Gothic cathedral. 
+    Feature: Volumetric light rays (God rays) piercing through colorful stained glass windows. 
+    Details: Dust motes dancing in the light, intricate stone carvings, tall arches. 
+    Mood: Spiritual, ancient, silent.
+
+- id: pop_art_marilyn_style
+  category: "Illustration & Concept Art"
+  title: "Warhol Style Pop Art"
+  description: "Modern portrait in the iconic Andy Warhol screen-print style."
+  prompt: |
+    Pop art silk-screen style portrait of a [SUBJECT]. 
+    Style: High contrast, 4-panel grid with different vibrant color combinations. 
+    Details: Halftone dots, slightly misaligned ink layers, bold outlines.
+
+- id: linkedin_banner_tech
+  category: "Marketing, SEO & Growth"
+  title: "Tech Professional LinkedIn Banner"
+  description: "Clean abstract background for a professional LinkedIn profile."
+  prompt: |
+    Professional LinkedIn background banner. 
+    Aesthetic: Abstract network lines, dark blue gradient, subtle tech patterns. 
+    Composition: Clean space on the left for the profile picture. 
+    Feel: Trustworthy, modern, corporate.
+
+- id: eco_friendly_infographic
+  category: "Marketing, SEO & Growth"
+  title: "Sustainability Infographic Base"
+  description: "Clean layout for an environmental or green energy infographic."
+  prompt: |
+    Infographic layout for sustainability. 
+    Elements: Icons of wind turbines, solar panels, and recycling symbols. 
+    Color Palette: Earthy greens, soft browns, and sky blue. 
+    Style: Flat vector illustration, clean typography areas.
+
+- id: kawaii_sticker_sheet
+  category: "Illustration & Concept Art"
+  title: "Kawaii Animal Sticker Pack"
+  description: "A set of cute Japanese-style animal stickers with white borders."
+  prompt: |
+    A sheet of Kawaii-style stickers. 
+    Subjects: Tiny cat, panda, and frog with rosy cheeks. 
+    Details: Bold white borders, pastel colors, simple shapes. 
+    Background: Isolated on white for easy cutting.
+
+- id: dark_fantasy_dragon
+  category: "Illustration & Concept Art"
+  title: "Dark Fantasy Dragon Encounter"
+  description: "Epic scene of a black dragon on a volcanic mountain."
+  prompt: |
+    Dark fantasy illustration of a colossal black dragon. 
+    Setting: Perched on a jagged volcanic cliff with flowing lava. 
+    Atmosphere: Ash falling from the sky, smoky embers, moody red lighting. 
+    Quality: Highly detailed scales and glowing eyes.
+
+- id: modern_architectural_exterior
+  category: "Illustration & Concept Art"
+  title: "Modern Minimalist Villa"
+  description: "Exterior shot of a glass and concrete house at twilight."
+  prompt: |
+    Architectural photography of a modern minimalist villa. 
+    Materials: Glass, smooth white concrete, dark wood accents. 
+    Setting: Lush garden with a pool, shot at twilight with warm interior lights glowing. 
+    Camera: Wide angle, high-end real estate style.
+
+- id: macro_human_eye
+  category: "Photography Styles & Lighting"
+  title: "Macro Eye Detail"
+  description: "Extreme close-up of a human eye showing intricate iris patterns."
+  prompt: |
+    Extreme macro photography of a human eye. 
+    Details: Intricate iris patterns, reflections of a window in the pupil, visible eyelashes. 
+    Color: Deep emerald green or amber. 
+    Lighting: Soft ring-light reflection.
+
+- id: pixel_art_cyberpunk_city
+  category: "Illustration & Concept Art"
+  title: "8-Bit Cyberpunk Cityscape"
+  description: "Retro pixel art of a rainy futuristic city street."
+  prompt: |
+    Pixel art 8-bit style cityscape. 
+    Subject: A street in Tokyo in the year 2099. 
+    Details: Neon signs in Japanese, flying cars, rain puddles reflecting lights. 
+    Vibe: Retro-futuristic, arcade game aesthetic.
+
+- id: luxury_car_rolling_shot
+  category: "Product & E-commerce"
+  title: "Luxury Sportscar Rolling Shot"
+  description: "A high-speed motion blur shot of a sports car on a coastal road."
+  prompt: |
+    Commercial automotive photography. 
+    Subject: A sleek silver Porsche driving on a winding coastal road. 
+    Effect: Motion blur on the wheels and background, sharp focus on the car body. 
+    Lighting: Golden hour sunlight.
+
+- id: steampunk_pocket_watch
+  category: "Illustration & Concept Art"
+  title: "Steampunk Mechanical Gadget"
+  description: "Intricate brass pocket watch with gears and steam pipes."
+  prompt: |
+    Close-up of a steampunk pocket watch. 
+    Details: Exposed brass gears, tiny copper pipes, hissing steam, ornate engravings. 
+    Background: Dark velvet cloth. 
+    Aesthetic: Victorian industrial, highly detailed mechanical parts.
+
+- id: watercolor_floral_pattern
+  category: "Illustration & Concept Art"
+  title: "Seamless Watercolor Florals"
+  description: "Soft and romantic floral pattern for textiles or wallpaper."
+  prompt: |
+    Seamless watercolor floral pattern. 
+    Elements: Peonies, eucalyptus leaves, and small wildflowers. 
+    Style: Soft washes, bleeding colors, delicate textures. 
+    Background: Off-white linen texture.
+
+- id: tech_landing_page_ui
+  category: "Marketing, SEO & Growth"
+  title: "SaaS Landing Page Design"
+  description: "Modern UI/UX design for a software-as-a-service website."
+  prompt: |
+    UI/UX design for a SaaS landing page. 
+    Style: Apple-inspired minimalism, large hero text, clean navigation. 
+    Elements: Glassmorphism cards, 3D abstract shapes, high-contrast buttons. 
+    Color: Dark mode with electric purple accents.
+
+- id: mythological_griffin
+  category: "Illustration & Concept Art"
+  title: "Mythological Griffin Portrait"
+  description: "A majestic griffin standing on a mountain peak."
+  prompt: |
+    Majestic griffin illustration. 
+    Body: Half lion, half eagle. 
+    Action: Standing proudly on a snowy mountain peak. 
+    Details: Golden feathers, powerful talons, piercing eagle eyes. 
+    Style: Digital painting, cinematic fantasy.
+
+- id: paper_cutout_forest
+  category: "Illustration & Concept Art"
+  title: "Layered Paper Cutout Art"
+  description: "3D effect using physical-looking paper layers to create a forest."
+  prompt: |
+    3D layered paper cutout art. 
+    Subject: A mystical forest with a deer. 
+    Style: Different depths of paper, visible shadows between layers, textured cardstock. 
+    Colors: Monochromatic blue or deep forest green.
+
+- id: futuristic_vr_headset
+  category: "Product & E-commerce"
+  title: "Futuristic VR Headset Shot"
+  description: "Product photography of a sleek, next-gen VR device."
+  prompt: |
+    Studio product shot of a futuristic VR headset. 
+    Materials: Matte black polymer and glowing glass visor. 
+    Lighting: Dramatic rim lighting, floating in mid-air (zero-gravity). 
+    Background: Minimalist dark gray.
+
+- id: impressionist_landscape_oil
+  category: "Illustration & Concept Art"
+  title: "Impressionist Oil Landscape"
+  description: "A field of lavender in the style of Claude Monet."
+  prompt: |
+    Impressionist oil painting. 
+    Subject: A vast field of lavender in Provence at sunrise. 
+    Style: Thick impasto brushstrokes, vibrant colors, emphasis on light and movement. 
+    Aesthetic: Romantic and peaceful.
+
+- id: street_photography_tokyo
+  category: "Photography Styles & Lighting"
+  title: "Candid Tokyo Street Photo"
+  description: "Gritty, cinematic street photography in Shinjuku."
+  prompt: |
+    Street photography shot in Shinjuku, Tokyo. 
+    Style: Daido Moriyama inspired, high-contrast black and white. 
+    Details: Heavy grain, blurred movement of pedestrians, bright neon lights. 
+    Mood: Raw, urban, energetic.
+
+- id: chalkboard_menu_design
+  category: "Marketing, SEO & Growth"
+  title: "Artistic Chalkboard Menu"
+  description: "Hand-drawn style menu for a coffee shop."
+  prompt: |
+    Hand-drawn chalkboard menu for a boutique coffee shop. 
+    Details: Intricate chalk lettering, drawings of coffee beans and croissants. 
+    Background: Dusty black chalkboard texture. 
+    Vibe: Cozy, artisan, local cafe.
+
+- id: cosmic_nebula_explosion
+  category: "Image Prompts (General)"
+  title: "Cosmic Nebula Art"
+  description: "Vibrant space scene with swirling gases and stars."
+  prompt: |
+    Breathtaking cosmic nebula illustration. 
+    Colors: Deep pinks, teals, and golds. 
+    Details: Star clusters, celestial dust, light refracting through gas clouds. 
+    Quality: 8K, NASA Hubble photography style.
+
+- id: yoga_instructor_portrait
+  category: "Photography Styles & Lighting"
+  title: "Zen Yoga Portrait"
+  description: "Serene portrait of a yoga instructor in a bright studio."
+  prompt: |
+    Professional lifestyle portrait of a yoga instructor. 
+    Setting: Bright, airy studio with wooden floors and large windows. 
+    Action: Meditating in a lotus pose. 
+    Lighting: Soft, natural morning light. 
+    Mood: Peaceful, balanced.
+
+- id: low_poly_game_island
+  category: "Illustration & Concept Art"
+  title: "Low Poly Fantasy Island"
+  description: "Stylized low polygon count 3D model of a floating island."
+  prompt: |
+    Low poly 3D art of a floating fantasy island. 
+    Elements: A small waterfall, a single low-poly tree, and a treasure chest. 
+    Style: Sharp edges, flat shaded colors, cute toy-like aesthetic. 
+    Background: Gradient blue sky.
+
+- id: medieval_alchemy_lab
+  category: "Illustration & Concept Art"
+  title: "Medieval Alchemy Laboratory"
+  description: "Dark, cluttered room filled with potions and ancient books."
+  prompt: |
+    Interior of a medieval alchemist's lab. 
+    Details: Bubbling flasks, dusty scrolls, a human skull, candlelight. 
+    Atmosphere: Mysterious, dark, filled with smoke and magic. 
+    Style: Highly detailed digital illustration.
+
+- id: glitch_art_portrait
+  category: "Illustration & Concept Art"
+  title: "Digital Glitch Art Portrait"
+  description: "Distorted, artistic portrait with digital errors and color shifts."
+  prompt: |
+    Glitch art portrait of a man. 
+    Effects: Data moshing, RGB split, horizontal digital lines, distorted facial features. 
+    Color: High-saturation neon accents. 
+    Mood: Cyberpunk, chaotic, modern.
+
+- id: skincare_product_minimal
+  category: "Product & E-commerce"
+  title: "Organic Skincare Product Shot"
+  description: "Minimalist bottle on a stone pedestal with water ripples."
+  prompt: |
+    High-end skincare product photography. 
+    Subject: Glass serum bottle with a dropper. 
+    Setting: Placed on a natural zen stone pedestal. 
+    Details: Soft water ripples in the background, a single green leaf. 
+    Lighting: Clean, soft, high-key.
+
+- id: viking_warrior_cinematic
+  category: "Illustration & Concept Art"
+  title: "Cinematic Viking Warrior"
+  description: "Realistic portrait of a Viking in the snow."
+  prompt: |
+    Cinematic portrait of a rugged Viking warrior. 
+    Details: Fur cloak, braided beard with beads, war paint on face, holding an axe. 
+    Setting: Blinding snowstorm in the mountains. 
+    Quality: Hyper-realistic, movie poster style.
+
+- id: minimalist_book_cover
+  category: "Marketing, SEO & Growth"
+  title: "Minimalist Fiction Book Cover"
+  description: "A clean and intriguing book cover design for a mystery novel."
+  prompt: |
+    Book cover design. 
+    Subject: A single lonely key on a vast white space. 
+    Typography: Elegant serif font for the title. 
+    Style: Minimalist, high-concept, professional publishing quality.
+
+- id: surreal_desert_clocks
+  category: "Illustration & Concept Art"
+  title: "Surrealist Desert Landscape"
+  description: "Inspired by Salvador Dali, featuring melting objects in a desert."
+  prompt: |
+    Surrealist oil painting. 
+    Subject: Melting clocks draped over giant desert cacti. 
+    Atmosphere: Dreamlike, illogical, vast orange desert under a green sky. 
+    Style: Fine art, detailed textures.
+
+- id: industrial_loft_interior
+  category: "Illustration & Concept Art"
+  title: "Industrial Loft Apartment"
+  description: "New York style loft with brick walls and large factory windows."
+  prompt: |
+    Interior design of an industrial loft. 
+    Features: Exposed red brick walls, black metal beams, leather sofa, large factory-style windows. 
+    Lighting: Warm Edison bulbs and natural daylight. 
+    Mood: Trendy, urban, masculine.
+
+- id: neon_sign_typography
+  category: "Logos & Branding"
+  title: "Custom Neon Sign Text"
+  description: "Vibrant glowing neon sign against a dark brick wall."
+  prompt: |
+    Glowing neon sign on a dark brick wall. 
+    Text: 'OPEN LATE'. 
+    Color: Electric pink and flickering yellow. 
+    Details: Realistic glass tubes, wires, and light reflection on the bricks.
+
+- id: greek_sculpture_digital
+  category: "Illustration & Concept Art"
+  title: "Ancient Greek Sculpture"
+  description: "Realistic marble statue of a Greek god with museum lighting."
+  prompt: |
+    High-resolution photo of an ancient Greek marble sculpture. 
+    Subject: A muscular god in a dynamic pose. 
+    Details: Realistic marble texture, fine cracks, smooth polished surface. 
+    Lighting: Dramatic museum spotlights (chiaroscuro).
+
+- id: forest_spirit_ghibli
+  category: "Illustration & Concept Art"
+  title: "Ghibli Inspired Forest Spirit"
+  description: "Soft, magical forest scene with a hidden spirit creature."
+  prompt: |
+    Studio Ghibli style illustration. 
+    Subject: A small glowing forest spirit sitting on a mossy log. 
+    Environment: Lush green ancient forest with sunlight filtering through leaves. 
+    Mood: Whimsical, peaceful, magical.
+
+- id: high_fashion_runway
+  category: "Photography Styles & Lighting"
+  title: "High Fashion Runway Shot"
+  description: "Candid-style photo of a model on a futuristic runway."
+  prompt: |
+    Fashion photography from a runway show. 
+    Subject: Model wearing avant-garde metallic clothing. 
+    Lighting: Harsh flash photography, silhouettes of the audience in the dark. 
+    Atmosphere: High energy, luxury, modern.
+
+- id: exploded_view_gadget
+  category: "Illustration & Concept Art"
+  title: "Exploded View Tech Diagram"
+  description: "Technical illustration showing all internal parts of a smartphone."
+  prompt: |
+    Exploded view diagram of a high-tech smartphone. 
+    Details: All internal components (battery, chips, camera lenses) floating in an organized layout. 
+    Style: Technical blueprint, clean lines, labels with thin lines. 
+    Background: Solid neutral gray.
+
+- id: post_apocalyptic_city_overgrown
+  category: "Illustration & Concept Art"
+  title: "Overgrown Post-Apocalyptic City"
+  description: "Abandoned city street reclaimed by nature."
+  prompt: |
+    Post-apocalyptic cityscape. 
+    Subject: An abandoned New York street with crumbling skyscrapers covered in vines and trees. 
+    Details: Rusty car wrecks, wild animals roaming the street, soft sunlight. 
+    Mood: Melancholic, beautiful decay.
