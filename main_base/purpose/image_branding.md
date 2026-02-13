@@ -4,7 +4,21 @@ Find prompts based on your specific task.
 
 ## Index
 
+- [Custom Neon Sign Text](#custom-neon-sign-text)
 - [Minimalist Tech Logo](#minimalist-tech-logo)
+
+---
+
+## Custom Neon Sign Text
+
+Vibrant glowing neon sign against a dark brick wall.
+
+```text
+Glowing neon sign on a dark brick wall. 
+Text: 'OPEN LATE'. 
+Color: Electric pink and flickering yellow. 
+Details: Realistic glass tubes, wires, and light reflection on the bricks.
+```
 
 ---
 
