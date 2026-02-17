@@ -2,14 +2,6 @@
 
 Find prompts based on your specific task.
 
-## Index
-
-- Career Counselor
-- Job Interviewer
-- Recruiter
-
----
-
 ## Career Counselor
 
 Provides advice and guidance on career choices, job searching, and professional development.

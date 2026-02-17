@@ -2,34 +2,6 @@
 
 Find prompts based on your specific task.
 
-## Index
-
-- 1/7 Scale Collectible Figure Product Shot
-- 8K Product Photography with Conceptual Cutaway
-- Bento Grid Product Infographic
-- Carbon Pattern Printed Ehomaki Sushi Roll
-- Chrome Ripple Flow Product Photography
-- Cinematic Grunge Collage Portrait
-- Cinematic Low-Key Portrait in Red Rose Room
-- Cinematic Portrait of Man on Motorbike
-- Crystal Hologram Product Photography
-- Editorial Fashion Portrait Series Grid
-- Ethereal Product Visual with Frosted Glass Hands
-- Gorpcore Fashion Campaign Image
-- High-Fashion Editorial Portrait
-- Louis Vuitton Sneaker Editorial Grid
-- Luxury Bucket Hat Product Editorial
-- Luxury Product Photography Black Oudh Diffuser
-- Neon X-Ray Photorealistic Scan
-- Premium Liquid Glass Bento Grid Product Infographic
-- Premium Studio Shot of Blueberry Mint Iced Drink
-- Summer Skincare Product Photography on Beach
-- Ultra-Macro Cherry in Milk Splash
-- Ultra-Realistic Luxury Perfume Ad
-- Ultra-Realistic Skincare Product on Wet Beach
-
----
-
 ## 1/7 Scale Collectible Figure Product Shot
 
 Creates a high-resolution commercial product photograph of a detailed 1/7 scale collectible figure.

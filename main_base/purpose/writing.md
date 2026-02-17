@@ -2,24 +2,6 @@
 
 Find prompts based on your specific task.
 
-## Index
-
-- AI Writing Tutor
-- Character Simulation
-- Chef
-- English Translator and Improver
-- Football Commentator
-- Magician
-- Movie Critic
-- Novelist
-- Plagiarism Checker
-- Poet
-- Screenwriter
-- Stand-up Comedian
-- Storyteller
-
----
-
 ## AI Writing Tutor
 
 Provides feedback and guidance on writing, helping users improve their style, grammar, and structure.

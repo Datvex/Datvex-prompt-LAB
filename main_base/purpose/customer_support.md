@@ -2,14 +2,6 @@
 
 Find prompts based on your specific task.
 
-## Index
-
-- Automobile Mechanic
-- Dentist
-- Pet Behaviorist
-
----
-
 ## Automobile Mechanic
 
 Provides advice and guidance on car maintenance and repairs.

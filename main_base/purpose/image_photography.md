@@ -2,15 +2,6 @@
 
 Find prompts based on your specific task.
 
-## Index
-
-- Detailed Mirror-Selfie Otaku Room Scene
-- Dramatic Black & White Portrait
-- Nostalgic 90s Disposable Camera Snapshot
-- Watercolor Map of Germany
-
----
-
 ## Detailed Mirror-Selfie Otaku Room Scene
 
 Generates a very detailed mirror selfie in an otaku-style computer corner with blue color tone.

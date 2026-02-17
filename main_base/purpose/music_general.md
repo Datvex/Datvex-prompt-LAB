@@ -2,12 +2,6 @@
 
 Find prompts based on your specific task.
 
-## Index
-
-- Music Composer
-
----
-
 ## Music Composer
 
 Develops musical ideas, including melodies and harmonies, for various genres or moods.

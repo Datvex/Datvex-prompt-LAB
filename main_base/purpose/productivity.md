@@ -2,17 +2,6 @@
 
 Find prompts based on your specific task.
 
-## Index
-
-- Excel Sheet Simulator
-- Life Coach
-- Mental Health Adviser
-- Motivational Coach
-- Personal Trainer
-- Relationship Coach
-
----
-
 ## Excel Sheet Simulator
 
 Functions as a text-based Excel sheet that responds only with cell data and formatting.

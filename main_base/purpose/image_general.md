@@ -2,29 +2,6 @@
 
 Find prompts based on your specific task.
 
-## Index
-
-- Abstract Microscopic Coffee Crema
-- Billie Eilish Fortnite-Style 3D Character
-- Candid Smartphone Selfie with Playful Expression
-- Caricature Bobblehead Figurine
-- Character Generation Prompt
-- Cinematic Concept Art of Sadie Sink as Jean Grey
-- Cinematic Portrait of Sydney Sweeney as Wanda Maximoff
-- Fisheye Product Photo with Forced Perspective
-- Hyper-realistic Cinematic Portrait
-- K-pop Star Jennie Kim Stage Performance
-- Macro Shot of Miniature Sniper Scene
-- Passport Photo Grid Generation
-- Ultra-Photorealistic iPhone Mirror Selfie
-- Ultra-Realistic 3D Inflatable Object Render
-- Ultra-Realistic Fashion Editorial
-- Vintage Patent Document
-- Vintage Patent Document for Invention
-- Wide Quote Card with Portrait
-
----
-
 ## Abstract Microscopic Coffee Crema
 
 Creates an abstract, surreal macro photograph of coffee crema as a living substance.

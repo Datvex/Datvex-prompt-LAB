@@ -2,19 +2,6 @@
 
 Find prompts based on your specific task.
 
-## Index
-
-- Artist Advisor
-- Chibi-Style NBA Matchup
-- Cosmic Chessboard Checkmate Scene
-- Edo-Period Ukiyo-e Reinterpretation
-- Hand-Drawn Style Header Image
-- Octane-Rendered Floating Ecological Island
-- Surreal Rubber-House Ink Style
-- Whimsical 3D Clay Sculpture of Stacked Children
-
----
-
 ## Artist Advisor
 
 Provides feedback and guidance to artists, helping them improve their work and develop their style.
