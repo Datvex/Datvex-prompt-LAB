@@ -61,4 +61,4 @@
 
 以下是本仓库收集提示词的来源列表：
 
-*   [**YouMind Nano Banana Pro Library**](https://youmind.com/nano-banana-pro-prompts) — 专业 AI 模型提示词集合
+*   **YouMind Nano Banana Pro Library** – [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)

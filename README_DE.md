@@ -61,4 +61,4 @@ Dieses Projekt ist unter der **MIT-Lizenz** lizenziert.
 
 Diese Liste enthält die Quellen, aus denen Prompts für dieses Repository gesammelt wurden:
 
-*   [**YouMind Nano Banana Pro Library**](https://youmind.com/nano-banana-pro-prompts) — Sammlung professioneller Prompts für KI-Modelle
+*   **YouMind Nano Banana Pro Library** – [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)

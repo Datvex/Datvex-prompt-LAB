@@ -61,4 +61,4 @@
 
 이 목록에는 이 저장소를 위해 프롬프트가 수집된 출처가 포함되어 있습니다:
 
-*   [**YouMind Nano Banana Pro Library**](https://youmind.com/nano-banana-pro-prompts) — AI 모델용 전문 프롬프트 컬렉션
+*   **YouMind Nano Banana Pro Library** – [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)

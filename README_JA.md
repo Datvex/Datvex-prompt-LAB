@@ -61,4 +61,4 @@
 
 このリストには、このリポジトリのためにプロンプトが収集されたソースが含まれています:
 
-*   [**YouMind Nano Banana Pro Library**](https://youmind.com/nano-banana-pro-prompts) — AIモデル用プロフェッショナルプロンプト集
+*   **YouMind Nano Banana Pro Library** – [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)
