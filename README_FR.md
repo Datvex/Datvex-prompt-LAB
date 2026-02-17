@@ -61,4 +61,4 @@ Ce projet est sous licence **MIT**.
 
 Cette liste contient les sources à partir desquelles les prompts ont été collectés pour ce dépôt :
 
-*   **YouMind Nano Banana Pro Library** – [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)
+*   [**YouMind Nano Banana Pro Library**](https://youmind.com/nano-banana-pro-prompts) — collection de prompts professionnels pour modèles IA
