@@ -4,29 +4,29 @@ Find prompts based on your specific task.
 
 ## Index
 
-- [1/7 Scale Collectible Figure Product Shot](#17-scale-collectible-figure-product-shot)
-- [8K Product Photography with Conceptual Cutaway](#8k-product-photography-with-conceptual-cutaway)
-- [Bento Grid Product Infographic](#bento-grid-product-infographic)
-- [Carbon Pattern Printed Ehomaki Sushi Roll](#carbon-pattern-printed-ehomaki-sushi-roll)
-- [Chrome Ripple Flow Product Photography](#chrome-ripple-flow-product-photography)
-- [Cinematic Grunge Collage Portrait](#cinematic-grunge-collage-portrait)
-- [Cinematic Low-Key Portrait in Red Rose Room](#cinematic-low-key-portrait-in-red-rose-room)
-- [Cinematic Portrait of Man on Motorbike](#cinematic-portrait-of-man-on-motorbike)
-- [Crystal Hologram Product Photography](#crystal-hologram-product-photography)
-- [Editorial Fashion Portrait Series Grid](#editorial-fashion-portrait-series-grid)
-- [Ethereal Product Visual with Frosted Glass Hands](#ethereal-product-visual-with-frosted-glass-hands)
-- [Gorpcore Fashion Campaign Image](#gorpcore-fashion-campaign-image)
-- [High-Fashion Editorial Portrait](#high-fashion-editorial-portrait)
-- [Louis Vuitton Sneaker Editorial Grid](#louis-vuitton-sneaker-editorial-grid)
-- [Luxury Bucket Hat Product Editorial](#luxury-bucket-hat-product-editorial)
-- [Luxury Product Photography Black Oudh Diffuser](#luxury-product-photography-black-oudh-diffuser)
-- [Neon X-Ray Photorealistic Scan](#neon-x-ray-photorealistic-scan)
-- [Premium Liquid Glass Bento Grid Product Infographic](#premium-liquid-glass-bento-grid-product-infographic)
-- [Premium Studio Shot of Blueberry Mint Iced Drink](#premium-studio-shot-of-blueberry-mint-iced-drink)
-- [Summer Skincare Product Photography on Beach](#summer-skincare-product-photography-on-beach)
-- [Ultra-Macro Cherry in Milk Splash](#ultra-macro-cherry-in-milk-splash)
-- [Ultra-Realistic Luxury Perfume Ad](#ultra-realistic-luxury-perfume-ad)
-- [Ultra-Realistic Skincare Product on Wet Beach](#ultra-realistic-skincare-product-on-wet-beach)
+- 1/7 Scale Collectible Figure Product Shot
+- 8K Product Photography with Conceptual Cutaway
+- Bento Grid Product Infographic
+- Carbon Pattern Printed Ehomaki Sushi Roll
+- Chrome Ripple Flow Product Photography
+- Cinematic Grunge Collage Portrait
+- Cinematic Low-Key Portrait in Red Rose Room
+- Cinematic Portrait of Man on Motorbike
+- Crystal Hologram Product Photography
+- Editorial Fashion Portrait Series Grid
+- Ethereal Product Visual with Frosted Glass Hands
+- Gorpcore Fashion Campaign Image
+- High-Fashion Editorial Portrait
+- Louis Vuitton Sneaker Editorial Grid
+- Luxury Bucket Hat Product Editorial
+- Luxury Product Photography Black Oudh Diffuser
+- Neon X-Ray Photorealistic Scan
+- Premium Liquid Glass Bento Grid Product Infographic
+- Premium Studio Shot of Blueberry Mint Iced Drink
+- Summer Skincare Product Photography on Beach
+- Ultra-Macro Cherry in Milk Splash
+- Ultra-Realistic Luxury Perfume Ad
+- Ultra-Realistic Skincare Product on Wet Beach
 
 ---
 

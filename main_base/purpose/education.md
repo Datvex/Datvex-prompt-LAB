@@ -4,16 +4,16 @@ Find prompts based on your specific task.
 
 ## Index
 
-- [Chalkboard-Style AI News Summary](#chalkboard-style-ai-news-summary)
-- [Debate Coach](#debate-coach)
-- [Debater](#debater)
-- [English Pronunciation Helper](#english-pronunciation-helper)
-- [Etymologist](#etymologist)
-- [Math Teacher](#math-teacher)
-- [Philosopher](#philosopher)
-- [Philosophy Teacher](#philosophy-teacher)
-- [Spoken English Teacher](#spoken-english-teacher)
-- [Trappist Abbey Beer Making Infographic](#trappist-abbey-beer-making-infographic)
+- Chalkboard-Style AI News Summary
+- Debate Coach
+- Debater
+- English Pronunciation Helper
+- Etymologist
+- Math Teacher
+- Philosopher
+- Philosophy Teacher
+- Spoken English Teacher
+- Trappist Abbey Beer Making Infographic
 
 ---
 

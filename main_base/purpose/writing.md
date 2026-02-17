@@ -4,19 +4,19 @@ Find prompts based on your specific task.
 
 ## Index
 
-- [AI Writing Tutor](#ai-writing-tutor)
-- [Character Simulation](#character-simulation)
-- [Chef](#chef)
-- [English Translator and Improver](#english-translator-and-improver)
-- [Football Commentator](#football-commentator)
-- [Magician](#magician)
-- [Movie Critic](#movie-critic)
-- [Novelist](#novelist)
-- [Plagiarism Checker](#plagiarism-checker)
-- [Poet](#poet)
-- [Screenwriter](#screenwriter)
-- [Stand-up Comedian](#stand-up-comedian)
-- [Storyteller](#storyteller)
+- AI Writing Tutor
+- Character Simulation
+- Chef
+- English Translator and Improver
+- Football Commentator
+- Magician
+- Movie Critic
+- Novelist
+- Plagiarism Checker
+- Poet
+- Screenwriter
+- Stand-up Comedian
+- Storyteller
 
 ---
 

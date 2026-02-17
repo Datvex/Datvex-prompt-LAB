@@ -4,8 +4,8 @@ Find prompts based on your specific task.
 
 ## Index
 
-- [Dynamic Anime Battle Poster](#dynamic-anime-battle-poster)
-- [Neon Pink Gas Station Portrait](#neon-pink-gas-station-portrait)
+- Dynamic Anime Battle Poster
+- Neon Pink Gas Station Portrait
 
 ---
 
