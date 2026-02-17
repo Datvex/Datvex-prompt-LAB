@@ -61,4 +61,4 @@
 
 इस सूची में इस रिपॉजिटरी के लिए प्रॉम्प्ट एकत्र किए गए स्रोत शामिल हैं:
 
-*   **YouMind Nano Banana Pro Library** – [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)
+*   [**YouMind Nano Banana Pro Library**](https://youmind.com/nano-banana-pro-prompts) — AI मॉडल के लिए पेशेवर प्रॉम्प्ट का संग्रह
