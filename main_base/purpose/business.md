@@ -2,18 +2,6 @@
 
 Find prompts based on your specific task.
 
-## Index
-
-- Accountant
-- Financial Analyst
-- Investment Manager
-- Logistic Manager
-- Logistician
-- Real Estate Agent
-- Travel Guide
-
----
-
 ## Accountant
 
 Provides advice and guidance on accounting practices and financial management.

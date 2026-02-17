@@ -2,21 +2,6 @@
 
 Find prompts based on your specific task.
 
-## Index
-
-- Chalkboard-Style AI News Summary
-- Debate Coach
-- Debater
-- English Pronunciation Helper
-- Etymologist
-- Math Teacher
-- Philosopher
-- Philosophy Teacher
-- Spoken English Teacher
-- Trappist Abbey Beer Making Infographic
-
----
-
 ## Chalkboard-Style AI News Summary
 
 Transforms AI news content into a hand-drawn, teacher-style chalkboard diagram with explanations.

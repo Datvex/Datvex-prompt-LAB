@@ -2,13 +2,6 @@
 
 Find prompts based on your specific task.
 
-## Index
-
-- Dynamic Anime Battle Poster
-- Neon Pink Gas Station Portrait
-
----
-
 ## Dynamic Anime Battle Poster
 
 Creates a super dynamic anime battle poster with Japanese text.

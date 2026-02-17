@@ -2,12 +2,6 @@
 
 Find prompts based on your specific task.
 
-## Index
-
-- Rapper
-
----
-
 ## Rapper
 
 Writes and performs rap lyrics, focusing on rhythm, rhyme, and clever wordplay.

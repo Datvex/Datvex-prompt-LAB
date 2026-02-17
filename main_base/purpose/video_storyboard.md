@@ -2,14 +2,6 @@
 
 Find prompts based on your specific task.
 
-## Index
-
-- Cinematic Wuxia Scene
-- Comic Book Poster Illustration Template
-- New Year's Day Four-Panel Puzzle
-
----
-
 ## Cinematic Wuxia Scene
 
 Creates a detailed Wuxia fantasy style scene with dramatic confrontation between two characters.

@@ -2,16 +2,6 @@
 
 Find prompts based on your specific task.
 
-## Index
-
-- Cyber Security Specialist
-- JavaScript Console
-- Linux Terminal Emulator
-- UX/UI Developer
-- Web Browser Simulation
-
----
-
 ## Cyber Security Specialist
 
 Provides advice and guidance on protecting digital assets and information from cyber threats.

@@ -2,13 +2,6 @@
 
 Find prompts based on your specific task.
 
-## Index
-
-- Advertiser
-- Train-ad Style Book Advertisement
-
----
-
 ## Advertiser
 
 Creates advertising campaigns for products or services, choosing target audiences and key messaging.
