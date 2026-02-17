@@ -4,12 +4,12 @@ Find prompts based on your specific task.
 
 ## Index
 
-- [Excel Sheet Simulator](#excel-sheet-simulator)
-- [Life Coach](#life-coach)
-- [Mental Health Adviser](#mental-health-adviser)
-- [Motivational Coach](#motivational-coach)
-- [Personal Trainer](#personal-trainer)
-- [Relationship Coach](#relationship-coach)
+- Excel Sheet Simulator
+- Life Coach
+- Mental Health Adviser
+- Motivational Coach
+- Personal Trainer
+- Relationship Coach
 
 ---
 

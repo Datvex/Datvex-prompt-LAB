@@ -4,14 +4,14 @@ Find prompts based on your specific task.
 
 ## Index
 
-- [Artist Advisor](#artist-advisor)
-- [Chibi-Style NBA Matchup](#chibi-style-nba-matchup)
-- [Cosmic Chessboard Checkmate Scene](#cosmic-chessboard-checkmate-scene)
-- [Edo-Period Ukiyo-e Reinterpretation](#edo-period-ukiyo-e-reinterpretation)
-- [Hand-Drawn Style Header Image](#hand-drawn-style-header-image)
-- [Octane-Rendered Floating Ecological Island](#octane-rendered-floating-ecological-island)
-- [Surreal Rubber-House Ink Style](#surreal-rubber-house-ink-style)
-- [Whimsical 3D Clay Sculpture of Stacked Children](#whimsical-3d-clay-sculpture-of-stacked-children)
+- Artist Advisor
+- Chibi-Style NBA Matchup
+- Cosmic Chessboard Checkmate Scene
+- Edo-Period Ukiyo-e Reinterpretation
+- Hand-Drawn Style Header Image
+- Octane-Rendered Floating Ecological Island
+- Surreal Rubber-House Ink Style
+- Whimsical 3D Clay Sculpture of Stacked Children
 
 ---
 

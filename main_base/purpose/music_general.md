@@ -4,7 +4,7 @@ Find prompts based on your specific task.
 
 ## Index
 
-- [Music Composer](#music-composer)
+- Music Composer
 
 ---
 

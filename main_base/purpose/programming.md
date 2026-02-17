@@ -4,11 +4,11 @@ Find prompts based on your specific task.
 
 ## Index
 
-- [Cyber Security Specialist](#cyber-security-specialist)
-- [JavaScript Console](#javascript-console)
-- [Linux Terminal Emulator](#linux-terminal-emulator)
-- [UX/UI Developer](#uxui-developer)
-- [Web Browser Simulation](#web-browser-simulation)
+- Cyber Security Specialist
+- JavaScript Console
+- Linux Terminal Emulator
+- UX/UI Developer
+- Web Browser Simulation
 
 ---
 

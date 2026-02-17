@@ -4,10 +4,10 @@ Find prompts based on your specific task.
 
 ## Index
 
-- [Detailed Mirror-Selfie Otaku Room Scene](#detailed-mirror-selfie-otaku-room-scene)
-- [Dramatic Black & White Portrait](#dramatic-black-white-portrait)
-- [Nostalgic 90s Disposable Camera Snapshot](#nostalgic-90s-disposable-camera-snapshot)
-- [Watercolor Map of Germany](#watercolor-map-of-germany)
+- Detailed Mirror-Selfie Otaku Room Scene
+- Dramatic Black & White Portrait
+- Nostalgic 90s Disposable Camera Snapshot
+- Watercolor Map of Germany
 
 ---
 

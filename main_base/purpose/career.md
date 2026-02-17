@@ -4,9 +4,9 @@ Find prompts based on your specific task.
 
 ## Index
 
-- [Career Counselor](#career-counselor)
-- [Job Interviewer](#job-interviewer)
-- [Recruiter](#recruiter)
+- Career Counselor
+- Job Interviewer
+- Recruiter
 
 ---
 

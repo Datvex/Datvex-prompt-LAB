@@ -4,8 +4,8 @@ Find prompts based on your specific task.
 
 ## Index
 
-- [Advertiser](#advertiser)
-- [Train-ad Style Book Advertisement](#train-ad-style-book-advertisement)
+- Advertiser
+- Train-ad Style Book Advertisement
 
 ---
 

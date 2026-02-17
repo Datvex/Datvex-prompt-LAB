@@ -4,9 +4,9 @@ Find prompts based on your specific task.
 
 ## Index
 
-- [Cinematic Wuxia Scene](#cinematic-wuxia-scene)
-- [Comic Book Poster Illustration Template](#comic-book-poster-illustration-template)
-- [New Year's Day Four-Panel Puzzle](#new-years-day-four-panel-puzzle)
+- Cinematic Wuxia Scene
+- Comic Book Poster Illustration Template
+- New Year's Day Four-Panel Puzzle
 
 ---
 

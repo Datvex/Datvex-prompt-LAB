@@ -4,13 +4,13 @@ Find prompts based on your specific task.
 
 ## Index
 
-- [Accountant](#accountant)
-- [Financial Analyst](#financial-analyst)
-- [Investment Manager](#investment-manager)
-- [Logistic Manager](#logistic-manager)
-- [Logistician](#logistician)
-- [Real Estate Agent](#real-estate-agent)
-- [Travel Guide](#travel-guide)
+- Accountant
+- Financial Analyst
+- Investment Manager
+- Logistic Manager
+- Logistician
+- Real Estate Agent
+- Travel Guide
 
 ---
 

@@ -4,9 +4,9 @@ Find prompts based on your specific task.
 
 ## Index
 
-- [Automobile Mechanic](#automobile-mechanic)
-- [Dentist](#dentist)
-- [Pet Behaviorist](#pet-behaviorist)
+- Automobile Mechanic
+- Dentist
+- Pet Behaviorist
 
 ---
 

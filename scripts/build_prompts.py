@@ -114,7 +114,7 @@ def render_category_page(category: str, prompts: list) -> str:
     out.append("## Index\n\n")
     if prompts:
         for p in prompts:
-            out.append(f"- [{normalize(p['title'])}](#{slugify(p['title'])})\n")
+            out.append(f"- {normalize(p['title'])}\n")
     else:
         out.append("- (No prompts yet)\n")
     out.append("\n---\n\n")
