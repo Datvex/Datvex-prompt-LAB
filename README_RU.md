@@ -61,4 +61,4 @@
 
 Этот список содержит источники, из которых были собраны промпты для этого репозитория:
 
-*   [**YouMind Nano Banana Pro Library**](https://youmind.com/nano-banana-pro-prompts) — коллекция профессиональных промптов для AI-моделей
+*   **YouMind Nano Banana Pro Library** – [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)
