@@ -1327,3 +1327,1639 @@
   description: "Creates a hyper-realistic macro close-up shot of a giant hand holding a keyring with a miniature sniper."
   prompt: |
     A hyper-realistic 8k high-fidelity close-up shot captured with a macro lens, showcasing a giant human hand holding a keyring against an extremely blurred background of a rugged outdoor forest range. The hand holds a rugged olive drab paracord survival strap with a small metal dog tag reading "{argument name="dog tag text" default="DUET AI : One Shot"}". Attached is a miniature character lying in a prone firing position behind a highly detailed tiny sniper rifle with a large scope. Character has large head with uploaded face as reference, wearing full miniature ghillie suit with tiny leaves and burlap. Natural dappled forest sunlight.
+
+- id: neo_skeuomorphism_crowd_scene
+  category: "Image Prompts (General)"
+  title: "Neo-Skeuomorphism Crowd Scene"
+  description: "A detailed prompt using custom neo-skeuomorphism style, generating an overhead close-up shot of a dense, bustling crowd of abstract, cartoonish figures with bold colors and a whimsical, crayon-like aesthetic."
+  prompt: |
+    A close-up, overhead shot shows a crowd of abstract, cartoonish figures with large, expressive eyes. The figures are rendered in a variety of bold colors, including a bright blue starfish-like creature, a fuzzy black blob with a triangular nose, a vibrant orange star-shaped being, and a lime green amorphous shape. These characters are packed tightly together, creating a sense of a dense, bustling community. The background is a dark, textured black, which makes the colorful figures pop. The overall style is whimsical and slightly unsettling, with a textured, crayon-like aesthetic.
+
+- id: character_nose_closeup
+  category: "Photography Styles & Lighting"
+  title: "Close-up Character Nose Portrait"
+  description: "A simple prompt for a close-up, photographic detail shot focused specifically on a character's nose."
+  prompt: |
+    Zoom in close on this characters nose.
+    And give me photographic details.
+
+- id: tattooed_woman_bikini_selfie
+  category: "Photography Styles & Lighting"
+  title: "Tattooed Woman Bikini Mirror Selfie"
+  description: "Generates a mirror selfie of a heavily tattooed woman with a chin-length bob, wearing a vibrant orange string bikini, in a three-quarter back view."
+  prompt: |
+    {
+      "subject": {
+        "person": "A woman with a dark, chin-length bob hairstyle and a neutral expression.",
+        "pose": "Side-profile mirror selfie, looking back toward the camera over her shoulder.",
+        "body_art": "Extensive black and grey ink tattoos, including large roses on the upper arm, a sun with a face on the ribs, and a large illustrative Medusa portrait on the hip and thigh.",
+        "features": "Visible tan lines on the hip."
+      },
+      "clothing": {
+        "swimwear": "A vibrant orange string bikini with thin ties and silver circular ring connectors.",
+        "accessories": "A dark-colored smartphone held in her right hand, featuring a case decorated with small, colorful floral designs."
+      },
+      "composition": {
+        "perspective": "Three-quarter back view mirror selfie.",
+        "lighting": "Bright, diffused natural light coming from a large window with vertical blinds in the background.",
+        "setting": "An indoor living space with a glass-topped dining table and black-covered chairs.",
+        "background": "A city view through the window, showing buildings with balconies."
+      },
+      "color_palette": [
+        "Vibrant orange",
+        "Monochrome black and grey ink",
+        "Neutral white and grey tones",
+        "Natural skin tones"
+      ]
+    }
+
+- id: airplane_wing_selfie
+  category: "Photography Styles & Lighting"
+  title: "Airplane Wing Selfie"
+  description: "Generates a photorealistic, cinematic image of a stylish young woman sitting casually on an airplane wing high above the clouds, taking a wide-angle selfie."
+  prompt: |
+    {
+      "image_generation": {
+        "subject": {
+          "description": "stylish young woman sitting on an airplane wing high above the clouds",
+          "pose": "seated casually on the airplane wing, one hand extended forward as if taking a selfie, relaxed but confident posture",
+          "expression": "calm, confident, composed",
+          "gaze": "looking toward the camera with a cool, self-assured expression"
+        },
+        "appearance": {
+          "hair": {
+            "style": "long, natural, slightly flowing in the wind",
+            "look": "casual and effortless"
+          },
+          "accessories": [
+            "dark sunglasses",
+            "minimal jewelry"
+          ],
+          "vibe": "adventurous, bold, modern"
+        },
+        "outfit": {
+          "style": "sporty casual",
+          "details": "black hoodie, black fitted pants, clean white sneakers"
+        },
+        "environment": {
+          "setting": "high above the clouds on an airplane wing",
+          "sky": "clear blue sky with soft clouds below",
+          "atmosphere": "open, airy, dramatic aerial view"
+        },
+        "lighting": {
+          "type": "natural sunlight",
+          "style": "bright and cinematic",
+          "direction": "side lighting from the sun",
+          "quality": "crisp highlights with soft shadows"
+        },
+        "camera": {
+          "angle": "wide selfie-style perspective from a slightly elevated angle",
+          "lens": "ultra wide-angle",
+          "depth_of_field": "deep focus capturing both subject and vast sky background",
+          "composition": "dynamic, adventurous framing emphasizing height and openness"
+        },
+        "aesthetic": {
+          "style": "cinematic adventure photography",
+          "vibe": "bold, fearless, modern, travel lifestyle",
+          "color_grading": "clean cinematic tones with natural blues and soft contrast"
+        },
+        "quality": {
+          "realism": "photorealistic",
+          "detail": "high detail",
+          "resolution": "high resolution",
+          "finish": "professional, crisp, ultra-realistic"
+        }
+      }
+    }
+
+- id: hyper_curvy_gym_selfie
+  category: "Photography Styles & Lighting"
+  title: "Hyper-Curvy Gym Mirror Selfie"
+  description: "Generates a photorealistic vertical mirror selfie of two women in a dimly lit gym, emphasizing extremely exaggerated, hyper-curvaceous fitness physiques."
+  prompt: |
+    {
+      "subject": {
+        "description": "A vertical mirror selfie photograph taken in a dimly lit gym, featuring two young women with long dark hair posing closely together.",
+        "body": {
+          "physique": "Both women possess extremely exaggerated, hyper-curvaceous 'slim-thick' fitness physiques. They have very small, defined waists that transition sharply into massively accentuated, round, and prominent glutes and shapely thighs. This dramatic hourglass shape is the central focus of the image, highlighted by the tight clothing and pose.",
+          "pose": "The woman on the right holds a silver smartphone (with stickers) in her right hand to take the mirror selfie, angling her body slightly and looking at the phone. The woman on the left stands in a sharp side-profile next to her, aggressively arching her lower back to maximize the projection of her glutes towards the mirror, looking back over her left shoulder.",
+          "features": "Both have long, dark, straight hair falling over their shoulders/backs. Their facial features are similar."
+        }
+      },
+      "wardrobe": {
+        "outfit": "The woman on the left wears a black sports bra and tight, dark grey seamless 'scrunch-butt' gym leggings. The woman on the right wears a black sports bra with cleavage strap details and tight, solid black seamless 'scrunch-butt' gym leggings."
+      },
+      "pose_action": "Taking a double mirror selfie in a gym, specifically posing to highlight their glutes.",
+      "scene": {
+        "environment": "A modern commercial gym environment, likely at night.",
+        "elements": "The background is filled with various gym equipment with grey metal frames, large mirrors reflecting other areas of the gym, and distinct warm yellow LED strip lighting on the ceiling. Other blurred gym patrons are visible in the background reflections.",
+        "composition": "Vertical 9:16 aspect ratio full-body mirror selfie."
+      },
+      "lighting": {
+        "setup": "Mix of functional artificial gym lighting and warm ceiling accent strips.",
+        "details": "The lighting creates highlights on the tight fabric of the seamless leggings, emphasizing the contours of their bodies."
+      },
+      "camera": {
+        "technical": "High-resolution smartphone mirror selfie photograph. Sharp focus on the two women's reflection. Realistic textures of spandex and gym equipment.",
+        "aspect_ratio": "9:16",
+        "constraints": [
+          "CRITICAL: The subjects MUST have the exact exaggerated, hyper-curvy gym physique with tiny waists and massive glutes as explicitly described.",
+          "CRITICAL: The specific poses (one holding phone, one arching side-profile) and outfits (grey vs. black leggings) must be replicated exactly.",
+          "The final image must be a photorealistic vertical 9:16 photograph."
+        ]
+      }
+    }
+
+- id: mafia_male_portrait
+  category: "Photography Styles & Lighting"
+  title: "Modern Mafia Aesthetic Male Portrait"
+  description: "Generates an ultra-realistic, high-fashion studio portrait of a confident male model in a modern mafia aesthetic with charcoal-grey pinstripe suit."
+  prompt: |
+    Create a ultra-realistic high-fashion studio portrait of a confident, seductive male model aged 25–30 using the uploaded reference image as the only identity source, preserving the face with 100% accuracy and no alteration. The subject has olive skin, a lean athletic build, and is framed waist-up, centered, eye-level, with an 85mm portrait lens look. He has a sharp oval face, deep-set almond eyes with a tired, seductive gaze, thick natural brows, a straight nose, slightly parted lips, and light stubble beard and moustache. His jet-black hair is slicked back with natural volume. He wears a tailored charcoal-grey three-piece pinstripe suit, white spread-collar shirt, deep burgundy tie with a gold tie bar, a white pocket square, a luxury metal watch, and a silver ring on the index finger. His left hand rests in his trouser pocket while his right hand is raised near his lips holding a toothpick, conveying a relaxed yet dominant posture. A black ink neck tattoo is visible along with subtle finger tattoos. Lighting is professional cinematic studio lighting with a soft frontal key light, subtle fill, and a gentle rim light. The background is a deep burgundy gradient with a smooth matte texture. Apply warm cinematic color grading, shallow depth of field, ultra-sharp focus on the face, extreme realism, luxury fashion editorial style, modern mafia aesthetic, 8K photorealistic quality, aspect ratio 2:3, raw style, high detail, and premium studio finish.
+
+- id: resort_woman_bikini
+  category: "Product & E-commerce"
+  title: "Resort Portrait with Red Wet Hair"
+  description: "Generates an ultra-realistic, high-quality candid photograph of a mid-20s woman with a fit physique, red wet hair, and a deep tan, posed thoughtfully in a resort setting."
+  prompt: |
+    {
+      "ar": "4:5",
+      "subject": {
+        "type": "adult woman",
+        "age": "mid-20s",
+        "character_outline": "fit physique with prominent, athletically sculpted curves; deep bronzed tan with defined muscle tone; hair is long, wet, and red, falling loose around her shoulders",
+        "expression": "thoughtful, pensive expression with a slight frown, hand resting on her cheek",
+        "gaze": "looking slightly off-camera to the side"
+      },
+      "wardrobe": {
+        "bikini": {
+          "type": "string bikini set",
+          "color": "{argument name="bikini color" default="red up and black down"}",
+          "top_detail": "triangle cups with thin straps, designed for a fuller bust",
+          "bottom_detail": "matching bottoms with side ties, accentuating the hips"
+        },
+        "bag": "sea shoulder bag tucked under her arm"
+      },
+      "accessories": {
+        "jewelry": "layered gold pendant necklaces, a watch, and a bracelet on her left wrist",
+        "other": "holding a small cup of gelato with a spoon in her left hand"
+      },
+      "pose_action": {
+        "shot_type": "standing medium shot",
+        "stance": "standing casually with her weight on one leg, emphasizing her silhouette",
+        "arms_hands": "right hand touching her cheek in a pensive gesture; left hand holding the ice tea",
+        "framing": "centered composition capturing her from the mid-thigh up"
+      },
+      "scene": {
+        "location": "covered patio or open-air hallway of a resort or villa",
+        "background": "large dark wood door behind her; a large potted plant with green and purple leaves on the left; light beige stucco walls; a glimpse of a bright outdoor area through a doorway on the left",
+        "atmosphere": "warm, tropical vacation setting"
+      },
+      "lighting": {
+        "type": "natural shaded daylight",
+        "look": "soft, diffused light filtering into the covered area, creating gentle shadows and highlighting the skin's tanned texture and the wet hair"
+      },
+      "camera": {
+        "device_vibe": "high-quality candid photograph",
+        "focus": "sharp focus on the subject",
+        "style": "ultra-realistic, detailed image capturing the natural textures of skin, hair, fabric, and the environment"
+      }
+    }
+
+- id: digicam_car_interior
+  category: "Photography Styles & Lighting"
+  title: "2000s Digicam Car Interior Portrait"
+  description: "Creates a portrait of a young woman in a car interior at night, mimicking the harsh, high-contrast look of 2000s digital camera flash photography."
+  prompt: |
+    {
+      "prompt_structure": {
+        "subject": {
+          "description": "Young woman with fair skin and long, layered dark hair with messy bangs",
+          "facial_features": {
+            "expression": "Neutral to confident gaze, looking directly at camera",
+            "eyewear": "Black rectangular frame glasses"
+          }
+        },
+        "clothing": {
+          "top": "Dark red velvet fitted top with lace trim neckline and cap sleeves, deep V-neck",
+          "bottoms": "Black mini skirt",
+          "legwear": "Black patterned fishnet tights with floral/lace design",
+          "footwear": "Brown leather knee-high boots with multiple heavy metal buckles, white knit socks peeking out from top of boots",
+          "accessories": "Black choker necklace with silver cross pendant, layered bracelets on left wrist"
+        },
+        "pose": {
+          "body_position": "Sitting in the passenger seat of a car, body angled slightly forward",
+          "arms": "Both arms raised, hands holding onto the car's interior grab handle near the roof",
+          "legs": "Legs crossed with one knee raised high towards the camera, showcasing the boot and tights detail"
+        },
+        "environment": {
+          "setting": "Car interior at night",
+          "details": "Beige leather car seats, car ceiling grab handle, seatbelt mechanism visible, dark windows showing night pitch black outside",
+          "atmosphere": "Candid, night-out vibe, enclosed space"
+        },
+        "lighting": {
+          "type": "Direct on-camera flash photography",
+          "quality": "Harsh, high-contrast lighting typical of digicams",
+          "shadows": "Hard shadows cast behind the subject against the car interior",
+          "brightness": "Subject is brightly illuminated against the darker background"
+        },
+        "technical_specs": {
+          "resolution": "4k, Ultra HD, high fidelity",
+          "focus": "Sharp focus throughout, deep depth of field",
+          "constraints": "No background blur, no bokeh, everything in focus from subject to car interior details",
+          "aesthetic": "Flash photography, 2000s digital camera aesthetic, unedited, authentic, natural look",
+          "raw_photo_details": {
+            "color_profile": "AdobeRGB",
+            "file_type": "RAW (NEF)",
+            "noise_level": "Low luminance noise"
+          }
+        }
+      }
+    }
+
+- id: roller_coaster_action
+  category: "Photography Styles & Lighting"
+  title: "Thrilling Roller Coaster Action Photo"
+  description: "Generates a candid action photograph of a young woman on a roller coaster with platinum blonde hair, screaming with excitement."
+  prompt: |
+    {
+      "prompt": "Thrilling roller coaster action photo, young woman with platinum blonde hair blowing wildly in wind, screaming with excitement mouth wide open, sitting in roller coaster car going down steep drop, wearing leopard print tank top dress, gold chain choker necklace, small gold hoop earrings, hands gripping safety bar tightly, other riders visible in seats behind, red and orange roller coaster track structure visible, amusement park fairground setting with rides and attractions in background, bright sunny day, candid action moment capturing pure joy and thrill, hair flying dramatically, adrenaline rush expression, theme park lifestyle content, 3:4",
+      "negative_prompt": "indoor, studio, calm posed, serious expression, nighttime, static hair, formal clothing",
+      "style": "candid action photography, amusement park lifestyle, thrilling moment capture, fun summer content",
+      "aspect_ratio": "3:4",
+      "camera": {
+        "type": "on-ride camera or action camera",
+        "angle": "front facing from roller coaster car, capturing rider reaction",
+        "framing": "medium shot, upper body and face, roller coaster environment visible"
+      },
+      "lighting": {
+        "type": "bright natural outdoor sunlight",
+        "quality": "strong daylight, dynamic outdoor lighting",
+        "atmosphere": "sunny summer day at amusement park"
+      },
+      "mood": "thrilling, exciting, joyful, adrenaline, fun, spontaneous, exhilarating",
+      "color_palette": "platinum blonde, leopard print tan black, gold jewelry, red orange coaster track, colorful amusement park background",
+      "subject_features": {
+        "hair": "platinum blonde, flying wildly in wind, dramatic motion blur, windswept",
+        "skin": "fair, natural",
+        "eyes": "light colored, wide with excitement",
+        "lips": "mouth wide open screaming with joy",
+        "expression": "thrilled, excited, screaming, pure joy and adrenaline",
+        "teeth": "visible, big genuine smile/scream"
+      },
+      "accessories": {
+        "necklace": "gold chain choker necklace",
+        "earrings": "small gold hoop earrings"
+      },
+      "wardrobe": {
+        "outfit": "leopard animal print tank top or fitted dress, square neckline, thin straps"
+      },
+      "pose": {
+        "position": "sitting in roller coaster seat",
+        "hands": "gripping black safety lap bar tightly",
+        "body": "pressed back into seat from G-force",
+        "expression": "screaming with excitement, mouth wide open"
+      },
+      "setting": {
+        "location": "roller coaster at amusement park or fairground",
+        "ride": "steep drop section of roller coaster, red metal track structure visible",
+        "background": "amusement park with various rides, carnival attractions, other structures",
+        "other_riders": "other people visible in seats behind",
+        "atmosphere": "busy summer day at theme park"
+      }
+    }
+
+- id: luxury_pool_blonde
+  category: "Product & E-commerce"
+  title: "Blonde Woman at Luxury Pool"
+  description: "Creates a photorealistic vertical portrait of a blonde woman in a black and cream one-piece swimsuit at a luxury outdoor pool."
+  prompt: |
+    {
+      "subject": {
+        "identity": "a beautiful blonde woman",
+        "gender": "female",
+        "age": "early 20s",
+        "body_type": "fit, feminine, toned legs, slim waist",
+        "skin_tone": "light sun-kissed skin",
+        "expression": "neutral, calm, confident",
+        "gaze_direction": "looking slightly downward",
+        "facial_features": "strong resemblance to beautiful woman, recognizable facial structure, eyes, lips, and nose"
+      },
+      "hair": {
+        "color": "light blonde",
+        "style": "messy high bun",
+        "details": "loose strands falling naturally around face",
+        "texture": "natural, soft"
+      },
+      "face_and_accessories": {
+        "sunglasses": {
+          "type": "small rectangular sunglasses",
+          "color": "dark lenses, thin frame",
+          "position": "worn properly on face"
+        },
+        "makeup": "natural summer makeup, minimal, glowing skin"
+      },
+      "clothing": {
+        "swimsuit": {
+          "type": "one-piece swimsuit",
+          "color": "black body with cream/ivory bust detail",
+          "cut": "high-cut legs, deep neckline, structured bust",
+          "fabric": "smooth, matte swim fabric"
+        },
+        "outerwear": {
+          "type": "oversized white shirt",
+          "material": "light cotton",
+          "position": "worn open, slipping off shoulders, sleeves loose"
+        }
+      },
+      "pose": {
+        "body_position": "standing upright near pool edge",
+        "hip_position": "slightly shifted to one side",
+        "arms": {
+          "left_arm": "relaxed downward holding shirt edge",
+          "right_arm": "slightly bent holding pool ladder"
+        },
+        "legs": {
+          "stance": "one leg slightly forward",
+          "feet": "barefoot on stone poolside"
+        }
+      },
+      "environment": {
+        "location": "luxury outdoor pool area",
+        "pool": "clear turquoise water",
+        "background_elements": [
+          "sun loungers",
+          "white umbrellas",
+          "stone tiles",
+          "large green pine trees",
+          "terrace railing"
+        ],
+        "setting_vibe": "Mediterranean luxury resort"
+      },
+      "lighting": {
+        "type": "natural daylight",
+        "time_of_day": "midday",
+        "sun_position": "high sun",
+        "shadows": "soft natural shadows",
+        "overall_mood": "bright, warm, summer atmosphere"
+      },
+      "camera": {
+        "angle": "slightly low angle, eye-level torso focus",
+        "distance": "medium-full body shot",
+        "lens": "35mm",
+        "depth_of_field": "sharp subject, slightly soft background"
+      },
+      "composition": {
+        "framing": "vertical portrait",
+        "subject_centering": "subject centered",
+        "crop": "head to upper thighs visible"
+      },
+      "style_and_quality": {
+        "style": "photorealistic",
+        "resolution": "high resolution, ultra-detailed",
+        "color_grading": "natural, warm tones",
+        "skin_detail": "realistic skin texture, no over-smoothing"
+      },
+      "negative_prompt": [
+        "cartoon",
+        "anime",
+        "illustration",
+        "overexposed",
+        "blurry",
+        "extra limbs",
+        "distorted body",
+        "bad anatomy",
+        "low quality"
+      ]
+    }
+
+- id: jugemu_text_spiral
+  category: "Writing & Content"
+  title: "Japanese Text Spiral Generation"
+  description: "Generates a clockwise spiral arrangement of Japanese text starting from the top left, with the final characters centered."
+  prompt: |
+    帯状になった以下の「」内の日本語の文字が左上から右回転で最後の文字が中心に来るように渦を巻いている。
+    「{argument name="テキスト" default="じゅげむ じゅげむ ごこうのすりきれ\n\nかいじゃりすいぎょの すいぎょうまつ うんらいまつ ふうらいまつ\n\nくうねるところに すむところ\n\nやぶらこうじの ぶらこうじ\n\nぱいぽ ぱいぽ ぱいぽの しゅーりんがん\n\nしゅーりんがんの ぐーりんだい\n\nぐーりんだいの ぽんぽこぴーの ぽんぽこなーの\n\nちょうきゅうめいの ちょうすけ"}」
+    文章は正しい日本語表記になるよう添削して修正してください。
+
+- id: sydney_sweeney_cozy_portrait
+  category: "Photography Styles & Lighting"
+  title: "Sydney Sweeney Cozy Luxury Portrait"
+  description: "Creates an ultra-photorealistic close-up portrait of Sydney Sweeney in a relaxed, off-duty celebrity style, wearing a lilac zip-up hoodie."
+  prompt: |
+    {
+      "subject": {
+        "name": "{argument name="celebrity name" default="Sydney Sweeney"}",
+        "appearance": {
+          "hair": "Modern, textured blonde waves, shoulder-length with a center part. Soft, voluminous, and effortlessly styled.",
+          "skin": "Porcelain complexion with a natural glow, light makeup emphasizing fresh skin.",
+          "gaze": "Direct eye contact with the camera lens. Expression is confident, alluring, and relaxed.",
+          "distinctive_features": "Natural facial features, blue eyes."
+        },
+        "clothing": {
+          "inner_layer": "White ribbed cropped tank top with a scoop neckline, form-fitting.",
+          "outer_layer": "Pastel {argument name="hoodie color" default="lavender/lilac"} plush fleece zip-up hoodie, worn open and relaxed.",
+          "bottoms": "Black comfortable lounge pants/sweatpants.",
+          "accessories": "Minimalist styling."
+        },
+        "pose": "Relaxed and casual seated position on a bouclé sofa. Leaning slightly back against the cushions with one arm raised resting near the head or hair, and the other resting comfortably on the lap. Body angled slightly but face turned squarely to the camera."
+      },
+      "environment": {
+        "setting": "Minimalist living room space.",
+        "props": "Cream-colored textured bouclé sofa.",
+        "background": "Soft, blurred light neutral wall and sheer curtains allowing natural light."
+      },
+      "lighting": {
+        "type": "Soft, diffused natural window light.",
+        "direction": "Front-lit to side-lit, illuminating the face clearly.",
+        "shadows": "Soft, flattering contouring shadows."
+      },
+      "styling": {
+        "vibe": "Modern celebrity off-duty, cozy luxury, confident and clean.",
+        "color_palette": "Lavender, white, cream, and soft blonde tones."
+      },
+      "camera_details": {
+        "type": "Ultra Photorealistic Portrait.",
+        "aspect_ratio": "3:4",
+        "framing": "Close-up/Zoomed in (Medium Closeup), cropping just below the chest/waist to focus on the face and expression.",
+        "focus": "Sharp focus on the eyes.",
+        "quality": "8K resolution, high texture detail."
+      }
+    }
+
+- id: gym_mirror_selfie_two_women
+  category: "Photography Styles & Lighting"
+  title: "Gym Mirror Selfie of Two Women"
+  description: "Generates a photorealistic gym mirror selfie of two women in athletic wear, focusing on specific body proportions and scrunch leggings."
+  prompt: |
+    {
+      "prompt_type": "photorealistic close-up gym mirror selfie",
+      "main_composition": "mirror selfie of two young women standing side by side in a modern gym, backs to the camera with full reflection visible, playfully posing with arched backs and legs positioned to emphasize curves, one holding phone for selfie while the other touches hair, confident teasing vibe, bright indoor gym lighting with rows of cardio machines in background",
+      "subject_1_left": {
+        "description": "attractive Sydney Sweeney in her early 20s, fit curvy athletic build with toned glutes and legs, long wavy blonde hair falling down back, tanned smooth skin",
+        "clothing": "matching {argument name="left outfit color" default="lavender/pastel"} sports bra with halter neck and high-waisted seamless short scrunch-butt leggings with ruched detail, white athletic sneakers",
+        "details": "sunglasses perched on head, gold bracelet on wrist, holding iPhone with decorative case for selfie, playful pose with one leg bent and hand on hip"
+      },
+      "subject_2_right": {
+        "description": "attractive Madison Beer in her early 20s, fit curvy athletic build with toned glutes and legs, long straight black hair falling down back, tanned smooth skin",
+        "clothing": "{argument name="right outfit color" default="Tourquoise orange"} sports bra with white crisscross back straps and matching high-waisted seamless short scrunch-butt leggings with ruched detail, white Nike athletic sneakers",
+        "details": "one hand raised touching hair, confident pose with legs slightly apart and hip thrust, subtle smile visible in profile"
+      },
+      "environment": {
+        "foreground": "rubberized gym floor with subtle texture, women's legs and sneakers in sharp focus",
+        "midground": "large gym mirror reflecting full scene, women centered",
+        "background": "modern spacious gym with rows of black cardio machines (ellipticals, treadmills) on both sides, large windows on left allowing natural light, high ceiling with exposed ducts and bright overhead lights, clean professional fitness center atmosphere"
+      },
+      "lighting_and_atmosphere": "bright even indoor gym lighting with mix of natural window light and overhead fluorescents, soft highlights on skin and colorful fabric, subtle sheen on leggings, vibrant energetic workout vibe with high detail photorealistic, playful confident fitness aesthetic",
+      "technical_quality": "highly detailed, sharp focus on subjects with realistic fabric textures (seamless scrunch leggings, sports bra straps), skin glow, hair strands, and sneaker details, 8k resolution, professional mirror selfie photography style with visible phone and slight wide-angle lens effect",
+      "negative_prompt_suggestions": "blurry, deformed, extra limbs, phone screen visible, mirror distortion, overexposed lighting, underexposed shadows, low quality, cartoon, anime, text watermark, extra people in focus, cluttered equipment"
+    }
+
+- id: urban_portrait_brick_wall
+  category: "Photography Styles & Lighting"
+  title: "Urban Portrait by Brick Wall"
+  description: "Creates a natural light urban portrait of a young man with a soft side profile, casual modern style."
+  prompt: |
+    A natural light urban portrait of a young man standing beside a textured brick wall on a city street. He is shown in a soft side profile, looking slightly away from the camera with a calm and thoughtful expression. Short textured brown hair with a neat fade on the sides, natural skin texture with light freckles, strong eyebrows, and soft neutral lips. He wears a dark denim jacket layered over a simple grey t shirt, casual modern style.
+    Shot in a shallow depth of field with strong background blur, creating smooth bokeh from an out of focus city street and buildings behind him. Warm daylight falls gently across the face, producing soft highlights and natural shadows. Realistic color grading, cinematic yet natural tones, sharp facial details, editorial lifestyle photography style, 85mm lens look, eye level angle, ultra realistic, high resolution, authentic street portrait mood.
+
+- id: editorial_portrait_poster
+  category: "Image Prompts (General)"
+  title: "Editorial Portrait Holding Poster of Self"
+  description: "Generates a high-end studio portrait where the subject stands holding a large poster featuring an artistic reinterpretation of their own face."
+  prompt: |
+    high-end studio portrait using the uploaded photo as the main subject. The person stands smiling against a clean, minimal background in soft neutral tones, holding a large vertical poster in front of them. The poster features an artistic reinterpretation of the same uploaded photo — stylized as a digital illustration, sketch, or painterly artwork — clearly recognizable as the same face. Professional studio lighting with a soft key light and subtle rim light creates gentle shadows and depth. The subject's expression is calm and confident, body posture relaxed yet strong, evoking a modern personal brand identity. Clean composition, balanced framing, premium editorial aesthetic, shallow depth of field, ultra-realistic skin texture, crisp details, contemporary creator branding vibe, cinematic realism, 1:1 aspect ratio, high resolution.
+
+- id: pop_art_comic_panel
+  category: "Image Prompts (General)"
+  title: "Transform Photo into Pop Art Comic Panel"
+  description: "Transforms an existing photograph into a colorful pop art comic panel with bold outlines, halftone texture, and bright contrast."
+  prompt: |
+    Transform the photo into a colorful pop-art comic panel with bold outlines, halftone texture, bright contrast, speech bubble saying '{argument name="speech bubble text" default="Fresh Drop!"}' and graphic comic effects.
+
+- id: night_street_fashion
+  category: "Photography Styles & Lighting"
+  title: "High-Angle Night Street Fashion Photograph"
+  description: "Generates a high-angle, candid night street fashion photograph of a young woman standing near a minimarket entrance."
+  prompt: |
+    High-angle candid night street fashion photograph, shot from an upper floor across the street, looking downward.
+    A young woman (face photo reference) stands alone near a minimarket entrance, slightly off-center. Full body visible with open negative space.
+    She wears a white T-shirt, a washed blue denim jacket, dark straight-leg jeans, and white canvas sneakers. A small tote bag hangs from one shoulder.
+
+- id: studio_haircut_portrait
+  category: "Photography Styles & Lighting"
+  title: "Ultra-Realistic Studio Haircut Portrait"
+  description: "Creates an ultra-realistic, editorial-style studio portrait of a male model in side-profile, highlighting haircut details."
+  prompt: |
+    {
+      "meta": {
+        "title": "Ultra-Realistic Studio Side-Profile Haircut Portrait",
+        "version": "1.0",
+        "type": "text-to-image",
+        "style": "Editorial Barbershop Photography"
+      },
+      "subject": {
+        "description": "Modern male model in side-profile view",
+        "expression": "Neutral",
+        "wardrobe": "Dark hoodie",
+        "pose": "Profile view with clear visibility of haircut structure"
+      },
+      "environment": {
+        "background": "{argument name="background color" default="Warm mustard-orange"} seamless backdrop",
+        "setting": "Professional studio",
+        "mood": "Clean, contemporary, grooming-focused"
+      },
+      "lighting": {
+        "type": "Soft diffused studio lighting",
+        "direction": "Side-balanced to enhance fade transitions",
+        "shadows": "Gentle shadows to emphasize texture and depth",
+        "skin_tone": "Natural and realistic"
+      },
+      "camera": {
+        "quality": "High-resolution DSLR look",
+        "focus": "Sharp focus on haircut details and hair texture",
+        "depth_of_field": "Shallow depth of field",
+        "details": "Visible hair strands, crisp edges, professional grooming aesthetic"
+      },
+      "hair_style_options": [
+        "High fade with textured top",
+        "Short textured crop with low fade",
+        "Messy textured quiff with fade",
+        "Modern mullet with layered texture"
+      ],
+      "output": {
+        "resolution": "High resolution",
+        "finish": "Ultra-realistic, sharp, editorial haircut reference photography"
+      }
+    }
+
+- id: genz_streetwear_labubu
+  category: "Photography Styles & Lighting"
+  title: "Gen-Z Streetwear Model with Labubu"
+  description: "Creates a hyper-realistic studio photoshoot featuring a model in Gen-Z streetwear posing with a fluffy Labubu character and British Shorthair cat."
+  prompt: |
+    Create a hyper-realistic, high-detail studio photoshoot featuring the same person from the reference photo with the exact facial features, skin tone, hairstyle, proportions, and identity fully preserved (no changes to face or structure). He is wearing stylish Gen-Z fashion attire trendy, minimal, modern streetwear. He is leaning casually on a realistic, fluffy, life-sized {argument name="character name" default="Labubu"} character, rendered in soft fur texture with playful expression. A British Shorthair cat sits or poses nearby, also hyperrealistic with detailed fur and natural posture.
+    The entire scene is set against a smooth, seamless, vibrant {argument name="background color" default="orange"} studio backdrop with professional studio lighting, crisp shadows, clean highlights, and a premium fashion editorial vibe. Ultra-photorealistic, flawless skin texture (but unchanged identity), high-end photography style, full-body or mid-shot composition.
+
+- id: three_freckled_girls_selfie
+  category: "Photography Styles & Lighting"
+  title: "Candid Bedroom Selfie of Three Freckled Girls"
+  description: "Generates an ultra-realistic, candid smartphone selfie of three freckled European girls in a cozy bedroom setting."
+  prompt: |
+    three freckled European girls in an intimate close-up selfie, low-angle perspective with their faces very close together, heads gently touching as they lean toward the smartphone camera, creating a natural slight wide-angle lens distortion that softly exaggerates their features in a playful, candid way. All three have long flowing hair in different shades—golden blonde, light chestnut brown, and soft dark blonde—falling naturally around their shoulders with a few loose strands catching the warm indoor light. Their skin shows realistic texture with visible freckles scattered across their cheeks and noses, subtle pores, soft blush tones, and a healthy natural glow without heavy makeup.
+    They wear simple casual tank tops in soft neutral tones like white, beige, and pastel pink, paired with delicate minimal jewelry—thin gold chains, tiny pendant necklaces, small hoop earrings, and subtle rings that reflect the ambient light. Their expressions are relaxed and genuine, cute natural smiles with slightly squinted eyes, conveying a friendly, spontaneous bedroom selfie moment.
+    The background shows a cozy bedroom setting slightly out of focus—soft bedding, light-colored walls, maybe a blurred mirror or fairy lights—enhanced by warm indoor lighting that creates gentle shadows and depth. The image feels like it was shot on a modern smartphone, ultra-detailed yet natural, realistic skin texture with freckles and pores clearly visible, candid friendly mood, soft shadows, warm color grading, high-resolution, authentic lifestyle photography style.
+
+- id: alexandra_daddario_panel
+  category: "Product & E-commerce"
+  title: "Alexandra Daddario Full-Body Panel Portrait"
+  description: "Creates a full-body portrait of Alexandra Daddario in a bikini, presented as three vertically stacked panels."
+  prompt: |
+    {
+      "subject": {
+        "name": "{argument name="celebrity name" default="Alexandra Daddario"}",
+        "profession": "actress",
+        "pose": "full-body portrait in three vertically stacked panels, outdoors",
+        "expression": "serene, looking off-camera",
+        "hair": {
+          "color": "dark",
+          "texture": "wavy",
+          "appearance": "damp"
+        },
+        "eyes": {
+          "color": "light blue",
+          "focus": "prominent"
+        }
+      },
+      "attire": {
+        "type": "bikini",
+        "top": {
+          "color_pattern": "teal and white, stylized feather/organic shapes",
+          "style": "twist-front with thin spaghetti straps"
+        },
+        "bottom": {
+          "color_pattern": "matches top",
+          "style": "high-cut leg"
+        }
+      },
+      "composition": {
+        "panels": [
+          {
+            "name": "top",
+            "focus": "face and upper torso",
+            "details": "arm raised near head"
+          },
+          {
+            "name": "middle",
+            "focus": "midsection and swimwear",
+            "details": "bikini top twist-front, patterned fabric"
+          },
+          {
+            "name": "bottom",
+            "focus": "lower torso and hips",
+            "details": "bikini bottom high-cut, hand resting naturally at side"
+          }
+        ],
+        "background": {
+          "type": "outdoors",
+          "appearance": "vibrant green, soft-focus, lush natural environment near water"
+        },
+        "lighting": {
+          "type": "bright natural",
+          "highlights": "fair complexion, textures of damp hair and fabric"
+        },
+        "style": "lifestyle/fashion, summer/outdoor aesthetic"
+      }
+    }
+
+- id: influencer_selfie_two_women
+  category: "Photography Styles & Lighting"
+  title: "Influencer Style Selfie of Two Women"
+  description: "Generates a high-glamour, influencer-style selfie of two women leaning together and pouting, set outdoors against a geometric privacy screen."
+  prompt: |
+    {
+      "image_generation_prompt": {
+        "subject_composition": {
+          "type": "Selfie portrait",
+          "subjects": [
+            {
+              "position": "Left",
+              "appearance": {
+                "gender": "Female",
+                "hair": "Long, voluminous dark brunette, middle part, soft waves",
+                "makeup": "Full glam, matte finish, heavy blush, sculpted brows, matte nude pouty lips",
+                "clothing": "{argument name="left clothing" default="Red latex camisole"} with spaghetti straps, high sheen material"
+              }
+            },
+            {
+              "position": "Right",
+              "appearance": {
+                "gender": "Female",
+                "hair": "Long dark brunette, swept back",
+                "makeup": "Full glam, dewy skin, rosy cheeks, glossy nude pouty lips",
+                "clothing": "Black strapless bustier top",
+                "accessories": [
+                  "Black sunglasses resting on top of head",
+                  "Diamond stud earring"
+                ]
+              }
+            }
+          ],
+          "interaction": "Heads leaning together, cheek-to-cheek, both making kissing/pouty faces at the camera"
+        },
+        "environment": {
+          "setting": "Outdoors, daytime",
+          "background_elements": "Brown metal privacy screen with geometric star-shaped cutouts, green tree foliage visible above and behind fence"
+        },
+        "technical_specs": {
+          "resolution": "4K Ultra HD",
+          "quality": "Photorealistic, highly detailed",
+          "lighting": "Natural bright sunlight, warm golden hour tones, hard shadows, specular highlights on skin and latex",
+          "camera_style": "Smartphone selfie angle, wide aperture, sharp focus on faces"
+        },
+        "style_tags": [
+          "Influencer style",
+          "Celebrity photography",
+          "High fashion",
+          "Social media aesthetic",
+          "Glamour shot"
+        ]
+      }
+    }
+
+- id: asian_woman_villa_bikini
+  category: "Product & E-commerce"
+  title: "Asian Woman in White Bikini in Luxury Villa"
+  description: "Creates a medium shot of an Asian woman with a fit physique, wearing a white crinkled bikini set, seated in a luxurious villa interior."
+  prompt: |
+    {
+      "subject": {
+        "description": "Young woman of Asian descent with a tanned, glowing complexion. She has long, dark, wavy hair parted in the middle, cascading over her shoulders. Her physique is fit and toned with visible abdominal definition."
+      },
+      "attire": {
+        "garment_type": "Two-piece bikini set",
+        "color": "White",
+        "material": "Textured, crinkled fabric",
+        "top_details": "Bandeau-style top with a central knot tie, featuring detached off-the-shoulder ruffled flutter sleeves. The top supports a large, full bust with significant volume and forward projection.",
+        "bottom_details": "Matching white bikini bottoms with side ties, sitting low on the hips.",
+        "accessories": "Gold hoop earrings, a delicate gold chain necklace with a small pendant, a thin gold bangle bracelet on the left wrist, and a ring on the left hand. Manicure is painted white."
+      },
+      "anatomical_features": {
+        "bust_volume": "Visually heavy and full, matching reference exactly, with natural gravity and projection clearly exceeding ribcage depth.",
+        "skin_texture": "Realistic skin texture with natural pores and slight shine from lighting, no plastic smoothing.",
+        "body_type": "Slim but curvaceous, with a narrow waist and toned abs contrasting with a full bust."
+      },
+      "pose": {
+        "body_orientation": "Seated on a sofa, torso angled slightly to the viewer's left, head turned to face the camera directly.",
+        "limbs": {
+          "left_arm": "Extended back, hand resting on the sofa cushion for support.",
+          "right_arm": "Relaxed, with the hand resting on the upper right thigh.",
+          "left_leg": "Bent at the knee, leg resting on the sofa surface.",
+          "right_leg": "Extended forward along the sofa, cropped at the thigh."
+        },
+        "posture": "Upright but relaxed spine, shoulders down, engaging the core.",
+        "head_tilt": "Neutral, facing forward."
+      },
+      "environment": {
+        "setting": "Luxury villa or resort interior, bright and airy.",
+        "architecture": "White walls, high ceilings with exposed white wooden beams. Large glass sliding doors or windows in the background.",
+        "decor": "White sofa with plush, slightly rumpled cream-colored cushions. A hanging black lantern fixture is visible in the background room.",
+        "background_view": "Through the glass, a sunny outdoor scene is visible featuring lush green trees, a distant building, and blue sky."
+      },
+      "camera": {
+        "shot_type": "Medium shot (thighs up).",
+        "perspective": "Eye-level.",
+        "focal_length": "50mm to 85mm portrait lens.",
+        "depth_of_field": "Subject in sharp focus, background slightly softened but distinct.",
+        "framing": "Centered subject, capturing the upper body and thighs, with space above the head showing the ceiling beams."
+      },
+      "lighting": {
+        "source": "Natural daylight entering from the right and front.",
+        "quality": "Bright, high-key lighting with soft, diffused shadows.",
+        "shadows": "Subtle shadows on the left side of the torso and face (rembrandt-style lighting on face), defining muscle tone and depth.",
+        "tone": "Warm and sunny."
+      }
+    }
+
+- id: emerald_green_satin_dress
+  category: "Product & E-commerce"
+  title: "Emerald Green Satin Dress Fashion Editorial"
+  description: "Creates an editorial image of a young woman wearing an elegant emerald green satin midi dress with a high slit, standing outside a modern architectural building."
+  prompt: |
+    Young woman with long light brown hair styled in a sleek high ponytail, a few soft strands gently framing her face, wearing an elegant emerald green midi dress crafted from luxurious satin or silk that catches the light with a subtle luminous sheen. The dress features a deep V-neck wrap front that enhances the silhouette, short softly puffed sleeves adding a romantic touch, and a perfectly cinched waist defined by a matching tie belt that creates a flattering hourglass shape. The skirt falls gracefully below the knees in a flowy, gathered design, moving naturally with every step, with an asymmetrical high slit on one side that reveals a glimpse of her leg and adds a refined yet bold edge.
+    She stands gracefully outside a sleek modern building with clean architectural lines and glass panels reflecting the daylight, giving a sophisticated fashion event atmosphere. She wears delicate gold strappy heeled sandals that complement the rich emerald tone of the dress, along with minimal elegant jewelry for a polished finish. Her makeup is natural and glowing—soft foundation, subtle contour, lightly flushed cheeks, neutral eyeshadow, defined lashes, and a muted rose lip color. Her expression is soft yet confident, poised and effortlessly stylish.
+    Photorealistic, ultra-detailed, sharp focus, realistic skin texture, natural daylight illumination, cinematic depth, editorial fashion photography style, 85mm lens look, shallow depth of field, luxury event vibe, high resolution, crisp fabric texture, subtle fabric folds, natural body proportions, balanced composition.
+
+- id: zhao_lusi_gothic
+  category: "Product & E-commerce"
+  title: "Zhao Lusi Red Carpet Gothic Chic Portrait"
+  description: "Creates a photorealistic image of Zhao Lusi on a red carpet with gothic chic style and a dramatic black lace gown."
+  prompt: |
+    {
+      "subject": {
+        "name": "{argument name="celebrity name" default="Zhao Lusi"}",
+        "aliases": ["Rosy Zhao"],
+        "profession": "Chinese actress",
+        "pose": "graceful, waving both hands",
+        "expression": "gentle, confident smile",
+        "style": ["gothic chic", "youthful elegance"]
+      },
+      "appearance": {
+        "hair": {
+          "color": "dark",
+          "style": "voluminous waves framing face"
+        },
+        "makeup": {
+          "eyes": "defined",
+          "lips": "soft color",
+          "skin": {
+            "tone": "luminous white",
+            "details": "realistic sweat sheen, subtle moisture highlights on collarbones, shoulders, and cheekbones, natural skin texture visible, pores and micro-detail intact",
+            "lighting": "reacts dynamically to cinematic lighting"
+          }
+        },
+        "jewelry": [
+          "chunky diamond-encrusted necklace",
+          "matching bracelet"
+        ]
+      },
+      "outfit": {
+        "gown": {
+          "color": "black",
+          "bodice": "corset-style, very thin spaghetti straps, central bow detail, sheer midriff paneling",
+          "skirt": "multi-layered ruffled lace, dramatic flowing silhouette"
+        },
+        "footwear": "high-platform black satin sandals"
+      },
+      "setting": {
+        "event_type": "high-profile red carpet",
+        "backdrop": "formal media wall typical of Chinese awards ceremonies or fashion galas",
+        "sponsors": ["Weibo", "iQIYI", "Mango TV", "Qeelin", "Volvo"],
+        "signatures": "golden scrawls of attending celebrities"
+      }
+    }
+
+- id: sydney_sweeney_beach
+  category: "Product & E-commerce"
+  title: "Sydney Sweeney Fashion Portrait on Coastal Beach"
+  description: "Creates a hyper-realistic fashion editorial portrait of Sydney Sweeney on a pebbled beach with metallic pink swimsuit dress."
+  prompt: |
+    {
+      "prompt_specification": {
+        "type": "Ultra-realistic cinematic fashion portrait",
+        "subject": {
+          "identity": {
+            "name": "{argument name="celebrity name" default="Sydney Sweeney"}",
+            "constraint_strictness": "100%",
+            "directives": [
+              "Preserve exact facial identity from reference",
+              "Unchanged body proportions from reference",
+              "Same facial features only",
+              "No face alteration",
+              "No body reshaping",
+              "No stylization",
+              "Natural anatomy must remain accurate"
+            ]
+          },
+          "physical_attributes": {
+            "body_type": "Curvy woman with natural proportions",
+            "skin": {
+              "tone": "Natural, exactly matching the reference",
+              "texture": "Natural skin texture with visible pores",
+              "highlights": "Realistic highlights",
+              "negative_constraint": "No plastic skin"
+            },
+            "hair": {
+              "directive": "Identical to reference",
+              "properties": ["color", "length", "texture", "styling"]
+            },
+            "expression": "Strong confident pout toward the camera"
+          },
+          "pose_and_action": {
+            "stance": "Standing, posture balanced and anatomically correct",
+            "limb_placement": {
+              "arm_1": "gently on her neck",
+              "arm_2": "resting on her thigh"
+            },
+            "camera_view": "Medium low-angle, three-quarter front view"
+          }
+        },
+        "attire": {
+          "garment": {
+            "item": "One-piece swimsuit dress",
+            "color": "Soft metallic pink",
+            "cut": ["high-cut sides", "thigh-high slit"],
+            "fabric_physics": ["realistic stretch", "folds", "sheen"]
+          },
+          "details": {
+            "chest_piece": {
+              "item": "Gold brooch detail at the bust",
+              "note": "color change only, no design alteration"
+            },
+            "jewelry": {
+              "items": ["Gold bangles", "gold hoop earrings"],
+              "properties": ["realistic metallic reflections", "realistic scale"]
+            }
+          }
+        },
+        "environment": {
+          "setting_type": "Clean natural coastal atmosphere",
+          "composition_layers": {
+            "foreground": "Pebbled beach (subject standing here)",
+            "mid_ground": [
+              "turquoise sea behind the subject",
+              "rocky coastal cliffs catching late afternoon light"
+            ],
+            "background/horizon": "small distant sailboat on the horizon"
+          }
+        },
+        "photography_style": {
+          "aesthetic": [
+            "Hyper-detailed photorealism",
+            "professional editorial finish",
+            "high-end fashion editorial realism"
+          ],
+          "quality_metric": "8K RAW quality",
+          "composition_ratio": "Vertical 9:16",
+          "lighting": {
+            "source": "Natural daylight",
+            "time": "Warm late afternoon",
+            "qualities": ["cinematic lighting balance", "controlled highlights and shadows"]
+          },
+          "optics_and_focus": {
+            "lens_emulation": "DSLR 85mm"
+          }
+        }
+      }
+    }
+
+- id: golden_hour_chunky_sweater
+  category: "Photography Styles & Lighting"
+  title: "Golden Hour Portrait with Chunky Knit Sweater"
+  description: "Creates an ultra-realistic, cinematic portrait of a young woman during golden hour with a chunky knit sweater."
+  prompt: |
+    {
+      "prompt_schema": {
+        "subject": {
+          "demographics": "Young woman, approximately early 20s",
+          "hair": {
+            "style": "Messy, voluminous, wavy, shoulder-length bob",
+            "color": "Dark brown with warm undertones",
+            "texture": "Tousled, wind-swept, natural strands"
+          },
+          "facial_features": {
+            "skin": "Fair, flawless texture, natural finish",
+            "eyes": "Brown, soft gaze, looking directly at camera",
+            "lips": "Natural rosy pink, soft matte",
+            "makeup": "Minimal, 'no-makeup' look, fresh faced"
+          },
+          "clothing": {
+            "item": "Chunky knit sweater",
+            "color": "{argument name="sweater color" default="Muted olive green"} or earthy taupe",
+            "texture": "High detail wool texture, cozy, oversized fit"
+          },
+          "pose": "Head slightly tilted, relaxed, candid front-facing portrait"
+        },
+        "environment": {
+          "setting": "Outdoor, possibly urban or residential patio",
+          "background": "Heavily blurred (bokeh), indistinct architectural structures, wooden elements",
+          "time_of_day": "Golden hour, late afternoon"
+        },
+        "lighting": {
+          "type": "Natural sunlight, hard directional light",
+          "quality": "Warm, sun-kissed, high contrast",
+          "effects": "Dappled light and shadows across face, hair illuminated by backlight/sidelight"
+        },
+        "technical_specs": {
+          "quality": "Ultra Realistic, HDR (High Dynamic Range), UHD (Ultra High Definition)",
+          "resolution": "8k",
+          "aspect_ratio": "9:16 (Vertical/Long)",
+          "camera_settings": {
+            "focus": "Sharp focus on eyes and face",
+            "depth_of_field": "Shallow, f/1.8 or f/2.8",
+            "lens": "85mm portrait lens"
+          },
+          "style": "Cinematic lighting, high fidelity, photorealistic"
+        }
+      }
+    }
+
+- id: rainy_night_brandon_woelfel
+  category: "Photography Styles & Lighting"
+  title: "Rainy Night Cinematic Portrait"
+  description: "Creates a moody, cinematic portrait of a young woman seen through a glass window on a rainy urban night with pink bokeh lights."
+  prompt: |
+    A cinematic portrait of a young woman through a glass window on a rainy urban night, featuring pink bokeh lights and neon reflections blending cityscape and reflection, melancholic tone, moody atmosphere, shot through glass, realistic lighting, shallow depth of field, fine skin texture and natural wave hair, detailed city background with glowing streetlights, soft rain blur, photography style by {argument name="photographer style" default="Brandon Woelfel"}, full color grading, filmic tones.
+    Ar 4:5v7 - style raw q 2 - s 600 chaos 10. Do not change her face.
+
+- id: city_crosswalk_golden_hour
+  category: "Photography Styles & Lighting"
+  title: "Cinematic Golden Hour Portrait in City Crosswalk"
+  description: "Creates a candid, ultra-realistic cinematic portrait of a stylish young woman in a busy city crosswalk during golden hour."
+  prompt: |
+    Candid cinematic portrait of a stylish young woman standing in a busy city crosswalk during golden hour. She wears round eyeglasses, a soft gray oversized sweater, and carries a brown leather shoulder bag. Wind gently moving her shoulder-length hair. She looks slightly off-camera with a thoughtful expression. Crowded urban background with people walking, strong depth of field blur, creamy bokeh. Natural sunlight casting warm highlights and soft shadows. Shot on 85mm lens, f/1.8, ultra-realistic, high detail skin texture, film photography look, muted cinematic color grading, sharp focus on subject, dynamic city atmosphere, 8K resolution.
+
+- id: cultural_attire_template
+  category: "Image Prompts (General)"
+  title: "Photorealistic Fashion Portrait Template"
+  description: "A reusable JSON prompt template for generating photorealistic fashion portraits with cultural attire."
+  prompt: |
+    {
+      "meta": {
+        "purpose": "Photorealistic fashion portrait with cultural attire for editorial visuals",
+        "style": "Cinematic realism, ultra-clean AI-edited, 8K resolution"
+      },
+      "reference_image": {
+        "use": true,
+        "face_preservation": "strict, unchanged original face"
+      },
+      "subject": {
+        "gender": "{argument name="gender" default="female"}",
+        "expression": "{argument name="expression" default="serene subtle smile, calm gaze downward"}",
+        "skin": "smooth glowing, visible pores, natural imperfections",
+        "hair": "{argument name="hair style" default="long voluminous waves, dark brown"}",
+        "outfit": {
+          "type": "[e.g., traditional saree with embroidered blouse]",
+          "colors": "[e.g., dusty pink with silver accents]",
+          "details": "intricate floral motifs, sheer sleeves"
+        }
+      },
+      "pose": {
+        "body": "[e.g., seated elegant, slight angle]",
+        "arms": "[e.g., relaxed in lap]"
+      },
+      "environment": {
+        "background": "[e.g., neutral dark grey studio]",
+        "lighting": "soft diffused studio, gentle shadows"
+      },
+      "camera_specs": {
+        "framing": "mid-shot three-quarter",
+        "depth_of_field": "shallow",
+        "aspect_ratio": "[e.g., 3:4 vertical]"
+      },
+      "negative": ["blurry", "artifacts", "plastic skin", "distorted proportions"]
+    }
+
+- id: sabrina_carpenter_bathroom
+  category: "Photography Styles & Lighting"
+  title: "Sabrina Carpenter Mirror Selfie in Luxury Bathroom"
+  description: "Creates an ultra-realistic photograph of Sabrina Carpenter taking an intimate mirror selfie in a luxurious marble bathroom."
+  prompt: |
+    {
+      "image_generation_request": {
+        "meta": {
+          "type": "photograph",
+          "style": "candid, elegant, intimate",
+          "aspect_ratio": "vertical"
+        },
+        "subject": {
+          "demographics": "Young woman, petite build",
+          "face_reference_constraint": {
+            "instruction": "Strict adherence to the facial features of {argument name="celebrity name" default="Sabrina Carpenter"}. Heart-shaped face, blue eyes, specific facial structure."
+          },
+          "appearance": {
+            "skin": "Fair complexion with a natural glow",
+            "hair": "Blonde, voluminous, and textured. Styled in a messy bun with her signature curtain bangs framing the face."
+          },
+          "expression": "Soft, alluring, and confident. Slight smile, looking into the mirror/phone.",
+          "pose": "Mirror selfie captured from the waist up. Right hand holds the phone with a patterned case. Left hand is placed firmly on her hip in a confident stance.",
+          "attire": {
+            "garment": "White plush bath towel secured across the chest.",
+            "accessories": "Smartphone with a light-colored patterned case."
+          }
+        },
+        "environment": {
+          "location": "Luxurious marble bathroom.",
+          "architectural_details": "Warm beige marble walls, glass shower enclosure in background, warm ambient lighting.",
+          "background_elements": "Reflections of the bathroom interior in the mirror."
+        },
+        "cinematography": {
+          "shot_type": "Mirror selfie frame.",
+          "framing": "Waist-up.",
+          "lighting": "Soft, warm, flattering overhead lighting.",
+          "color_palette": "Warm neutrals, gold, white, and soft skin tones.",
+          "mood": "Playful, intimate, luxurious."
+        }
+      }
+    }
+
+- id: sadie_sink_red_dress
+  category: "Product & E-commerce"
+  title: "Cinematic Fashion Portrait of Sadie Sink in Red Dress"
+  description: "Creates a high-resolution professional portrait of Sadie Sink in a glamorous red halter-neck mini dress in a luxurious penthouse lounge."
+  prompt: |
+    A high-resolution, professional portrait of a beautiful woman with voluminous, wavy blonde hair and striking blue eyes. She is wearing a sleek, vibrant red halter-neck mini dress with a stylish V-shaped neckline. Her makeup is glamorous, featuring bold red lipstick and defined eye makeup. She is posed elegantly inside a modern, luxurious penthouse lounge with soft, ambient lighting. In the background, there is a warm, circular chandelier and wooden slatted room dividers, creating a cozy yet sophisticated atmosphere. The style is that of a cinematic fashion magazine photoshoot, capturing refined elegance and confidence.
+
+- id: outdoor_bikini_tropical
+  category: "Product & E-commerce"
+  title: "Candid Outdoor Bikini Portrait with Tropical Background"
+  description: "Creates a photorealistic, candid outdoor portrait of a young woman in a colorful floral bikini with a fit, curvy physique."
+  prompt: |
+    {
+      "subject": {
+        "description": "A young woman with long blonde hair tied in a high, messy ponytail. She has a tanned complexion and a fit, curvy physique. She is wearing a colorful floral bikini consisting of a strapless bandeau top and high-cut thong bottoms. The bikini features a bright pattern with hues of yellow, orange, pink, green, and blue. She is wearing gold jewelry, including small hoop earrings, a ring on her left hand, and a gold bangle bracelet on her left wrist. Her skin shows natural texture, including moles and sun-kissed tone."
+      },
+      "anatomical_details": {
+        "body_type": "Fit and curvy with prominent gluteal muscle definition.",
+        "proportions": "Athletic build with a slim waist and wider hips relative to the waist. The buttocks are full and round, visually emphasized by the pose.",
+        "hair": "Blonde, highlighted, straight texture, pulled back into a high ponytail with loose strands framing the face.",
+        "face": "Oval face shape, bright white smile with visible teeth, joyful expression, looking directly at the viewer over her left shoulder."
+      },
+      "pose": {
+        "orientation": "Standing rear view, twisting torso to the left.",
+        "head_position": "Turned over the left shoulder to face the camera.",
+        "limbs": {
+          "left_arm": "Raised, elbow bent, hand touching the top of the head/base of the ponytail.",
+          "right_arm": "Extended downwards, hand resting on the upper left thigh/glute area.",
+          "legs": "Standing straight with weight slightly shifted, emphasizing the curve of the hips."
+        },
+        "spine_curvature": "Natural lumbar curve accentuated by the twist and rear angle."
+      },
+      "environment": {
+        "setting": "Outdoor tropical park or garden walkway.",
+        "background_elements": [
+          "Lush green tropical foliage",
+          "Palm tree trunks",
+          "Dense bushes"
+        ],
+        "midground": "A low, light gray concrete retaining wall running horizontally behind the subject.",
+        "foreground": "Light gray paved walkway with dappled shadows from the trees."
+      },
+      "camera": {
+        "shot_type": "Medium shot (thighs up).",
+        "angle": "Eye-level or slightly low angle relative to the subject's hips.",
+        "focus": "Sharp focus on the subject, slight depth of field blurring the background foliage.",
+        "perspective": "Rear perspective capturing the back and side profile."
+      },
+      "lighting": {
+        "type": "Natural bright daylight.",
+        "direction": "Overhead and slightly from the right, creating distinct shadows.",
+        "quality": "High contrast, hard sunlight creating dappled leaf shadows on the ground and bright highlights on the skin and hair.",
+        "shadows": "Natural cast shadows on the ground and self-shadowing on the back and legs."
+      },
+      "mood_and_expression": {
+        "emotion": "Happy, confident, playful, radiant.",
+        "facial_expression": "Wide, genuine smile."
+      },
+      "style_and_realism": {
+        "style": "Candid outdoor photography, lifestyle portrait.",
+        "render_quality": "Photorealistic, high fidelity, raw photo quality.",
+        "texture": "Realistic skin texture, fabric weave of the bikini, concrete texture of the wall."
+      }
+    }
+
+- id: epoxy_resin_art_cube
+  category: "Illustration & Concept Art"
+  title: "Epoxy Resin Art Cube Generation"
+  description: "Creates hyper-realistic 3D images of Epoxy Resin Art Cubes with intricate details like swirling smoke and gold leaf inclusions."
+  prompt: |
+    Create stunning Epoxy Resin Art Cubes with this Gemini prompt. 🧊✨
+    Swirling smoke, gold leaf & hyper-realistic 3D details.
+    Works with Gemini (Nano Banana Pro)
+
+- id: random_strange_product_grid
+  category: "Image Prompts (General)"
+  title: "Random Strange Product Grid Generation"
+  description: "Generates a 2x2 grid of random, strange products from a specified year and style with text labels."
+  prompt: |
+    2 x 2 of random strange {argument name="Year" default="[Year]"} {argument name="style" default="[style]"} products with what they are underneath in text
+
+- id: fur_coat_fashion
+  category: "Product & E-commerce"
+  title: "Low-Angle High-Fashion Portrait with Fur Coat"
+  description: "Creates a high-fashion editorial photograph of a woman in a voluminous golden-orange shaggy fur coat with bare legs."
+  prompt: |
+    A high-fashion editorial photograph, captured from a low angle, showing a woman with the likeness of the person in the reference image. She is crouching elegantly, wearing a voluminous, textured golden-orange shaggy fur coat that billows around her. The main focus is on her bare legs and beautifully detailed feet in white strappy sandals, positioned prominently in the foreground. Her toenails have a clean pedicure. The lighting is soft studio light in a minimalist, off-white concrete room. The woman gazes confidently at the camera.
+
+- id: old_photo_restoration
+  category: "Image Prompts (General)"
+  title: "Old Photo Restoration to DSLR Quality"
+  description: "Transforms an old photo into a professional, DSLR-quality portrait with enhanced color and detail."
+  prompt: |
+    "Restore this old photo into professional portrait of DLSR - quality colour and detail, using an advanced upscaling algorithm comparable to the results from canon EOS R6 II. Ensure the restored the image looks natural, retains exact facial features, has great clarity......"
+
+- id: sultry_indoor_portrait
+  category: "Photography Styles & Lighting"
+  title: "Sultry Indoor Portrait with Back Turned"
+  description: "Creates a photorealistic, moody indoor portrait of a young woman with her back turned, twisting to look over her shoulder."
+  prompt: |
+    {
+      "subject": {
+        "description": "Young woman with long, wavy platinum blonde hair reaching down her back.",
+        "body_type": "Fit and curvy physique, emphasizing glute shape and waist-to-hip ratio.",
+        "clothing": {
+          "top": "Light pink cropped camisole top with thin white spaghetti straps, exposing the midriff and back.",
+          "bottom": "Matching light pink lounge shorts with white piping trim along the edges, high cut on the thigh."
+        },
+        "features": {
+          "hair": "Platinum blonde to silver-grey, voluminous, wavy texture, parted in the middle.",
+          "skin": "Fair skin tone, realistic texture.",
+          "tattoos": "Distinct black abstract tribal-style swirl tattoo on the upper left arm, small text tattoo on the left outer forearm/wrist.",
+          "accessories": "Gold bracelet on left wrist."
+        }
+      },
+      "pose": {
+        "orientation": "Standing with back fully turned towards the camera, body angled slightly to the left.",
+        "head_position": "Head turned over the left shoulder, looking directly back at the viewer.",
+        "limbs": {
+          "left_arm": "Extended downwards along the side, hand resting near the left thigh/hip area.",
+          "right_arm": "Partially visible, relaxed."
+        },
+        "spine": "Slight arch in the lower back, accentuating the posterior."
+      },
+      "environment": {
+        "setting": "Indoor hallway or living space.",
+        "background_elements": [
+          "Large abstract painting on the wall featuring textured strokes of pink, red, white, and beige.",
+          "Dark sleek console table positioned against the wall below the painting.",
+          "Rectangular planter with green moss on the table.",
+          "A coffee table book (grey spine with text) stacked on the table.",
+          "Wooden flooring visible in the lower right corner."
+        ]
+      },
+      "camera": {
+        "shot_type": "Medium shot captured from behind.",
+        "angle": "Eye-level to slightly low angle, emphasizing the subject's figure against the artwork.",
+        "perspective": "Natural perspective, focusing on the subject in the foreground with the wall art immediately behind.",
+        "focus": "Sharp focus on the subject, slight fall-off on the background."
+      },
+      "lighting": {
+        "quality": "Dim, ambient indoor lighting, slightly moody.",
+        "direction": "Soft illumination appears to come from the right or overhead, casting subtle shadows on the left side of the back and arm.",
+        "tone": "Warm to neutral, preserving the pink hues of the painting and clothing."
+      },
+      "mood_and_expression": {
+        "mood": "Sultry, casual, intimate.",
+        "expression": "Neutral to alluring gaze, direct eye contact, confident."
+      },
+      "style_and_realism": {
+        "style": "Candid influencer-style aesthetic, photorealistic.",
+        "fidelity": "High fidelity to textures (skin, hair strands, fabric softness, canvas texture of painting)."
+      },
+      "colors_and_tone": {
+        "palette": "Soft pastels (pink, lilac, white) contrasted with dark furniture and neutral walls.",
+        "saturation": "Natural, slightly muted due to low lighting.",
+        "contrast": "Moderate contrast with deep shadows in the background corners."
+      }
+    }
+
+- id: urban_fashion_collage
+  category: "Image Prompts (General)"
+  title: "Urban Fashion Collage with Sydney Sweeney"
+  description: "Creates a vertically divided urban fashion collage featuring three candid street-style photos of Sydney Sweeney."
+  prompt: |
+    Create a high-resolution (64K, DSLR style) fashion collage using the submitted image as the sole identity reference, preserving 100% of the facial identity exactly as it is—same facial structure, proportions, skin tone, age, expression, eyes, nose, mouth, jawline, and overall identity, without any embellishment, stylization, regeneration, reinterpretation, or modification of the face.
+    The final image is a vertically divided urban fashion collage with three candid street-style photos on a contemporary European city street, featuring cobblestone sidewalks, historic architecture, neutral facades, and a modern, artistic, and vibrant atmosphere.
+    The subject appears confident, playful, and slightly rebellious, wearing modern bold female fashion consisting of a statement crop top or corset top, a sleek high-waisted mini skirt or tailored bold trousers, a striking oversized blazer or leather jacket, fashionable heeled boots or bold sneakers, stylish accessories, a small shoulder bag, and visible white wireless headphones in some frames.
+    The left panel shows a reflection in a mirror through glass, with the model holding a smartphone, superimposed on subtle urban reflections.
+    The upper right panel is a photo taken from above, looking down, as she leans toward the camera with a playful pout and natural perspective distortion.
+    The lower right panel is a close-up selfie where she looks directly at the camera while holding an iced coffee in a clear plastic cup, with her headphones visible, illuminated by soft natural light.
+    Overlay a minimalist, semi-transparent music player interface floating in the center of the collage, displaying a Linkin Park track with title, progress bar, and play/pause controls, harmoniously integrated into a lifestyle aesthetic depicting a day in the life, focusing on music.
+    Use only natural light, soft shadows, realistic highlights, a discreet earthy palette (shades of brown, gray, and warm yellow), subtle grain, and a slightly desaturated editorial color gradation, resulting in a modern and realistic editorial style typical of Instagram.
+
+- id: sadie_sink_retro_disco
+  category: "Product & E-commerce"
+  title: "Retro-Modern Disco-Pop Portrait of Sadie Sink"
+  description: "Creates a high-saturation, monochromatic, retro-modern disco-pop portrait of Sadie Sink with a high-cut spandex bodysuit."
+  prompt: |
+    {
+      "style_summary": "Retro-modern disco-pop aesthetic with high-saturation monochromatic tones.",
+      "pose": {
+        "orientation": "Over-the-shoulder look",
+        "description": "Sadie Sink is positioned with front to the camera with open legs sitting on a reversed red glossy chair creating a focal point in the upper half of the frame.",
+        "stance": "High-cut silhouette emphasizing the chest, legs and red glossy high heels."
+      },
+      "colors": {
+        "primary_palette": ["Bubblegum Pink", "Fuchsia", "Hot Pink"],
+        "accent_colors": ["Metallic Silver", "White"],
+        "skin_tones": "Warm, natural tan with highlights",
+        "vibe": "Monochromatic and high-energy."
+      },
+      "composition": {
+        "framing": "Vertical, medium-full shot",
+        "subject_placement": "Centered silhouette",
+        "background": "Minimalist, solid-colored flat wall",
+        "depth": "Shallow, with a sharp drop-off shadow on the background to create a 3D pop effect."
+      },
+      "outfits_and_props": {
+        "clothing": "High-leg pink spandex bodysuit with white piping/trim",
+        "accessories": "Rose-tinted transparent aviator-style sunglasses",
+        "key_prop": "A large, multi-faceted metallic silver disco ball",
+        "hair": "High ponytail, sleek and brunette."
+      },
+      "lighting": {
+        "type": "Hard studio lighting",
+        "direction": "Side-lit from the left",
+        "shadows": "Sharp, defined shadows on the wall and body contours",
+        "highlights": "Specular highlights on the bodysuit and disco ball facets",
+        "special_lighting": "Caustic light reflections (small squares of light) projected onto the subject's skin from the disco ball."
+      },
+      "effects_and_texture": {
+        "finish": "Glossy and high-contrast",
+        "texture": "Reflective surfaces (disco ball), matte background, and smooth spandex sheen",
+        "saturation": "High",
+        "grain": "Clean, digital finish with minimal noise."
+      }
+    }
+
+- id: flower_field_overhead
+  category: "Product & E-commerce"
+  title: "Overhead Romantic Fashion Editorial in Flower Field"
+  description: "Creates an overhead fashion editorial photograph of a woman lying in a dense field of hot-pink flowers."
+  prompt: |
+    {
+      "generation_request": {
+        "meta_data": {
+          "task_type": "photoreal_fashion_editorial_flower_field_overhead",
+          "language": "en",
+          "priority": "highest",
+          "version": "v1.0_PINK_DRESS_FLOWER_BED_HEART_BAG"
+        },
+        "output": {
+          "aspect_ratio": "4:5",
+          "resolution": "ultra_high",
+          "num_images": 4,
+          "sharpness": "high",
+          "grain": "subtle_analog"
+        },
+        "scene": {
+          "concept": "overhead romantic fashion editorial of a woman lying in a dense flower bed",
+          "environment": "lush ground cover packed with small hot-pink blossoms and green leaves, hints of purple flowers in corners, full-frame botanical texture",
+          "composition": "top-down overhead shot, full-body diagonal pose, subject centered, floral carpet filling entire background, basket of pink flowers near chest/shoulder",
+          "mood": "spring romance, dreamy, joyful, vibrant"
+        },
+        "subject": {
+          "person": "adult woman",
+          "expression": "bright joyful smile, relaxed eyes, confident and warm",
+          "pose": "lying on her back in the flowers, one leg bent slightly, arms hugging a wicker basket of flowers close to the chest",
+          "hair": "dark brown hair, styled neatly with soft volume, swept back from face",
+          "makeup": "fresh glam: soft blush, glossy pink lips, subtle highlight, defined lashes",
+          "wardrobe": {
+            "dress": "light pink off-shoulder mini dress with a large bow detail on the bodice, structured waist, soft skirt folds, crisp fabric texture and highlights"
+          },
+          "shoes": "light pastel heels or sandals, elegant and minimal",
+          "accessories": "delicate ring on finger, minimal jewelry"
+        },
+        "props": {
+          "basket": "wicker basket overflowing with pink flowers (carnations/roses mix), placed near the subject's upper torso",
+          "handbag": "transparent pink heart-shaped clutch placed on top of the flowers in the basket, glossy plastic texture with realistic reflections"
+        },
+        "camera": {
+          "shot_type": "overhead fashion editorial",
+          "lens": "35mm",
+          "aperture": "f/4",
+          "focus": "subject face and dress sharp, flowers crisp with slight natural falloff",
+          "framing": "4:5 vertical, full-body top-down"
+        },
+        "lighting": {
+          "time_of_day": "golden hour or late afternoon",
+          "key_light": "strong warm sunlight with natural leaf shadows across the scene",
+          "contrast": "medium-high with crisp sunlit highlights on skin and dress",
+          "skin_tone": "realistic, warm glow, visible natural texture"
+        },
+        "color_grading": {
+          "palette": "hot pink flowers + fresh greens + pastel pink dress",
+          "look": "bright editorial, clean whites, punchy florals, warm sun tone",
+          "contrast": "medium-high",
+          "saturation": "vivid but controlled (no neon clipping)"
+        },
+        "quality_rules": {
+          "anatomy_accuracy": "strict",
+          "hands": "correct fingers, natural joints, no extra digits"
+        }
+      }
+    }
+
+- id: zhao_lusi_luxury
+  category: "Product & E-commerce"
+  title: "High-Fashion Candid Portrait of Zhao Lusi"
+  description: "Creates a full-length, high-fashion, candid-style professional photograph of Zhao Lusi in a white lace gown."
+  prompt: |
+    {
+      "subject": {
+        "name": "Zhao Lusi",
+        "also_known_as": "Rosy Zhao",
+        "profession": "Chinese actress",
+        "recognition": [
+          "Hidden Love",
+          "The Long Ballad",
+          "Love Like the Galaxy"
+        ]
+      },
+      "scene_type": "High-fashion event appearance",
+      "composition": {
+        "shot_type": "Candid-style professional photograph",
+        "orientation": "vertical",
+        "width": 504,
+        "height": 1002,
+        "framing": "Full-length portrait",
+        "focus": "Subject sharply in focus with blurred background"
+      },
+      "attire": {
+        "dress": {
+          "style": "Strapless gown",
+          "color": "White",
+          "details": [
+            "Intricate lace bodice",
+            "Voluminous textured skirt",
+            "Ruffled or floral-patterned fabric"
+          ],
+          "aesthetic": "Bridal-inspired, classic, elegant"
+        },
+        "jewelry": {
+          "necklace": "Diamond statement necklace",
+          "earrings": "Matching diamond drop earrings",
+          "style": "Luxury, high-end"
+        }
+      },
+      "hair_and_makeup": {
+        "hair": {
+          "length": "Long",
+          "texture": "Straight",
+          "color": "Brunette",
+          "parting": "Middle part",
+          "styling": "Minimal, face-framing"
+        },
+        "makeup": {
+          "style": "Douyin / glass-skin",
+          "features": [
+            "Luminous dewy skin",
+            "Subtle shimmering eyeshadow",
+            "Natural pink lips"
+          ]
+        }
+      },
+      "skin_finish": {
+        "texture": "Smooth and hyper-reflective",
+        "effect": [
+          "Glass skin",
+          "Wet-look glow",
+          "Luminous facial contours"
+        ],
+        "tone": "Warm enhanced skin tone"
+      },
+      "lighting": {
+        "type": "Bright, soft, diffused",
+        "effect": "Enhances fabric texture and facial glow"
+      },
+      "background": {
+        "environment": "Urban setting",
+        "elements": [
+          "People",
+          "Vehicles"
+        ],
+        "depth_of_field": "Strong background blur (bokeh)",
+        "mood": "Busy environment contrasting a calm main character presence"
+      },
+      "overall_mood": [
+        "Ethereal",
+        "Elegant",
+        "Main character energy",
+        "Luxury fashion moment"
+      ]
+    }
+
+- id: beach_lifestyle_editorial
+  category: "Product & E-commerce"
+  title: "High-Resolution Beach Lifestyle Editorial"
+  description: "Creates a high-resolution lifestyle and swimwear photograph with an editorial feel on a sandy beach with rocky cliffs."
+  prompt: |
+    {
+      "type": "image_prompt",
+      "description": {
+        "subject": "A young woman with long, wavy blonde hair sits on a beach towel, looking calmly toward the camera with a relaxed, confident expression.",
+        "clothing": "She wears a light lavender ribbed bikini with thin straps and tie-side bottoms.",
+        "pose": "Seated with one leg bent and the other extended, supporting herself with one arm placed behind her.",
+        "setting": "A sandy beach backed by low rocky cliffs covered with green coastal plants.",
+        "props": [
+          "A woven straw beach tote with pink accents",
+          "An open book placed on the towel",
+          "Pink-toned beauty items including a compact, brush, and pouch"
+        ],
+        "lighting": "Natural daylight with soft, warm sunlight creating gentle shadows.",
+        "mood": "Calm, summery, effortless, lifestyle-focused.",
+        "color_palette": [
+          "lavender",
+          "sand beige",
+          "soft pink",
+          "green",
+          "natural skin tones"
+        ],
+        "style": "High-resolution lifestyle and swimwear photography with a clean, editorial feel",
+        "camera": {
+          "framing": "medium full-body shot",
+          "angle": "eye-level",
+          "focus": "sharp subject focus with softly detailed background"
+        },
+        "details": "Beach picnic arrangement emphasizing a relaxed, aesthetic summer atmosphere"
+      }
+    }
+
+- id: porsche_interior_portrait
+  category: "Product & E-commerce"
+  title: "Luxury Street Style Portrait in Porsche Interior"
+  description: "Creates a photorealistic image of a young, stylish woman in the driver's seat of a luxury Porsche car."
+  prompt: |
+    {
+      "image_generation_prompt": {
+        "subject": {
+          "description": "Young stylish woman with long blonde wavy hair.",
+          "pose": "Sitting in the driver's seat of a luxury car, side profile view. She is sitting with her knees pulled up close to her chest, feet resting on the seat, holding the steering wheel with both hands.",
+          "expression": "Calm, focused, model-like demeanor."
+        },
+        "attire": {
+          "headwear": "Black baseball cap with white text embroidery on the side.",
+          "eyewear": "Black rectangular designer sunglasses with a gold logo on the temple (resembling Celine style).",
+          "jewelry": "Chunky gold hoop earrings.",
+          "outerwear": "Oversized black wool blazer or coat.",
+          "bottoms": "Dark grey or faded black denim jeans.",
+          "footwear": "Classic chestnut brown sheepskin mini boots (Ugg style)."
+        },
+        "environment": {
+          "location": "Interior of a high-end luxury car (Porsche).",
+          "details": "Black leather seats with white stitching, Porsche crest embossed on the headrest and visible on the steering wheel.",
+          "background": "Blurred city street view visible through the car window, daytime natural lighting."
+        },
+        "style": {
+          "aesthetic": "Old money aesthetic, luxury street style, influencer lifestyle, candid photography.",
+          "lighting": "Soft natural daylight coming through the window.",
+          "camera_angle": "Eye-level, side profile shot captured from the passenger side."
+        },
+        "technical_specs": {
+          "aspect_ratio": "4:5",
+          "quality": "High resolution, photorealistic, sharp focus, 8k."
+        }
+      }
+    }
+
+- id: studio_lookbook_grid
+  category: "Product & E-commerce"
+  title: "Quad-Pose Studio Lookbook Grid"
+  description: "Creates a four-panel studio fashion lookbook grid with identity preservation from a reference image."
+  prompt: |
+    {
+      "generation_request": {
+        "meta_data": {
+          "task_type": "studio_fashion_editorial_lookbook_quad_pose",
+          "language": "en",
+          "priority": "highest",
+          "version": "v1.1_IVORY_CHIFFON_HALTER_LOOKBOOK_GRID_FACE_MATCH"
+        },
+        "input": {
+          "mode": "image_to_image",
+          "reference_image_usage": "high",
+          "preserve_identity": true,
+          "preserve_facial_features": true,
+          "notes": "Use the provided reference image as the facial identity anchor. The model's FACE must closely match the reference (very similar). Keep the overall lookbook grid style and studio setup. Do NOT change the person into someone else."
+        },
+        "output": {
+          "aspect_ratio": "2:3",
+          "resolution": "ultra_high",
+          "num_images": 1,
+          "layout": {
+            "type": "grid",
+            "rows": 2,
+            "cols": 2,
+            "gutter": "thin"
+          },
+          "sharpness": "high",
+          "grain": "subtle_analog"
+        },
+        "scene": {
+          "concept": "minimal studio lookbook collage with soft editorial light",
+          "environment": "clean off-white studio wall backdrop, seamless floor, neutral studio setting, no clutter",
+          "mood": "elegant, airy, understated, high-end boutique lookbook"
+        },
+        "subject": {
+          "person": "adult woman",
+          "identity_consistency": "model across all panels",
+          "face_match": "very_high lips",
+          "expression": "calm, slightly sultry, neutral editorial gaze",
+          "hair": "long dark hair, soft waves, center part (similar to reference), tidy and glossy; allow subtle variation but keep overall match",
+          "makeup": "soft neutral glam, defined eyeliner, natural nude lips (match reference makeup vibe)",
+          "accessories": "small gold hoop earrings, delicate rings/bracelet",
+          "wardrobe": {
+            "dress": "ivory / champagne chiffon halter mini dress with high neck band, airy layered bubble hem, semi-sheer flowing fabric, open back with long scarf-like tie draping down"
+          },
+          "shoes": "minimal strappy heels or sandals in nude/ivory"
+        },
+        "poses_grid": {
+          "panel_1_top_left": "front 3/4 pose, one arm bent with hand resting near neck, relaxed posture",
+          "panel_2_top_right": "side profile pose, holding a small ivory woven clutch, looking off-camera",
+          "panel_3_bottom_left": "back view showcasing open back and long tie drape, head turned slightly to show profile",
+          "panel_4_bottom_right": "front pose with one hand behind head, subtle contrapposto, gaze to the side"
+        },
+        "camera": {
+          "shot_type": "lookbook / editorial",
+          "lens": "50mm",
+          "aperture": "f/3.2",
+          "focus": "tack sharp on face and garment texture, consistent exposure across panels",
+          "framing": "full-body to 3/4 body depending on panel, consistent scale"
+        },
+        "lighting": {
+          "setup": "soft key light from camera-left, gentle fill from right, minimal shadow hardness",
+          "look": "clean studio editorial, no harsh flash"
+        }
+      }
+    }
+
+- id: railay_beach_portrait
+  category: "Product & E-commerce"
+  title: "Travel Editorial Portrait on Railay Beach"
+  description: "Creates an ultra-realistic cinematic half-body portrait suitable for a travel editorial at Railay Beach, Thailand."
+  prompt: |
+    Ultra-realistic cinematic half-body portrait (waist-up) of me standing on Railay Beach, Thailand, with dramatic limestone cliffs rising behind and turquoise Andaman Sea waves softly blurred in the background.
+    I am wearing a coordinated beach outfit: relaxed off-white linen shirt (visible upper portion), classic sunglasses, minimalist wristwatch partially visible, styled naturally for a travel editorial shoot.
+    Natural but perfectly styled hair suitable for professional photography.
+    Golden-hour sunlight with warm skin tones, soft sea breeze subtly moving hair and fabric, realistic skin texture, no retouching.
+    DSLR photo, 85mm lens, f/2.8, shallow depth of field, high dynamic range, travel editorial style, sharp facial focus, cinematic framing.
+
+- id: sadie_sink_jean_grey
+  category: "Product & E-commerce"
+  title: "Cinematic Concept Art of Sadie Sink as Jean Grey"
+  description: "Creates a cinematic 3D render or concept art of Sadie Sink portraying Jean Grey with three distinct costume variants."
+  prompt: |
+    {
+      "subject": {
+        "actor_likeness": "Sadie Sink",
+        "character": "Jean Grey (Marvel Comics)",
+        "physical_features": {
+          "hair": "Long, voluminous, wavy ginger-red hair, natural texture",
+          "eyes": "Pale blue/grey",
+          "expression": "Stoic, determined, heroic neutral",
+          "build": "Athletic, slender"
+        }
+      },
+      "costume_variants": {
+        "variant_1_phoenix": {
+          "base_color": "Metallic emerald green",
+          "accents": "Gold chrome gloves, boots, and waist sash",
+          "insignia": "Large white Phoenix force emblem on chest",
+          "style": "Sleek spandex-metallic hybrid"
+        },
+        "variant_2_classic_xmen": {
+          "base_color": "Dark forest green leather",
+          "accents": "Yellow 'X' symbols on belt and boot straps",
+          "armor": "Metallic green sculpted breastplate and abdominal plating",
+          "headwear": "V-shaped green metallic tiara/circlet"
+        },
+        "variant_3_tactical_armor": {
+          "base_color": "Deep crimson/burgundy textured fabric",
+          "armor_plating": "Iridescent cobalt blue metallic plating on chest, shoulders, forearms, and shins",
+          "insignia": "Red and black 'X' logo on belt",
+          "headwear": "Integrated blue metallic combat headset/tiara"
+        }
+      },
+      "artistic_style": {
+        "type": "Cinematic 3D render / Concept art",
+        "lighting": "Studio rim lighting, volumetric glow, subtle golden aura or smoke",
+        "background": "Solid studio backdrop (Slate blue or Charcoal) with atmospheric haze",
+        "framing": "Full-body shot, centered composition, eye-level camera angle",
+        "texture_quality": "High-fidelity fabric weave, metallic reflections, realistic skin pores"
+      },
+      "technical_parameters": {
+        "aspect_ratio": "2:3",
+        "resolution": "4K",
+        "rendering_engine": "Unreal Engine 5 / Octane Render style"
+      }
+    }
