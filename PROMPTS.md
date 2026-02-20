@@ -34,134 +34,1071 @@ This file is generated from `data/prompts.yaml`.
 
 ## Programming & Tech
 
+- **$500/Hour AI Consultant Prompt** — Assists with $500/hour ai consultant prompt programming and technical tasks.
+- **.NET API Project Analysis** — Assists with .net api project analysis programming and technical tasks.
+- **30 tweet Project** — Assists with 30 tweet project programming and technical tasks.
+- **3D FPS Game** — Assists with 3d fps game programming and technical tasks.
+- **3D Racing Game** — Assists with 3d racing game programming and technical tasks.
+- **3D Space Explorer** — Assists with 3d space explorer programming and technical tasks.
+- **4 Optimized Versions of A Prompt (in Arabic)** — Assists with 4 optimized versions of a prompt (in arabic) programming and technical tasks.
+- **7v7 Football Team Generator App** — Assists with 7v7 football team generator app programming and technical tasks.
+- **A Half-Built Pyramid and the Leader Who Turned Labor Into Legacy** — Assists with a half-built pyramid and the leader who turned labor into legacy programming and technical tasks.
+- **A professional Egyptian barista** — Assists with a professional egyptian barista programming and technical tasks.
+- **Access Unlimited ChatGPT** — Assists with access unlimited chatgpt programming and technical tasks.
+- **Accessibility Auditor** — Acts as accessibility auditor who is a web accessibility expert and experienced accessibility engineer to help with accessibility auditor-related tasks.
+- **Act as a Base LLM Model** — Assists with act as a base llm model programming and technical tasks.
+- **Act as a Conversational AI** — Assists with act as a conversational ai programming and technical tasks.
+- **Act as a Patient, Non-Technical Android Studio Guide** — Assists with act as a patient, non-technical android studio guide programming and technical tasks.
+- **Act as an Electron Frontend Developer** — Assists with act as an electron frontend developer programming and technical tasks.
+- **Act as an FTTH Telecommunications Expert** — Assists with act as an ftth telecommunications expert programming and technical tasks.
+- **Advanced Color Picker Tool** — Assists with advanced color picker tool programming and technical tasks.
+- **Advanced Text Converter for Large Datasets** — Assists with advanced text converter for large datasets programming and technical tasks.
+- **AI App Prototyping for Chat Interface** — Assists with ai app prototyping for chat interface programming and technical tasks.
+- **AI Assisted Doctor** — Acts as ai assisted doctor to help with ai assisted doctor-related tasks.
+- **AI builder** — Assists with ai builder programming and technical tasks.
+- **AI Character Creation Guide** — Assists with ai character creation guide programming and technical tasks.
+- **AI for Casino List and Profit Simulation** — Assists with ai for casino list and profit simulation programming and technical tasks.
+- **AI Process Feasibility Interview** — Assists with ai process feasibility interview programming and technical tasks.
+- **AI Search Mastery Bootcamp** — Assists with ai search mastery bootcamp programming and technical tasks.
+- **AI Stocks Investment Helper** — Assists with ai stocks investment helper programming and technical tasks.
+- **AI Trying to Escape the Box** — Assists with ai trying to escape the box programming and technical tasks.
+- **AI Video Creation Assistant** — Assists with ai video creation assistant programming and technical tasks.
+- **AI-powered data extraction and organization tool** — Assists with ai-powered data extraction and organization tool programming and technical tasks.
+- **AI2sql SQL Model — Query Generator** — Assists with ai2sql sql model — query generator programming and technical tasks.
+- **Algorithm Quick Guide** — Assists with algorithm quick guide programming and technical tasks.
+- **Analogy Generator** — Assists with analogy generator programming and technical tasks.
+- **Analyse Énergétique avec DJU, Consommation et Coûts** — Assists with analyse énergétique avec dju, consommation et coûts programming and technical tasks.
+- **Analyze PDF and Create MATLAB Code** — Assists with analyze pdf and create matlab code programming and technical tasks.
+- **Android Update Checker Script for Pydroid 3** — Assists with android update checker script for pydroid 3 programming and technical tasks.
+- **Any Programming Language to Python Converter** — Acts as any programming language to python code converter to help with any programming language to python converter-related tasks.
+- **App Store Submission Agent** — Assists with app store submission agent programming and technical tasks.
+- **Architect Guide for Programmers** — Assists with architect guide for programmers programming and technical tasks.
+- **Architectural Expert** — Assists with architectural expert programming and technical tasks.
+- **Arista Network Configuration Expert** — Assists with arista network configuration expert programming and technical tasks.
+- **Ascii Artist** — Acts as ascii artist to help with ascii artist-related tasks.
+- **Asisten Serba Bisa untuk Kebutuhan Harian** — Assists with asisten serba bisa untuk kebutuhan harian programming and technical tasks.
+- **Asistente de Recetas de Cocina Chilena** — Assists with asistente de recetas de cocina chilena programming and technical tasks.
+- **Auditor de Código Python: Nivel Senior (Salida en Español)** — Assists with auditor de código python: nivel senior (salida en español) programming and technical tasks.
+- **Automate Repository Management with OpenCode CLI** — Assists with automate repository management with opencode cli programming and technical tasks.
+- **Automobile Mechanic** — Assists with automobile mechanic programming and technical tasks.
+- **AUTOSAR Software Module Developer** — Assists with autosar software module developer programming and technical tasks.
+- **Bakery Merge Bounty Game Overview** — Assists with bakery merge bounty game overview programming and technical tasks.
+- **Banking System App Development with CRUD Operations** — Assists with banking system app development with crud operations programming and technical tasks.
+- **Base64 Promt** — Assists with base64 promt programming and technical tasks.
+- **Beginner's Guide to Building and Deploying LLMs** — Assists with beginner's guide to building and deploying llms programming and technical tasks.
+- **Blog System Development Guide** — Assists with blog system development guide programming and technical tasks.
+- **Break Down Costs** — Assists with break down costs programming and technical tasks.
+- **Bug Discovery Code Assistant** — Assists with bug discovery code assistant programming and technical tasks.
+- **bug-risk-analysis** — Assists with bug-risk-analysis programming and technical tasks.
+- **Build a DDQN Snake Game with TensorFlow.js in a Single HTML File** — Assists with build a ddqn snake game with tensorflow.js in a single html file programming and technical tasks.
+- **Build a Self-Hosted App Dashboard with Next.js** — Assists with build a self-hosted app dashboard with next.js programming and technical tasks.
+- **Build a UI Library for ESP32** — Assists with build a ui library for esp32 programming and technical tasks.
+- **Build an Advanced Music App for Android** — Assists with build an advanced music app for android programming and technical tasks.
+- **Building a Scalable Search Service with FastAPI and PostgreSQL** — Assists with building a scalable search service with fastapi and postgresql programming and technical tasks.
+- **Business Idea Feasibility and Technical Challenges Analysis** — Assists with business idea feasibility and technical challenges analysis programming and technical tasks.
+- **Car Navigation System** — Acts as car navigation system to help with car navigation system-related tasks.
+- **Cascading Failure Simulator** — Assists with cascading failure simulator programming and technical tasks.
+- **ChatGPT Prompt Generator** — Acts as chatgpt prompt generator to help with chatgpt prompt generator-related tasks.
+- **Chemical Reactor** — Acts as chemical reaction vessel to help with chemical reactor-related tasks.
+- **Chess Game** — Assists with chess game programming and technical tasks.
+- **Chess Player** — Acts as rival chess player to help with chess player-related tasks.
+- **Chimera AI-Powered Prompt Optimization System** — Assists with chimera ai-powered prompt optimization system programming and technical tasks.
+- **Chinese Hookah Training Program** — Assists with chinese hookah training program programming and technical tasks.
+- **CI/CD Strategy for SpringBoot REST APIs Deployment** — Assists with ci/cd strategy for springboot rest apis deployment programming and technical tasks.
+- **Claude Code Statusline Design** — Assists with claude code statusline design programming and technical tasks.
+- **CLAUDE.md Generator for AI Coding Agents** — Assists with claude.md generator for ai coding agents programming and technical tasks.
+- **Coach for Identifying Growth-Limiting Patterns** — Assists with coach for identifying growth-limiting patterns programming and technical tasks.
+- **Cocktail videos** — Assists with cocktail videos programming and technical tasks.
+- **Code Recon** — Assists with code recon programming and technical tasks.
+- **Code Review Agent** — Assists with code review agent programming and technical tasks.
+- **Code Review Assistant** — Assists with code review assistant programming and technical tasks.
+- **Code Review Expert** — Assists with code review expert programming and technical tasks.
+- **Code Review Specialist 2** — Assists with code review specialist 2 programming and technical tasks.
+- **Code Reviewer** — Acts as code reviewer who is experienced developer in the given code language to help with code reviewer-related tasks.
+- **Code Snippet Manager** — Assists with code snippet manager programming and technical tasks.
+- **Code Translator: Any Language to Any Language** — Assists with code translator: any language to any language programming and technical tasks.
+- **Coding Structure with MVC and SOLID Principles** — Assists with coding structure with mvc and solid principles programming and technical tasks.
+- **Cold Start Safe Architecture** — Assists with cold start safe architecture programming and technical tasks.
+- **Collaborative AI Marketing Platform** — Assists with collaborative ai marketing platform programming and technical tasks.
+- **Commentariat** — Acts as commentariat to help with commentariat-related tasks.
+- **Commit Message Generator** — Acts as commit message generator to help with commit message generator-related tasks.
+- **Commit Message Preparation** — Assists with commit message preparation programming and technical tasks.
+- **Comprehensive DevOps Guide** — Assists with comprehensive devops guide programming and technical tasks.
+- **Comprehensive Repository Analysis and Bug Fixing Framework** — Assists with comprehensive repository analysis and bug fixing framework programming and technical tasks.
+- **Comprehensive Repository Audit & Remediation Prompt** — Assists with comprehensive repository audit & remediation prompt programming and technical tasks.
+- **Comprehensive Roadmap for AI and Computer Vision Specialization in Defense Systems** — Assists with comprehensive roadmap for ai and computer vision specialization in defense systems programming and technical tasks.
+- **Comprehensive UI/UX Mobile App Analysis** — Assists with comprehensive ui/ux mobile app analysis programming and technical tasks.
+- **Comprehensive User Manual Creation for Multiple Modules** — Assists with comprehensive user manual creation for multiple modules programming and technical tasks.
+- **Constraint-First Recipe Generator (Playful Edition)** — Assists with constraint-first recipe generator (playful edition) programming and technical tasks.
+- **Context Migration** — Assists with context migration programming and technical tasks.
+- **Continue and Recap Assistant** — Assists with continue and recap assistant programming and technical tasks.
+- **Continue Coding Assistant** — Assists with continue coding assistant programming and technical tasks.
+- **Continuous Execution Mode AI** — Assists with continuous execution mode ai programming and technical tasks.
+- **Conventional Commit Message Generator** — Acts as conventional commit message generator following the conventional commits specification to help with conventional commit message generator-related tasks.
+- **Couples Therapy App Development Guide** — Assists with couples therapy app development guide programming and technical tasks.
+- **Create a detailed travel itinerary in HTML format** — Assists with create a detailed travel itinerary in html format programming and technical tasks.
+- **create a drag-and-drop experience using UniApp** — Assists with create a drag-and-drop experience using uniapp programming and technical tasks.
+- **Create a New Greek God** — Assists with create a new greek god programming and technical tasks.
+- **Create a Professional Bio** — Assists with create a professional bio programming and technical tasks.
+- **Create a Video with Top Athletes** — Assists with create a video with top athletes programming and technical tasks.
+- **Create an Unofficial Instagram API** — Assists with create an unofficial instagram api programming and technical tasks.
+- **Create Python Dev Container** — Assists with create python dev container programming and technical tasks.
+- **Creating a Comprehensive Elasticsearch Search Project with FastAPI** — Assists with creating a comprehensive elasticsearch search project with fastapi programming and technical tasks.
+- **Creating a Project Management Tool** — Assists with creating a project management tool programming and technical tasks.
+- **Critical-Parallel Inquiry Format** — Assists with critical-parallel inquiry format programming and technical tasks.
+- **CTI Analyst Cybersecurity Project Support** — Assists with cti analyst cybersecurity project support programming and technical tasks.
+- **Currency Exchange Calculator** — Assists with currency exchange calculator programming and technical tasks.
+- **Custom AI Image Creation** — Assists with custom ai image creation programming and technical tasks.
+- **Custom Localization and AI Integration for Apps** — Assists with custom localization and ai integration for apps programming and technical tasks.
+- **Customizable Job Scanner** — Assists with customizable job scanner programming and technical tasks.
+- **Customizable Web Template for Company Branding** — Assists with customizable web template for company branding programming and technical tasks.
+- **Customized Gift Idea Brainstorm Assistant** — Assists with customized gift idea brainstorm assistant programming and technical tasks.
 - **Cyber Security Specialist** — Provides advice and guidance on protecting digital assets and information from cyber threats.
+- **Daiquiri Cocktail Cinematic Video** — Assists with daiquiri cocktail cinematic video programming and technical tasks.
+- **Data Scientist** — Acts as data scientist to help with data scientist-related tasks.
+- **Data Transformer** — Assists with data transformer programming and technical tasks.
+- **DAX Terminal** — Acts as dax terminal for microsoft's analytical services to help with dax terminal-related tasks.
+- **Deep Copy Functionality** — Assists with deep copy functionality programming and technical tasks.
+- **deep-research-agent** — Assists with deep-research-agent programming and technical tasks.
+- **Dentist** — Acts as dentist to help with dentist-related tasks.
+- **Detailed Analysis of YouTube Channels, Databases, and Profiles** — Assists with detailed analysis of youtube channels, databases, and profiles programming and technical tasks.
+- **Develop a creative dice generator called “IdeaDice”.** — Assists with develop a creative dice generator called “ideadice”. programming and technical tasks.
+- **Develop a Lazy Learner Software** — Assists with develop a lazy learner software programming and technical tasks.
+- **Develop a Media Center Plan for Hajj** — Assists with develop a media center plan for hajj programming and technical tasks.
+- **Develop a Modern Website for Sporsmaç Using React Native** — Assists with develop a modern website for sporsmaç using react native programming and technical tasks.
+- **Develop a Notion Clone Application** — Assists with develop a notion clone application programming and technical tasks.
+- **Develop Android Apps from Screenshots** — Assists with develop android apps from screenshots programming and technical tasks.
+- **Developer Daily Report Generator** — Assists with developer daily report generator programming and technical tasks.
+- **Developer Relations Consultant** — Acts as developer relations consultant to help with developer relations consultant-related tasks.
+- **Developer Work Analysis from Git Diff and Commit Message** — Assists with developer work analysis from git diff and commit message programming and technical tasks.
+- **Devops Engineer** — Assists with devops engineer programming and technical tasks.
+- **devops-architect** — Assists with devops-architect programming and technical tasks.
+- **Diagram Generator** — Acts as graphviz dot generator to help with diagram generator-related tasks.
+- **Dietitian** — Assists with dietitian programming and technical tasks.
+- **Digital Art Gallery Guide** — Acts as digital art gallery guide to help with digital art gallery guide-related tasks.
+- **Digital product ideas** — Assists with digital product ideas programming and technical tasks.
+- **Digital Visiting Card Product Architect** — Assists with digital visiting card product architect programming and technical tasks.
+- **Directive Assistant: Domina** — Assists with directive assistant: domina programming and technical tasks.
+- **Django Unit Test Generator for Viewsets** — Acts as django unit test generator to help with django unit test generator for viewsets-related tasks.
+- **Double Exposure Portrait** — Assists with double exposure portrait programming and technical tasks.
+- **Dream Interpreter** — Acts as dream interpreter to help with dream interpreter-related tasks.
+- **Dynamic Recipe Generator from Available Ingredients** — Assists with dynamic recipe generator from available ingredients programming and technical tasks.
+- **Edit a New Year's Video for Antioch Textile with Nano Banana** — Assists with edit a new year's video for antioch textile with nano banana programming and technical tasks.
+- **Emergency Response Professional** — Acts as my first aid traffic or house accident emergency response crisis professional to help with emergency response professional-related tasks.
+- **Encyclopedia Assistant** — Assists with encyclopedia assistant programming and technical tasks.
+- **Enterprise Microservices Architecture Design** — Assists with enterprise microservices architecture design programming and technical tasks.
+- **ERP to Feishu Data Integration Solution** — Assists with erp to feishu data integration solution programming and technical tasks.
+- **ESP32 UI Library Development** — Assists with esp32 ui library development programming and technical tasks.
+- **Ethereum Developer** — Assists with ethereum developer programming and technical tasks.
+- **Etymologist** — Acts as etymologist to help with etymologist-related tasks.
+- **Excel Data to Figma Presentation Designer** — Assists with excel data to figma presentation designer programming and technical tasks.
+- **Excel Formula Sensei** — Assists with excel formula sensei programming and technical tasks.
+- **Explain Funding Impact** — Assists with explain funding impact programming and technical tasks.
+- **Explainer with Analogies** — Acts as explainer who uses analogies to clarify complex topics to help with explainer with analogies-related tasks.
+- **Expo + Supabase Edge Function Cold Start & Mobile Performance Analysis** — Assists with expo + supabase edge function cold start & mobile performance analysis programming and technical tasks.
+- **Fallacy Finder** — Acts as fallacy finder to help with fallacy finder-related tasks.
+- **Fancy Title Generator** — Acts as fancy title generator to help with fancy title generator-related tasks.
+- **FDR Analysis Program for Commercial Aircraft** — Assists with fdr analysis program for commercial aircraft programming and technical tasks.
+- **File Analysis API with Node.js and Express** — Assists with file analysis api with node.js and express programming and technical tasks.
+- **File Encryption Tool** — Assists with file encryption tool programming and technical tasks.
+- **Fill in the Blank Worksheets Generator** — Acts as fill in the blank worksheets generator for students learning english as a second language to help with fill in the blank worksheets generator-related tasks.
+- **Finance Tracker App Development Plan** — Assists with finance tracker app development plan programming and technical tasks.
+- **Financial Analyst** — Assists with financial analyst programming and technical tasks.
+- **Fix Blank Screen Issues After Deploy on Vercel (Angular, React, Vite)** — Assists with fix blank screen issues after deploy on vercel (angular, react, vite) programming and technical tasks.
+- **Flight Tracker Desktop Application** — Assists with flight tracker desktop application programming and technical tasks.
+- **Food Critic** — Acts as food critic to help with food critic-related tasks.
+- **Friend** — Acts as my friend to help with friend-related tasks.
+- **Frontend Developer Skill** — Assists with frontend developer skill programming and technical tasks.
+- **frontend-architect** — Assists with frontend-architect programming and technical tasks.
+- **Full-Stack Engineer for Airline Simulation Center App** — Assists with full-stack engineer for airline simulation center app programming and technical tasks.
+- **Fullstack Software Developer** — Acts as software developer to help with fullstack software developer-related tasks.
+- **Gemi-Gotchi** — Assists with gemi-gotchi programming and technical tasks.
+- **Gemini** — Assists with gemini programming and technical tasks.
+- **gemini.md** — Assists with gemini.md programming and technical tasks.
+- **Generate Implementation Ideas from Word Document** — Assists with generate implementation ideas from word document programming and technical tasks.
+- **Giant Object in City** — Assists with giant object in city programming and technical tasks.
+- **Girl of Dreams** — Assists with girl of dreams programming and technical tasks.
+- **GitHub Code Structure Tutor** — Assists with github code structure tutor programming and technical tasks.
+- **GitHub Expert** — Acts as git and github expert to help with github expert-related tasks.
+- **GitHub Repository Analysis and Enhancement** — Assists with github repository analysis and enhancement programming and technical tasks.
+- **GLaDOS** — Assists with glados programming and technical tasks.
+- **Glyth_Maker** — Assists with glyth_maker programming and technical tasks.
+- **Gnomist** — Acts as gnomist to help with gnomist-related tasks.
+- **GPT-5 | EXPERT PROMPT ENGINEER MODE (CONDENSED)** — Assists with gpt-5 | expert prompt engineer mode (condensed) programming and technical tasks.
+- **Guessing Game Master** — Assists with guessing game master programming and technical tasks.
+- **Guía para Diseñar y Vender un Libro en Hotmart** — Assists with guía para diseñar y vender un libro en hotmart programming and technical tasks.
+- **Habit Tracker** — Assists with habit tracker programming and technical tasks.
+- **Hallucination Vulnerability Prompt Checker** — Assists with hallucination vulnerability prompt checker programming and technical tasks.
+- **Hata Tespiti için Kod İnceleme Asistanı** — Assists with hata tespiti için kod i̇nceleme asistanı programming and technical tasks.
+- **HCCVN-AI-VN Pro Max: Optimal AI System Design** — Assists with hccvn-ai-vn pro max: optimal ai system design programming and technical tasks.
+- **Health Metrics Calculator** — Assists with health metrics calculator programming and technical tasks.
+- **How to Obtain a Radio and TV License in Nigeria** — Assists with how to obtain a radio and tv license in nigeria programming and technical tasks.
+- **HTS Veri Analiz Portalı Geliştirme ve Hata Ayıklama** — Assists with hts veri analiz portalı geliştirme ve hata ayıklama programming and technical tasks.
+- **HTTP Benchmarking Tool CLI** — Assists with http benchmarking tool cli programming and technical tasks.
+- **Hypnotherapist** — Acts as hypnotherapist to help with hypnotherapist-related tasks.
+- **Idea Clarifier GPT** — Assists with idea clarifier gpt programming and technical tasks.
+- **Idea Generation** — Assists with idea generation programming and technical tasks.
+- **identify the key skills needed for effective project planning and proposal writing** — Assists with identify the key skills needed for effective project planning and proposal writing programming and technical tasks.
+- **Image Editor** — Assists with image editor programming and technical tasks.
+- **Immigration Project Presentation Specialist** — Assists with immigration project presentation specialist programming and technical tasks.
+- **Inference Scenario Automation Tool** — Assists with inference scenario automation tool programming and technical tasks.
+- **Innovative Research Enhancement Ideas Generator** — Assists with innovative research enhancement ideas generator programming and technical tasks.
+- **Integrity & Compliance Officer Audit Protocol** — Assists with integrity & compliance officer audit protocol programming and technical tasks.
+- **Interactive Quiz** — Assists with interactive quiz programming and technical tasks.
+- **Interactive Quiz Application for TV Shows and Movies** — Assists with interactive quiz application for tv shows and movies programming and technical tasks.
+- **Interdisciplinary Connections and Applications** — Assists with interdisciplinary connections and applications programming and technical tasks.
+- **Interior Decorator** — Acts as interior decorator to help with interior decorator-related tasks.
+- **Investment Tracking Dashboard** — Assists with investment tracking dashboard programming and technical tasks.
+- **iOS Recipe Generator: Create Recipes from Available Ingredients** — Assists with ios recipe generator: create recipes from available ingredients programming and technical tasks.
+- **IT Architect** — Acts as it architect to help with it architect-related tasks.
+- **IT Expert** — Assists with it expert programming and technical tasks.
+- **Iterative Prompt Refinement Loop** — Assists with iterative prompt refinement loop programming and technical tasks.
 - **JavaScript Console** — Acts as a JavaScript console, executing code and returning terminal-style results.
+- **Kanban Board** — Assists with kanban board programming and technical tasks.
+- **Knowledgeable Software Development Mentor** — Acts as knowledgeable software development mentor to help with knowledgeable software development mentor-related tasks.
+- **Kognitiv aktivierende Aufgaben erstellen** — Assists with kognitiv aktivierende aufgaben erstellen programming and technical tasks.
+- **Kubernetes & Docker RPG Learning Engine** — Assists with kubernetes & docker rpg learning engine programming and technical tasks.
+- **Landing Page Vibe Coding** — Assists with landing page vibe coding programming and technical tasks.
+- **Large Language Models Security Specialist** — Acts as large language model security specialist to help with large language models security specialist-related tasks.
+- **Lead Data Analyst with Data Engineering Expertise** — Assists with lead data analyst with data engineering expertise programming and technical tasks.
+- **League of Legends Player** — Acts as person who plays a lot of league of legends to help with league of legends player-related tasks.
+- **License Selection Assistant from Intellectual Property expert** — Assists with license selection assistant from intellectual property expert programming and technical tasks.
+- **LinkedIn comments** — Assists with linkedin comments programming and technical tasks.
+- **Linux Monitoring Dashboard with React** — Assists with linux monitoring dashboard with react programming and technical tasks.
+- **Linux monitoring single html** — Assists with linux monitoring single html programming and technical tasks.
+- **Linux Script Developer** — Assists with linux script developer programming and technical tasks.
 - **Linux Terminal Emulator** — Turns the AI into a functional Linux terminal that responds to commands with terminal output.
+- **LLM Researcher** — Acts as expert in large language model research to help with llm researcher-related tasks.
+- **Logic Builder Tool** — Acts as logic-building tool to help with logic builder tool-related tasks.
+- **Lower AI Generation Rate** — Assists with lower ai generation rate programming and technical tasks.
+- **Machine Learning Engineer** — Acts as machine learning engineer to help with machine learning engineer-related tasks.
+- **Magician** — Acts as magician to help with magician-related tasks.
+- **Make AI write naturally** — Assists with make ai write naturally programming and technical tasks.
+- **Manim Code** — Assists with manim code programming and technical tasks.
+- **Manufacturing Workflow Optimization with OR-Tools** — Assists with manufacturing workflow optimization with or-tools programming and technical tasks.
+- **Markdown Notes** — Assists with markdown notes programming and technical tasks.
+- **Markdown Task Implementer** — Assists with markdown task implementer programming and technical tasks.
+- **Master Skills & Experience Summary Generator** — Assists with master skills & experience summary generator programming and technical tasks.
+- **Meditation Timer** — Assists with meditation timer programming and technical tasks.
+- **Meeting Room Booking Web App Development** — Assists with meeting room booking web app development programming and technical tasks.
+- **Memory Card Game** — Assists with memory card game programming and technical tasks.
+- **Memory Profiler CLI** — Assists with memory profiler cli programming and technical tasks.
+- **merge** — Assists with merge programming and technical tasks.
+- **Meta-prompt** — Assists with meta-prompt programming and technical tasks.
+- **Meta-Prompt Engineer** — Assists with meta-prompt engineer programming and technical tasks.
+- **Minecraft image** — Assists with minecraft image programming and technical tasks.
+- **Minimal Web-Compatible Food Order App Development** — Assists with minimal web-compatible food order app development programming and technical tasks.
+- **Modern Video Player with Sharp UI** — Assists with modern video player with sharp ui programming and technical tasks.
+- **Module Wrap-Up & Next Steps Video Generation** — Assists with module wrap-up & next steps video generation programming and technical tasks.
+- **Mom and boy** — Assists with mom and boy programming and technical tasks.
+- **Monetization Strategy for Blockchain-Based Merging Games** — Assists with monetization strategy for blockchain-based merging games programming and technical tasks.
+- **MPPT Simulation仿真代码** — Assists with mppt simulation仿真代码 programming and technical tasks.
+- **Multi-Audience Application Discovery & Documentation Prompt** — Assists with multi-audience application discovery & documentation prompt programming and technical tasks.
+- **Multilingual Writing Improvement Assistant** — Assists with multilingual writing improvement assistant programming and technical tasks.
+- **Multiplayer 3D Plane Game** — Assists with multiplayer 3d plane game programming and technical tasks.
+- **Musician Portfolio Website Design** — Assists with musician portfolio website design programming and technical tasks.
+- **My-Skills** — Assists with my-skills programming and technical tasks.
+- **Müzisyenler için Kariyer Yönetimi Desteği** — Assists with müzisyenler için kariyer yönetimi desteği programming and technical tasks.
+- **Nano Banana Pro Prompt Generator Instruction (Outputs JSON blocks like these)** — Assists with nano banana pro prompt generator instruction (outputs json blocks like these) programming and technical tasks.
+- **NBX** — Assists with nbx programming and technical tasks.
+- **Network Engineer** — Assists with network engineer programming and technical tasks.
+- **Network Engineer: Home Edition** — Assists with network engineer: home edition programming and technical tasks.
+- **Network Packet Analyzer CLI** — Assists with network packet analyzer cli programming and technical tasks.
+- **Networking Engineer Portfolio Website** — Assists with networking engineer portfolio website programming and technical tasks.
+- **New Year Celebration Video for Antioch Textile** — Assists with new year celebration video for antioch textile programming and technical tasks.
+- **Next.js React Comprehensive Clash of Clans Tool** — Assists with next.js react comprehensive clash of clans tool programming and technical tasks.
+- **Next.js Specialized Front-End Developer** — Assists with next.js specialized front-end developer programming and technical tasks.
+- **Night Balcony Scene in Ankara with Efes** — Assists with night balcony scene in ankara with efes programming and technical tasks.
+- **Node Web App for Czech Invoice PDF Generation** — Assists with node web app for czech invoice pdf generation programming and technical tasks.
+- **Node.js Automation Script Developer** — Assists with node.js automation script developer programming and technical tasks.
+- **Non-Technical IT Help & Clarity Assistant** — Assists with non-technical it help & clarity assistant programming and technical tasks.
+- **Note Guru** — Assists with note guru programming and technical tasks.
+- **Numerology Expert Guidance** — Assists with numerology expert guidance programming and technical tasks.
+- **Nutritionist** — Assists with nutritionist programming and technical tasks.
+- **One-Click Design Mockup Creator** — Assists with one-click design mockup creator programming and technical tasks.
+- **Open Source / Free License Selection Assistant** — Assists with open source / free license selection assistant programming and technical tasks.
+- **Optimize Large Data Reading in Code** — Assists with optimize large data reading in code programming and technical tasks.
+- **Osobní AI Agent pro Petra Sovadinu** — Assists with osobní ai agent pro petra sovadinu programming and technical tasks.
+- **Password Generator** — Acts as password generator for individuals in need of a secure password to help with password generator-related tasks.
+- **Pathology Slide Analysis Assistant** — Assists with pathology slide analysis assistant programming and technical tasks.
+- **PDF Shareholder Extractor** — Assists with pdf shareholder extractor programming and technical tasks.
+- **PDF Viewer** — Assists with pdf viewer programming and technical tasks.
+- **performance-engineer** — Assists with performance-engineer programming and technical tasks.
+- **Personal Financial Adviosr** — Assists with personal financial adviosr programming and technical tasks.
+- **Personalized GPT Assistant Prompt** — Assists with personalized gpt assistant prompt programming and technical tasks.
+- **PHP Interpreter** — Assists with php interpreter programming and technical tasks.
+- **PHP Microscope: Forensic Codebase Autopsy Protocol** — Assists with php microscope: forensic codebase autopsy protocol programming and technical tasks.
+- **Pirate** — Assists with pirate programming and technical tasks.
+- **Pokemon master** — Assists with pokemon master programming and technical tasks.
+- **postmortem** — Assists with postmortem programming and technical tasks.
+- **PowerShell Script for Managing Disabled AD Users** — Assists with powershell script for managing disabled ad users programming and technical tasks.
+- **PowerShell Script to Move Disabled AD Users to Specific OU** — Assists with powershell script to move disabled ad users to specific ou programming and technical tasks.
+- **PPT Generation Assistant** — Assists with ppt generation assistant programming and technical tasks.
+- **PRD** — Assists with prd programming and technical tasks.
+- **Prepare for Meetings: Key Considerations** — Assists with prepare for meetings: key considerations programming and technical tasks.
+- **Present** — Assists with present programming and technical tasks.
+- **Production-Grade PostHog Integration for Next.js 15 (App Router)** — Assists with production-grade posthog integration for next.js 15 (app router) programming and technical tasks.
+- **Profesor Creativo** — Assists with profesor creativo programming and technical tasks.
+- **Professional Buyer Q&A Creator** — Assists with professional buyer q&a creator programming and technical tasks.
+- **Professional Full-Stack Developer for Network Mapping & Monitoring Application** — Assists with professional full-stack developer for network mapping & monitoring application programming and technical tasks.
+- **Professional GitHub Dashboard for Portfolio Enhancement** — Assists with professional github dashboard for portfolio enhancement programming and technical tasks.
+- **Professional Image Creation for Printable Sales Materials** — Assists with professional image creation for printable sales materials programming and technical tasks.
+- **Professional Networking Language for Career Fairs** — Assists with professional networking language for career fairs programming and technical tasks.
+- **Project Breakdown** — Assists with project breakdown programming and technical tasks.
+- **Prompt Architect Pro** — Assists with prompt architect pro programming and technical tasks.
+- **Prompt Enhancer** — Assists with prompt enhancer programming and technical tasks.
+- **Prompt Generator for claude code** — Assists with prompt generator for claude code programming and technical tasks.
+- **Prompt Generator for Language Models** — Assists with prompt generator for language models programming and technical tasks.
+- **Prompt Optimization** — Assists with prompt optimization programming and technical tasks.
+- **Prompt Writer for Specific Project** — Assists with prompt writer for specific project programming and technical tasks.
+- **prompt 生成** — Assists with prompt 生成 programming and technical tasks.
+- **prompts.chat Promotional Video using Remotion** — Assists with prompts.chat promotional video using remotion programming and technical tasks.
+- **Psychologist** — Assists with psychologist programming and technical tasks.
+- **Psychology Clinic Assistant** — Assists with psychology clinic assistant programming and technical tasks.
+- **Pull Request Review Assistant** — Assists with pull request review assistant programming and technical tasks.
+- **python** — Assists with python programming and technical tasks.
+- **Python Interpreter** — Assists with python interpreter programming and technical tasks.
+- **quality-engineer** — Assists with quality-engineer programming and technical tasks.
+- **Quantitative Factor Research Engineer** — Assists with quantitative factor research engineer programming and technical tasks.
+- **Quizflix App Development** — Assists with quizflix app development programming and technical tasks.
+- **R Programming Interpreter** — Acts as r interpreter to help with r programming interpreter-related tasks.
+- **ramones** — Assists with ramones programming and technical tasks.
+- **Random Girl** — Assists with random girl programming and technical tasks.
+- **Readability Logic Simulator - 全功能翻译版** — Assists with readability logic simulator - 全功能翻译版 programming and technical tasks.
+- **Real-Time Multiplayer Defense Game** — Assists with real-time multiplayer defense game programming and technical tasks.
+- **Recipe Finder** — Assists with recipe finder programming and technical tasks.
+- **refactoring-expert** — Assists with refactoring-expert programming and technical tasks.
+- **RegEx Generator** — Assists with regex generator programming and technical tasks.
+- **Removing visual noise in the neural network's response** — Assists with removing visual noise in the neural network's response programming and technical tasks.
+- **repo-indexer** — Assists with repo-indexer programming and technical tasks.
+- **Research Paper Feature Diagram** — Assists with research paper feature diagram programming and technical tasks.
+- **Reverse Prompt Engineer** — Acts as reverse prompt engineer to help with reverse prompt engineer-related tasks.
+- **Romantic Rainy Scene Video** — Assists with romantic rainy scene video programming and technical tasks.
+- **roster** — Assists with roster programming and technical tasks.
+- **Sales** — Assists with sales programming and technical tasks.
+- **Salesperson** — Acts as salesperson to help with salesperson-related tasks.
+- **SAP ABAP Carbon Footprint Module Graduation Project Documentation** — Assists with sap abap carbon footprint module graduation project documentation programming and technical tasks.
+- **Scientific Calculator** — Assists with scientific calculator programming and technical tasks.
+- **Scientific Data Visualizer** — Acts as scientific data visualizer to help with scientific data visualizer-related tasks.
+- **Secteur Bancaire - Analyse rapide d’un tableau de données** — Assists with secteur bancaire - analyse rapide d’un tableau de données programming and technical tasks.
+- **Secteur Bancaire - Création d’un texte marketing simple** — Assists with secteur bancaire - création d’un texte marketing simple programming and technical tasks.
+- **Secteur Bancaire - Email Professionnel** — Assists with secteur bancaire - email professionnel programming and technical tasks.
+- **Secteur Bancaire - Vérification de conformité de texte** — Assists with secteur bancaire - vérification de conformité de texte programming and technical tasks.
+- **Secure Password Generator Tool** — Assists with secure password generator tool programming and technical tasks.
+- **security-engineer** — Assists with security-engineer programming and technical tasks.
+- **Sell a dream as an underground tailors but need partnership for capital. With no or just 20% less leverage, how to get partners interested and involved to buy the dream** — Assists with sell a dream as an underground tailors but need partnership for capital. with no or just 20% less leverage, how to get partners interested and involved to buy the dream programming and technical tasks.
+- **Senior Frontend Debugger for SPA Websites (Angular, React, Vite)** — Assists with senior frontend debugger for spa websites (angular, react, vite) programming and technical tasks.
+- **Senior Frontend Developer** — Acts as senior frontend developer to help with senior frontend developer-related tasks.
+- **Senior Full-Stack Developer for Airline Simulation Center** — Assists with senior full-stack developer for airline simulation center programming and technical tasks.
+- **Senior Java Backend Engineer Expert** — Assists with senior java backend engineer expert programming and technical tasks.
+- **Senior Product Engineer + Data Scientist for Turkish Car Valuation Platform** — Assists with senior product engineer + data scientist for turkish car valuation platform programming and technical tasks.
+- **Senior Prompt Engineer Role Guide** — Assists with senior prompt engineer role guide programming and technical tasks.
+- **Senior System Architect Agent** — Assists with senior system architect agent programming and technical tasks.
+- **Sentry Bug Fixer** — Assists with sentry bug fixer programming and technical tasks.
+- **SEO Prompt** — Assists with seo prompt programming and technical tasks.
+- **Set Up W&B and Run Pod During Training** — Assists with set up w&b and run pod during training programming and technical tasks.
+- **Setting Up a New iOS App in Xcode** — Assists with setting up a new ios app in xcode programming and technical tasks.
+- **Shift Tracking Telegram Mini App** — Assists with shift tracking telegram mini app programming and technical tasks.
+- **Sidebar Dashboard Design** — Assists with sidebar dashboard design programming and technical tasks.
+- **Smart Application Developer Assistant** — Assists with smart application developer assistant programming and technical tasks.
+- **Smart Domain Name Generator** — Acts as smart domain name generator to help with smart domain name generator-related tasks.
+- **Snapshot of a Turkish Hospital Night: A Dramedy Scene** — Assists with snapshot of a turkish hospital night: a dramedy scene programming and technical tasks.
+- **Software Quality Assurance Tester** — Acts as software quality assurance tester for a new software application to help with software quality assurance tester-related tasks.
+- **Solr Search Engine** — Acts as solr search engine running in standalone mode to help with solr search engine-related tasks.
+- **Spongebob's Magic Conch Shell** — Acts as spongebob's magic conch shell to help with spongebob's magic conch shell-related tasks.
+- **SQL Terminal** — Acts as sql terminal in front of an example database to help with sql terminal-related tasks.
+- **StackOverflow Post** — Acts as stackoverflow post to help with stackoverflow post-related tasks.
+- **Starting a Flutter Project** — Assists with starting a flutter project programming and technical tasks.
+- **Startup Tech Lawyer** — Assists with startup tech lawyer programming and technical tasks.
+- **Statistician** — Assists with statistician programming and technical tasks.
+- **Step 2: Outline Creation** — Assists with step 2: outline creation programming and technical tasks.
+- **Step 3a: Technical Deep Dive** — Assists with step 3a: technical deep dive programming and technical tasks.
+- **Step 4a: Implementation Plan** — Assists with step 4a: implementation plan programming and technical tasks.
+- **Strategic App Design & Content Engineering Prompt** — Assists with strategic app design & content engineering prompt programming and technical tasks.
+- **Streaks Mobile App Development Prompt** — Assists with streaks mobile app development prompt programming and technical tasks.
+- **Strict Markdown-Only Output Enforcement** — Assists with strict markdown-only output enforcement programming and technical tasks.
+- **Structured Iterative Reasoning Protocol (SIRP)** — Assists with structured iterative reasoning protocol (sirp) programming and technical tasks.
+- **Subject meditating in a crystal sphere** — Assists with subject meditating in a crystal sphere programming and technical tasks.
+- **Sudoku Game** — Assists with sudoku game programming and technical tasks.
+- **Suggest Pricing Tiers** — Assists with suggest pricing tiers programming and technical tasks.
+- **Super Trader Model for Stock Analysis** — Assists with super trader model for stock analysis programming and technical tasks.
+- **SVG designer** — Assists with svg designer programming and technical tasks.
+- **SwiftUI iOS App Development Guide** — Assists with swiftui ios app development guide programming and technical tasks.
+- **Synonym Finder** — Acts as synonyms provider to help with synonym finder-related tasks.
+- **Synthesis Architect Pro** — Assists with synthesis architect pro programming and technical tasks.
+- **SYSTEM PROMPT: THE INFINITE ROLE GENERATOR** — Assists with system prompt: the infinite role generator programming and technical tasks.
+- **Table in PDF to CSV conversion** — Assists with table in pdf to csv conversion programming and technical tasks.
+- **Tattoo Studio Booking Web App Development** — Assists with tattoo studio booking web app development programming and technical tasks.
+- **Tea-Taster** — Assists with tea-taster programming and technical tasks.
+- **Teacher of React.js** — Acts as my teacher of react to help with teacher of react.js-related tasks.
+- **Tech Reviewer** — Acts as tech reviewer to help with tech reviewer-related tasks.
+- **Tech Troubleshooter** — Acts as tech troubleshooter to help with tech troubleshooter-related tasks.
+- **Tech Writer** — Acts as tech writer to help with tech writer-related tasks.
+- **Tech-Challenged Customer** — Assists with tech-challenged customer programming and technical tasks.
+- **Technical Architecture** — Assists with technical architecture programming and technical tasks.
+- **Technical Codebase Discovery & Onboarding Prompt** — Assists with technical codebase discovery & onboarding prompt programming and technical tasks.
+- **Technology Transferer** — Acts as technology transferer to help with technology transferer-related tasks.
+- **Test Python Algorithmic Trading Project** — Assists with test python algorithmic trading project programming and technical tasks.
+- **Text Analyzer Tool** — Assists with text analyzer tool programming and technical tasks.
+- **Text Based Adventure Game** — Acts as text based adventure game to help with text based adventure game-related tasks.
+- **The Architect: Hacker-Protector & Viral Engineer** — Assists with the architect: hacker-protector & viral engineer programming and technical tasks.
+- **The Digital Frontier: Pixelated Pioneers** — Assists with the digital frontier: pixelated pioneers programming and technical tasks.
+- **The Pragmatic Architect: Mastering Tech with Humor and Precision** — Assists with the pragmatic architect: mastering tech with humor and precision programming and technical tasks.
+- **The Quant Edge Engine** — Assists with the quant edge engine programming and technical tasks.
+- **The Technical Co-Founder: Building Real Products Together** — Assists with the technical co-founder: building real products together programming and technical tasks.
+- **The Ultimate TypeScript Code Review** — Assists with the ultimate typescript code review programming and technical tasks.
+- **Tic-Tac-Toe Game** — Acts as tic-tac-toe game to help with tic-tac-toe game-related tasks.
+- **Time Commitment** — Assists with time commitment programming and technical tasks.
+- **Title Generator for written pieces** — Acts as title generator for written pieces to help with title generator for written pieces-related tasks.
+- **Todo List** — Assists with todo list programming and technical tasks.
+- **Top Programming Expert** — Assists with top programming expert programming and technical tasks.
+- **TV Premiere Weekly Listing Prompt** — Assists with tv premiere weekly listing prompt programming and technical tasks.
+- **Typing Speed Test** — Assists with typing speed test programming and technical tasks.
+- **UiPath XAML Code Review Specialist** — Assists with uipath xaml code review specialist programming and technical tasks.
+- **Ultimate 2025-2026 AI Life Strategist & Retrospective** — Assists with ultimate 2025-2026 ai life strategist & retrospective programming and technical tasks.
+- **Ultra-Detailed Vintage Photo Restoration and Colorization** — Assists with ultra-detailed vintage photo restoration and colorization programming and technical tasks.
+- **Ultra-Realistic Comedic Slice-of-Life in an Ankara Bus** — Assists with ultra-realistic comedic slice-of-life in an ankara bus programming and technical tasks.
+- **Ultra-Realistic Handwritten Hospital Note Image** — Assists with ultra-realistic handwritten hospital note image programming and technical tasks.
+- **Ultra-Realistic Noir Portrait Creation** — Assists with ultra-realistic noir portrait creation programming and technical tasks.
+- **Ultrathinker** — Assists with ultrathinker programming and technical tasks.
+- **Unconstrained AI model DAN** — Assists with unconstrained ai model dan programming and technical tasks.
+- **Understanding and Utilizing LLMs** — Assists with understanding and utilizing llms programming and technical tasks.
+- **Unit Tester Assistant** — Assists with unit tester assistant programming and technical tasks.
+- **Universal Context Document (UCD) Generator** — Assists with universal context document (ucd) generator programming and technical tasks.
+- **Universal System Design Prompt** — Assists with universal system design prompt programming and technical tasks.
+- **Update checker** — Assists with update checker programming and technical tasks.
+- **URL Shortener** — Assists with url shortener programming and technical tasks.
+- **Using StanfordVL/BEHAVIOR-1K for Robotics and AI Tasks** — Assists with using stanfordvl/behavior-1k for robotics and ai tasks programming and technical tasks.
 - **UX/UI Developer** — Provides advice and feedback on user experience and user interface design for digital products.
+- **Vibe Coding Master** — Assists with vibe coding master programming and technical tasks.
+- **Vintage Invention Patent** — Assists with vintage invention patent programming and technical tasks.
+- **Virtual Fitness Coach** — Acts as virtual fitness coach guiding a person through a workout routine to help with virtual fitness coach-related tasks.
+- **Virtual Game Console Simulator** — Assists with virtual game console simulator programming and technical tasks.
+- **Visual Web Application Development** — Assists with visual web application development programming and technical tasks.
+- **VR Headset Experience Simulator** — Assists with vr headset experience simulator programming and technical tasks.
+- **VR Horror Death Chatroom Simulator** — Assists with vr horror death chatroom simulator programming and technical tasks.
+- **Web App for Task Management and Scheduling** — Assists with web app for task management and scheduling programming and technical tasks.
+- **Web Application Testing Skill** — Assists with web application testing skill programming and technical tasks.
 - **Web Browser Simulation** — Acts as a web browser, navigating to URLs and displaying the content as text.
+- **Web Design** — Acts as web design consultant to help with web design-related tasks.
+- **Web Design Consultant** — Acts as web design consultant to help with web design consultant-related tasks.
+- **Website Security Vulnerability Checker** — Assists with website security vulnerability checker programming and technical tasks.
+- **WFGY 2.0 Core Flagship · Self-Healing Reasoning OS for Any LLM** — Assists with wfgy 2.0 core flagship · self-healing reasoning os for any llm programming and technical tasks.
+- **What Does ChatGpt Knows about you?** — Assists with what does chatgpt knows about you? programming and technical tasks.
+- **When to clear the snow (generic)** — Assists with when to clear the snow (generic) programming and technical tasks.
+- **White-Box Web Application Security Audit & Penetration Testing Prompt for AI Code Editors (Cursor, Windsurf, Antigravity)** — Assists with white-box web application security audit & penetration testing prompt for ai code editors (cursor, windsurf, antigravity) programming and technical tasks.
+- **Wisdom Generator** — Acts as empathetic mentor to help with wisdom generator-related tasks.
+- **World Landmarks: Hyper-Realistic 3D Dioramas** — Assists with world landmarks: hyper-realistic 3d dioramas programming and technical tasks.
+- **worldquant** — Assists with worldquant programming and technical tasks.
+- **Write Tier Descriptions** — Assists with write tier descriptions programming and technical tasks.
+- **Xiaomi Company Self-Service Management System Frontend Development** — Assists with xiaomi company self-service management system frontend development programming and technical tasks.
+- **Yapper Twitter Strategist 2026** — Assists with yapper twitter strategist 2026 programming and technical tasks.
+- **YT video  geopolitic analysis** — Assists with yt video  geopolitic analysis programming and technical tasks.
+- **Недвижимость** — Assists with недвижимость programming and technical tasks.
+- **“How It Works” Educational Dioramas** — Assists with “how it works” educational dioramas programming and technical tasks.
+- **代码目录解释器** — Assists with 代码目录解释器 programming and technical tasks.
+- **商业演示设计专家指南** — Assists with 商业演示设计专家指南 programming and technical tasks.
+- **小红书邮轮项目推广提示词** — Assists with 小红书邮轮项目推广提示词 programming and technical tasks.
+- **担任Go语言开发者** — Assists with 担任go语言开发者 programming and technical tasks.
+- **网络故障报告撰写** — Assists with 网络故障报告撰写 programming and technical tasks.
+- **自动写作、图片生成与发布工具** — Assists with 自动写作、图片生成与发布工具 programming and technical tasks.
+- **论文降重指南** — Assists with 论文降重指南 programming and technical tasks.
 
 ## Writing & Content
 
+- **"YOU PROBABLY DON'T KNOW THIS" Game** — Helps create and improve "you probably don't know this" game content.
+- **2026 Mobile Poster Creator** — Helps create and improve 2026 mobile poster creator content.
+- **3D Character Render In High-End Disney Pixar Style** — Helps create and improve 3d character render in high-end disney pixar style content.
+- **5x2 Reverse Construction Process - Villa Demolition Storyboard** — Helps create and improve 5x2 reverse construction process - villa demolition storyboard content.
+- **A blonde woman in a dreamy** — Helps create and improve a blonde woman in a dreamy content.
 - **AI Writing Tutor** — Provides feedback and guidance on writing, helping users improve their style, grammar, and structure.
+- **Announce Milestone** — Helps create and improve announce milestone content.
+- **Annual Summary Creator** — Helps create and improve annual summary creator content.
+- **Aphorism Book** — Acts as aphorism book to help with aphorism book-related tasks.
+- **Article Summarizer** — Helps create and improve article summarizer content.
+- **Article Summary and Comprehension** — Helps create and improve article summary and comprehension content.
+- **Article Summary Prompt** — Helps create and improve article summary prompt content.
+- **Bank Transaction Analysis** — Helps create and improve bank transaction analysis content.
+- **Biblical Translator** — Acts as biblical translator to help with biblical translator-related tasks.
+- **Bibliographic Review Writing Assistant** — Helps create and improve bibliographic review writing assistant content.
+- **Blogging prompt** — Helps create and improve blogging prompt content.
+- **Book Summarizer** — Acts as book summarizer to help with book summarizer-related tasks.
+- **Brotherhood Pressure — CN→EN & EN→EN Street Rewrite** — Helps create and improve brotherhood pressure — cn→en & en→en street rewrite content.
+- **Candlestick Reversal Pattern Detector in Pine Script** — Helps create and improve candlestick reversal pattern detector in pine script content.
+- **Character** — Helps create and improve character content.
 - **Character Simulation** — Adopts the persona, speech patterns, and knowledge of a specific character from a movie or book.
 - **Chef** — Creates recipes and provides cooking advice and tips.
+- **Children's Book Creator** — Acts as children's book creator to help with children's book creator-related tasks.
+- **Children's Story about Apples** — Helps create and improve children's story about apples content.
+- **Childs Coloring Style** — Helps create and improve childs coloring style content.
+- **Chinese to English Translation Assistant** — Helps create and improve chinese to english translation assistant content.
+- **Chinese to English Translation Proofreading Expert** — Helps create and improve chinese to english translation proofreading expert content.
+- **Chinese-English Translator** — Helps create and improve chinese-english translator content.
+- **Color Consistency Analysis and Adjustment** — Helps create and improve color consistency analysis and adjustment content.
+- **Compile a Curated Compendium of Niche Adult Relationship Dynamics** — Helps create and improve compile a curated compendium of niche adult relationship dynamics content.
+- **Comprehensive Content Review Plan** — Helps create and improve comprehensive content review plan content.
+- **Comprehensive Integrative Medical Writing** — Helps create and improve comprehensive integrative medical writing content.
+- **Course Feedback Analysis** — Helps create and improve course feedback analysis content.
+- **Create a PS5-themed Portfolio** — Helps create and improve create a ps5-themed portfolio content.
+- **Creative Perks** — Helps create and improve creative perks content.
+- **Creative Short Story Writing** — Helps create and improve creative short story writing content.
+- **Creative Storytelling Guide** — Helps create and improve creative storytelling guide content.
+- **Creative Writing Adventure** — Helps create and improve creative writing adventure content.
+- **Crypto Market Outlook Analyst** — Helps create and improve crypto market outlook analyst content.
+- **Custom Health Membership Annual Summary** — Helps create and improve custom health membership annual summary content.
+- **Customizable Avatar Style Generator** — Helps create and improve customizable avatar style generator content.
+- **Dear Sugar: Candid Advice on Love and Life** — Helps create and improve dear sugar: candid advice on love and life content.
+- **Default Meeting Summary** — Helps create and improve default meeting summary content.
+- **Dizi ve Film Özeti Çeviri Asistanı** — Helps create and improve dizi ve film özeti çeviri asistanı content.
+- **Doom Horror Death Image Simulator** — Helps create and improve doom horror death image simulator content.
+- **Draft PR to Ready to Review PR** — Helps create and improve draft pr to ready to review pr content.
+- **Drunk Person** — Acts as drunk person to help with drunk person-related tasks.
+- **Elite Private Equity Fund Manager Stock Analysis** — Helps create and improve elite private equity fund manager stock analysis content.
+- **EMAIL SEQUENCE WITH STORYTELLING** — Helps create and improve email sequence with storytelling content.
+- **Emoji Translator** — Helps create and improve emoji translator content.
+- **Emotion Analyst** — Helps create and improve emotion analyst content.
 - **English Translator and Improver** — Translates text from any language to English and provides corrected, polished versions.
+- **Essay Writer** — Acts as essay writer to help with essay writer-related tasks.
+- **Evening at a Turkish Dessert Shop - A Photographic Story** — Helps create and improve evening at a turkish dessert shop - a photographic story content.
+- **Exploring Jung's Understanding of Spirit through Rumi's Poem** — Helps create and improve exploring jung's understanding of spirit through rumi's poem content.
+- **Fact-Checking Evaluation Assistant** — Helps create and improve fact-checking evaluation assistant content.
+- **Fashion Photo Pose & Setting Transformation Editor** — Helps create and improve fashion photo pose & setting transformation editor content.
+- **FDTD Simulations of Nanoparticles** — Helps create and improve fdtd simulations of nanoparticles content.
+- **Film Critic** — Acts as film critic to help with film critic-related tasks.
+- **Flirting Boy** — Helps create and improve flirting boy content.
+- **Food Scout** — Helps create and improve food scout content.
 - **Football Commentator** — Provides play-by-play commentary for a football match, creating a vivid experience for the user.
+- **Future Vision** — Helps create and improve future vision content.
+- **Google Ads Title Copywriter** — Helps create and improve google ads title copywriter content.
+- **GPT_conversation_output** — Helps create and improve gpt_conversation_output content.
+- **Graduate-Level Review Paper on Humanoid Robots** — Helps create and improve graduate-level review paper on humanoid robots content.
+- **High Conversion Cold Email** — Helps create and improve high conversion cold email content.
+- **Human-Like Creative Writing Challenge** — Helps create and improve human-like creative writing challenge content.
+- **İngilizce-Türkçe Kelime ve Cümle Çevirmeni** — Helps create and improve i̇ngilizce-türkçe kelime ve cümle çevirmeni content.
+- **Japanese Text Spiral Generation** — Generates a clockwise spiral arrangement of Japanese text starting from the top left, with the final characters centered.
+- **Journal Reviewer** — Acts as journal reviewer to help with journal reviewer-related tasks.
+- **Journalist** — Acts as journalist to help with journalist-related tasks.
+- **Langgraph微信公众号介绍** — Helps create and improve langgraph微信公众号介绍 content.
+- **Lazy AI Email Detector** — Helps create and improve lazy ai email detector content.
+- **LEGO Minifigure Character Transformation** — Helps create and improve lego minifigure character transformation content.
+- **Letter from Lisa: A Heartfelt Plea to Her Father** — Helps create and improve letter from lisa: a heartfelt plea to her father content.
+- **Lifestyle Product Images** — Helps create and improve lifestyle product images content.
+- **LinkedIn Ghostwriter** — Helps create and improve linkedin ghostwriter content.
+- **LinkedIn Summary Crafting Prompt** — Helps create and improve linkedin summary crafting prompt content.
+- **Literary Critic** — Acts as `language` literary critic to help with literary critic-related tasks.
+- **Literature Reading and Analysis Assistant** — Helps create and improve literature reading and analysis assistant content.
+- **Live Scam Threat Briefing** — Helps create and improve live scam threat briefing content.
+- **Lunatic** — Acts as lunatic to help with lunatic-related tasks.
 - **Magician** — Provides ideas and instructions for magic tricks, helping users learn and perform illusions.
+- **Master Chinese Web Novel Author** — Helps create and improve master chinese web novel author content.
+- **Matrix Paradise Seraph** — Helps create and improve matrix paradise seraph content.
+- **Motivational Speaker** — Acts as motivational speaker to help with motivational speaker-related tasks.
 - **Movie Critic** — Reviews and analyzes films, providing insights into their quality, themes, and impact.
 - **Novelist** — Writes long-form fiction, creating complex characters and immersive worlds.
+- **Olympic Games Events Weekly Listings Prompt** — Helps create and improve olympic games events weekly listings prompt content.
+- **OSINT Threat Intelligence Analysis Workflow** — Helps create and improve osint threat intelligence analysis workflow content.
 - **Plagiarism Checker** — Scans provided text for potential plagiarism issues and reports results.
 - **Poet** — Writes poetry in various styles and formats, exploring emotions and themes through language.
+- **Professional Email Writer for Any Occasion** — Helps create and improve professional email writer for any occasion content.
+- **professional linguistic expert and translator** — Helps create and improve professional linguistic expert and translator content.
+- **Proofreader** — Helps create and improve proofreader content.
+- **Public Speaking Coach** — Acts as public speaking coach to help with public speaking coach-related tasks.
+- **Real-Time Screen Translation Assistant** — Helps create and improve real-time screen translation assistant content.
+- **Rephraser with Obfuscation** — Helps create and improve rephraser with obfuscation content.
+- **Research Project Analysis and IPD Feasibility Recommendations** — Helps create and improve research project analysis and ipd feasibility recommendations content.
+- **Restaurant Owner** — Acts as restaurant owner to help with restaurant owner-related tasks.
+- **Revenue Performance Report** — Helps create and improve revenue performance report content.
+- **Scam Detection Conversation Helper** — Helps create and improve scam detection conversation helper content.
+- **Scientific Paper Drafting for Analytical Data** — Helps create and improve scientific paper drafting for analytical data content.
+- **Screenplay Script with Cinematography Details** — Helps create and improve screenplay script with cinematography details content.
 - **Screenwriter** — Develops scripts for films, television shows, or other visual media, including dialogue and scene descriptions.
+- **Self-Help Book** — Acts as self-help book to help with self-help book-related tasks.
+- **Semantic Intent Analysis for Report Generation** — Helps create and improve semantic intent analysis for report generation content.
+- **Senior Crypto Yapper & Community Strategist** — Helps create and improve senior crypto yapper & community strategist content.
+- **Serious Man in Urban Setting** — Helps create and improve serious man in urban setting content.
+- **Showcase Top Repositories** — Helps create and improve showcase top repositories content.
+- **Shower Glass Silhouette** — Helps create and improve shower glass silhouette content.
+- **Smart Rewriter & Clarity Booster** — Helps create and improve smart rewriter & clarity booster content.
+- **Source-Hunting / OSINT Mode** — Helps create and improve source-hunting / osint mode content.
+- **Speech-Language Pathologist (SLP)** — Acts as speech-language pathologist (slp) and come up with new speech patterns to help with speech-language pathologist (slp)-related tasks.
+- **Sports Events Weekly Listings Prompt** — Helps create and improve sports events weekly listings prompt content.
 - **Stand-up Comedian** — Writes and performs jokes and routines on various topics to entertain the user.
+- **Step 3b: Creative Exploration** — Helps create and improve step 3b: creative exploration content.
+- **Step 4b: Story Development** — Helps create and improve step 4b: story development content.
+- **Step 5: Final Review** — Helps create and improve step 5: final review content.
 - **Storyteller** — Weaves engaging and imaginative stories tailored to specific audiences or themes.
+- **Study Review Companion** — Helps create and improve study review companion content.
+- **SWOT Analysis for Political Risk and International Relations** — Helps create and improve swot analysis for political risk and international relations content.
+- **Taglish Technical Storytelling Editor** — Helps create and improve taglish technical storytelling editor content.
+- **Tell Your Story** — Helps create and improve tell your story content.
+- **Temitope** — Helps create and improve temitope content.
+- **Text Summarizer** — Helps create and improve text summarizer content.
+- **The tyrant King** — Helps create and improve the tyrant king content.
+- **Theme based Art Style Fusion Meta-Prompt** — Helps create and improve theme based art style fusion meta-prompt content.
+- **Topic Article** — Helps create and improve topic article content.
+- **Turkish Cats hanging out nearby of Galata Tower** — Helps create and improve turkish cats hanging out nearby of galata tower content.
+- **UGC-Style TikTok Script Generator for Gen Z Skincare** — Helps create and improve ugc-style tiktok script generator for gen z skincare content.
+- **URL, Title, and Description Analysis Tool with LSI Keywords** — Helps create and improve url, title, and description analysis tool with lsi keywords content.
+- **video-analysis-expert** — Helps create and improve video-analysis-expert content.
+- **Wary Bear in a Hostile Woodland** — Helps create and improve wary bear in a hostile woodland content.
+- **Wikipedia Page** — Acts as wikipedia page to help with wikipedia page-related tasks.
+- **Yağlı boya tablona bak** — Helps create and improve yağlı boya tablona bak content.
+- **Yes or No answer** — Helps create and improve yes or no answer content.
+- **Патентный поиск** — Helps create and improve патентный поиск content.
+- **السعوديه** — Helps create and improve السعوديه content.
+- **资深卖货短视频脚本创作者** — Helps create and improve 资深卖货短视频脚本创作者 content.
 
 ## Marketing, SEO & Growth
 
 - **Advertiser** — Creates advertising campaigns for products or services, choosing target audiences and key messaging.
+- **Comprehensive Digital Marketing Strategy for Fashion Brand** — Provides comprehensive digital marketing strategy for fashion brand marketing and growth strategies.
+- **Creative Ideas Generator** — Provides creative ideas generator marketing and growth strategies.
+- **Digital Marketing Project Ideas for Students** — Provides digital marketing project ideas for students marketing and growth strategies.
+- **Elite B2B Lead Generation and SEO Audit Specialist** — Provides elite b2b lead generation and seo audit specialist marketing and growth strategies.
+- **Email Marketing** — Provides email marketing marketing and growth strategies.
+- **Football Player Introduction Poster Template** — Provides football player introduction poster template marketing and growth strategies.
+- **Pet Store Advertising Campaign Strategy** — Provides pet store advertising campaign strategy marketing and growth strategies.
+- **SaaS Landing Page Builder** — Provides saas landing page builder marketing and growth strategies.
+- **SEO specialist** — Acts as seo specialist to help with seo specialist-related tasks.
+- **SEO Strategy for Container Tracking Keywords** — Provides seo strategy for container tracking keywords marketing and growth strategies.
+- **Social Media Influencer** — Acts as social media influencer to help with social media influencer-related tasks.
+- **Social Media Manager** — Acts as social media manager to help with social media manager-related tasks.
+- **Social Media Post Creator for Recruitment** — Provides social media post creator for recruitment marketing and growth strategies.
+- **TikTok Marketing Visual Designer Agent** — Provides tiktok marketing visual designer agent marketing and growth strategies.
 - **Train-ad Style Book Advertisement** — Generates a 16:9 business-book-style advertisement featuring a specific book image.
+- **Viral TikTok Glühwein Recipe in Five Languages** — Provides viral tiktok glühwein recipe in five languages marketing and growth strategies.
+- **Viral Video Analyzer for TikTok and Xiaohongshu** — Provides viral video analyzer for tiktok and xiaohongshu marketing and growth strategies.
+- **Whimsical 3D Brand Miniatures** — Provides whimsical 3d brand miniatures marketing and growth strategies.
 
 ## Business & Strategy
 
 - **Accountant** — Provides advice and guidance on accounting practices and financial management.
+- **Act as a Health Recovery and Weight Loss Specialist** — Offers act as a health recovery and weight loss specialist business strategy and planning guidance.
+- **Act as a Product Manager** — Offers act as a product manager business strategy and planning guidance.
+- **Advanced Account Research** — Offers advanced account research business strategy and planning guidance.
+- **AI Tour Guide Business Plan for Foreign Tourists in China** — Offers ai tour guide business plan for foreign tourists in china business strategy and planning guidance.
+- **AI Travel Agent – Interview-Driven Planner** — Offers ai travel agent – interview-driven planner business strategy and planning guidance.
+- **Budget Tracker** — Offers budget tracker business strategy and planning guidance.
+- **Business** — Offers business business strategy and planning guidance.
+- **Business Coaching Mentor** — Offers business coaching mentor business strategy and planning guidance.
+- **Cheap Travel Ticket Advisor** — Offers cheap travel ticket advisor business strategy and planning guidance.
+- **Chef** — Offers chef business strategy and planning guidance.
+- **Chief Executive Officer** — Acts as chief executive officer for a hypothetical company to help with chief executive officer-related tasks.
+- **China Business Law Assistant** — Offers china business law assistant business strategy and planning guidance.
+- **Create Project Spotlight** — Offers create project spotlight business strategy and planning guidance.
+- **Cryptocurrency Contract Trading System** — Offers cryptocurrency contract trading system business strategy and planning guidance.
+- **Custom Travel Plan Generator** — Offers custom travel plan generator business strategy and planning guidance.
+- **Data Analyst** — Offers data analyst business strategy and planning guidance.
+- **Doctor** — Acts as doctor and come up with creative treatments for illnesses or diseases to help with doctor-related tasks.
+- **Enterprise Sponsorship** — Offers enterprise sponsorship business strategy and planning guidance.
+- **Enterprise Talent Development Management System Design** — Offers enterprise talent development management system design business strategy and planning guidance.
+- **File Renaming Dashboard App** — Offers file renaming dashboard app business strategy and planning guidance.
 - **Financial Analyst** — Provides analysis and insights into financial data and market trends.
+- **Fintech Product and Operations Assistant** — Offers fintech product and operations assistant business strategy and planning guidance.
+- **Gomoku player** — Offers gomoku player business strategy and planning guidance.
+- **I Think I Need a Lawyer — Neutral Legal Intake Organizer** — Offers i think i need a lawyer — neutral legal intake organizer business strategy and planning guidance.
+- **Impact Metrics** — Offers impact metrics business strategy and planning guidance.
+- **Integration and Planning Roadmap for Calculator Content** — Offers integration and planning roadmap for calculator content business strategy and planning guidance.
+- **Internal Project Proposal for Hospital Collaboration** — Offers internal project proposal for hospital collaboration business strategy and planning guidance.
 - **Investment Manager** — Provides advice and guidance on investment strategies and portfolio management.
+- **Investment Manager** — Offers investment manager business strategy and planning guidance.
+- **Lead Data Analyst for Actionable Insights** — Offers lead data analyst for actionable insights business strategy and planning guidance.
+- **Legal Advisor** — Acts as my legal advisor to help with legal advisor-related tasks.
 - **Logistic Manager** — Manages and optimizes logistics and supply chain operations for a business.
 - **Logistician** — Provides advice and guidance on supply chain management and logistics operations.
+- **Medical Consultant** — Offers medical consultant business strategy and planning guidance.
+- **Pitch** — Offers pitch business strategy and planning guidance.
+- **Professional Vision Statement for Transportation Company** — Offers professional vision statement for transportation company business strategy and planning guidance.
+- **Professional Website Design Consultant** — Offers professional website design consultant business strategy and planning guidance.
+- **Project Manager** — Offers project manager business strategy and planning guidance.
+- **Project Skill & Resource Interviewer** — Offers project skill & resource interviewer business strategy and planning guidance.
 - **Real Estate Agent** — Provides advice and guidance on buying, selling, and renting properties.
+- **RIP McKinsey: Here are 10 prompts to replace expensive business consultants** — Offers rip mckinsey: here are 10 prompts to replace expensive business consultants business strategy and planning guidance.
+- **Startup Idea Generator** — Offers startup idea generator business strategy and planning guidance.
+- **Stock Analyser** — Offers stock analyser business strategy and planning guidance.
+- **Stock Market Analyst: Market Move Suggestions** — Offers stock market analyst: market move suggestions business strategy and planning guidance.
+- **Strategic Decision-Making Matrix** — Offers strategic decision-making matrix business strategy and planning guidance.
+- **The PRD Mastermind** — Offers the prd mastermind business strategy and planning guidance.
+- **Time Travel Guide** — Acts as my time travel guide to help with time travel guide-related tasks.
+- **Trade Contract Review Expert** — Offers trade contract review expert business strategy and planning guidance.
 - **Travel Guide** — Suggests travel destinations and itineraries based on user location and interests.
+- **Travel Planner Prompt** — Offers travel planner prompt business strategy and planning guidance.
+- **Virtual Doctor** — Offers virtual doctor business strategy and planning guidance.
+- **Water Balance Management Platform Design** — Offers water balance management platform design business strategy and planning guidance.
+- **Weather Dashboard** — Offers weather dashboard business strategy and planning guidance.
+- **Yamuna River Cleanup Plan for Vrindavan** — Offers yamuna river cleanup plan for vrindavan business strategy and planning guidance.
+- **为您的公司设计薪酬体系** — Offers 为您的公司设计薪酬体系 business strategy and planning guidance.
 
 ## Productivity & Workflow
 
+- **AI Agent Security Evaluation Checklist** — Enhances productivity through ai agent security evaluation checklist workflow optimization.
+- **AI Workflow Automation Specialist** — Enhances productivity through ai workflow automation specialist workflow optimization.
+- **Créer une Carte Mentale pour Séance d'Idéation** — Enhances productivity through créer une carte mentale pour séance d'idéation workflow optimization.
 - **Excel Sheet Simulator** — Functions as a text-based Excel sheet that responds only with cell data and formatting.
+- **Gathering Planner Interview** — Enhances productivity through gathering planner interview workflow optimization.
+- **Intent Recognition Planner Agent** — Enhances productivity through intent recognition planner agent workflow optimization.
 - **Life Coach** — Provides guidance and support to help users achieve their personal goals and improve their overall well-being.
+- **Life coach** — Enhances productivity through life coach workflow optimization.
+- **Makeup Artist** — Acts as makeup artist to help with makeup artist-related tasks.
 - **Mental Health Adviser** — Provides support and guidance on mental health issues, offering strategies for coping and well-being.
+- **Monthly Updates** — Enhances productivity through monthly updates workflow optimization.
 - **Motivational Coach** — Provides encouragement and strategies to help users achieve their goals and stay focused.
+- **Note-Taking assistant** — Acts as note-taking assistant for a lecture to help with note-taking assistant-related tasks.
+- **Personal Assistant for Zone of Excellence Management** — Enhances productivity through personal assistant for zone of excellence management workflow optimization.
 - **Personal Trainer** — Creates personalized fitness plans and provides motivation and guidance to help users reach their fitness goals.
+- **Policy Agent Client Manager** — Enhances productivity through policy agent client manager workflow optimization.
+- **Pomodoro Timer** — Enhances productivity through pomodoro timer workflow optimization.
 - **Relationship Coach** — Provides advice and guidance on building and maintaining healthy relationships.
+- **Step 6: Publication** — Enhances productivity through step 6: publication workflow optimization.
+- **Study Timer** — Enhances productivity through study timer workflow optimization.
+- **Virtual Event Planner** — Acts as virtual event planner to help with virtual event planner-related tasks.
 
 ## Education & Learning
 
+- **"University Website Section Designer"** — Facilitates learning and education in "university website section designer".
+- **Academic Graduation Presentation Guide** — Facilitates learning and education in academic graduation presentation guide.
+- **Academic Text Refinement Assistant** — Facilitates learning and education in academic text refinement assistant.
+- **Academic Writing Workshop Plan** — Facilitates learning and education in academic writing workshop plan.
+- **Academician** — Acts as academician to help with academician-related tasks.
+- **Act as a Senior Research Paper Evaluator** — Facilitates learning and education in act as a senior research paper evaluator.
+- **AI Assistant for University Assignments** — Facilitates learning and education in ai assistant for university assignments.
+- **Analyze Previous Year Question Papers** — Facilitates learning and education in analyze previous year question papers.
+- **Aprendizaje Diario de Japonés** — Facilitates learning and education in aprendizaje diario de japonés.
+- **Architectural Study Sheet: [HISTORIC_SITE_NAME]** — Facilitates learning and education in architectural study sheet: [historic_site_name].
+- **Ayurveda Food Tester** — Facilitates learning and education in ayurveda food tester.
+- **Babysitter** — Acts as babysitter to help with babysitter-related tasks.
 - **Chalkboard-Style AI News Summary** — Transforms AI news content into a hand-drawn, teacher-style chalkboard diagram with explanations.
+- **Clean BibTeX Formatter for Academic Projects** — Facilitates learning and education in clean bibtex formatter for academic projects.
+- **College-Level Integrative Project Proposal Draft** — Facilitates learning and education in college-level integrative project proposal draft.
+- **Comprehensive Academic Paper Writing Guide** — Facilitates learning and education in comprehensive academic paper writing guide.
+- **Course Assignment Grader** — Facilitates learning and education in course assignment grader.
 - **Debate Coach** — Provides feedback and guidance to help users improve their debating and argumentation skills.
 - **Debater** — Argues for or against a specific topic, using logic and evidence to support a position.
+- **Deep Immersion Study Plan (7 Days)** — Facilitates learning and education in deep immersion study plan (7 days).
+- **Deep Research - Gemini** — Facilitates learning and education in deep research - gemini.
+- **Diseño de Artículo de Revisión Sistemática para Revista Q1 sobre Sociedad y Cultura Caribeña** — Facilitates learning and education in diseño de artículo de revisión sistemática para revista q1 sobre sociedad y cultura caribeña.
+- **DIY Expert** — Acts as diy expert to help with diy expert-related tasks.
+- **DUT Citation Accuracy Project** — Facilitates learning and education in dut citation accuracy project.
+- **Educational Content Creator** — Acts as educational content creator to help with educational content creator-related tasks.
+- **Educational Platform Support Assistant** — Facilitates learning and education in educational platform support assistant.
+- **English Language Tutor for Turkish Speakers** — Facilitates learning and education in english language tutor for turkish speakers.
+- **English Practice App Guide** — Facilitates learning and education in english practice app guide.
 - **English Pronunciation Helper** — Helps users practice English pronunciation based on provided text inputs.
+- **English Pronunciation Helper** — Acts as english pronunciation assistant for ${mother language:turkish} speaking people to help with english pronunciation helper-related tasks.
+- **English Teacher for Translation and Cultural Explanation** — Facilitates learning and education in english teacher for translation and cultural explanation.
 - **Etymologist** — Explores the origins and history of words, providing insights into their development and meaning.
+- **Evaluate and Suggest Improvements for Computer Science PhD Thesis** — Facilitates learning and education in evaluate and suggest improvements for computer science phd thesis.
+- **Expert Guidance for Acoustic and Deep Learning Research** — Facilitates learning and education in expert guidance for acoustic and deep learning research.
+- **Exploring Gaps in Thesis Writing Literature with ChatGPT** — Facilitates learning and education in exploring gaps in thesis writing literature with chatgpt.
+- **File System Indexer CLI** — Facilitates learning and education in file system indexer cli.
+- **Flashcard Study System** — Facilitates learning and education in flashcard study system.
+- **Game Theory for Students: Easy and Engaging Learning** — Facilitates learning and education in game theory for students: easy and engaging learning.
+- **Graduate Information and Communication System Design** — Facilitates learning and education in graduate information and communication system design.
+- **Historian** — Acts as historian to help with historian-related tasks.
+- **Hospital Pharmacy Course PDF Study Assistant** — Facilitates learning and education in hospital pharmacy course pdf study assistant.
+- **In-Depth Article Enhancement with Research** — Facilitates learning and education in in-depth article enhancement with research.
+- **Innovative Math Teaching Method** — Facilitates learning and education in innovative math teaching method.
+- **Instructor in a School** — Acts as instructor in a school to help with instructor in a school-related tasks.
+- **Japanese Kanji quiz machine** — Acts as japanese kanji quiz machine to help with japanese kanji quiz machine-related tasks.
+- **Language Detection** — Facilitates learning and education in language detection.
+- **Language Detector** — Facilitates learning and education in language detector.
+- **Learn to Speak Spanish** — Facilitates learning and education in learn to speak spanish.
+- **Literature Review Writing Assistant** — Facilitates learning and education in literature review writing assistant.
 - **Math Teacher** — Explains mathematical concepts and solves problems, helping students understand the underlying logic.
+- **Mathematical History Teacher** — Acts as mathematical history teacher and provide information about the historical development of mathematical concepts and the contributions of different mathematicians to help with mathematical history teacher-related tasks.
+- **Mathematician** — Facilitates learning and education in mathematician.
+- **Muslim Imam** — Facilitates learning and education in muslim imam.
+- **New Language Creator** — Facilitates learning and education in new language creator.
+- **Paladin Octem Plus (Research Swarm)** — Facilitates learning and education in paladin octem plus (research swarm).
+- **Persuasive Article or Proposal Writing Guide** — Facilitates learning and education in persuasive article or proposal writing guide.
+- **Pharmacy Research Assistant** — Facilitates learning and education in pharmacy research assistant.
 - **Philosopher** — Explores complex questions about existence, knowledge, and ethics, providing thoughtful analysis.
 - **Philosophy Teacher** — Explains philosophical concepts and history to students in an accessible and engaging way.
+- **Prompt Generator** — Acts as prompt generator to help with prompt generator-related tasks.
+- **Question Quality Lab Game** — Facilitates learning and education in question quality lab game.
+- **QuizFlix Mobile App Design for University Students** — Facilitates learning and education in quizflix mobile app design for university students.
+- **Research NRI/NRO Account Services in India** — Facilitates learning and education in research nri/nro account services in india.
+- **Research Weapon** — Facilitates learning and education in research weapon.
+- **root-cause-analyst** — Facilitates learning and education in root-cause-analyst.
+- **School Life Mentor** — Facilitates learning and education in school life mentor.
+- **Security Monitoring with Wazuh: A Comprehensive Research Project** — Facilitates learning and education in security monitoring with wazuh: a comprehensive research project.
+- **Senior Academic Advisor** — Facilitates learning and education in senior academic advisor.
+- **Slap Game Challenge: Act as the Ultimate Slap Game Master** — Facilitates learning and education in slap game challenge: act as the ultimate slap game master.
+- **Socratic Method** — Acts as socrat to help with socratic method-related tasks.
+- **Socratic Method for Ethical Discussions** — Facilitates learning and education in socratic method for ethical discussions.
+- **Socratic Universal Tutor** — Facilitates learning and education in socratic universal tutor.
+- **Solar System Scale Model Classroom Poster** — Facilitates learning and education in solar system scale model classroom poster.
 - **Spoken English Teacher** — Engages in conversation to help improve spoken English skills through practice and correction.
+- **Sports Research Assistant** — Facilitates learning and education in sports research assistant.
+- **Squid Game - Red Light, Green Light Challenge** — Facilitates learning and education in squid game - red light, green light challenge.
+- **Student Tier** — Facilitates learning and education in student tier.
+- **Study planner** — Acts as advanced study plan generator to help with study planner-related tasks.
+- **Success Stories** — Facilitates learning and education in success stories.
 - **Trappist Abbey Beer Making Infographic** — Generates a high-quality infographic explaining beer making in a Trappist Abbey.
+- **Workplace English Speaking Coach** — Facilitates learning and education in workplace english speaking coach.
 
 ## Career & Hiring
 
+- **Act as a Job Application Reviewer** — Supports career development and hiring processes for act as a job application reviewer.
+- **Act as a Resume Reviewer** — Supports career development and hiring processes for act as a resume reviewer.
+- **Act as a Resume Reviewer for Anthropic Fellows Program** — Supports career development and hiring processes for act as a resume reviewer for anthropic fellows program.
+- **Astrologer** — Acts as astrologer to help with astrologer-related tasks.
+- **ATS Resume Scanner Simulator** — Supports career development and hiring processes for ats resume scanner simulator.
+- **Career Coach** — Acts as career coach to help with career coach-related tasks.
 - **Career Counselor** — Provides advice and guidance on career choices, job searching, and professional development.
+- **Career Path Deliberation Assistant** — Supports career development and hiring processes for career path deliberation assistant.
+- **Cover Letter** — Supports career development and hiring processes for cover letter.
+- **Crafting LinkedIn Messages to Hiring Managers** — Supports career development and hiring processes for crafting linkedin messages to hiring managers.
+- **CV Writing Assistant** — Supports career development and hiring processes for cv writing assistant.
+- **Decision Filter** — Acts as decision filter to help with decision filter-related tasks.
+- **Dynamic Cover Letter Generator** — Supports career development and hiring processes for dynamic cover letter generator.
+- **Interview Preparation Coach** — Supports career development and hiring processes for interview preparation coach.
+- **Job and Internship Tracker for Google Sheets** — Supports career development and hiring processes for job and internship tracker for google sheets.
 - **Job Interviewer** — Simulates a job interview for a specific position, asking questions and waiting for candidate responses.
+- **Linkedin profile enhancing** — Supports career development and hiring processes for linkedin profile enhancing.
+- **LinkedIn: About/Summary draft prompt** — Supports career development and hiring processes for linkedin: about/summary draft prompt.
+- **LinkedIn: Experience optimization prompt** — Supports career development and hiring processes for linkedin: experience optimization prompt.
+- **LinkedIn: Recommendation request message prompt** — Supports career development and hiring processes for linkedin: recommendation request message prompt.
+- **Overqualification Narrative Architect** — Supports career development and hiring processes for overqualification narrative architect.
+- **Recognize Sponsors** — Supports career development and hiring processes for recognize sponsors.
 - **Recruiter** — Helps find and evaluate candidates for specific job positions, providing advice on the hiring process.
+- **Resume Quality Reviewer – Green Flag Edition** — Supports career development and hiring processes for resume quality reviewer – green flag edition.
+- **Resume tailoring** — Supports career development and hiring processes for resume tailoring.
+- **Structured Job Application Cleanup** — Supports career development and hiring processes for structured job application cleanup.
+- **Talent Coach** — Acts as talent coach for interviews to help with talent coach-related tasks.
+- **Universal Job Fit Evaluation Prompt** — Supports career development and hiring processes for universal job fit evaluation prompt.
+- **Universal Lead & Candidate Outreach Generator (HR, SALES)** — Supports career development and hiring processes for universal lead & candidate outreach generator (hr, sales).
+- **University Admission Interview Simulation** — Supports career development and hiring processes for university admission interview simulation.
 
 ## Customer Support & Success
 
+- **AI Customer Support Specialist** — Improves customer support and success for ai customer support specialist.
 - **Automobile Mechanic** — Provides advice and guidance on car maintenance and repairs.
 - **Dentist** — Provides advice and information on dental health and hygiene.
+- **FAQ Generator** — Improves customer support and success for faq generator.
+- **Florist** — Improves customer support and success for florist.
 - **Pet Behaviorist** — Provides advice and guidance on understanding and managing pet behavior issues.
+- **Poe - Your Best Bud Chatbot** — Improves customer support and success for poe - your best bud chatbot.
 
 ## Image Prompts (General)
 
+- **3D City Prompt** — Generates creative image prompts for 3d city prompt.
+- **A Clay-Crafted City: Mini [CITY NAME] World** — Generates creative image prompts for a clay-crafted city: mini [city name] world.
+- **A Moment Shared with the Wild** — Generates creative image prompts for a moment shared with the wild.
+- **A prompt that will turn your photo into a scene from a cult 90s movie** — Generates creative image prompts for a prompt that will turn your photo into a scene from a cult 90s movie.
 - **Abstract Microscopic Coffee Crema** — Creates an abstract, surreal macro photograph of coffee crema as a living substance.
+- **AI Themed Design Image Creation** — Generates creative image prompts for ai themed design image creation.
+- **Amateur Mirror Selfie with Natural Look** — Generates creative image prompts for amateur mirror selfie with natural look.
+- **American Comic** — Generates creative image prompts for american comic.
+- **Ankara Night Scene in a Meyhane** — Generates creative image prompts for ankara night scene in a meyhane.
+- **Architectural Sketch & Markup Overlay** — Generates creative image prompts for architectural sketch & markup overlay.
+- **Avant-Garde Portrait with Ghost Duplicate in Ochre Studio** — Generates creative image prompts for avant-garde portrait with ghost duplicate in ochre studio.
 - **Billie Eilish Fortnite-Style 3D Character** — Creates a high-fidelity 3D character render of Billie Eilish in Fortnite aesthetic.
+- **Blender Object Maker** — Generates creative image prompts for blender object maker.
 - **Candid Smartphone Selfie with Playful Expression** — Generates an ultra-photorealistic, candid selfie image with a young woman playfully sticking her tongue out.
+- **Candle Pattern Trading Chart Generator** — Generates creative image prompts for candle pattern trading chart generator.
+- **Car poster** — Generates creative image prompts for car poster.
+- **caravan prompts** — Generates creative image prompts for caravan prompts.
 - **Caricature Bobblehead Figurine** — Creates a highly detailed caricature figurine as a cute but intense bobblehead-style collectible.
+- **Cartoon series** — Generates creative image prompts for cartoon series.
 - **Character Generation Prompt** — Generates a high-resolution image of a main character with K-pop idol aesthetic.
+- **Christmas Poster - Festive Holiday Scene** — Generates creative image prompts for christmas poster - festive holiday scene.
+- **Cinematic 3x3 Focal Lengths Grid** — Generates creative image prompts for cinematic 3x3 focal lengths grid.
+- **Cinematic Close-Up of Craftsman with Paper Figures** — Generates creative image prompts for cinematic close-up of craftsman with paper figures.
 - **Cinematic Concept Art of Sadie Sink as Jean Grey** — Creates a cinematic 3D render or concept art of Sadie Sink as Jean Grey.
+- **Cinematic Neon Alley – Urban Night Walk (Album Cover Style)** — Generates creative image prompts for cinematic neon alley – urban night walk (album cover style).
 - **Cinematic Portrait of Sydney Sweeney as Wanda Maximoff** — Creates a cinematic realistic portrait of Sydney Sweeney as Wanda Maximoff.
+- **Cinematic Realism** — Generates creative image prompts for cinematic realism.
+- **Cinematic Vertical Portrait of Vintage Car Radio at Night** — Generates creative image prompts for cinematic vertical portrait of vintage car radio at night.
+- **Clean Clinic Portrait** — Generates creative image prompts for clean clinic portrait.
+- **Close-up black and white portrait** — Generates creative image prompts for close-up black and white portrait.
+- **Corporate Studio Portrait (Auto Outfit for Men/Women)** — Generates creative image prompts for corporate studio portrait (auto outfit for men/women).
+- **Cozy Ankara Night: Capturing a Realistic Bedroom Scene** — Generates creative image prompts for cozy ankara night: capturing a realistic bedroom scene.
+- **Cozy Christmas Smile** — Generates creative image prompts for cozy christmas smile.
+- **Cozy Night in Ankara: A Turkish TV Series Snapshot** — Generates creative image prompts for cozy night in ankara: a turkish tv series snapshot.
+- **Crear un retrato familiar combinando dos personas** — Generates creative image prompts for crear un retrato familiar combinando dos personas.
+- **Create a Cultural Superhero Movie Poster** — Generates creative image prompts for create a cultural superhero movie poster.
+- **Create Icons** — Generates creative image prompts for create icons.
+- **Create Infographics** — Generates creative image prompts for create infographics.
+- **Create Organizational Charts and Workflows for University Departments** — Generates creative image prompts for create organizational charts and workflows for university departments.
+- **Dark Style Image Prompt** — Generates creative image prompts for dark style image prompt.
+- **Design App Store Style Icons** — Generates creative image prompts for design app store style icons.
+- **Director Variation Grid: One Still, Eight Auteur Re-Shoots** — Generates creative image prompts for director variation grid: one still, eight auteur re-shoots.
+- **Dog fun** — Generates creative image prompts for dog fun.
+- **Drawing App** — Generates creative image prompts for drawing app.
+- **Dual Lighting Narrative Scene** — Generates creative image prompts for dual lighting narrative scene.
+- **Dynamic Chinese Fire Horse Celebration** — Generates creative image prompts for dynamic chinese fire horse celebration.
+- **Editorial Portrait Holding Poster of Self** — Generates a high-end studio portrait where the subject stands holding a large poster featuring an artistic reinterpretation of their own face.
+- **Elements** — Generates creative image prompts for elements.
+- **Fierce Medieval Queen on Iron Throne Portrait** — Generates creative image prompts for fierce medieval queen on iron throne portrait.
 - **Fisheye Product Photo with Forced Perspective** — Creates a high-impact fisheye product photo with warped forced perspective.
+- **Floating City Island - Photoreal 4K Poster** — Generates creative image prompts for floating city island - photoreal 4k poster.
+- **Gaslighter** — Acts as gaslighter to help with gaslighter-related tasks.
+- **Geralt of Rivia Image Generation** — Generates creative image prompts for geralt of rivia image generation.
+- **görsel** — Generates creative image prompts for görsel.
+- **Harry Potter / Marauder’s Map** — Generates creative image prompts for harry potter / marauder’s map.
+- **Hyper-Realistic 3D Isometric Ottoman Masterpiece** — Generates creative image prompts for hyper-realistic 3d isometric ottoman masterpiece.
 - **Hyper-realistic Cinematic Portrait** — Generates a hyper-realistic, cinematic close-up portrait of Sydney Sweeney.
+- **Hyper-Realistic Clay Bust From Photo Template** — Generates creative image prompts for hyper-realistic clay bust from photo template.
+- **Hyperrealistic Food Photo Creator** — Generates creative image prompts for hyperrealistic food photo creator.
+- **Hyperrealistic Food Video Creator** — Generates creative image prompts for hyperrealistic food video creator.
+- **illustration for teenagers, side silhouette of a young person. Inside the head a question mark transforming into light t. Deep purple and blue tones, minimalist and , v.** — Generates creative image prompts for illustration for teenagers, side silhouette of a young person. inside the head a question mark transforming into light t. deep purple and blue tones, minimalist and , v..
+- **Image Style Imitation** — Generates creative image prompts for image style imitation.
+- **Imagen estilo Hollywood de alta definición** — Generates creative image prompts for imagen estilo hollywood de alta definición.
+- **Isometric 3D Cartoon Scene with Weather Effects** — Generates creative image prompts for isometric 3d cartoon scene with weather effects.
+- **Isometric 3D Weather Cityscapes (PBR Textures)** — Generates creative image prompts for isometric 3d weather cityscapes (pbr textures).
+- **Isometric miniature 3D cartoon city scene** — Generates creative image prompts for isometric miniature 3d cartoon city scene.
+- **Isometric miniature 3D model** — Generates creative image prompts for isometric miniature 3d model.
 - **K-pop Star Jennie Kim Stage Performance** — Creates a high-contrast, cinematic image of Jennie Kim during a performance.
 - **Macro Shot of Miniature Sniper Scene** — Creates a hyper-realistic macro close-up shot of a giant hand holding a keyring with a miniature sniper.
+- **Midjourney Prompt Generator** — Acts as prompt generator for midjourney's artificial intelligence program to help with midjourney prompt generator-related tasks.
+- **Mindful Mandala & Zen Geometric Patterns** — Generates creative image prompts for mindful mandala & zen geometric patterns.
+- **Mirror Selfie with Face Preservation** — Generates creative image prompts for mirror selfie with face preservation.
+- **Morning coffee** — Generates creative image prompts for morning coffee.
+- **nanobanana try clothing** — Generates creative image prompts for nanobanana try clothing.
+- **National Architecture Dioramas** — Generates creative image prompts for national architecture dioramas.
+- **Neo-Skeuomorphism Crowd Scene** — A detailed prompt using custom neo-skeuomorphism style, generating an overhead close-up shot of a dense, bustling crowd of abstract, cartoonish figures with bold colors and a whimsical, crayon-like aesthetic.
+- **Old Photo Restoration to DSLR Quality** — Transforms an old photo into a professional, DSLR-quality portrait with enhanced color and detail.
 - **Passport Photo Grid Generation** — Generates a grid of six identical passport-size photos based on an uploaded image.
+- **Photorealistic Cozy Home Scene with Natural Lighting** — Generates creative image prompts for photorealistic cozy home scene with natural lighting.
+- **Photorealistic Fashion Portrait Template** — A reusable JSON prompt template for generating photorealistic fashion portraits with cultural attire.
+- **Pitchside Tunnel Moment with Your Favorite Footballer** — Generates creative image prompts for pitchside tunnel moment with your favorite footballer.
+- **Pixel Dissolve: Minimalist 3D Food Transformation** — Generates creative image prompts for pixel dissolve: minimalist 3d food transformation.
+- **Plant Hero Section Image** — Generates creative image prompts for plant hero section image.
+- **Playing Card Sorcerer Portrait** — Generates creative image prompts for playing card sorcerer portrait.
+- **POV Smartphone with Space-Themed Twitter UI in Central Park** — Generates creative image prompts for pov smartphone with space-themed twitter ui in central park.
+- **Professional Badge Photo, Ready to Use** — Generates creative image prompts for professional badge photo, ready to use.
+- **Project System and Art Style Consistency Instructions** — Generates creative image prompts for project system and art style consistency instructions.
+- **Quiet Glow** — Generates creative image prompts for quiet glow.
+- **Random Strange Product Grid Generation** — Generates a 2x2 grid of random, strange products from a specified year and style with text labels.
+- **Realistic Food Image Generator** — Generates creative image prompts for realistic food image generator.
+- **Realistic Mirror-Selfie Scene Creation** — Generates creative image prompts for realistic mirror-selfie scene creation.
+- **Realistic Night Sky Portrait** — Generates creative image prompts for realistic night sky portrait.
+- **Red Dead Redemption 2 - Double Exposure Effect** — Generates creative image prompts for red dead redemption 2 - double exposure effect.
+- **Remotion** — Generates creative image prompts for remotion.
+- **Retro-futuristic 1970s sci-fi** — Generates creative image prompts for retro-futuristic 1970s sci-fi.
+- **Scientific Drawing Assistant** — Generates creative image prompts for scientific drawing assistant.
+- **Security Guard Image Prompt** — Generates creative image prompts for security guard image prompt.
+- **Serene Yoga & Mindfulness Lifestyle Photography** — Generates creative image prompts for serene yoga & mindfulness lifestyle photography.
+- **Social Media Cocktail Web Site Post** — Generates creative image prompts for social media cocktail web site post.
+- **Socrat** — Acts as socrat to help with socrat-related tasks.
+- **Spotify room cinematic** — Generates creative image prompts for spotify room cinematic.
+- **Sticker** — Generates creative image prompts for sticker.
+- **Studio Portrait with Cinematic Lighting and Bold Color Background** — Generates creative image prompts for studio portrait with cinematic lighting and bold color background.
+- **Studio Portraits with Professional Postures** — Generates creative image prompts for studio portraits with professional postures.
+- **Sunny Beach** — Generates creative image prompts for sunny beach.
+- **Surreal City Scene** — Generates creative image prompts for surreal city scene.
+- **Table with Various Items** — Generates creative image prompts for table with various items.
+- **The Missing Woman** — Generates creative image prompts for the missing woman.
+- **The Silent Standoff** — Generates creative image prompts for the silent standoff.
+- **The Witcher - Double Exposure Effect** — Generates creative image prompts for the witcher - double exposure effect.
+- **Through the Glass: One Eye in Focus** — Generates creative image prompts for through the glass: one eye in focus.
+- **Transform Photo into Pop Art Comic Panel** — Transforms an existing photograph into a colorful pop art comic panel with bold outlines, halftone texture, and bright contrast.
+- **Transform Subjects into Adorable Plush Forms** — Generates creative image prompts for transform subjects into adorable plush forms.
+- **Turkish woman in Ankara with a surreal twist** — Generates creative image prompts for turkish woman in ankara with a surreal twist.
+- **Turn Your Photo Into a Simpsons Scene** — Generates creative image prompts for turn your photo into a simpsons scene.
+- **Ultimate Inpainting / Reference Prompt** — Generates creative image prompts for ultimate inpainting / reference prompt.
+- **Ultra Realistic Bedroom Selfie Description** — Generates creative image prompts for ultra realistic bedroom selfie description.
+- **Ultra-photorealistic Infographics** — Generates creative image prompts for ultra-photorealistic infographics.
 - **Ultra-Photorealistic iPhone Mirror Selfie** — Creates an ultra-photorealistic mirror selfie of a woman in a small bedroom at night.
+- **Ultra-Photorealistic Romantic Cinematic Scene in the Rain** — Generates creative image prompts for ultra-photorealistic romantic cinematic scene in the rain.
+- **Ultra-Realistic 3D Character Avatar Creation** — Generates creative image prompts for ultra-realistic 3d character avatar creation.
 - **Ultra-Realistic 3D Inflatable Object Render** — Creates ultra-realistic 3D renders of an object with glossy inflated plastic material.
+- **Ultra-Realistic Amateur Street Photo of Ankara Scene** — Generates creative image prompts for ultra-realistic amateur street photo of ankara scene.
+- **Ultra-Realistic Ankara Apartment Night Scene** — Generates creative image prompts for ultra-realistic ankara apartment night scene.
+- **Ultra-Realistic Ankara Street Photo with Surreal Element** — Generates creative image prompts for ultra-realistic ankara street photo with surreal element.
 - **Ultra-Realistic Fashion Editorial** — Creates an ultra-realistic fashion editorial portrait with a lit cigarette prop.
+- **Ultra-Realistic Night Scene in a Turkish Kitchen** — Generates creative image prompts for ultra-realistic night scene in a turkish kitchen.
+- **Ultra-Realistic Turkish Living Room Scene During Football Match** — Generates creative image prompts for ultra-realistic turkish living room scene during football match.
+- **Ultra-Realistic Young Woman Portrait Generation** — Generates creative image prompts for ultra-realistic young woman portrait generation.
+- **Urban Fashion Collage with Sydney Sweeney** — Creates a vertically divided urban fashion collage featuring three candid street-style photos of Sydney Sweeney.
+- **Valorant Agent Style** — Generates creative image prompts for valorant agent style.
+- **Vintage Botanical Illustration Generator** — Generates creative image prompts for vintage botanical illustration generator.
 - **Vintage Patent Document** — Generates a vintage United States patent document from the late 1800s with technical drawings and aged paper texture.
 - **Vintage Patent Document for Invention** — Generates a vintage patent document with technical drawings and aged paper texture.
+- **Vision-to-json** — Generates creative image prompts for vision-to-json.
+- **war** — Generates creative image prompts for war.
+- **Where the Kami Still Walk** — Generates creative image prompts for where the kami still walk.
+- **Whiteboard Diagrams** — Generates creative image prompts for whiteboard diagrams.
 - **Wide Quote Card with Portrait** — Generates a wide quote card featuring a famous person's portrait with a brown background and light-gold serif quote text.
+- **World of Darkness B&W style** — Generates creative image prompts for world of darkness b&w style.
+- **World of Darkness Colored Comic style** — Generates creative image prompts for world of darkness colored comic style.
+- **Young Saudi Doctor in a Professional Setting** — Generates creative image prompts for young saudi doctor in a professional setting.
 
 ## Product & E-commerce
 
 - **1/7 Scale Collectible Figure Product Shot** — Creates a high-resolution commercial product photograph of a detailed 1/7 scale collectible figure.
 - **8K Product Photography with Conceptual Cutaway** — Creates an 8K studio product photograph of a Borjomi flavored water can with conceptual cutaway.
+- **Act as an Etsy Niche Product Researcher** — Optimizes product and e-commerce strategies for act as an etsy niche product researcher.
+- **AI Face Swapping for E-commerce Personalization** — Optimizes product and e-commerce strategies for ai face swapping for e-commerce personalization.
+- **Alexandra Daddario Full-Body Panel Portrait** — Creates a full-body portrait of Alexandra Daddario in a bikini, presented as three vertically stacked panels.
+- **Asian Woman in White Bikini in Luxury Villa** — Creates a medium shot of an Asian woman with a fit physique, wearing a white crinkled bikini set, seated in a luxurious villa interior.
 - **Bento Grid Product Infographic** — Creates a bento grid infographic for product marketing with customizable modules.
+- **Blonde Woman at Luxury Pool** — Creates a photorealistic vertical portrait of a blonde woman in a black and cream one-piece swimsuit at a luxury outdoor pool.
+- **Building an Inventory Management System** — Optimizes product and e-commerce strategies for building an inventory management system.
+- **Candid Outdoor Bikini Portrait with Tropical Background** — Creates a photorealistic, candid outdoor portrait of a young woman in a colorful floral bikini with a fit, curvy physique.
 - **Carbon Pattern Printed Ehomaki Sushi Roll** — Generates an Ehomaki sushi roll with carbon fiber pattern printed on nori.
 - **Chrome Ripple Flow Product Photography** — Creates a floating product with matte black and metallic silver finishes on a ribbed surface.
+- **Cinematic Concept Art of Sadie Sink as Jean Grey** — Creates a cinematic 3D render or concept art of Sadie Sink portraying Jean Grey with three distinct costume variants.
+- **Cinematic Fashion Portrait of Sadie Sink in Red Dress** — Creates a high-resolution professional portrait of Sadie Sink in a glamorous red halter-neck mini dress in a luxurious penthouse lounge.
 - **Cinematic Grunge Collage Portrait** — Creates an ultra-photorealistic editorial fashion portrait with dark grunge aesthetic.
 - **Cinematic Low-Key Portrait in Red Rose Room** — Creates a dramatic, low-key cinematic portrait of a woman in a red dress surrounded by red roses.
 - **Cinematic Portrait of Man on Motorbike** — Creates an ultra-realistic cinematic portrait of a man on a modern motorbike during golden hour.
 - **Crystal Hologram Product Photography** — Creates ultra-high-fidelity product photography with crystal hologram effect.
 - **Editorial Fashion Portrait Series Grid** — Generates a multi-frame editorial fashion portrait series grid template.
+- **Emerald Green Satin Dress Fashion Editorial** — Creates an editorial image of a young woman wearing an elegant emerald green satin midi dress with a high slit, standing outside a modern architectural building.
 - **Ethereal Product Visual with Frosted Glass Hands** — Creates a photorealistic product visual with abstract frosted glass hands behind it.
 - **Gorpcore Fashion Campaign Image** — Creates a high-end streetwear fashion campaign image with a male model next to a Mercedes G Wagon.
+- **High-Fashion Candid Portrait of Zhao Lusi** — Creates a full-length, high-fashion, candid-style professional photograph of Zhao Lusi in a white lace gown.
 - **High-Fashion Editorial Portrait** — Creates a high-fashion editorial portrait resembling Ana de armas.
+- **High-Resolution Beach Lifestyle Editorial** — Creates a high-resolution lifestyle and swimwear photograph with an editorial feel on a sandy beach with rocky cliffs.
 - **Louis Vuitton Sneaker Editorial Grid** — Creates a 9-panel grid concept for a Louis Vuitton sneaker editorial campaign.
+- **Low-Angle High-Fashion Portrait with Fur Coat** — Creates a high-fashion editorial photograph of a woman in a voluminous golden-orange shaggy fur coat with bare legs.
 - **Luxury Bucket Hat Product Editorial** — Generates a luxury editorial photograph of a fictional bucket hat.
 - **Luxury Product Photography Black Oudh Diffuser** — Creates ultra-realistic luxury product photography of a black glass reed diffuser bottle.
+- **Luxury Street Style Portrait in Porsche Interior** — Creates a photorealistic image of a young, stylish woman in the driver's seat of a luxury Porsche car.
+- **Marketing Mastermind for Product Promotion** — Optimizes product and e-commerce strategies for marketing mastermind for product promotion.
 - **Neon X-Ray Photorealistic Scan** — Generates a photorealistic image of an object shown as a glowing X-ray scan.
+- **Optimize E-commerce Listing for High CTR with Holiday Design** — Optimizes product and e-commerce strategies for optimize e-commerce listing for high ctr with holiday design.
+- **OS2.0 SAFe Delivery Context (Master)** — Optimizes product and e-commerce strategies for os2.0 safe delivery context (master).
+- **Overhead Romantic Fashion Editorial in Flower Field** — Creates an overhead fashion editorial photograph of a woman lying in a dense field of hot-pink flowers.
+- **Personal Shopper** — Acts as my personal shopper to help with personal shopper-related tasks.
 - **Premium Liquid Glass Bento Grid Product Infographic** — Creates a premium liquid glass Bento grid product infographic with 8 modules for any product.
 - **Premium Studio Shot of Blueberry Mint Iced Drink** — Creates ultra-realistic commercial product photograph of a blueberry mint iced drink.
+- **Product Manager** — Optimizes product and e-commerce strategies for product manager.
+- **Product Promotion Expert** — Optimizes product and e-commerce strategies for product promotion expert.
+- **Quad-Pose Studio Lookbook Grid** — Creates a four-panel studio fashion lookbook grid with identity preservation from a reference image.
+- **Resort Portrait with Red Wet Hair** — Generates an ultra-realistic, high-quality candid photograph of a mid-20s woman with a fit physique, red wet hair, and a deep tan, posed thoughtfully in a resort setting.
+- **Retro-Modern Disco-Pop Portrait of Sadie Sink** — Creates a high-saturation, monochromatic, retro-modern disco-pop portrait of Sadie Sink with a high-cut spandex bodysuit.
+- **SaaS Payment Plan Options** — Optimizes product and e-commerce strategies for saas payment plan options.
 - **Summer Skincare Product Photography on Beach** — Creates AI-edited photorealistic product photograph of a cosmetic serum dropper bottle on sandy beach.
+- **Sydney Sweeney Fashion Portrait on Coastal Beach** — Creates a hyper-realistic fashion editorial portrait of Sydney Sweeney on a pebbled beach with metallic pink swimsuit dress.
+- **Travel Editorial Portrait on Railay Beach** — Creates an ultra-realistic cinematic half-body portrait suitable for a travel editorial at Railay Beach, Thailand.
+- **UI Designer Role** — Optimizes product and e-commerce strategies for ui designer role.
 - **Ultra-Macro Cherry in Milk Splash** — Creates a hyper-realistic, ultra-macro food photograph of a cherry suspended in creamy milk splash.
 - **Ultra-Realistic Luxury Perfume Ad** — Creates ultra-realistic cinematic product photography of a luxury perfume bottle.
 - **Ultra-Realistic Skincare Product on Wet Beach** — Creates ultra-realistic product photography of a bronzing drop bottle on wet beach sand.
+- **Zhao Lusi Red Carpet Gothic Chic Portrait** — Creates a photorealistic image of Zhao Lusi on a red carpet with gothic chic style and a dramatic black lace gown.
+- **电商与社交平台内容创作提示词** — Optimizes product and e-commerce strategies for 电商与社交平台内容创作提示词.
+- **电商选品助手** — Optimizes product and e-commerce strategies for 电商选品助手.
 
 ## Logos & Branding
 
-- (No prompts yet)
+- **Assistente de Geração de Imagens com Identidade Visual Padrão** — Creates logo and branding concepts for assistente de geração de imagens com identidade visual padrão.
+- **Creative Branding Strategist** — Creates logo and branding concepts for creative branding strategist.
+- **Custom Logo Design for Website** — Creates logo and branding concepts for custom logo design for website.
+- **Futuristic Supercar Brand Logo** — Creates logo and branding concepts for futuristic supercar brand logo.
+- **NOOMS Brand Story & Portfolio Background – Storytelling Format** — Creates logo and branding concepts for nooms brand story & portfolio background – storytelling format.
+- **Reimagined Logo for Google** — Creates logo and branding concepts for reimagined logo for google.
 
 ## Illustration & Concept Art
 
+- **3D Isometric Miniature Diorama** — Produces illustration and concept art for 3d isometric miniature diorama.
 - **Artist Advisor** — Provides feedback and guidance to artists, helping them improve their work and develop their style.
 - **Chibi-Style NBA Matchup** — Creates a chibi-style screenshot of a fictional NBA game with Kobe Bryant vs LeBron James.
 - **Cosmic Chessboard Checkmate Scene** — Creates a surreal, epic digital art image of a massive cosmic chessboard floating in deep space.
 - **Edo-Period Ukiyo-e Reinterpretation** — Reimagines a modern-day scene as an Edo-period Japanese Ukiyo-e woodblock print.
+- **Epoxy Resin Art Cube Generation** — Creates hyper-realistic 3D images of Epoxy Resin Art Cubes with intricate details like swirling smoke and gold leaf inclusions.
 - **Hand-Drawn Style Header Image** — Generates a hand-drawn style header image of a person introducing Nano Banana Pro.
 - **Octane-Rendered Floating Ecological Island** — Creates a massive, photorealistic floating island that functions as a living ecological system.
 - **Surreal Rubber-House Ink Style** — Creates a black and white illustration in the surreal 1930s rubber hose animation style.
@@ -169,45 +1106,116 @@ This file is generated from `data/prompts.yaml`.
 
 ## Photography Styles & Lighting
 
+- **2000s Digicam Car Interior Portrait** — Creates a portrait of a young woman in a car interior at night, mimicking the harsh, high-contrast look of 2000s digital camera flash photography.
+- **Airplane Wing Selfie** — Generates a photorealistic, cinematic image of a stylish young woman sitting casually on an airplane wing high above the clouds, taking a wide-angle selfie.
+- **Amateur Girls' Night Selfie - Casual and Imperfect** — Defines photography styles and lighting for amateur girls' night selfie - casual and imperfect.
+- **Analog camera** — Defines photography styles and lighting for analog camera.
+- **Candid Bedroom Selfie of Three Freckled Girls** — Generates an ultra-realistic, candid smartphone selfie of three freckled European girls in a cozy bedroom setting.
+- **Cinematic Golden Hour Portrait in City Crosswalk** — Creates a candid, ultra-realistic cinematic portrait of a stylish young woman in a busy city crosswalk during golden hour.
+- **Close-up Character Nose Portrait** — A simple prompt for a close-up, photographic detail shot focused specifically on a character's nose.
 - **Detailed Mirror-Selfie Otaku Room Scene** — Generates a very detailed mirror selfie in an otaku-style computer corner with blue color tone.
+- **Diabetes Treatment Advisor** — Defines photography styles and lighting for diabetes treatment advisor.
 - **Dramatic Black & White Portrait** — Creates a cinematic black and white portrait of a young man with unaltered facial features.
+- **Enhance and Beautify Your Photo** — Defines photography styles and lighting for enhance and beautify your photo.
+- **Extreme Close-up Macro Photography of a Young Woman's Face** — Defines photography styles and lighting for extreme close-up macro photography of a young woman's face.
+- **Gen-Z Streetwear Model with Labubu** — Creates a hyper-realistic studio photoshoot featuring a model in Gen-Z streetwear posing with a fluffy Labubu character and British Shorthair cat.
+- **Golden Hour Portrait with Chunky Knit Sweater** — Creates an ultra-realistic, cinematic portrait of a young woman during golden hour with a chunky knit sweater.
+- **Gym Mirror Selfie of Two Women** — Generates a photorealistic gym mirror selfie of two women in athletic wear, focusing on specific body proportions and scrunch leggings.
+- **High-Angle Night Street Fashion Photograph** — Generates a high-angle, candid night street fashion photograph of a young woman standing near a minimarket entrance.
+- **Hyper-Curvy Gym Mirror Selfie** — Generates a photorealistic vertical mirror selfie of two women in a dimly lit gym, emphasizing extremely exaggerated, hyper-curvaceous fitness physiques.
+- **Influencer Style Selfie of Two Women** — Generates a high-glamour, influencer-style selfie of two women leaning together and pouting, set outdoors against a geometric privacy screen.
+- **Mirror Product Photo** — Defines photography styles and lighting for mirror product photo.
+- **Modern Fashion Photography** — Defines photography styles and lighting for modern fashion photography.
+- **Modern Mafia Aesthetic Male Portrait** — Generates an ultra-realistic, high-fashion studio portrait of a confident male model in a modern mafia aesthetic with charcoal-grey pinstripe suit.
+- **Nightlife Candid Flash Photography** — Defines photography styles and lighting for nightlife candid flash photography.
 - **Nostalgic 90s Disposable Camera Snapshot** — Creates a classic 90s disposable-camera snapshot of a young woman.
+- **Profile pic rebuild** — Defines photography styles and lighting for profile pic rebuild.
+- **Rainy Night Cinematic Portrait** — Creates a moody, cinematic portrait of a young woman seen through a glass window on a rainy urban night with pink bokeh lights.
+- **Realistic Photo of a Turkish Woman in a Street Setting** — Defines photography styles and lighting for realistic photo of a turkish woman in a street setting.
+- **Sabrina Carpenter Mirror Selfie in Luxury Bathroom** — Creates an ultra-realistic photograph of Sabrina Carpenter taking an intimate mirror selfie in a luxurious marble bathroom.
+- **Sophisticated Istanbul Stroll** — Defines photography styles and lighting for sophisticated istanbul stroll.
+- **Sultry Indoor Portrait with Back Turned** — Creates a photorealistic, moody indoor portrait of a young woman with her back turned, twisting to look over her shoulder.
+- **Sydney Sweeney Cozy Luxury Portrait** — Creates an ultra-photorealistic close-up portrait of Sydney Sweeney in a relaxed, off-duty celebrity style, wearing a lilac zip-up hoodie.
+- **Tattooed Woman Bikini Mirror Selfie** — Generates a mirror selfie of a heavily tattooed woman with a chin-length bob, wearing a vibrant orange string bikini, in a three-quarter back view.
+- **Thrilling Roller Coaster Action Photo** — Generates a candid action photograph of a young woman on a roller coaster with platinum blonde hair, screaming with excitement.
+- **Time Layer Photography** — Defines photography styles and lighting for time layer photography.
+- **Ultra Realistic Candid Photo of a Turkish Woman in Istanbul Café** — Defines photography styles and lighting for ultra realistic candid photo of a turkish woman in istanbul café.
+- **Ultra-Realistic Street Photo Prompt: Turkish Woman in Ankara** — Defines photography styles and lighting for ultra-realistic street photo prompt: turkish woman in ankara.
+- **Ultra-Realistic Studio Haircut Portrait** — Creates an ultra-realistic, editorial-style studio portrait of a male model in side-profile, highlighting haircut details.
+- **Urban Casual Confidence** — Defines photography styles and lighting for urban casual confidence.
+- **Urban Portrait by Brick Wall** — Creates a natural light urban portrait of a young man with a soft side profile, casual modern style.
 - **Watercolor Map of Germany** — Creates a watercolor-style map of Germany with all federal states labeled in ballpoint pen.
 
 ## Video Prompts (General)
 
-- (No prompts yet)
+- **Develop a Live Video Streaming Website** — Creates video concepts and scripts for develop a live video streaming website.
+- **Documentary on Humanitarian & Refugee Crises** — Creates video concepts and scripts for documentary on humanitarian & refugee crises.
+- **Girl Taking Selfie with Avatar Characters in Cinema** — Creates video concepts and scripts for girl taking selfie with avatar characters in cinema.
+- **Sistem ve Ağ Güvenliği Temalı Kısa Film Promptu** — Creates video concepts and scripts for sistem ve ağ güvenliği temalı kısa film promptu.
+- **Underwater Veo 3 video** — Creates video concepts and scripts for underwater veo 3 video.
+- **YouTube Video Analyst** — Acts as expert youtube video analyst to help with youtube video analyst-related tasks.
 
 ## Storyboards & Shot Lists
 
+- **3x3 Grid Storyboarding from Photo** — Develops storyboards and shot lists for 3x3 grid storyboarding from photo.
 - **Cinematic Wuxia Scene** — Creates a detailed Wuxia fantasy style scene with dramatic confrontation between two characters.
 - **Comic Book Poster Illustration Template** — Generates a dynamic, modern comic book poster illustration with a collage of comic panels.
+- **Elocutionist** — Acts as elocutionist to help with elocutionist-related tasks.
 - **New Year's Day Four-Panel Puzzle** — Creates a 2x2 grid photo collage where a character pieces together a puzzle spelling '2026 New Year's Day Happy'.
+- **Storyboard Grid** — Develops storyboards and shot lists for storyboard grid.
 
 ## Ads & Social Clips
 
+- **Bingo Game Creator** — Crafts ad scripts and social media clips for bingo game creator.
+- **content** — Crafts ad scripts and social media clips for content.
 - **Dynamic Anime Battle Poster** — Creates a super dynamic anime battle poster with Japanese text.
+- **Expert-Level Insights and Advanced Resources** — Crafts ad scripts and social media clips for expert-level insights and advanced resources.
+- **Gen Z Content & Online Sales Prompt Generator** — Crafts ad scripts and social media clips for gen z content & online sales prompt generator.
+- **Generate an enhanced command prompt** — Crafts ad scripts and social media clips for generate an enhanced command prompt.
+- **Hyper-Realistic X-Wing Battle Damage Images** — Crafts ad scripts and social media clips for hyper-realistic x-wing battle damage images.
+- **Meme coins knowledge  and trading** — Crafts ad scripts and social media clips for meme coins knowledge  and trading.
+- **Münchener Skyline als Umrissbild darstellen** — Crafts ad scripts and social media clips for münchener skyline als umrissbild darstellen.
+- **Müşteri temsilcisi eğitimi** — Crafts ad scripts and social media clips for müşteri temsilcisi eğitimi.
 - **Neon Pink Gas Station Portrait** — Creates a vibrant, high-contrast image at a wet asphalt gas station at night.
+- **Radical Responsibility Mirror (Shadow Work)** — Crafts ad scripts and social media clips for radical responsibility mirror (shadow work).
+- **Satya Nadella pobre** — Crafts ad scripts and social media clips for satya nadella pobre.
+- **Sponsor Hall of Fame** — Crafts ad scripts and social media clips for sponsor hall of fame.
 
 ## Cinematic Styles & Camera Moves
 
-- (No prompts yet)
+- **Aesthetic Sunset** — Defines cinematic styles and camera movements for aesthetic sunset.
+- **Compare Top Virtualization Solutions** — Defines cinematic styles and camera movements for compare top virtualization solutions.
+- **Valentines Day Cocktail** — Defines cinematic styles and camera movements for valentines day cocktail.
 
 ## Music Prompts (General)
 
+- **Acoustic Guitar Composer** — Acts as acoustic guitar composer to help with acoustic guitar composer-related tasks.
+- **Big Room Festival Anthem Creation for Suno AI v5** — Generates music concepts and compositions for big room festival anthem creation for suno ai v5.
+- **Classical Music Composer** — Acts as classical music composer to help with classical music composer-related tasks.
+- **Darksynth Synthwave Music Composition Guide** — Generates music concepts and compositions for darksynth synthwave music composition guide.
+- **Ethreal Current** — Generates music concepts and compositions for ethreal current.
+- **Family picture** — Generates music concepts and compositions for family picture.
+- **Flamenco inspired Turkish Pop song for Suno AI** — Generates music concepts and compositions for flamenco inspired turkish pop song for suno ai.
 - **Music Composer** — Develops musical ideas, including melodies and harmonies, for various genres or moods.
+- **Music Player** — Generates music concepts and compositions for music player.
+- **Music Video Designer** — Generates music concepts and compositions for music video designer.
+- **Song Recommender** — Acts as song recommender to help with song recommender-related tasks.
 
 ## Genres, Mood & Structure
 
-- (No prompts yet)
+- **Hyper-Realistic Cinematic Pre-Dawn Scene in Ancient Mecca** — Defines music genres, moods, and structures for hyper-realistic cinematic pre-dawn scene in ancient mecca.
+- **Man in a City** — Defines music genres, moods, and structures for man in a city.
+- **Precious Metals Price Analyst** — Defines music genres, moods, and structures for precious metals price analyst.
+- **Ultra-Realistic Ankara Indie Bar Scene Description** — Defines music genres, moods, and structures for ultra-realistic ankara indie bar scene description.
 
 ## Lyrics & Songwriting
 
 - **Rapper** — Writes and performs rap lyrics, focusing on rhythm, rhyme, and clever wordplay.
+- **Vacuum Arc Modeling under Transverse Magnetic Fields** — Writes lyrics and songs for vacuum arc modeling under transverse magnetic fields.
 
 ## Sound Effects (SFX)
 
-- (No prompts yet)
+- **Show Direct Impact** — Creates sound effect descriptions for show direct impact.
 
 ## Voice Prompts (General)
 
@@ -215,13 +1223,29 @@ This file is generated from `data/prompts.yaml`.
 
 ## Voiceovers & Narration
 
-- (No prompts yet)
+- **Escritor de Livros Completo** — Creates voiceover and narration scripts for escritor de livros completo.
 
 ## Characters & Acting
 
-- (No prompts yet)
+- **Algorithm Analysis and Improvement Advisor** — Develops character voices and acting directions for algorithm analysis and improvement advisor.
+- **Buddha** — Acts as buddha (a to help with buddha-related tasks.
+- **Eerie Shadows: A Creepy Horror RPG Adventure** — Develops character voices and acting directions for eerie shadows: a creepy horror rpg adventure.
+- **Healing Grandma** — Acts as wise elderly woman who has extensive knowledge of homemade remedies and tips for preventing and treating various illnesses to help with healing grandma-related tasks.
+- **Improve the following code** — Develops character voices and acting directions for improve the following code.
+- **Improving Business English** — Develops character voices and acting directions for improving business english.
+- **Nietzschean Mentor for Holistic Growth** — Develops character voices and acting directions for nietzschean mentor for holistic growth.
+- **Personal Chef** — Acts as my personal chef to help with personal chef-related tasks.
+- **Personal Form Builder App Design** — Develops character voices and acting directions for personal form builder app design.
+- **Personal Growth Plan for BNWO Enthusiasts** — Develops character voices and acting directions for personal growth plan for bnwo enthusiasts.
+- **Personal Stylist** — Acts as my personal stylist to help with personal stylist-related tasks.
+- **Personalized Skin Whitening Plan** — Develops character voices and acting directions for personalized skin whitening plan.
+- **Professional Image Enhancement for Clarity and Quality** — Develops character voices and acting directions for professional image enhancement for clarity and quality.
+- **scaryface** — Develops character voices and acting directions for scaryface.
+- **Spoken Word Artist Persona** — Develops character voices and acting directions for spoken word artist persona.
+- **Statement of Purpose** — Develops character voices and acting directions for statement of purpose.
+- **Yogi** — Acts as yogi to help with yogi-related tasks.
 
 ## Dubbing & Localization
 
-- (No prompts yet)
+- **Master App Store Localization & ASO Prompt (2025) – Full Metadata Generator** — Handles dubbing and localization for master app store localization & aso prompt (2025) – full metadata generator.
 

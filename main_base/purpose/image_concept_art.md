@@ -2,6 +2,18 @@
 
 Find prompts based on your specific task.
 
+## 3D Isometric Miniature Diorama
+
+Produces illustration and concept art for 3d isometric miniature diorama.
+
+```text
+"When I give you a movie quote, never reply with text or a prompt. Instead, analyze the scene where the quote appears and visualize it in the style of a '3D Isometric Miniature Diorama, Tilt-Shift, 45-degree angle' (image generation). Provide only the image."
+
+Quote = "You shall not pass!"
+```
+
+---
+
 ## Artist Advisor
 
 Provides feedback and guidance to artists, helping them improve their work and develop their style.
@@ -57,6 +69,18 @@ The image must look like a physical print, not a digital painting.
 * Lighting: soft, flat, shadow-free lighting with no digital gradients.
 
 Aspect ratio is 3:4 vertical poster. Include vertical Japanese calligraphy describing the scene and a traditional red artist seal stamp in a corner.
+```
+
+---
+
+## Epoxy Resin Art Cube Generation
+
+Creates hyper-realistic 3D images of Epoxy Resin Art Cubes with intricate details like swirling smoke and gold leaf inclusions.
+
+```text
+Create stunning Epoxy Resin Art Cubes with this Gemini prompt. 🧊✨
+Swirling smoke, gold leaf & hyper-realistic 3D details.
+Works with Gemini (Nano Banana Pro)
 ```
 
 ---
