@@ -6,18 +6,18 @@
 
 <p align="center">
   <b>भाषा चुनें:</b><br>
-  <a href="README.md"><img src="https://img.shields.io/badge/English-देखने_के_लिए_क्लिक_करें-grey" alt="EN"></a>
-  <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-देखने_के_लिए_क्लिक_करें-grey" alt="RU"></a>
-  <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-देखने_के_लिए_क्लिक_करें-grey" alt="ZH"></a>
-  <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-देखने_के_लिए_क्लिक_करें-grey" alt="ES"></a>
-  <a href="README_HI.md"><img src="https://img.shields.io/badge/हिन्दी-वर्तमान-brightgreen" alt="HI"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/English-brightgreen" alt="EN"></a>
+  <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-darkblue" alt="RU"></a>
+  <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-yellow" alt="ZH"></a>
+  <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-orange" alt="ES"></a>
+  <a href="README_HI.md"><img src="https://img.shields.io/badge/हिन्दी-pink" alt="HI"></a>
   <br>
-  <a href="README_FR.md"><img src="https://img.shields.io/badge/Français-देखने_के_लिए_क्लिक_करें-grey" alt="FR"></a>
-  <a href="README_DE.md"><img src="https://img.shields.io/badge/Deutsch-देखने_के_लिए_क्लिक_करें-grey" alt="DE"></a>
-  <a href="README_IT.md"><img src="https://img.shields.io/badge/Italiano-देखने_के_लिए_क्लिक_करें-grey" alt="IT"></a>
-  <a href="README_PT.md"><img src="https://img.shields.io/badge/Português-देखने_के_लिए_क्लिक_करें-grey" alt="PT"></a>
-  <a href="README_JA.md"><img src="https://img.shields.io/badge/日本語-देखने_के_लिए_क्लिक_करें-grey" alt="JA"></a>
-  <a href="README_KO.md"><img src="https://img.shields.io/badge/한국어-देखने_के_लिए_क्लिक_करें-grey" alt="KO"></a>
+  <a href="README_FR.md"><img src="https://img.shields.io/badge/Français-blue" alt="FR"></a>
+  <a href="README_DE.md"><img src="https://img.shields.io/badge/Deutsch-darkgreen" alt="DE"></a>
+  <a href="README_IT.md"><img src="https://img.shields.io/badge/Italiano-red" alt="IT"></a>
+  <a href="README_PT.md"><img src="https://img.shields.io/badge/Português-purple" alt="PT"></a>
+  <a href="README_JA.md"><img src="https://img.shields.io/badge/日本語-b7003a" alt="JA"></a>
+  <a href="README_KO.md"><img src="https://img.shields.io/badge/한국어-green" alt="KO"></a>
 </p>
 
 <p align="center">

@@ -6,18 +6,18 @@
 
 <p align="center">
   <b>언어 선택:</b><br>
-  <a href="README.md"><img src="https://img.shields.io/badge/English-보기-grey" alt="EN"></a>
-  <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-보기-grey" alt="RU"></a>
-  <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-보기-grey" alt="ZH"></a>
-  <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-보기-grey" alt="ES"></a>
-  <a href="README_HI.md"><img src="https://img.shields.io/badge/हिन्दी-보기-grey" alt="HI"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/English-brightgreen" alt="EN"></a>
+  <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-darkblue" alt="RU"></a>
+  <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-yellow" alt="ZH"></a>
+  <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-orange" alt="ES"></a>
+  <a href="README_HI.md"><img src="https://img.shields.io/badge/हिन्दी-pink" alt="HI"></a>
   <br>
-  <a href="README_FR.md"><img src="https://img.shields.io/badge/Français-보기-grey" alt="FR"></a>
-  <a href="README_DE.md"><img src="https://img.shields.io/badge/Deutsch-보기-grey" alt="DE"></a>
-  <a href="README_IT.md"><img src="https://img.shields.io/badge/Italiano-보기-grey" alt="IT"></a>
-  <a href="README_PT.md"><img src="https://img.shields.io/badge/Português-보기-grey" alt="PT"></a>
-  <a href="README_JA.md"><img src="https://img.shields.io/badge/日本語-보기-grey" alt="JA"></a>
-  <a href="README_KO.md"><img src="https://img.shields.io/badge/한국어-현재-brightgreen" alt="KO"></a>
+  <a href="README_FR.md"><img src="https://img.shields.io/badge/Français-blue" alt="FR"></a>
+  <a href="README_DE.md"><img src="https://img.shields.io/badge/Deutsch-darkgreen" alt="DE"></a>
+  <a href="README_IT.md"><img src="https://img.shields.io/badge/Italiano-red" alt="IT"></a>
+  <a href="README_PT.md"><img src="https://img.shields.io/badge/Português-purple" alt="PT"></a>
+  <a href="README_JA.md"><img src="https://img.shields.io/badge/日本語-b7003a" alt="JA"></a>
+  <a href="README_KO.md"><img src="https://img.shields.io/badge/한국어-green" alt="KO"></a>
 </p>
 
 <p align="center">
