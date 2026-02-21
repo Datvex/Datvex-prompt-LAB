@@ -20,6 +20,10 @@
   <a href="README_KO.md"><img src="https://img.shields.io/badge/한국어-表示-grey" alt="KO"></a>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/プロンプト-10,565+-blue" alt="Prompts Count">
+</p>
+
 ---
 
 # Datvex prompt LAB
