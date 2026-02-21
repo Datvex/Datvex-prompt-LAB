@@ -38,6 +38,7 @@ Die Sammlung umfasst sorgfältig kuratierte Prompts aus verschiedenen Quellen de
 Durchsuchen Sie die Bibliothek nach Aufgabe und Anwendungsfall. Zum jetzigen Zeitpunkt führen alle Links zur offiziellen kuratierten Datenbank:
 
 *   [**Nach Verwendungszweck durchsuchen**](./NAVIGATION_PURPOSE.md) – Finden Sie Prompts kategorisiert nach Fachbereich (Programmierung, Psychologie, Marketing usw.).
+*   [**✨ KI-Prompt-Suche (NEU)**](https://example.com/ai-search) – Intelligente KI-gestützte Suche, um schnell die perfekten Prompts für Ihre Bedürfnisse zu finden.
 
 ---
 
