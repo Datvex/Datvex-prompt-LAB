@@ -38,6 +38,7 @@ The collection includes carefully curated prompts gathered from various sources 
 Browse the library by task and use-case. At this stage, all links lead to the official curated database:
 
 *   [**Browse by Purpose**](./NAVIGATION_PURPOSE.md) – Find prompts categorized by field (Programming, Psychology, Marketing, etc.).
+*   [**✨ AI Prompt Search (NEW)**](https://example.com/ai-search) – Smart AI-powered search to quickly find the perfect prompts for your needs.
 
 ---
 
