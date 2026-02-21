@@ -38,7 +38,7 @@ A coleção inclui prompts cuidadosamente selecionados de várias fontes da comu
 Navegue pela biblioteca por tarefa e caso de uso. Nesta fase, todos os links levam ao banco de dados oficial com curadoria:
 
 *   [**Navegar por Finalidade**](./NAVIGATION_PURPOSE.md) – Encontre prompts categorizados por área (Programação, Psicologia, Marketing, etc.).
-*   [**✨ Busca de prompts por IA (NOVO)**](https://example.com/ai-search) – Busca inteligente alimentada por IA para encontrar rapidamente os prompts perfeitos para suas necessidades.
+*   [**✨ Busca de prompts por IA (NOVO)**](https://datvex.github.io/Datvex-prompt-LAB/) – Busca inteligente alimentada por IA para encontrar rapidamente os prompts perfeitos para suas necessidades.
 
 ---
 
