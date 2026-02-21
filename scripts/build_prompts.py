@@ -167,10 +167,53 @@ def write_master_page(prompts: list):
     with open("PROMPTS.md", "w", encoding="utf-8") as f:
         f.write("".join(out))
 
+# README files and their prompt count badge labels
+README_FILES = {
+    "README.md": "Prompts",
+    "README_RU.md": "Промптов",
+    "README_ZH.md": "提示词",
+    "README_ES.md": "Prompts",
+    "README_HI.md": "प्रॉम्प्ट",
+    "README_FR.md": "Prompts",
+    "README_DE.md": "Prompts",
+    "README_IT.md": "Prompts",
+    "README_PT.md": "Prompts",
+    "README_JA.md": "プロンプト",
+    "README_KO.md": "프롬프트",
+}
+
+def update_readme_prompts_count(count: int):
+    """Update the prompts count badge in all README files."""
+    badge_pattern = re.compile(
+        r'<img src="https://img\.shields\.io/badge/([^%-]+)-[0-9,]+-blue" alt="Prompts Count">'
+    )
+    
+    for filename, label in README_FILES.items():
+        if not os.path.exists(filename):
+            print(f"Warning: {filename} not found, skipping")
+            continue
+        
+        with open(filename, "r", encoding="utf-8") as f:
+            content = f.read()
+        
+        # Create the new badge with updated count
+        new_badge = f'<img src="https://img.shields.io/badge/{label}-{count:,}+-blue" alt="Prompts Count">'
+        
+        # Replace the existing badge
+        new_content = badge_pattern.sub(new_badge, content)
+        
+        if new_content != content:
+            with open(filename, "w", encoding="utf-8") as f:
+                f.write(new_content)
+            print(f"Updated prompts count in {filename}: {count:,}+")
+        else:
+            print(f"No badge found to update in {filename}")
+
 def main():
     prompts = load_prompts("data/prompts.yaml")
     write_category_pages(prompts)
     write_master_page(prompts)
+    update_readme_prompts_count(len(prompts))
 
 if __name__ == "__main__":
     main()
