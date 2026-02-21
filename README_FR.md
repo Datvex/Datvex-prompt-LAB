@@ -38,7 +38,7 @@ La collection comprend des prompts soigneusement sélectionnés provenant de div
 Parcourez la bibliothèque par tâche et par cas d'utilisation. À ce stade, tous les liens mènent à la base de données officielle :
 
 *   [**Parcourir par objectif**](./NAVIGATION_PURPOSE.md) – Trouvez des prompts classés par domaine (Programmation, Psychologie, Marketing, etc.).
-*   [**✨ Recherche de prompts par IA (NOUVEAU)**](https://example.com/ai-search) – Recherche intelligente alimentée par l'IA pour trouver rapidement les prompts parfaits pour vos besoins.
+*   [**✨ Recherche de prompts par IA (NOUVEAU)**](https://datvex.github.io/Datvex-prompt-LAB/) – Recherche intelligente alimentée par l'IA pour trouver rapidement les prompts parfaits pour vos besoins.
 
 ---
 

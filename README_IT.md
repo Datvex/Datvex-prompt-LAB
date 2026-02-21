@@ -38,7 +38,7 @@ La collezione include prompt accuratamente selezionati provenienti da varie font
 Sfoglia la libreria in base all'attività e al caso d'uso. In questa fase, tutti i collegamenti portano al database ufficiale curato:
 
 *   [**Sfoglia per scopo**](./NAVIGATION_PURPOSE.md) – Trova i prompt categorizzati per settore (Programmazione, Psicologia, Marketing, ecc.).
-*   [**✨ Ricerca prompt AI (NUOVO)**](https://example.com/ai-search) – Ricerca intelligente alimentata dall'IA per trovare rapidamente i prompt perfetti per le tue esigenze.
+*   [**✨ Ricerca prompt AI (NUOVO)**](https://datvex.github.io/Datvex-prompt-LAB/) – Ricerca intelligente alimentata dall'IA per trovare rapidamente i prompt perfetti per le tue esigenze.
 
 ---
 
