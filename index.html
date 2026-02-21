@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Search</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+        *{margin:0;padding:0;box-sizing:border-box}
+
+        :root{
+            --bg-primary:#09090f;
+            --bg-secondary:#111118;
+            --bg-card:rgba(255,255,255,0.025);
+            --border:rgba(255,255,255,0.06);
+            --text-primary:#e8e8ed;
+            --text-secondary:#7a7a95;
+            --accent-1:#6366f1;
+            --accent-2:#8b5cf6;
+            --accent-3:#a78bfa;
+            --accent-glow:rgba(99,102,241,0.12);
+            --pink:#ec4899;
+            --cyan:#22d3ee;
+            --emerald:#34d399;
+            --amber:#fbbf24;
+            --rose:#fb7185;
+        }
+
+        html{scroll-behavior:smooth}
+
+        body{
+            font-family:'Inter',-apple-system,sans-serif;
+            background:var(--bg-primary);
+            color:var(--text-primary);
+            min-height:100vh;
+            overflow-x:hidden;
+        }
+
+        /* ===== BACKGROUND ===== */
+        .bg-mesh{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+        .bg-orb{position:absolute;border-radius:50%;filter:blur(130px);opacity:.35;will-change:transform}
+        .bg-orb:nth-child(1){width:600px;height:600px;background:radial-gradient(circle,rgba(99,102,241,.3),transparent 70%);top:-200px;left:-100px;animation:orbF 20s ease-in-out infinite}
+        .bg-orb:nth-child(2){width:500px;height:500px;background:radial-gradient(circle,rgba(139,92,246,.2),transparent 70%);top:40%;right:-150px;animation:orbF 25s ease-in-out infinite -7s}
+        .bg-orb:nth-child(3){width:400px;height:400px;background:radial-gradient(circle,rgba(236,72,153,.12),transparent 70%);bottom:-100px;left:30%;animation:orbF 30s ease-in-out infinite -14s}
+        .bg-orb:nth-child(4){width:300px;height:300px;background:radial-gradient(circle,rgba(34,211,238,.1),transparent 70%);top:20%;left:50%;animation:orbF 22s ease-in-out infinite -5s}
+        @keyframes orbF{0%,100%{transform:translate(0,0) scale(1)}25%{transform:translate(80px,-60px) scale(1.1)}50%{transform:translate(-40px,80px) scale(.9)}75%{transform:translate(60px,40px) scale(1.05)}}
+
+        .bg-grid{position:fixed;inset:0;z-index:0;background-image:linear-gradient(rgba(255,255,255,.012) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.012) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 80% 60% at 50% 30%,black 40%,transparent 100%)}
+
+        .particles{position:fixed;inset:0;z-index:0;pointer-events:none}
+        .particle{position:absolute;width:2px;height:2px;background:var(--accent-3);border-radius:50%;opacity:0;animation:pFade 4s ease-in-out infinite}
+        @keyframes pFade{0%,100%{opacity:0;transform:translateY(0)}50%{opacity:.5;transform:translateY(-30px)}}
+
+        .app{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 24px}
+
+        /* ===== HEADER ===== */
+        .header{padding:56px 0 24px;text-align:center}
+        .header h1{font-size:clamp(44px,8vw,80px);font-weight:900;line-height:1.05;letter-spacing:-3px;margin-bottom:14px;animation:fadeUp .8s ease}
+        .header h1 .gradient-text{
+            background:linear-gradient(90deg,#6366f1 0%,#7c7ff7 8%,#8b5cf6 16%,#a78bfa 24%,#c084fc 32%,#d8b4fe 40%,#e879f9 48%,#ec4899 56%,#f472b6 64%,#fb7185 72%,#fbbf24 78%,#34d399 84%,#22d3ee 90%,#38bdf8 95%,#6366f1 100%);
+            background-size:300% 100%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:shimmer 8s linear infinite;
+        }
+        @keyframes shimmer{0%{background-position:0% 50%}100%{background-position:-300% 50%}}
+        .header-sub{font-size:17px;color:var(--text-secondary);font-weight:400;max-width:480px;margin:0 auto;line-height:1.6;animation:fadeUp .8s ease .1s both}
+
+        /* ===== SEARCH ===== */
+        .search-section{margin:36px 0 28px;animation:fadeUp .8s ease .15s both}
+        .search-container{position:relative;max-width:680px;margin:0 auto}
+
+        /* Soft static glow — no rotation */
+        .search-glow{
+            position:absolute;inset:-2px;border-radius:21px;
+            background:linear-gradient(135deg,
+                rgba(99,102,241,.25),
+                rgba(139,92,246,.2),
+                rgba(236,72,153,.15),
+                rgba(34,211,238,.15)
+            );
+            opacity:0;
+            filter:blur(12px);
+            transition:opacity .6s ease;
+            pointer-events:none;
+        }
+        .search-container.focused .search-glow{opacity:1}
+
+        .search-inner{
+            position:relative;display:flex;align-items:center;
+            background:rgba(14,14,20,.95);
+            border:1.5px solid rgba(255,255,255,.06);
+            border-radius:20px;padding:4px;
+            backdrop-filter:blur(24px);
+            transition:border-color .5s ease,box-shadow .5s ease;
+        }
+        .search-container.focused .search-inner{
+            border-color:rgba(99,102,241,.25);
+            box-shadow:
+                0 0 0 1px rgba(99,102,241,.08),
+                0 4px 24px rgba(99,102,241,.07),
+                0 0 60px rgba(139,92,246,.04);
+        }
+
+        .search-icon{display:flex;align-items:center;justify-content:center;width:52px;height:52px;flex-shrink:0;color:var(--text-secondary);transition:color .4s}
+        .search-container.focused .search-icon{color:var(--accent-3)}
+
+        .search-input{flex:1;background:none;border:none;outline:none;font-family:'Inter',sans-serif;font-size:16px;font-weight:400;color:var(--text-primary);padding:14px 0;width:100%}
+        .search-input::placeholder{color:var(--text-secondary);opacity:.5}
+
+        .search-btn{
+            flex-shrink:0;display:flex;align-items:center;justify-content:center;
+            gap:8px;padding:11px 24px;min-width:44px;min-height:44px;
+            background:rgba(255,255,255,.04);
+            border:1.5px solid rgba(255,255,255,.1);
+            border-radius:14px;
+            color:var(--text-secondary);
+            font-family:'Inter',sans-serif;font-size:14px;font-weight:500;
+            cursor:pointer;transition:all .35s cubic-bezier(.4,0,.2,1);
+            backdrop-filter:blur(10px);letter-spacing:.2px;
+            position:relative;overflow:hidden;
+        }
+        .search-btn::before{
+            content:'';position:absolute;inset:0;
+            background:linear-gradient(135deg,rgba(99,102,241,.15),rgba(139,92,246,.1));
+            opacity:0;transition:opacity .35s;border-radius:13px;
+        }
+        .search-btn:hover{border-color:rgba(99,102,241,.35);color:var(--accent-3);box-shadow:0 0 28px rgba(99,102,241,.12)}
+        .search-btn:hover::before{opacity:1}
+        .search-btn:active{transform:scale(.96)}
+
+        .search-btn .btn-content{display:flex;align-items:center;justify-content:center;gap:8px;position:relative;z-index:1;transition:opacity .2s}
+        .search-btn .btn-icon{display:flex;align-items:center;justify-content:center;transition:transform .3s}
+        .search-btn:hover .btn-icon{transform:translateX(2px)}
+
+        .search-btn .btn-loader{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .2s;z-index:2}
+        .btn-spinner{width:18px;height:18px;border:2px solid rgba(167,139,250,.2);border-top-color:var(--accent-3);border-radius:50%;animation:spin .6s linear infinite}
+        @keyframes spin{to{transform:rotate(360deg)}}
+
+        .search-btn.searching{border-color:rgba(99,102,241,.4);color:var(--accent-3);pointer-events:none}
+        .search-btn.searching::before{opacity:1}
+        .search-btn.searching .btn-content{opacity:0}
+        .search-btn.searching .btn-loader{opacity:1}
+
+        .search-btn.done{border-color:rgba(52,211,153,.35);color:var(--emerald)}
+        .search-btn.done::before{background:linear-gradient(135deg,rgba(52,211,153,.15),rgba(52,211,153,.05));opacity:1}
+
+        /* ===== FILTERS ===== */
+        .filters-section{animation:fadeUp .8s ease .2s both;margin-bottom:28px}
+        .super-filters{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:6px}
+        .super-chip{display:flex;align-items:center;gap:7px;padding:9px 18px;background:var(--bg-card);border:1px solid var(--border);border-radius:100px;font-family:'Inter',sans-serif;font-size:13px;font-weight:500;color:var(--text-secondary);cursor:pointer;transition:all .3s;user-select:none;white-space:nowrap}
+        .super-chip:hover{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.1);color:var(--text-primary)}
+        .super-chip.active{background:var(--accent-glow);border-color:rgba(99,102,241,.25);color:var(--accent-3)}
+        .super-chip .s-icon{font-size:15px}
+        .super-chip .s-count{font-size:11px;font-weight:600;background:rgba(255,255,255,.05);padding:1px 7px;border-radius:100px}
+        .super-chip.active .s-count{background:rgba(99,102,241,.18)}
+
+        .sub-filters{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:6px;margin-top:10px;max-height:0;overflow:hidden;opacity:0;transition:all .4s cubic-bezier(.4,0,.2,1)}
+        .sub-filters.visible{max-height:200px;opacity:1;margin-top:10px}
+        .sub-chip{padding:7px 15px;background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.05);border-radius:100px;font-family:'Inter',sans-serif;font-size:12px;font-weight:500;color:var(--text-secondary);cursor:pointer;transition:all .25s;user-select:none;white-space:nowrap}
+        .sub-chip:hover{background:rgba(255,255,255,.05);color:var(--text-primary)}
+        .sub-chip.active{background:rgba(99,102,241,.1);border-color:rgba(99,102,241,.2);color:var(--accent-3)}
+        .sub-chip .sc-count{font-size:10px;font-weight:600;opacity:.5;margin-left:4px}
+
+        /* ===== STATS ===== */
+        .stats-bar{display:none;align-items:center;justify-content:space-between;margin-bottom:18px;padding:0 4px}
+        .stats-bar.visible{display:flex}
+        .stats-info{font-size:14px;color:var(--text-secondary)}
+        .stats-info strong{color:var(--text-primary);font-weight:600}
+
+        .view-toggle{display:flex;gap:4px;padding:4px;background:var(--bg-card);border:1px solid var(--border);border-radius:10px}
+        .view-btn{display:flex;align-items:center;justify-content:center;width:32px;height:32px;border:none;background:none;border-radius:7px;color:var(--text-secondary);cursor:pointer;transition:all .2s}
+        .view-btn.active{background:rgba(99,102,241,.15);color:var(--accent-3)}
+        .view-btn:hover:not(.active){color:var(--text-primary)}
+
+        /* ===== GRID ===== */
+        .prompt-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px;padding-bottom:60px}
+        .prompt-grid.list-view{grid-template-columns:1fr}
+
+        /* ===== CARD ===== */
+        .prompt-card{position:relative;background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:22px 24px;cursor:pointer;transition:all .4s cubic-bezier(.4,0,.2,1);animation:cardIn .5s ease both;overflow:hidden}
+        .prompt-card::before{content:'';position:absolute;inset:0;border-radius:16px;background:linear-gradient(135deg,rgba(99,102,241,.04),transparent 60%);opacity:0;transition:opacity .4s}
+        .prompt-card:hover{border-color:rgba(99,102,241,.18);transform:translateY(-2px);box-shadow:0 8px 40px rgba(0,0,0,.3),0 0 60px rgba(99,102,241,.04)}
+        .prompt-card:hover::before{opacity:1}
+        .prompt-card:active{transform:translateY(0)}
+        @keyframes cardIn{from{opacity:0;transform:translateY(16px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
+
+        .card-header{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:10px}
+        .card-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;margin-top:6px}
+        .card-title{flex:1;font-size:15px;font-weight:600;line-height:1.4;letter-spacing:-.2px}
+        .card-actions{display:flex;gap:4px;flex-shrink:0;opacity:0;transition:opacity .3s}
+        .prompt-card:hover .card-actions{opacity:1}
+        .card-action-btn{display:flex;align-items:center;justify-content:center;width:30px;height:30px;border:none;background:rgba(255,255,255,.05);border-radius:7px;color:var(--text-secondary);cursor:pointer;transition:all .2s}
+        .card-action-btn:hover{background:rgba(99,102,241,.18);color:var(--accent-3)}
+
+        .card-desc{font-size:13px;line-height:1.65;color:var(--text-secondary);margin-bottom:14px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+        .card-preview{background:rgba(0,0,0,.3);border:1px solid rgba(255,255,255,.03);border-radius:10px;padding:12px 14px;margin-bottom:14px;font-family:'JetBrains Mono',monospace;font-size:11.5px;line-height:1.6;color:var(--text-secondary);max-height:72px;overflow:hidden;position:relative}
+        .card-preview .preview-inner{white-space:pre-wrap;word-break:break-word}
+        .card-preview::after{content:'';position:absolute;bottom:0;left:0;right:0;height:24px;background:linear-gradient(transparent,rgba(0,0,0,.35));pointer-events:none}
+
+        .card-footer{display:flex;align-items:center;justify-content:space-between;gap:8px}
+        .card-tags{display:flex;flex-wrap:wrap;gap:5px}
+        .card-tag{padding:3px 9px;background:rgba(255,255,255,.035);border-radius:6px;font-size:11px;font-weight:500;color:var(--text-secondary);letter-spacing:.2px}
+        .card-cat{font-size:11px;color:var(--text-secondary);opacity:.5;flex-shrink:0;white-space:nowrap}
+
+        mark{background:rgba(99,102,241,.25);color:var(--accent-3);border-radius:2px;padding:0 2px}
+
+        /* ===== LOADING ===== */
+        .loading-state{text-align:center;padding:60px 20px;display:none}
+        .loading-state.visible{display:block}
+        .loader{width:40px;height:40px;border:3px solid var(--border);border-top-color:var(--accent-1);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 18px}
+        .loading-text{font-size:14px;color:var(--text-secondary)}
+        .loading-sub{font-size:12px;color:var(--text-secondary);opacity:.5;margin-top:6px}
+
+        .empty-state{text-align:center;padding:60px 20px;display:none}
+        .empty-state.visible{display:block}
+        .empty-icon{font-size:56px;margin-bottom:18px;opacity:.35}
+        .empty-title{font-size:20px;font-weight:600;margin-bottom:8px}
+        .empty-text{font-size:14px;color:var(--text-secondary)}
+
+        /* ===== MODAL ===== */
+        .modal-overlay{position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.72);backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;visibility:hidden;transition:all .3s}
+        .modal-overlay.open{opacity:1;visibility:visible}
+        .modal{width:100%;max-width:720px;max-height:85vh;background:var(--bg-secondary);border:1px solid var(--border);border-radius:20px;overflow:hidden;transform:scale(.95) translateY(10px);transition:transform .3s;display:flex;flex-direction:column}
+        .modal-overlay.open .modal{transform:scale(1) translateY(0)}
+        .modal-header{display:flex;align-items:center;justify-content:space-between;padding:22px 26px 14px;border-bottom:1px solid var(--border)}
+        .modal-title{font-size:19px;font-weight:700;letter-spacing:-.3px;flex:1;margin-right:12px}
+        .modal-close{display:flex;align-items:center;justify-content:center;width:34px;height:34px;border:none;background:rgba(255,255,255,.06);border-radius:9px;color:var(--text-secondary);cursor:pointer;transition:all .2s;font-size:17px;flex-shrink:0}
+        .modal-close:hover{background:rgba(255,255,255,.1);color:var(--text-primary)}
+        .modal-body{padding:22px 26px;overflow-y:auto;flex:1}
+        .modal-desc{font-size:14.5px;line-height:1.7;color:var(--text-secondary);margin-bottom:18px}
+        .modal-prompt-block{background:rgba(0,0,0,.4);border:1px solid rgba(255,255,255,.04);border-radius:14px;overflow:hidden}
+        .modal-prompt-head{display:flex;align-items:center;justify-content:space-between;padding:10px 16px;border-bottom:1px solid rgba(255,255,255,.04)}
+        .modal-prompt-label{font-size:11px;font-weight:600;color:var(--text-secondary);text-transform:uppercase;letter-spacing:.5px}
+        .copy-btn{display:flex;align-items:center;gap:6px;padding:5px 13px;background:rgba(99,102,241,.12);border:1px solid rgba(99,102,241,.18);border-radius:8px;color:var(--accent-3);font-family:'Inter',sans-serif;font-size:12px;font-weight:600;cursor:pointer;transition:all .2s}
+        .copy-btn:hover{background:rgba(99,102,241,.22)}
+        .copy-btn.copied{background:rgba(52,211,153,.12);border-color:rgba(52,211,153,.2);color:var(--emerald)}
+        .modal-prompt-content{padding:14px 16px;font-family:'JetBrains Mono',monospace;font-size:12.5px;line-height:1.7;color:var(--text-primary);white-space:pre-wrap;word-break:break-word}
+        .modal-footer-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:18px}
+        .modal-tag{padding:4px 13px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.05);border-radius:8px;font-size:12px;font-weight:500;color:var(--text-secondary)}
+
+        .toast{position:fixed;bottom:30px;left:50%;transform:translateX(-50%) translateY(100px);z-index:2000;display:flex;align-items:center;gap:10px;padding:13px 22px;background:var(--bg-secondary);border:1px solid rgba(52,211,153,.2);border-radius:14px;box-shadow:0 8px 40px rgba(0,0,0,.4);font-size:14px;font-weight:500;color:var(--emerald);transition:transform .4s cubic-bezier(.4,0,.2,1);pointer-events:none}
+        .toast.show{transform:translateX(-50%) translateY(0)}
+
+        .footer{text-align:center;padding:30px 0 50px;font-size:13px;color:var(--text-secondary);opacity:.35}
+        .footer a{color:var(--accent-3);text-decoration:none;transition:opacity .2s}
+        .footer a:hover{opacity:.8}
+
+        ::-webkit-scrollbar{width:5px}
+        ::-webkit-scrollbar-track{background:transparent}
+        ::-webkit-scrollbar-thumb{background:rgba(255,255,255,.08);border-radius:10px}
+
+        @keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+
+        .dot-text-llm{background:var(--accent-1)}
+        .dot-image{background:var(--pink)}
+        .dot-video{background:var(--amber)}
+        .dot-audio{background:var(--cyan)}
+        .dot-voice{background:var(--emerald)}
+
+        .db-status{text-align:center;margin-bottom:10px;font-size:12px;color:var(--text-secondary);opacity:.4;animation:fadeUp .5s ease}
+        .db-status .ok{color:var(--emerald)}
+        .db-status .err{color:var(--rose)}
+
+        /* ===== MOBILE OPTIMIZATIONS ===== */
+        @media(max-width:768px){
+            .header{padding:36px 0 18px}
+            .prompt-grid{grid-template-columns:1fr}
+
+            /* Fix search button icon centering on mobile */
+            .search-btn{padding:11px 14px;gap:0;justify-content:center;align-items:center}
+            .search-btn .btn-text-label{display:none}
+            .search-btn .btn-content{gap:0;justify-content:center}
+            .search-btn .btn-icon{margin:0;display:flex;align-items:center;justify-content:center}
+            .search-btn .btn-icon svg{display:block}
+
+            .super-filters,.sub-filters{justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+            .super-chip,.sub-chip{flex-shrink:0}
+            .modal{max-height:92vh;border-radius:16px 16px 0 0}
+
+            /* Kill heavy effects on mobile */
+            .bg-orb{animation:none !important}
+            .bg-grid{display:none}
+            .particles{display:none}
+            .search-glow{filter:blur(8px)}
+
+            /* Simpler card transitions on mobile */
+            .prompt-card{animation:none;transition:border-color .2s,box-shadow .2s}
+            .prompt-card::before{display:none}
+            .prompt-card:hover{transform:none}
+            .prompt-card:active{transform:none}
+
+            /* Faster modal on mobile */
+            .modal-overlay{backdrop-filter:none;background:rgba(0,0,0,.85);transition:opacity .15s}
+            .modal{transition:transform .15s}
+            .modal-prompt-content{font-size:12px;line-height:1.6}
+        }
+    </style>
+</head>
+<body>
+
+<div class="bg-mesh"><div class="bg-orb"></div><div class="bg-orb"></div><div class="bg-orb"></div><div class="bg-orb"></div></div>
+<div class="bg-grid"></div>
+<div class="particles" id="particles"></div>
+
+<div class="app">
+    <header class="header">
+        <h1><span class="gradient-text">Prompt Search</span></h1>
+        <p class="header-sub">Find the perfect AI prompt for any task. Search by keyword, category, or model type.</p>
+    </header>
+
+    <section class="search-section">
+        <div class="search-container" id="searchContainer">
+            <div class="search-glow"></div>
+            <div class="search-inner">
+                <div class="search-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </div>
+                <input type="text" class="search-input" id="searchInput" placeholder="Search prompts..." autocomplete="off" spellcheck="false">
+                <button class="search-btn" id="searchBtn">
+                    <span class="btn-content">
+                        <span class="btn-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                        </span>
+                        <span class="btn-text-label">Search</span>
+                    </span>
+                    <span class="btn-loader"><span class="btn-spinner"></span></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="filters-section">
+        <div class="super-filters" id="superFilters"></div>
+        <div class="sub-filters" id="subFilters"></div>
+    </div>
+
+    <div class="db-status" id="dbStatus"></div>
+
+    <div class="stats-bar" id="statsBar">
+        <div class="stats-info">Found <strong id="resultCount">0</strong> prompts</div>
+        <div class="view-toggle">
+            <button class="view-btn active" id="gridViewBtn" title="Grid">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+            </button>
+            <button class="view-btn" id="listViewBtn" title="List">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="4" width="18" height="4" rx="1.5"/><rect x="3" y="10" width="18" height="4" rx="1.5"/><rect x="3" y="16" width="18" height="4" rx="1.5"/></svg>
+            </button>
+        </div>
+    </div>
+
+    <div class="loading-state" id="loadingState">
+        <div class="loader"></div>
+        <div class="loading-text">Loading prompts from repository...</div>
+        <div class="loading-sub" id="loadingSub">Connecting to GitHub...</div>
+    </div>
+
+    <div class="prompt-grid" id="promptGrid"></div>
+
+    <div class="empty-state" id="emptyState">
+        <div class="empty-icon">🔍</div>
+        <div class="empty-title">No prompts found</div>
+        <div class="empty-text">Try a different query or change filters</div>
+    </div>
+
+    <div class="footer">
+        <a href="https://github.com/Datvex/Datvex-prompt-LAB" target="_blank" rel="noopener">GitHub Datvex-prompt-LAB</a>
+    </div>
+</div>
+
+<div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+        <div class="modal-header">
+            <div class="modal-title" id="modalTitle"></div>
+            <button class="modal-close" id="modalClose">✕</button>
+        </div>
+        <div class="modal-body">
+            <div class="modal-desc" id="modalDesc"></div>
+            <div class="modal-prompt-block">
+                <div class="modal-prompt-head">
+                    <span class="modal-prompt-label">Prompt</span>
+                    <button class="copy-btn" id="copyBtn">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                        <span id="copyText">Copy</span>
+                    </button>
+                </div>
+                <div class="modal-prompt-content" id="modalPrompt"></div>
+            </div>
+            <div class="modal-footer-tags" id="modalTags"></div>
+        </div>
+    </div>
+</div>
+
+<div class="toast" id="toast">
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+    <span id="toastText">Copied!</span>
+</div>
+
+<script>
+// ===================== CONFIG =====================
+const REPO_BASE = 'https://raw.githubusercontent.com/Datvex/Datvex-prompt-LAB/main/main_base/purpose/';
+const FILE_MAP = {
+    'programming.md':{superCat:'text-llm',cat:'programming-tech'},
+    'writing.md':{superCat:'text-llm',cat:'writing-content'},
+    'marketing.md':{superCat:'text-llm',cat:'marketing-seo'},
+    'business.md':{superCat:'text-llm',cat:'business-strategy'},
+    'productivity.md':{superCat:'text-llm',cat:'productivity-workflow'},
+    'education.md':{superCat:'text-llm',cat:'education-learning'},
+    'career.md':{superCat:'text-llm',cat:'career-hiring'},
+    'customer_support.md':{superCat:'text-llm',cat:'customer-support'},
+    'image_general.md':{superCat:'image',cat:'image-general'},
+    'image_product.md':{superCat:'image',cat:'product-ecommerce'},
+    'image_branding.md':{superCat:'image',cat:'logos-branding'},
+    'image_concept_art.md':{superCat:'image',cat:'illustration-art'},
+    'image_photography.md':{superCat:'image',cat:'photography-lighting'},
+    'video_general.md':{superCat:'video',cat:'video-general'},
+    'video_storyboard.md':{superCat:'video',cat:'storyboards'},
+    'video_ads.md':{superCat:'video',cat:'ads-social'},
+    'video_cinematic.md':{superCat:'video',cat:'cinematic-styles'},
+    'music_general.md':{superCat:'audio',cat:'music-general'},
+    'music_genres.md':{superCat:'audio',cat:'genres-mood'},
+    'music_lyrics.md':{superCat:'audio',cat:'lyrics-songwriting'},
+    'audio_sfx.md':{superCat:'audio',cat:'sfx'},
+    'voice_general.md':{superCat:'voice',cat:'voice-general'},
+    'voiceover.md':{superCat:'voice',cat:'voiceovers'},
+    'voice_characters.md':{superCat:'voice',cat:'characters-acting'},
+    'voice_dubbing.md':{superCat:'voice',cat:'dubbing'},
+};
+const superCategories = [
+    {id:'all',label:'All',icon:'✦'},
+    {id:'text-llm',label:'Text / LLM',icon:'🧠'},
+    {id:'image',label:'Image',icon:'🎨'},
+    {id:'video',label:'Video',icon:'🎬'},
+    {id:'audio',label:'Audio / Music',icon:'🎧'},
+    {id:'voice',label:'Voice',icon:'🎙️'},
+];
+const subCategories = {
+    'text-llm':[
+        {id:'programming-tech',label:'Programming & Tech'},
+        {id:'writing-content',label:'Writing & Content'},
+        {id:'marketing-seo',label:'Marketing, SEO & Growth'},
+        {id:'business-strategy',label:'Business & Strategy'},
+        {id:'productivity-workflow',label:'Productivity & Workflow'},
+        {id:'education-learning',label:'Education & Learning'},
+        {id:'career-hiring',label:'Career & Hiring'},
+        {id:'customer-support',label:'Customer Support & Success'},
+    ],
+    'image':[
+        {id:'image-general',label:'Image Prompts (General)'},
+        {id:'product-ecommerce',label:'Product & E-commerce'},
+        {id:'logos-branding',label:'Logos & Branding'},
+        {id:'illustration-art',label:'Illustration & Concept Art'},
+        {id:'photography-lighting',label:'Photography & Lighting'},
+    ],
+    'video':[
+        {id:'video-general',label:'Video Prompts (General)'},
+        {id:'storyboards',label:'Storyboards & Shot Lists'},
+        {id:'ads-social',label:'Ads & Social Clips'},
+        {id:'cinematic-styles',label:'Cinematic Styles & Camera'},
+    ],
+    'audio':[
+        {id:'music-general',label:'Music Prompts (General)'},
+        {id:'genres-mood',label:'Genres, Mood & Structure'},
+        {id:'lyrics-songwriting',label:'Lyrics & Songwriting'},
+        {id:'sfx',label:'Sound Effects (SFX)'},
+    ],
+    'voice':[
+        {id:'voice-general',label:'Voice Prompts (General)'},
+        {id:'voiceovers',label:'Voiceovers & Narration'},
+        {id:'characters-acting',label:'Characters & Acting'},
+        {id:'dubbing',label:'Dubbing & Localization'},
+    ],
+};
+
+// ===================== STATE =====================
+let prompts=[];
+let activeSuperCat='all';
+let activeSubCat='all';
+let searchQuery='';
+let hasSearched=false;
+let dbLoaded=false;
+const isMobile=('ontouchstart' in window)||(navigator.maxTouchPoints>0)||window.innerWidth<769;
+
+// ===================== DOM =====================
+const searchInput=document.getElementById('searchInput');
+const searchContainer=document.getElementById('searchContainer');
+const promptGrid=document.getElementById('promptGrid');
+const emptyState=document.getElementById('emptyState');
+const statsBar=document.getElementById('statsBar');
+const resultCount=document.getElementById('resultCount');
+const modalOverlay=document.getElementById('modalOverlay');
+const toast=document.getElementById('toast');
+const loadingState=document.getElementById('loadingState');
+const dbStatus=document.getElementById('dbStatus');
+const searchBtn=document.getElementById('searchBtn');
+
+// ===================== MD PARSER =====================
+function parseMD(text,meta){
+    const results=[];
+    const sections=text.split(/\n(?=## )/);
+    for(const section of sections){
+        const lines=section.trim().split('\n');
+        if(!lines.length)continue;
+        const titleLine=lines.find(l=>/^## /.test(l));
+        if(!titleLine)continue;
+        const title=titleLine.replace(/^## /,'').trim();
+        if(!title)continue;
+        let description='';
+        let afterTitle=false;
+        for(const line of lines){
+            if(line===titleLine){afterTitle=true;continue}
+            if(!afterTitle)continue;
+            const t=line.trim();
+            if(!t||t.startsWith('#'))continue;
+            if(t.startsWith('```'))break;
+            description=t;break;
+        }
+        let prompt='';
+        const m=section.match(/```(?:text)?\s*\n([\s\S]*?)```/);
+        if(m)prompt=m[1].trim();
+        if(!prompt)continue;
+        const tags=extractTags(title);
+        results.push({
+            id:0,title,
+            description:description||`${title} prompt.`,
+            prompt,
+            superCategory:meta.superCat,
+            category:meta.cat,
+            tags,
+            _titleLower:title.toLowerCase(),
+            _descLower:(description||'').toLowerCase(),
+            _promptLower:prompt.toLowerCase(),
+        });
+    }
+    return results;
+}
+function extractTags(title){
+    const tags=[];
+    const stop=new Set(['the','and','for','you','are','act','with','your','that','this','from','will','have','each','them','into','what','how','use','can','all','one','its','has','been','was','had','not','but','our','out','about','also','more','when','very','just','than','then','only','most','some','made']);
+    const words=title.toLowerCase().split(/[\s\-_&,]+/).filter(w=>w.length>2);
+    let c=0;
+    for(const w of words){if(c>=3)break;if(!stop.has(w)){tags.push(w);c++}}
+    return tags;
+}
+
+// ===================== LOAD =====================
+async function loadAllPrompts(){
+    loadingState.classList.add('visible');
+    const files=Object.keys(FILE_MAP);
+    let loaded=0,failed=0;
+    let all=[];
+    const fetches=files.map(async file=>{
+        try{
+            const resp=await fetch(REPO_BASE+file+'?t='+Date.now());
+            if(!resp.ok)throw new Error(resp.status);
+            const txt=await resp.text();
+            all.push(...parseMD(txt,FILE_MAP[file]));
+            loaded++;
+        }catch(e){console.warn(`Failed: ${file}`,e);failed++}
+        document.getElementById('loadingSub').textContent=`Loaded ${loaded}/${files.length} files...`;
+    });
+    await Promise.all(fetches);
+    all.forEach((p,i)=>p.id=i+1);
+    prompts=all;
+    dbLoaded=true;
+    loadingState.classList.remove('visible');
+    if(failed>0&&loaded>0)dbStatus.innerHTML=`<span class="ok">✓ ${prompts.length} prompts loaded</span> · <span class="err">${failed} files failed</span>`;
+    else if(loaded>0)dbStatus.innerHTML=`<span class="ok">✓ ${prompts.length} prompts loaded from ${loaded} files</span>`;
+    else dbStatus.innerHTML=`<span class="err">✕ Failed to load prompts</span>`;
+    renderSuperFilters();
+    renderSubFilters();
+}
+
+// ===================== SEARCH =====================
+function strictMatch(prompt,query){
+    const qWords=query.toLowerCase().split(/\s+/).filter(w=>w.length>0);
+    if(!qWords.length)return{match:false,score:0};
+    let totalScore=0;
+    for(const qw of qWords){
+        let bestScore=0;
+        // Check title first (highest weight)
+        if(prompt._titleLower.includes(qw)){bestScore=100}
+        else if(prompt._descLower.includes(qw)){bestScore=80}
+        else if(prompt._promptLower.includes(qw)){bestScore=70}
+        else if(qw.length>=4){
+            // Try prefix / 1-edit on title+desc words only (not full prompt words — too slow & too many false positives)
+            const checkText=prompt._titleLower+' '+prompt._descLower;
+            const textWords=checkText.split(/[\s\-_.,;:!?/\\()\[\]{}"'`${}]+/).filter(w=>w.length>0);
+            for(const tw of textWords){
+                if(tw.startsWith(qw)){bestScore=Math.max(bestScore,65);break}
+                if(Math.abs(tw.length-qw.length)<=1&&tw.length>=4&&editDist1(qw,tw)){bestScore=Math.max(bestScore,50);break}
+            }
+        }
+        if(bestScore===0)return{match:false,score:0};
+        totalScore+=bestScore;
+    }
+    return{match:true,score:totalScore/qWords.length};
+}
+
+function editDist1(a,b){
+    const la=a.length,lb=b.length;
+    if(Math.abs(la-lb)>1)return false;
+    if(la===lb){let d=0;for(let i=0;i<la;i++){if(a[i]!==b[i])d++;if(d>1)return false}return d===1}
+    const[s,l]=la<lb?[a,b]:[b,a];
+    let d=0,si=0;
+    for(let li=0;li<l.length;li++){if(s[si]!==l[li]){d++;if(d>1)return false}else si++}
+    return true;
+}
+
+function getFiltered(){
+    let f=prompts;
+    if(activeSuperCat!=='all')f=f.filter(p=>p.superCategory===activeSuperCat);
+    if(activeSubCat!=='all')f=f.filter(p=>p.category===activeSubCat);
+    if(searchQuery.trim()){
+        const scored=[];
+        for(const p of f){const r=strictMatch(p,searchQuery.trim());if(r.match)scored.push({prompt:p,score:r.score})}
+        scored.sort((a,b)=>b.score-a.score);
+        f=scored.map(s=>s.prompt);
+    }
+    return f;
+}
+
+// ===================== HIGHLIGHT =====================
+function buildHlRegex(query){
+    if(!query||!query.trim())return null;
+    const words=query.trim().split(/\s+/).filter(w=>w.length>=2);
+    if(!words.length)return null;
+    const pattern=words.map(w=>w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|');
+    return new RegExp(`(${pattern})`,'gi');
+}
+function hlText(text,regex){
+    if(!regex)return escHtml(text);
+    return escHtml(text).replace(regex,'<mark>$1</mark>');
+}
+function getSnippet(promptText,query,maxLen){
+    if(!query||!query.trim())return promptText.substring(0,maxLen);
+    const lower=promptText.toLowerCase();
+    const qWords=query.toLowerCase().trim().split(/\s+/).filter(w=>w.length>=2);
+    let firstIdx=-1;
+    for(const qw of qWords){const idx=lower.indexOf(qw);if(idx!==-1&&(firstIdx===-1||idx<firstIdx))firstIdx=idx}
+    if(firstIdx===-1)return promptText.substring(0,maxLen);
+    let start=Math.max(0,firstIdx-40);
+    if(start>0){const si=promptText.indexOf(' ',start);if(si!==-1&&si<firstIdx)start=si+1}
+    let snippet=promptText.substring(start,start+maxLen);
+    if(start>0)snippet='...'+snippet;
+    if(start+maxLen<promptText.length)snippet+='...';
+    return snippet;
+}
+function escHtml(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML}
+
+// ===================== RENDER =====================
+function renderSuperFilters(){
+    const el=document.getElementById('superFilters');
+    el.innerHTML=superCategories.map(sc=>{
+        const count=sc.id==='all'?prompts.length:prompts.filter(p=>p.superCategory===sc.id).length;
+        return `<button class="super-chip ${activeSuperCat===sc.id?'active':''}" data-sc="${sc.id}"><span class="s-icon">${sc.icon}</span><span>${sc.label}</span><span class="s-count">${count}</span></button>`;
+    }).join('');
+    el.querySelectorAll('.super-chip').forEach(chip=>{
+        chip.addEventListener('click',()=>{
+            activeSuperCat=chip.dataset.sc;activeSubCat='all';
+            renderSuperFilters();renderSubFilters();
+            if(hasSearched)renderResults();
+        });
+    });
+}
+function renderSubFilters(){
+    const el=document.getElementById('subFilters');
+    if(activeSuperCat==='all'||!subCategories[activeSuperCat]){el.classList.remove('visible');el.innerHTML='';return}
+    const subs=subCategories[activeSuperCat];
+    const allCount=prompts.filter(p=>p.superCategory===activeSuperCat).length;
+    let html=`<button class="sub-chip ${activeSubCat==='all'?'active':''}" data-sub="all">All<span class="sc-count">${allCount}</span></button>`;
+    subs.forEach(sub=>{
+        const cnt=prompts.filter(p=>p.category===sub.id).length;
+        html+=`<button class="sub-chip ${activeSubCat===sub.id?'active':''}" data-sub="${sub.id}">${sub.label}<span class="sc-count">${cnt}</span></button>`;
+    });
+    el.innerHTML=html;el.classList.add('visible');
+    el.querySelectorAll('.sub-chip').forEach(chip=>{
+        chip.addEventListener('click',()=>{activeSubCat=chip.dataset.sub;renderSubFilters();if(hasSearched)renderResults()});
+    });
+}
+
+function renderResults(){
+    if(!hasSearched){promptGrid.innerHTML='';emptyState.classList.remove('visible');statsBar.classList.remove('visible');return}
+    const filtered=getFiltered();
+    resultCount.textContent=filtered.length;
+    statsBar.classList.add('visible');
+    if(!filtered.length){promptGrid.innerHTML='';emptyState.classList.add('visible');return}
+    emptyState.classList.remove('visible');
+    const regex=buildHlRegex(searchQuery);
+
+    // On mobile: render in batches to avoid UI freeze
+    if(isMobile&&filtered.length>20){
+        renderBatched(filtered,regex);
+    }else{
+        promptGrid.innerHTML=filtered.map((p,i)=>buildCard(p,i,regex)).join('');
+    }
+}
+
+function buildCard(p,i,regex){
+    const dotClass='dot-'+p.superCategory;
+    const title=hlText(p.title,regex);
+    const desc=hlText(p.description,regex);
+    const snippet=getSnippet(p.prompt,searchQuery,200);
+    const snippetHl=hlText(snippet,regex);
+    const subLabel=Object.values(subCategories).flat().find(s=>s.id===p.category)?.label||'';
+    const delay=isMobile?0:Math.min(i*0.03,0.6);
+    return `<div class="prompt-card" style="animation-delay:${delay}s" onclick="openModal(${p.id})">
+        <div class="card-header">
+            <div class="card-dot ${dotClass}"></div>
+            <div class="card-title">${title}</div>
+            <div class="card-actions">
+                <button class="card-action-btn" onclick="event.stopPropagation();copyPrompt(${p.id})" title="Copy">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                </button>
+                <button class="card-action-btn" onclick="event.stopPropagation();openModal(${p.id})" title="Expand">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+                </button>
+            </div>
+        </div>
+        <div class="card-desc">${desc}</div>
+        <div class="card-preview"><span class="preview-inner">${snippetHl}</span></div>
+        <div class="card-footer">
+            <div class="card-tags">${p.tags.map(t=>`<span class="card-tag">${t}</span>`).join('')}</div>
+            <span class="card-cat">${subLabel}</span>
+        </div>
+    </div>`;
+}
+
+// Batched rendering for mobile — prevents UI freeze
+function renderBatched(filtered,regex){
+    promptGrid.innerHTML='';
+    const BATCH=10;
+    let idx=0;
+    function nextBatch(){
+        const end=Math.min(idx+BATCH,filtered.length);
+        let html='';
+        for(let i=idx;i<end;i++)html+=buildCard(filtered[i],i,regex);
+        promptGrid.insertAdjacentHTML('beforeend',html);
+        idx=end;
+        if(idx<filtered.length)requestAnimationFrame(nextBatch);
+    }
+    requestAnimationFrame(nextBatch);
+}
+
+// ===================== MODAL =====================
+function openModal(id){
+    const p=prompts.find(x=>x.id===id);
+    if(!p)return;
+    const regex=buildHlRegex(searchQuery);
+    document.getElementById('modalTitle').innerHTML=hlText(p.title,regex);
+    document.getElementById('modalDesc').innerHTML=hlText(p.description,regex);
+    const mpc=document.getElementById('modalPrompt');
+
+    // On mobile: set text first, then highlight async to avoid freeze
+    if(isMobile){
+        mpc.textContent=p.prompt;
+        modalOverlay.classList.add('open');
+        document.body.style.overflow='hidden';
+        // Highlight asynchronously
+        if(regex){
+            requestAnimationFrame(()=>{
+                mpc.innerHTML=hlText(p.prompt,regex);
+                requestAnimationFrame(()=>{
+                    const m=mpc.querySelector('mark');
+                    if(m)m.scrollIntoView({behavior:'auto',block:'center'});
+                });
+            });
+        }
+    }else{
+        mpc.innerHTML=hlText(p.prompt,regex);
+        modalOverlay.classList.add('open');
+        document.body.style.overflow='hidden';
+        requestAnimationFrame(()=>{
+            const m=mpc.querySelector('mark');
+            if(m)m.scrollIntoView({behavior:'smooth',block:'center'});
+        });
+    }
+
+    document.getElementById('modalTags').innerHTML=p.tags.map(t=>`<span class="modal-tag">${t}</span>`).join('');
+    const cb=document.getElementById('copyBtn');
+    cb.classList.remove('copied');
+    document.getElementById('copyText').textContent='Copy';
+    cb.onclick=()=>copyClip(p.prompt);
+}
+function closeModal(){modalOverlay.classList.remove('open');document.body.style.overflow=''}
+
+// ===================== COPY =====================
+function copyClip(text){
+    navigator.clipboard.writeText(text).then(()=>{
+        const cb=document.getElementById('copyBtn');
+        cb.classList.add('copied');
+        document.getElementById('copyText').textContent='Copied!';
+        showToast('Prompt copied to clipboard');
+        setTimeout(()=>{cb.classList.remove('copied');document.getElementById('copyText').textContent='Copy'},2000);
+    });
+}
+function copyPrompt(id){
+    const p=prompts.find(x=>x.id===id);
+    if(p)navigator.clipboard.writeText(p.prompt).then(()=>showToast('Prompt copied!'));
+}
+function showToast(text){
+    document.getElementById('toastText').textContent=text;
+    toast.classList.add('show');
+    setTimeout(()=>toast.classList.remove('show'),2500);
+}
+
+// ===================== SEARCH ACTION =====================
+async function doSearch(){
+    searchQuery=searchInput.value.trim();
+    if(!dbLoaded){showToast('Still loading prompts...');return}
+    if(!searchQuery&&activeSuperCat==='all'&&activeSubCat==='all')return;
+    searchBtn.classList.add('searching');
+    // Let the spinner show for a moment
+    await new Promise(r=>setTimeout(r,isMobile?150:250));
+    hasSearched=true;
+    renderResults();
+    searchBtn.classList.remove('searching');
+    searchBtn.classList.add('done');
+    setTimeout(()=>searchBtn.classList.remove('done'),700);
+}
+
+// ===================== PARTICLES =====================
+function createParticles(){
+    if(isMobile)return; // skip particles on mobile
+    const c=document.getElementById('particles');
+    for(let i=0;i<25;i++){
+        const p=document.createElement('div');
+        p.className='particle';
+        p.style.left=Math.random()*100+'%';
+        p.style.top=Math.random()*100+'%';
+        p.style.animationDelay=Math.random()*4+'s';
+        p.style.animationDuration=(3+Math.random()*4)+'s';
+        c.appendChild(p);
+    }
+}
+
+// ===================== EVENTS =====================
+function bindEvents(){
+    searchBtn.addEventListener('click',doSearch);
+    searchInput.addEventListener('keydown',e=>{if(e.key==='Enter')doSearch()});
+    searchInput.addEventListener('focus',()=>searchContainer.classList.add('focused'));
+    searchInput.addEventListener('blur',()=>searchContainer.classList.remove('focused'));
+    document.addEventListener('keydown',e=>{if(e.key==='Escape'&&modalOverlay.classList.contains('open'))closeModal()});
+    document.getElementById('modalClose').addEventListener('click',closeModal);
+    modalOverlay.addEventListener('click',e=>{if(e.target===modalOverlay)closeModal()});
+    document.getElementById('gridViewBtn').addEventListener('click',()=>{
+        promptGrid.classList.remove('list-view');
+        document.getElementById('gridViewBtn').classList.add('active');
+        document.getElementById('listViewBtn').classList.remove('active');
+    });
+    document.getElementById('listViewBtn').addEventListener('click',()=>{
+        promptGrid.classList.add('list-view');
+        document.getElementById('listViewBtn').classList.add('active');
+        document.getElementById('gridViewBtn').classList.remove('active');
+    });
+}
+
+// ===================== INIT =====================
+async function init(){
+    createParticles();
+    renderSuperFilters();
+    bindEvents();
+    await loadAllPrompts();
+}
+init();
+</script>
+</body>
+</html>
