@@ -10,7 +10,7 @@
   <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-darkblue" alt="RU"></a>
   <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-yellow" alt="ZH"></a>
   <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-orange" alt="ES"></a>
-  <a href="README_HI.md"><img src="https://img.shields.io/badge/हिन्दी-pink" alt="HI"></a>
+  <a href="README_HI.md"><img src="assets/hindi-badge.svg" alt="HI"></a>
   <br>
   <a href="README_FR.md"><img src="https://img.shields.io/badge/Français-blue" alt="FR"></a>
   <a href="README_DE.md"><img src="https://img.shields.io/badge/Deutsch-darkgreen" alt="DE"></a>
@@ -37,7 +37,6 @@
 ## 📂 ナビゲーション
 タスクやユースケースに合わせてライブラリを閲覧してください。現段階では、すべてのリンクは公式のキュレート・データベースに繋がっています。
 
-*   [**目的別に探す**](./NAVIGATION_PURPOSE.md) – 分野別（プログラミング、心理学、マーケティングなど）に分類されたプロンプトをご覧いただけます。
 *   [**✨ AIプロンプト検索（新機能）**](https://datvex.github.io/Datvex-prompt-LAB/) – AI搭載のスマート検索で、あなたのニーズに合った完璧なプロンプトを素早く見つけられます。
 
 ---
@@ -51,19 +50,5 @@
 
 ---
 
-## 📖 重要事項
-*   [**利用ガイド**](./USAGE_GUIDE.md) – `[このような]` 変数やプレースホルダーの使用方法に関する重要な手順。
-*   [**貢献ルール**](./CONTRIBUTING.md) – 今後のアップデートに向けた改善提案や新しいプロンプトの提案方法に関するガイドライン。
-
----
-
 ## 📜 ライセンス
 このプロジェクトは **MIT ライセンス** の下でライセンスされています。
-
----
-
-## 👤 著者/ソース
-
-このリストには、このリポジトリのためにプロンプトが収集されたソースが含まれています:
-
-*   **YouMind Nano Banana Pro Library** – [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)

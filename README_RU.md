@@ -10,7 +10,7 @@
   <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-darkblue" alt="RU"></a>
   <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-yellow" alt="ZH"></a>
   <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-orange" alt="ES"></a>
-  <a href="README_HI.md"><img src="https://img.shields.io/badge/हिन्दी-pink" alt="HI"></a>
+  <a href="README_HI.md"><img src="assets/hindi-badge.svg" alt="HI"></a>
   <br>
   <a href="README_FR.md"><img src="https://img.shields.io/badge/Français-blue" alt="FR"></a>
   <a href="README_DE.md"><img src="https://img.shields.io/badge/Deutsch-darkgreen" alt="DE"></a>
@@ -37,7 +37,6 @@
 ## 📂 Навигация
 Используйте библиотеку в зависимости от ваших задач. На данном этапе все ссылки ведут на официальную курируемую базу данных:
 
-*   [**Поиск по назначению**](./NAVIGATION_PURPOSE.md) — Промпты, распределенные по категориям (Программирование, Психология, Маркетинг и т. д.).
 *   [**✨ ИИ поиск промптов (НОВИНКА)**](https://datvex.github.io/Datvex-prompt-LAB/) — Умный поиск на основе ИИ для быстрого нахождения идеальных промптов для ваших задач.
 
 ---
@@ -51,19 +50,5 @@
 
 ---
 
-## 📖 Важная информация
-*   [**Руководство по использованию**](./USAGE_GUIDE.md) — Основные инструкции по работе с переменными `[вида таких]` и заполнителями.
-*   [**Правила участия**](./CONTRIBUTING.md) — Рекомендации о том, как предложить улучшения или новые промпты для будущих обновлений.
-
----
-
 ## 📜 Лицензия
 Этот проект распространяется под лицензией **MIT**.
-
----
-
-## 👤 Авторство / Источники
-
-Этот список содержит источники, из которых были собраны промпты для этого репозитория:
-
-*   **YouMind Nano Banana Pro Library** – [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)

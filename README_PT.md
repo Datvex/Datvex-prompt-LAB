@@ -10,7 +10,7 @@
   <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-darkblue" alt="RU"></a>
   <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-yellow" alt="ZH"></a>
   <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-orange" alt="ES"></a>
-  <a href="README_HI.md"><img src="https://img.shields.io/badge/हिन्दी-pink" alt="HI"></a>
+  <a href="README_HI.md"><img src="assets/hindi-badge.svg" alt="HI"></a>
   <br>
   <a href="README_FR.md"><img src="https://img.shields.io/badge/Français-blue" alt="FR"></a>
   <a href="README_DE.md"><img src="https://img.shields.io/badge/Deutsch-darkgreen" alt="DE"></a>
@@ -37,7 +37,6 @@ A coleção inclui prompts cuidadosamente selecionados de várias fontes da comu
 ## 📂 Navegação
 Navegue pela biblioteca por tarefa e caso de uso. Nesta fase, todos os links levam ao banco de dados oficial com curadoria:
 
-*   [**Navegar por Finalidade**](./NAVIGATION_PURPOSE.md) – Encontre prompts categorizados por área (Programação, Psicologia, Marketing, etc.).
 *   [**✨ Busca de prompts por IA (NOVO)**](https://datvex.github.io/Datvex-prompt-LAB/) – Busca inteligente alimentada por IA para encontrar rapidamente os prompts perfeitos para suas necessidades.
 
 ---
@@ -51,19 +50,5 @@ Estamos evoluindo constantemente para fornecer os melhores recursos de prompting
 
 ---
 
-## 📖 Informações Essenciais
-*   [**Guia de Uso**](./USAGE_GUIDE.md) – Instruções essenciais sobre como usar variáveis `[como esta]` e marcadores de posição.
-*   [**Regras de Contribuição**](./CONTRIBUTING.md) – Diretrizes sobre como sugerir melhorias ou novos prompts para futuras atualizações.
-
----
-
 ## 📜 Licença
 Este projeto está licenciado sob a **Licença MIT**.
-
----
-
-## 👤 Autoria / Fontes
-
-Esta lista contém as fontes das quais os prompts foram coletados para este repositório:
-
-*   **YouMind Nano Banana Pro Library** – [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)

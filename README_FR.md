@@ -10,7 +10,7 @@
   <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-darkblue" alt="RU"></a>
   <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-yellow" alt="ZH"></a>
   <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-orange" alt="ES"></a>
-  <a href="README_HI.md"><img src="https://img.shields.io/badge/हिन्दी-pink" alt="HI"></a>
+  <a href="README_HI.md"><img src="assets/hindi-badge.svg" alt="HI"></a>
   <br>
   <a href="README_FR.md"><img src="https://img.shields.io/badge/Français-blue" alt="FR"></a>
   <a href="README_DE.md"><img src="https://img.shields.io/badge/Deutsch-darkgreen" alt="DE"></a>
@@ -37,7 +37,6 @@ La collection comprend des prompts soigneusement sélectionnés provenant de div
 ## 📂 Navigation
 Parcourez la bibliothèque par tâche et par cas d'utilisation. À ce stade, tous les liens mènent à la base de données officielle :
 
-*   [**Parcourir par objectif**](./NAVIGATION_PURPOSE.md) – Trouvez des prompts classés par domaine (Programmation, Psychologie, Marketing, etc.).
 *   [**✨ Recherche de prompts par IA (NOUVEAU)**](https://datvex.github.io/Datvex-prompt-LAB/) – Recherche intelligente alimentée par l'IA pour trouver rapidement les prompts parfaits pour vos besoins.
 
 ---
@@ -51,19 +50,5 @@ Nous évoluons constamment pour fournir les meilleures ressources de prompting.
 
 ---
 
-## 📖 Informations essentielles
-*   [**Guide d'utilisation**](./USAGE_GUIDE.md) – Instructions essentielles sur l'utilisation des variables `[comme ceci]` et des espaces réservés.
-*   [**Règles de contribution**](./CONTRIBUTING.md) – Directives sur la manière de suggérer des améliorations ou de nouveaux prompts pour les futures mises à jour.
-
----
-
 ## 📜 Licence
 Ce projet est sous licence **MIT**.
-
----
-
-## 👤 Auteurs / Sources
-
-Cette liste contient les sources à partir desquelles les prompts ont été collectés pour ce dépôt :
-
-*   **YouMind Nano Banana Pro Library** – [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)

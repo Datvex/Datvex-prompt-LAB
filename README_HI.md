@@ -10,7 +10,7 @@
   <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-darkblue" alt="RU"></a>
   <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-yellow" alt="ZH"></a>
   <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-orange" alt="ES"></a>
-  <a href="README_HI.md"><img src="https://img.shields.io/badge/हिन्दी-pink" alt="HI"></a>
+  <a href="README_HI.md"><img src="assets/hindi-badge.svg" alt="HI"></a>
   <br>
   <a href="README_FR.md"><img src="https://img.shields.io/badge/Français-blue" alt="FR"></a>
   <a href="README_DE.md"><img src="https://img.shields.io/badge/Deutsch-darkgreen" alt="DE"></a>
@@ -30,14 +30,13 @@
 
 **Datvex prompt LAB** में आपका स्वागत है। यह एक पेशेवर और व्यवस्थित रिपॉजिटरी है जिसमें कई AI सिस्टम के विशेष कार्यों के लिए डिज़ाइन किए गए उच्च गुणवत्ता वाले अंग्रेजी भाषा के प्रॉम्प्ट (Prompts) शामिल हैं।
 
-इस संग्रह में वैश्विक AI समुदाय के विभिन्न स्रोतों से सावधानीपूर्वक चुने गए प्रॉम्प्ट शामिल हैं — जिनमें GitHub रिपॉजिटरी, Discord चैनल और अन्य पेशेवर संसाधन शामिल हैं — साथ ही विशेष रूप से इस LAB के लिए विकसित किए गए मूल प्रॉम्प्ट भी शामिल हैं।
+इस संग्रह में वैश्विक AI समुदाय के विभिन्न स्रोतों से सावधानीपूर्वक चुने गए प्र��म्प्ट शामिल हैं — जिनमें GitHub रिपॉजिटरी, Discord चैनल और अन्य पेशेवर संसाधन शामिल हैं — साथ ही विशेष रूप से इस LAB के लिए विकसित किए गए मूल प्रॉम्प्ट भी शामिल हैं।
 
 ---
 
 ## 📂 नेविगेशन (Navigation)
 कार्य और उपयोग के आधार पर लाइब्रेरी देखें। इस चरण में, सभी लिंक आधिकारिक क्यूरेटेड डेटाबेस की ओर ले जाते हैं:
 
-*   [**उद्देश्य के अनुसार ब्राउज़ करें**](./NAVIGATION_PURPOSE.md) – क्षेत्र (प्रोग्रामिंग, मनोविज्ञान, मार्केटिंग, आदि) के अनुसार वर्गीकृत प्रॉम्प्ट खोजें।
 *   [**✨ AI प्रॉम्प्ट खोज (नया)**](https://datvex.github.io/Datvex-prompt-LAB/) – आपकी आवश्यकताओं के लिए सही प्रॉम्प्ट जल्दी से खोजने के लिए स्मार्ट AI-संचालित खोज।
 
 ---
@@ -51,19 +50,5 @@
 
 ---
 
-## 📖 आवश्यक जानकारी
-*   [**उपयोग मार्गदर्शिका**](./USAGE_GUIDE.md) – `[इस तरह के]` वेरिएबल्स और प्लेसहोल्डर्स का उपयोग करने के बारे में आवश्यक निर्देश।
-*   [**योगदान के नियम**](./CONTRIBUTING.md) – भविष्य के अपडेट के लिए सुधार या नए प्रॉम्प्ट सुझाने के बारे में दिशानिर्देश।
-
----
-
 ## 📜 लाइसेंस
 यह प्रोजेक्ट **MIT लाइसेंस** के तहत लाइसेंस प्राप्त है।
-
----
-
-## 👤 लेखकत्व / स्रोत
-
-इस सूची में इस रिपॉजिटरी के लिए प्रॉम्प्ट एकत्र किए गए स्रोत शामिल हैं:
-
-*   **YouMind Nano Banana Pro Library** – [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)

@@ -10,7 +10,7 @@
   <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-darkblue" alt="RU"></a>
   <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-yellow" alt="ZH"></a>
   <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-orange" alt="ES"></a>
-  <a href="README_HI.md"><img src="https://img.shields.io/badge/हिन्दी-pink" alt="HI"></a>
+  <a href="README_HI.md"><img src="assets/hindi-badge.svg" alt="HI"></a>
   <br>
   <a href="README_FR.md"><img src="https://img.shields.io/badge/Français-blue" alt="FR"></a>
   <a href="README_DE.md"><img src="https://img.shields.io/badge/Deutsch-darkgreen" alt="DE"></a>
@@ -37,7 +37,6 @@ Die Sammlung umfasst sorgfältig kuratierte Prompts aus verschiedenen Quellen de
 ## 📂 Navigation
 Durchsuchen Sie die Bibliothek nach Aufgabe und Anwendungsfall. Zum jetzigen Zeitpunkt führen alle Links zur offiziellen kuratierten Datenbank:
 
-*   [**Nach Verwendungszweck durchsuchen**](./NAVIGATION_PURPOSE.md) – Finden Sie Prompts kategorisiert nach Fachbereich (Programmierung, Psychologie, Marketing usw.).
 *   [**✨ KI-Prompt-Suche (NEU)**](https://datvex.github.io/Datvex-prompt-LAB/) – Intelligente KI-gestützte Suche, um schnell die perfekten Prompts für Ihre Bedürfnisse zu finden.
 
 ---
@@ -51,19 +50,5 @@ Wir entwickeln uns ständig weiter, um die besten Prompt-Ressourcen bereitzustel
 
 ---
 
-## 📖 Wichtige Informationen
-*   [**Nutzungshinweise**](./USAGE_GUIDE.md) – Grundlegende Anweisungen zur Verwendung von Variablen `[wie diese]` und Platzhaltern.
-*   [**Regeln für Mitwirkende**](./CONTRIBUTING.md) – Richtlinien dazu, wie Sie Verbesserungen oder neue Prompts für zukünftige Updates vorschlagen können.
-
----
-
 ## 📜 Lizenz
 Dieses Projekt ist unter der **MIT-Lizenz** lizenziert.
-
----
-
-## 👤 Urheberschaft / Quellen
-
-Diese Liste enthält die Quellen, aus denen Prompts für dieses Repository gesammelt wurden:
-
-*   **YouMind Nano Banana Pro Library** – [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)

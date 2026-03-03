@@ -10,7 +10,7 @@
   <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-darkblue" alt="RU"></a>
   <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-yellow" alt="ZH"></a>
   <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-orange" alt="ES"></a>
-  <a href="README_HI.md"><img src="https://img.shields.io/badge/हिन्दी-pink" alt="HI"></a>
+  <a href="README_HI.md"><img src="assets/hindi-badge.svg" alt="HI"></a>
   <br>
   <a href="README_FR.md"><img src="https://img.shields.io/badge/Français-blue" alt="FR"></a>
   <a href="README_DE.md"><img src="https://img.shields.io/badge/Deutsch-darkgreen" alt="DE"></a>
@@ -37,7 +37,6 @@
 ## 📂 导航
 请根据任务和用例浏览库。目前，所有链接均指向官方策划的数据库：
 
-*   [**按用途浏览**](./NAVIGATION_PURPOSE.md) – 查找按领域分类的提示词（编程、心理学、营销等）。
 *   [**✨ AI 提示词搜索（新品）**](https://datvex.github.io/Datvex-prompt-LAB/) – 智能 AI 驱动的搜索，快速找到适合您需求的完美提示词。
 
 ---
@@ -51,19 +50,5 @@
 
 ---
 
-## 📖 基本信息
-*   [**使用指南**](./USAGE_GUIDE.md) – 关于如何使用 `[类似这样]` 的变量和占位符的基本说明。
-*   [**贡献规则**](./CONTRIBUTING.md) – 关于如何为未来的更新建议改进或新提示词的指南。
-
----
-
 ## 📜 许可证
 本项目采用 **MIT 许可证**。
-
----
-
-## 👤 作者/来源
-
-以下是本仓库收集提示词的来源列表：
-
-*   **YouMind Nano Banana Pro Library** – [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)
