@@ -1,0 +1,52 @@
+[
+  {
+    "group": "Text / LLM (Language Models)",
+    "items": [
+      { "id": "programming", "name": "Programming & Tech" },
+      { "id": "writing", "name": "Writing & Content" },
+      { "id": "marketing", "name": "Marketing, SEO & Growth" },
+      { "id": "business", "name": "Business & Strategy" },
+      { "id": "productivity", "name": "Productivity & Workflow" },
+      { "id": "education", "name": "Education & Learning" },
+      { "id": "career", "name": "Career & Hiring" },
+      { "id": "customer_support", "name": "Customer Support & Success" }
+    ]
+  },
+  {
+    "group": "Image Generation",
+    "items": [
+      { "id": "image_general", "name": "Image Prompts (General)" },
+      { "id": "image_product", "name": "Product & E-commerce" },
+      { "id": "image_branding", "name": "Logos & Branding" },
+      { "id": "image_concept_art", "name": "Illustration & Concept Art" },
+      { "id": "image_photography", "name": "Photography Styles & Lighting" }
+    ]
+  },
+  {
+    "group": "Video Generation",
+    "items": [
+      { "id": "video_general", "name": "Video Prompts (General)" },
+      { "id": "video_storyboard", "name": "Storyboards & Shot Lists" },
+      { "id": "video_ads", "name": "Ads & Social Clips" },
+      { "id": "video_cinematic", "name": "Cinematic Styles & Camera Moves" }
+    ]
+  },
+  {
+    "group": "Audio / Music Generation",
+    "items": [
+      { "id": "music_general", "name": "Music Prompts (General)" },
+      { "id": "music_genres", "name": "Genres, Mood & Structure" },
+      { "id": "music_lyrics", "name": "Lyrics & Songwriting" },
+      { "id": "audio_sfx", "name": "Sound Effects (SFX)" }
+    ]
+  },
+  {
+    "group": "Voice Generation",
+    "items": [
+      { "id": "voice_general", "name": "Voice Prompts (General)" },
+      { "id": "voiceover", "name": "Voiceovers & Narration" },
+      { "id": "voice_characters", "name": "Characters & Acting" },
+      { "id": "voice_dubbing", "name": "Dubbing & Localization" }
+    ]
+  }
+]
