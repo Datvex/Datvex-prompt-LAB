@@ -4,7 +4,7 @@
 
 <p align="center">
   <b>选择语言：</b><br>
-  <a href="README.md"><img src="https://img.shields.io/badge/English-brightgreen" alt="EN"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/英语-brightgreen" alt="EN"></a>
   <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-darkblue" alt="RU"></a>
   <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-Current-yellow" alt="ZH"></a>
   <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-orange" alt="ES"></a>
@@ -43,8 +43,8 @@
 我们正在不断发展，以提供最好的提示词资源。
 
 - [x] **阶段 1：** 推出官方策划的数据库（当前）。
-- [ ] **阶段 2：** 扩展类别和高级提示词工程模板。
-- [ ] **阶段 3：** **社区数据库。** 将为用户增加专用空间，用于分享、测试和存储他们自己的提示词。
+- [ ] **阶段 2：** 用户可以将自己的提示词添加到数据库。
+- [ ] **阶段 3：** **创建AI提示词生成器。** 开发基于您需求智能生成提示词的工具。
 
 ---
 

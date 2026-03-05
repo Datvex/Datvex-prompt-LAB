@@ -4,7 +4,7 @@
 
 <p align="center">
   <b>भाषा चुनें:</b><br>
-  <a href="README.md"><img src="https://img.shields.io/badge/English-brightgreen" alt="EN"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/अंग्रेज़ी-Current-brightgreen" alt="EN"></a>
   <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-darkblue" alt="RU"></a>
   <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-yellow" alt="ZH"></a>
   <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-orange" alt="ES"></a>
@@ -43,8 +43,8 @@
 हम सर्वोत्तम प्रॉम्प्ट संसाधन प्रदान करने के लिए निरंतर विकसित हो रहे हैं।
 
 - [x] **चरण 1:** आधिकारिक क्यूरेटेड डेटाबेस का शुभारंभ (वर्तमान)।
-- [ ] **चरण 2:** श्रेणियों का विस्तार और उन्नत प्रॉम्प्ट इंजीनियरिंग टेम्पलेट्स।
-- [ ] **चरण 3:** **सामुदायिक डेटाबेस।** उपयोगकर्ताओं के लिए अपने स्वयं के प्रॉम्प्ट साझा करने, परीक्षण करने और संग्रहीत करने के लिए एक समर्पित स्थान जोड़ा जाएगा।
+- [ ] **चरण 2:** उपयोगकर्ता अपने प्रॉम्प्ट को डेटाबेस में जोड़ सकते हैं।
+- [ ] **चरण 3:** **आई प्रॉम्प्ट जनरेटर का निर्माण।** आपकी आवश्यकताओं के आधार पर प्रॉम्प्ट बनाने के लिए एक बुद्धिमान उपकरण का विकास।
 
 ---
 

@@ -4,7 +4,7 @@
 
 <p align="center">
   <b>언어 선택:</b><br>
-  <a href="README.md"><img src="https://img.shields.io/badge/English-brightgreen" alt="EN"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/영어-Current-brightgreen" alt="EN"></a>
   <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-darkblue" alt="RU"></a>
   <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-yellow" alt="ZH"></a>
   <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-orange" alt="ES"></a>
@@ -43,8 +43,8 @@
 우리는 최고의 프롬프트 리소스를 제공하기 위해 끊임없이 진화하고 있습니다.
 
 - [x] **1단계:** 공식 큐레이션 데이터베이스 출시 (현재).
-- [ ] **2단계:** 카테고리 확장 및 고급 프롬프트 엔지니어링 템플릿 도입.
-- [ ] **3단계:** **커뮤니티 데이터베이스.** 사용자가 자신의 프롬프트를 공유하고 테스트하며 저장할 수 있는 전용 공간이 추가될 예정입니다.
+- [ ] **2단계:** 사용자가 자신의 프롬프트를 데이터베이스에 추가할 수 있습니다.
+- [ ] **3단계:** **AI 프롬프트 생성기 개발.** 필요에 따라 프롬프트를 생성하는 지능형 도구 개발.
 
 ---
 

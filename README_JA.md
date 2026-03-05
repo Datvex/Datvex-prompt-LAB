@@ -4,7 +4,7 @@
 
 <p align="center">
   <b>言語を選択:</b><br>
-  <a href="README.md"><img src="https://img.shields.io/badge/English-brightgreen" alt="EN"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/英語-Current-brightgreen" alt="EN"></a>
   <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-darkblue" alt="RU"></a>
   <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-yellow" alt="ZH"></a>
   <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-orange" alt="ES"></a>
@@ -43,8 +43,8 @@
 私たちは、最高のプロンプト・リソースを提供するために絶えず進化しています。
 
 - [x] **フェーズ 1:** 公式キュレート・データベースのリリース（現在）。
-- [ ] **フェーズ 2:** カテゴリの拡張と高度なプロンプトエンジニアリング・テンプレートの追加。
-- [ ] **フェーズ 3:** **コミュニティ・データベース。** ユーザーが独自のプロンプトを共有、テスト、保存できる専用スペースが追加される予定です。
+- [ ] **フェーズ 2:** ユーザーは自分のプロンプトをデータベースに追加できます。
+- [ ] **フェーズ 3:** **AIプロンプトジェネレーターの作成。** あなたのニーズに基づいてプロンプトを生成するインテリジェントなツールの開発。
 
 ---
 

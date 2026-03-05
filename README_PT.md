@@ -4,7 +4,7 @@
 
 <p align="center">
   <b>Selecione o idioma:</b><br>
-  <a href="README.md"><img src="https://img.shields.io/badge/English-brightgreen" alt="EN"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/Inglês-Current-brightgreen" alt="EN"></a>
   <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-darkblue" alt="RU"></a>
   <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-yellow" alt="ZH"></a>
   <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-orange" alt="ES"></a>
@@ -43,8 +43,8 @@ Navegue pela biblioteca por tarefa e caso de uso. Nesta fase, todos os links lev
 Estamos evoluindo constantemente para fornecer os melhores recursos de prompting.
 
 - [x] **Fase 1:** Lançamento do banco de dados oficial (Atual).
-- [ ] **Fase 2:** Expansão de categorias e modelos avançados de engenharia de prompts.
-- [ ] **Fase 3:** **Banco de Dados da Comunidade.** Será adicionado um espaço dedicado para os usuários compartilharem, testarem e armazenarem seus próprios prompts.
+- [ ] **Fase 2:** Os usuários podem adicionar seus próprios prompts ao banco de dados.
+- [ ] **Fase 3:** **Criação do gerador de prompts IA.** Desenvolvimento de uma ferramenta inteligente para gerar prompts com base nas suas necessidades.
 
 ---
 

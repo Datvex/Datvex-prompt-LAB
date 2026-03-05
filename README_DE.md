@@ -4,7 +4,7 @@
 
 <p align="center">
   <b>Sprache wählen:</b><br>
-  <a href="README.md"><img src="https://img.shields.io/badge/English-brightgreen" alt="EN"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/Englisch-Current-brightgreen" alt="EN"></a>
   <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-darkblue" alt="RU"></a>
   <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-yellow" alt="ZH"></a>
   <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-orange" alt="ES"></a>
@@ -43,8 +43,8 @@ Durchsuchen Sie die Bibliothek nach Aufgabe und Anwendungsfall. Zum jetzigen Zei
 Wir entwickeln uns ständig weiter, um die besten Prompt-Ressourcen bereitzustellen.
 
 - [x] **Phase 1:** Start der offiziellen kuratierten Datenbank (Aktuell).
-- [ ] **Phase 2:** Erweiterung der Kategorien und fortgeschrittene Prompt-Engineering-Vorlagen.
-- [ ] **Phase 3:** **Community-Datenbank.** Ein spezieller Bereich für Benutzer zum Teilen, Testen und Speichern eigener Prompts wird hinzugefügt.
+- [ ] **Phase 2:** Benutzer können ihre eigenen Prompts zur Datenbank hinzufügen.
+- [ ] **Phase 3:** **Erstellung des KI-Prompt-Generators.** Entwicklung eines intelligenten Tools zur Generierung von Prompts basierend auf Ihren Bedürfnissen.
 
 ---
 

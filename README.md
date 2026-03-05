@@ -43,8 +43,8 @@ Browse the library by task and use-case. At this stage, all links lead to the of
 We are constantly evolving to provide the best prompting resources.
 
 - [x] **Phase 1:** Launch of the official curated database (Current).
-- [ ] **Phase 2:** Expansion of categories and advanced prompt engineering templates.
-- [ ] **Phase 3:** **Community Database.** A dedicated space will be added for users to share, test, and store their own prompts.
+- [ ] **Phase 2:** Users can add their own prompts to the database.
+- [ ] **Phase 3:** **AI Prompt Generator Creation.** Development of an intelligent tool to generate prompts based on your needs.
 
 ---
 
