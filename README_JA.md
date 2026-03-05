@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" width="800" alt="Datvex prompt LAB Logo">
+  <img src="logo.png" width="650" alt="Datvex prompt LAB Logo">
 </p>
 
 <p align="center">
