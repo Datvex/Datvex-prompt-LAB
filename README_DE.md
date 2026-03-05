@@ -1,7 +1,5 @@
 <p align="center">
-  <kbd>
-    <img src="logo.png" width="400" alt="Datvex prompt LAB Logo">
-  </kbd>
+  <img src="logo.png" width="800" alt="Datvex prompt LAB Logo">
 </p>
 
 <p align="center">
@@ -13,7 +11,7 @@
   <a href="README_HI.md"><img src="https://img.shields.io/badge/Hindi-teal" alt="HI"></a>
   <br>
   <a href="README_FR.md"><img src="https://img.shields.io/badge/Français-blue" alt="FR"></a>
-  <a href="README_DE.md"><img src="https://img.shields.io/badge/Deutsch-darkgreen" alt="DE"></a>
+  <a href="README_DE.md"><img src="https://img.shields.io/badge/Deutsch-Current-darkgreen" alt="DE"></a>
   <a href="README_IT.md"><img src="https://img.shields.io/badge/Italiano-red" alt="IT"></a>
   <a href="README_PT.md"><img src="https://img.shields.io/badge/Português-purple" alt="PT"></a>
   <a href="README_JA.md"><img src="https://img.shields.io/badge/日本語-b7003a" alt="JA"></a>

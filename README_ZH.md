@@ -1,14 +1,12 @@
 <p align="center">
-  <kbd>
-    <img src="logo.png" width="400" alt="Datvex prompt LAB Logo">
-  </kbd>
+  <img src="logo.png" width="800" alt="Datvex prompt LAB Logo">
 </p>
 
 <p align="center">
   <b>选择语言：</b><br>
   <a href="README.md"><img src="https://img.shields.io/badge/English-brightgreen" alt="EN"></a>
   <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-darkblue" alt="RU"></a>
-  <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-yellow" alt="ZH"></a>
+  <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-Current-yellow" alt="ZH"></a>
   <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-orange" alt="ES"></a>
   <a href="README_HI.md"><img src="https://img.shields.io/badge/Hindi-teal" alt="HI"></a>
   <br>
