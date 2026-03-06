@@ -5,7 +5,7 @@
 <p align="center">
   <b>Выберите язык:</b><br>
   <a href="README.md"><img src="https://img.shields.io/badge/Английский-Current-brightgreen" alt="EN"></a>
-  <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-Current-darkblue" alt="RU"></a>
+  <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-Текущий-darkblue" alt="RU"></a>
   <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-yellow" alt="ZH"></a>
   <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-orange" alt="ES"></a>
   <a href="README_HI.md"><img src="https://img.shields.io/badge/Hindi-teal" alt="HI"></a>

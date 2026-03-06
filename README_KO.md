@@ -15,7 +15,7 @@
   <a href="README_IT.md"><img src="https://img.shields.io/badge/Italiano-red" alt="IT"></a>
   <a href="README_PT.md"><img src="https://img.shields.io/badge/Português-purple" alt="PT"></a>
   <a href="README_JA.md"><img src="https://img.shields.io/badge/日本語-b7003a" alt="JA"></a>
-  <a href="README_KO.md"><img src="https://img.shields.io/badge/한국어-Current-green" alt="KO"></a>
+  <a href="README_KO.md"><img src="https://img.shields.io/badge/한국어-현재-green" alt="KO"></a>
 </p>
 
 <p align="center">

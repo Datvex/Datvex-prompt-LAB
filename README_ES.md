@@ -7,7 +7,7 @@
   <a href="README.md"><img src="https://img.shields.io/badge/Inglés-Current-brightgreen" alt="EN"></a>
   <a href="README_RU.md"><img src="https://img.shields.io/badge/Русский-darkblue" alt="RU"></a>
   <a href="README_ZH.md"><img src="https://img.shields.io/badge/简体中文-yellow" alt="ZH"></a>
-  <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-Current-orange" alt="ES"></a>
+  <a href="README_ES.md"><img src="https://img.shields.io/badge/Español-Actual-orange" alt="ES"></a>
   <a href="README_HI.md"><img src="https://img.shields.io/badge/Hindi-teal" alt="HI"></a>
   <br>
   <a href="README_FR.md"><img src="https://img.shields.io/badge/Français-blue" alt="FR"></a>
