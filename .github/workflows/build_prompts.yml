@@ -100,7 +100,7 @@ jobs:
 
           # Save JSON
           with open('data/prompts.json', 'w', encoding='utf-8') as f:
-              json.dump(prompts, f, ensure_ascii=False, separators=(',', ':'))
+              json.dump(prompts, f, ensure_ascii=False, indent=2, separators=(', ', ': '))
           "
 
       - name: Commit and Push JSON
