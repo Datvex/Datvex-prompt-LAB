@@ -22,14 +22,85 @@ jobs:
 
       - run: pip install pyyaml
 
-      - name: Convert YAML to JSON
+      - name: Add tags to prompts
         run: |
           python -c "
-          import yaml, json
+          import yaml
+          import json
+          import re
+
+          # Load tags
+          with open('data/tags.json', 'r', encoding='utf-8') as f:
+              tags_data = json.load(f)
+          tags_dict = {tag['id']: tag['name'] for tag in tags_data}
+
+          # Load prompts
           with open('data/prompts.yaml', 'r', encoding='utf-8') as f:
-              data = yaml.safe_load(f)
+              prompts = yaml.safe_load(f)
+
+          # Function to find matching tags
+          def find_matching_tags(prompt_data, tags_dict):
+              text_to_analyze = ' '.join([
+                  prompt_data.get('title', ''),
+                  prompt_data.get('description', ''),
+                  prompt_data.get('category', ''),
+                  prompt_data.get('prompt', '')
+              ]).lower()
+              
+              matched_tags = set()
+              
+              for tag_id, tag_name in tags_dict.items():
+                  tag_id_lower = tag_id.lower()
+                  tag_name_lower = tag_name.lower()
+                  
+                  tag_parts = re.split(r'[_\-]', tag_id_lower)
+                  
+                  if tag_id_lower in text_to_analyze or tag_name_lower in text_to_analyze:
+                      matched_tags.add(tag_id)
+                      continue
+                  
+                  matched_parts = 0
+                  for part in tag_parts:
+                      if len(part) > 3:
+                          if re.search(r'\\b' + re.escape(part) + r'\\b', text_to_analyze):
+                              matched_parts += 1
+                  
+                  if matched_parts >= 2 or (len(tag_parts) == 1 and matched_parts == 1):
+                      matched_tags.add(tag_id)
+              
+              # Add category-based tags
+              category = prompt_data.get('category', '').lower()
+              category_mapping = {
+                  'programming': ['coding', 'development'],
+                  'writing': ['writing', 'creative_writing'],
+                  'marketing': ['marketing', 'seo'],
+                  'business': ['business', 'strategy'],
+                  'productivity': ['productivity', 'workflow'],
+                  'education': ['learning', 'teaching'],
+                  'career': ['career_advice', 'interview_prep'],
+                  'customer support': ['customer_support'],
+              }
+              
+              for cat_key, cat_tags in category_mapping.items():
+                  if cat_key in category:
+                      for cat_tag in cat_tags:
+                          if cat_tag in tags_dict:
+                              matched_tags.add(cat_tag)
+              
+              return sorted(list(matched_tags))
+
+          # Add tags to prompts if not present
+          for prompt in prompts:
+              if 'tags' not in prompt or not prompt['tags']:
+                  prompt['tags'] = find_matching_tags(prompt, tags_dict)
+
+          # Save prompts.yaml with tags
+          with open('data/prompts.yaml', 'w', encoding='utf-8') as f:
+              yaml.dump(prompts, f, allow_unicode=True, default_flow_style=False, sort_keys=False, width=1000)
+
+          # Save JSON
           with open('data/prompts.json', 'w', encoding='utf-8') as f:
-              json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
+              json.dump(prompts, f, ensure_ascii=False, separators=(',', ':'))
           "
 
       - name: Commit and Push JSON
