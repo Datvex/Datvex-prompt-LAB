@@ -103,13 +103,77 @@ jobs:
               json.dump(prompts, f, ensure_ascii=False, indent=2, separators=(', ', ': '))
           "
 
+      - name: Update prompt count in all READMEs
+        run: |
+          python -c "
+          import json
+          import re
+          import os
+
+          # Count prompts
+          with open('data/prompts.json', 'r', encoding='utf-8') as f:
+              prompts = json.load(f)
+          count = len(prompts)
+
+          # Format with commas: 10565 -> 10,565
+          formatted_count = f'{count:,}'
+
+          print(f'Total prompts: {formatted_count}')
+
+          # List of all README files to update
+          readme_files = [
+              'README.md',
+              'README_DE.md',
+              'README_ES.md',
+              'README_FR.md',
+              'README_HI.md',
+              'README_IT.md',
+              'README_JA.md',
+              'README_KO.md',
+              'README_PT.md',
+              'README_RU.md',
+              'README_ZH.md',
+          ]
+
+          # Regex pattern to match the badge with any label text and any number
+          # Matches: ![...](https://img.shields.io/badge/ANYTHING-NUMBER-blue)
+          # The label part can be any text (Prompts, 提示词, Промпты, etc.)
+          # The number part can contain digits, commas, dots, percent-encoded chars
+          pattern = re.compile(
+              r'(https://img\.shields\.io/badge/[^-]+-)'
+              r'[0-9][0-9%C.,]*'
+              r'(-blue)'
+          )
+
+          for readme_file in readme_files:
+              filepath = os.path.join('.', readme_file)
+              if not os.path.exists(filepath):
+                  print(f'  SKIP: {readme_file} not found')
+                  continue
+
+              with open(filepath, 'r', encoding='utf-8') as f:
+                  content = f.read()
+
+              # URL-encode the comma for shields.io badge URLs
+              url_count = formatted_count.replace(',', '%2C')
+
+              new_content = pattern.sub(r'\g<1>' + url_count + r'\g<2>', content)
+
+              if new_content != content:
+                  with open(filepath, 'w', encoding='utf-8') as f:
+                      f.write(new_content)
+                  print(f'  UPDATED: {readme_file}')
+              else:
+                  print(f'  NO CHANGE: {readme_file}')
+          "
+
       - name: Commit and Push JSON
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/prompts.json
+          git add data/prompts.json data/prompts.yaml README.md README_*.md
           if git diff --staged --quiet; then
             exit 0
           fi
-          git commit -m "auto: generated prompts.json for frontend"
+          git commit -m "auto: generated prompts.json & updated prompt counts"
           git push
