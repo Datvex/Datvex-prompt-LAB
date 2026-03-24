@@ -79,6 +79,9 @@ jobs:
                   'education': ['learning', 'teaching'],
                   'career': ['career_advice', 'interview_prep'],
                   'customer support': ['customer_support'],
+                  'audio': ['music_general', 'audio_sfx', 'voice_generation'],
+                  'music': ['music_general', 'music_genres', 'music_lyrics'],
+                  'voice': ['voice_generation'],
               }
               
               for cat_key, cat_tags in category_mapping.items():
