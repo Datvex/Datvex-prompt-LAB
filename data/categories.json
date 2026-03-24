@@ -37,16 +37,8 @@
       { "id": "music_general", "name": "Music Prompts (General)" },
       { "id": "music_genres", "name": "Genres, Mood & Structure" },
       { "id": "music_lyrics", "name": "Lyrics & Songwriting" },
-      { "id": "audio_sfx", "name": "Sound Effects (SFX)" }
-    ]
-  },
-  {
-    "group": "Voice Generation",
-    "items": [
-      { "id": "voice_general", "name": "Voice Prompts (General)" },
-      { "id": "voiceover", "name": "Voiceovers & Narration" },
-      { "id": "voice_characters", "name": "Characters & Acting" },
-      { "id": "voice_dubbing", "name": "Dubbing & Localization" }
+      { "id": "audio_sfx", "name": "Sound Effects (SFX)" },
+      { "id": "voice_generation", "name": "Voice Generation" }
     ]
   }
 ]
