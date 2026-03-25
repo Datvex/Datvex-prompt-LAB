@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/プロンプト-12%2C563-blue" alt="Prompts Count">
+  <img src="https://img.shields.io/badge/プロンプト-8%2C976-blue" alt="Prompts Count">
 </p>
 
 ---
