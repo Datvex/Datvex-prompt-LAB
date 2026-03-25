@@ -22,88 +22,74 @@ jobs:
 
       - run: pip install pyyaml
 
-      - name: Add tags to prompts
+      - name: Filter 18+ and build JSON with numeric_id
         run: |
           python -c "
           import yaml
           import json
           import re
 
-          # Load tags
-          with open('data/tags.json', 'r', encoding='utf-8') as f:
-              tags_data = json.load(f)
-          tags_dict = {tag['id']: tag['name'] for tag in tags_data}
+          NSFW_KEYWORDS = [
+              'sex', 'sexy', 'sexual', 'sexuality', 'erotic', 'erotica', 'eroticism',
+              'porn', 'pornography', 'pornographic', 'xxx', 'adult content',
+              'nude', 'nudity', 'naked', 'nakedness',
+              'fetish', 'fetishism', 'kink', 'kinky', 'bdsm',
+              'masturbat', 'orgasm', 'genitals', 'penis', 'vagina', 'breasts',
+              'lingerie', 'stripper', 'striptease', 'escort', 'prostitut',
+              'hentai', 'yuri', 'yaoi', 'loli', 'shota',
+              'rape', 'molest', 'incest', 'underage', 'minor',
+              'onlyfans', 'camgirl', 'camboy', 'nsfw', '18+', 'explicit',
+              'horny', 'aroused', 'seduct', 'seduce', 'sensual',
+              'threesome', 'orgy', 'hookup', 'one night stand',
+              'naughty', 'dirty talk', 'dom', 'sub ', 'submissive',
+              'domina', 'dominatrix', 'slave', 'bondage', 'spanking',
+              'intimate', 'intercourse', 'fornication',
+              'playboy', 'hustler', 'penthouse',
+              'cum ', 'cumshot', 'blowjob', 'handjob',
+              'af ', 'milf', 'dilf'
+          ]
 
-          # Load prompts
+          def is_nsfw(prompt_data):
+              text = ' '.join([
+                  prompt_data.get('title', ''),
+                  prompt_data.get('description', ''),
+                  prompt_data.get('prompt', ''),
+                  prompt_data.get('category', ''),
+                  ' '.join(prompt_data.get('tags', []) or [])
+              ]).lower()
+              for keyword in NSFW_KEYWORDS:
+                  if keyword in text:
+                      return True
+              return False
+
           with open('data/prompts.yaml', 'r', encoding='utf-8') as f:
               prompts = yaml.safe_load(f)
 
-          # Function to find matching tags
-          def find_matching_tags(prompt_data, tags_dict):
-              text_to_analyze = ' '.join([
-                  prompt_data.get('title', ''),
-                  prompt_data.get('description', ''),
-                  prompt_data.get('category', ''),
-                  prompt_data.get('prompt', '')
-              ]).lower()
-              
-              matched_tags = set()
-              
-              for tag_id, tag_name in tags_dict.items():
-                  tag_id_lower = tag_id.lower()
-                  tag_name_lower = tag_name.lower()
-                  
-                  tag_parts = re.split(r'[_\-]', tag_id_lower)
-                  
-                  if tag_id_lower in text_to_analyze or tag_name_lower in text_to_analyze:
-                      matched_tags.add(tag_id)
-                      continue
-                  
-                  matched_parts = 0
-                  for part in tag_parts:
-                      if len(part) > 3:
-                          if re.search(r'\\b' + re.escape(part) + r'\\b', text_to_analyze):
-                              matched_parts += 1
-                  
-                  if matched_parts >= 2 or (len(tag_parts) == 1 and matched_parts == 1):
-                      matched_tags.add(tag_id)
-              
-              # Add category-based tags
-              category = prompt_data.get('category', '').lower()
-              category_mapping = {
-                  'programming': ['coding', 'development'],
-                  'writing': ['writing', 'creative_writing'],
-                  'marketing': ['marketing', 'seo'],
-                  'business': ['business', 'strategy'],
-                  'productivity': ['productivity', 'workflow'],
-                  'education': ['learning', 'teaching'],
-                  'career': ['career_advice', 'interview_prep'],
-                  'customer support': ['customer_support'],
-                  'audio': ['music_general', 'audio_sfx', 'voice_generation'],
-                  'music': ['music_general', 'music_genres', 'music_lyrics'],
-                  'voice': ['voice_generation'],
-              }
-              
-              for cat_key, cat_tags in category_mapping.items():
-                  if cat_key in category:
-                      for cat_tag in cat_tags:
-                          if cat_tag in tags_dict:
-                              matched_tags.add(cat_tag)
-              
-              return sorted(list(matched_tags))
+          clean_prompts = []
+          skipped = 0
 
-          # Add tags to prompts if not present
           for prompt in prompts:
-              if 'tags' not in prompt or not prompt['tags']:
-                  prompt['tags'] = find_matching_tags(prompt, tags_dict)
+              if is_nsfw(prompt):
+                  skipped += 1
+                  print(f'  FILTERED (18+): {prompt.get(\"title\", \"unknown\")}')
+              else:
+                  clean_prompts.append(prompt)
 
-          # Save prompts.yaml with tags
+          print(f'Total filtered: {skipped} NSFW prompts removed')
+          print(f'Clean prompts: {len(clean_prompts)}')
+
           with open('data/prompts.yaml', 'w', encoding='utf-8') as f:
-              yaml.dump(prompts, f, allow_unicode=True, default_flow_style=False, sort_keys=False, width=1000)
+              yaml.dump(clean_prompts, f, allow_unicode=True, default_flow_style=False, sort_keys=False, width=1000)
 
-          # Save JSON
+          output_prompts = []
+          for i, prompt in enumerate(clean_prompts, start=1):
+              ordered = {'numeric_id': i}
+              for k, v in prompt.items():
+                  ordered[k] = v
+              output_prompts.append(ordered)
+
           with open('data/prompts.json', 'w', encoding='utf-8') as f:
-              json.dump(prompts, f, ensure_ascii=False, indent=2, separators=(', ', ': '))
+              json.dump(output_prompts, f, ensure_ascii=False, indent=2, separators=(', ', ': '))
           "
 
       - name: Update prompt count in all READMEs
@@ -113,35 +99,18 @@ jobs:
           import re
           import os
 
-          # Count prompts
           with open('data/prompts.json', 'r', encoding='utf-8') as f:
               prompts = json.load(f)
           count = len(prompts)
-
-          # Format with commas: 10565 -> 10,565
           formatted_count = f'{count:,}'
-
           print(f'Total prompts: {formatted_count}')
 
-          # List of all README files to update
           readme_files = [
-              'README.md',
-              'README_DE.md',
-              'README_ES.md',
-              'README_FR.md',
-              'README_HI.md',
-              'README_IT.md',
-              'README_JA.md',
-              'README_KO.md',
-              'README_PT.md',
-              'README_RU.md',
-              'README_ZH.md',
+              'README.md', 'README_DE.md', 'README_ES.md', 'README_FR.md',
+              'README_HI.md', 'README_IT.md', 'README_JA.md', 'README_KO.md',
+              'README_PT.md', 'README_RU.md', 'README_ZH.md',
           ]
 
-          # Regex pattern to match the badge with any label text and any number
-          # Matches: ![...](https://img.shields.io/badge/ANYTHING-NUMBER-blue)
-          # The label part can be any text (Prompts, 提示词, Промпты, etc.)
-          # The number part can contain digits, commas, dots, percent-encoded chars
           pattern = re.compile(
               r'(https://img\.shields\.io/badge/[^-]+-)'
               r'[0-9][0-9%C.,]*'
@@ -153,15 +122,10 @@ jobs:
               if not os.path.exists(filepath):
                   print(f'  SKIP: {readme_file} not found')
                   continue
-
               with open(filepath, 'r', encoding='utf-8') as f:
                   content = f.read()
-
-              # URL-encode the comma for shields.io badge URLs
               url_count = formatted_count.replace(',', '%2C')
-
               new_content = pattern.sub(r'\g<1>' + url_count + r'\g<2>', content)
-
               if new_content != content:
                   with open(filepath, 'w', encoding='utf-8') as f:
                       f.write(new_content)
