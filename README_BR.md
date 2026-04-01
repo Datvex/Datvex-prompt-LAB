@@ -32,11 +32,11 @@
 
 ---
 
-## Índice
+## Sumário
 
 - [Visão Geral](#visão-geral)
 - [Funcionalidades](#funcionalidades)
-- [Stack Tecnológica](#stack-tecnológica)
+- [Stack Tecnológico](#stack-tecnológico)
 - [Internacionalização](#internacionalização)
 - [Contribuições](#contribuições)
 - [Licença](#licença)
@@ -45,9 +45,9 @@
 
 ## Visão Geral
 
-O **Datvex Prompt LAB** é um repositório profissional e estruturado que contém prompts de alta qualidade concebidos para tarefas especializadas em múltiplos sistemas de IA. A plataforma disponibiliza uma interface intuitiva com tema escuro para navegar, pesquisar e filtrar prompts por tipo, categoria e etiquetas.
+**Datvex Prompt LAB** é um repositório profissional e estruturado contendo prompts de alta qualidade projetados para tarefas especializadas em múltiplos sistemas de IA. A plataforma oferece uma interface intuitiva com tema escuro para navegar, pesquisar e filtrar prompts por tipo, categoria e tags.
 
-Construído com foco no desempenho, o Datvex proporciona uma experiência ultrarrápida com pesquisa instantânea, deslocamento infinito e um poderoso sistema de filtragem — tudo sem frameworks pesados.
+Construído com foco em performance, o Datvex entrega uma experiência ultrarrápida com busca instantânea, scroll infinito e um sistema de filtragem poderoso — tudo sem frameworks pesados.
 
 <div align="center">
 
@@ -66,11 +66,11 @@ Construído com foco no desempenho, o Datvex proporciona uma experiência ultrar
   <tr>
     <td width="33%" align="center" valign="top">
       <img src="https://img.shields.io/badge/Biblioteca_Estruturada-60A5FA?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Biblioteca Estruturada"/><br/><br/>
-      Prompts cuidadosamente categorizados para geração de texto, imagem, vídeo e áudio — organizados por tipo, categoria e etiquetas.
+      Prompts cuidadosamente categorizados para geração de texto, imagem, vídeo e áudio — organizados por tipo, categoria e tags.
     </td>
     <td width="33%" align="center" valign="top">
-      <img src="https://img.shields.io/badge/Pesquisa_Instantânea-4ADE80?style=for-the-badge&logo=algolia&logoColor=white" alt="Pesquisa Instantânea"/><br/><br/>
-      Pesquisa de texto completo em tempo real com resultados instantâneos à medida que escreve. Encontre o prompt exato em milissegundos.
+      <img src="https://img.shields.io/badge/Busca_Instantânea-4ADE80?style=for-the-badge&logo=algolia&logoColor=white" alt="Busca Instantânea"/><br/><br/>
+      Busca em texto completo em tempo real com resultados instantâneos enquanto você digita. Encontre o prompt exato em milissegundos.
     </td>
     <td width="33%" align="center" valign="top">
       <img src="https://img.shields.io/badge/Multi_Modelo-FBBF24?style=for-the-badge&logo=openai&logoColor=black" alt="Multi Modelo"/><br/><br/>
@@ -84,7 +84,7 @@ Construído com foco no desempenho, o Datvex proporciona uma experiência ultrar
     </td>
     <td width="33%" align="center" valign="top">
       <img src="https://img.shields.io/badge/Favoritos-FF6B6B?style=for-the-badge&logo=heart&logoColor=white" alt="Favoritos"/><br/><br/>
-      Guarde os seus prompts favoritos para acesso rápido. Tudo guardado localmente com armazenamento persistente.
+      Salve seus prompts favoritos para acesso rápido. Tudo armazenado localmente com persistência de dados.
     </td>
     <td width="33%" align="center" valign="top">
       <img src="https://img.shields.io/badge/11_Idiomas-FF6F61?style=for-the-badge&logo=googletranslate&logoColor=white" alt="Idiomas"/><br/><br/>
@@ -95,7 +95,7 @@ Construído com foco no desempenho, o Datvex proporciona uma experiência ultrar
 
 ---
 
-## Stack Tecnológica
+## Stack Tecnológico
 
 <div align="center">
 
@@ -114,31 +114,31 @@ Construído com foco no desempenho, o Datvex proporciona uma experiência ultrar
 
 ### Bibliotecas de UI / Ícones
 
-| Biblioteca | Finalidade |
+| Biblioteca | Propósito |
 |:---|:---|
 | [TailwindCSS](https://tailwindcss.com) | Framework CSS utilitário |
 | [Phosphor Icons](https://phosphoricons.com) | Família de ícones flexíveis para interfaces |
-| [Inter](https://rsms.me/inter/) | Tipo de letra limpo e profissional por Rasmus Andersson |
+| [Inter](https://rsms.me/inter/) | Tipografia limpa e profissional por Rasmus Andersson |
 
 ---
 
 ## Internacionalização
 
-O Datvex Prompt LAB suporta **11 idiomas** de origem:
+O Datvex Prompt LAB suporta **11 idiomas** nativamente:
 
-| Idioma | Código | Estado |
+| Idioma | Código | Status |
 |:---|:---:|:---:|
-| Inglês | `en` | ![](https://img.shields.io/badge/concluído-brightgreen?style=flat-square) |
-| Russo | `ru` | ![](https://img.shields.io/badge/concluído-brightgreen?style=flat-square) |
-| Chinês (Simplificado) | `zh` | ![](https://img.shields.io/badge/concluído-brightgreen?style=flat-square) |
-| Espanhol | `es` | ![](https://img.shields.io/badge/concluído-brightgreen?style=flat-square) |
-| Hindi | `hi` | ![](https://img.shields.io/badge/concluído-brightgreen?style=flat-square) |
-| Francês | `fr` | ![](https://img.shields.io/badge/concluído-brightgreen?style=flat-square) |
-| Alemão | `de` | ![](https://img.shields.io/badge/concluído-brightgreen?style=flat-square) |
-| Italiano | `it` | ![](https://img.shields.io/badge/concluído-brightgreen?style=flat-square) |
-| Português | `pt` | ![](https://img.shields.io/badge/concluído-brightgreen?style=flat-square) |
-| Japonês | `ja` | ![](https://img.shields.io/badge/concluído-brightgreen?style=flat-square) |
-| Coreano | `ko` | ![](https://img.shields.io/badge/concluído-brightgreen?style=flat-square) |
+| Inglês | `en` | ![](https://img.shields.io/badge/feito-brightgreen?style=flat-square) |
+| Russo | `ru` | ![](https://img.shields.io/badge/feito-brightgreen?style=flat-square) |
+| Chinês (Simplificado) | `zh` | ![](https://img.shields.io/badge/feito-brightgreen?style=flat-square) |
+| Espanhol | `es` | ![](https://img.shields.io/badge/feito-brightgreen?style=flat-square) |
+| Hindi | `hi` | ![](https://img.shields.io/badge/feito-brightgreen?style=flat-square) |
+| Francês | `fr` | ![](https://img.shields.io/badge/feito-brightgreen?style=flat-square) |
+| Alemão | `de` | ![](https://img.shields.io/badge/feito-brightgreen?style=flat-square) |
+| Italiano | `it` | ![](https://img.shields.io/badge/feito-brightgreen?style=flat-square) |
+| Português | `pt` | ![](https://img.shields.io/badge/feito-brightgreen?style=flat-square) |
+| Japonês | `ja` | ![](https://img.shields.io/badge/feito-brightgreen?style=flat-square) |
+| Coreano | `ko` | ![](https://img.shields.io/badge/feito-brightgreen?style=flat-square) |
 
 O idioma é armazenado no `localStorage` e persiste entre sessões.
 
@@ -146,20 +146,20 @@ O idioma é armazenado no `localStorage` e persiste entre sessões.
 
 ## Contribuições
 
-As contribuições são o que torna a comunidade de código aberto incrível. Qualquer contribuição que faça será **muito apreciada**.
+As contribuições são o que torna a comunidade open source incrível. Qualquer contribuição que você fizer será **muito apreciada**.
 
 ### Como Contribuir
 
-1. **Faça Fork** do repositório
-2. **Crie** o seu ramo de funcionalidade
+1. **Faça um Fork** do repositório
+2. **Crie** sua branch de funcionalidade
    ```bash
    git checkout -b feature/funcionalidade-incrivel
    ```
-3. **Faça Commit** das suas alterações
+3. **Commite** suas alterações
    ```bash
    git commit -m "Adiciona funcionalidade incrível"
    ```
-4. **Faça Push** para o ramo
+4. **Faça Push** para a branch
    ```bash
    git push origin feature/funcionalidade-incrivel
    ```
@@ -168,7 +168,7 @@ As contribuições são o que torna a comunidade de código aberto incrível. Qu
 ### Estilo de Código
 
 - No código, evite excesso de comentários — apenas comentários essenciais ou em áreas particularmente complexas são permitidos
-- Utilize classes utilitárias do TailwindCSS para estilização
+- Use classes utilitárias do TailwindCSS para estilização
 - Mantenha a consistência do tema escuro
 - Mantenha o JavaScript vanilla (sem frameworks)
 
