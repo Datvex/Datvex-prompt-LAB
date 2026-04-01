@@ -98,6 +98,7 @@
   { "id": "fashion_design", "name": "Fashion Design" },
   { "id": "entrepreneurship", "name": "Entrepreneurship" },
   { "id": "presentation", "name": "Presentation" },
+  { "id": "notebooklm", "name": "NotebookLM" },
   { "id": "git", "name": "Git" },
   { "id": "enterprise_ai", "name": "Enterprise AI" },
   { "id": "project_planning", "name": "Project Planning" },

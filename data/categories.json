@@ -40,5 +40,11 @@
       { "id": "audio_sfx", "name": "Sound Effects (SFX)" },
       { "id": "voice_generation", "name": "Voice Generation" }
     ]
+  },
+  {
+    "group": "Presentation",
+    "items": [
+      { "id": "presentation_notebooklm", "name": "NotebookLM" }
+    ]
   }
 ]
