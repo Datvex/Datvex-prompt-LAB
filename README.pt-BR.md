@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="logo.png" alt="Datvex Prompt LAB" width="200"/>
+<img src="logo.png?v=3" alt="Datvex Prompt LAB" width="200"/>
 
 # Datvex Prompt LAB
 
