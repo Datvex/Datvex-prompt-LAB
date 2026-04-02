@@ -22,67 +22,17 @@ jobs:
 
       - run: pip install pyyaml
 
-      - name: Filter 18+ and build JSON with numeric_id
+      - name: Build JSON with numeric_id
         run: |
           python -c "
           import yaml
           import json
-          import re
-
-          NSFW_KEYWORDS = [
-              'sex', 'sexy', 'sexual', 'sexuality', 'erotic', 'erotica', 'eroticism',
-              'porn', 'pornography', 'pornographic', 'xxx', 'adult content',
-              'nude', 'nudity', 'naked', 'nakedness',
-              'fetish', 'fetishism', 'kink', 'kinky', 'bdsm',
-              'masturbat', 'orgasm', 'genitals', 'penis', 'vagina', 'breasts',
-              'lingerie', 'stripper', 'striptease', 'escort', 'prostitut',
-              'hentai', 'yuri', 'yaoi', 'loli', 'shota',
-              'rape', 'molest', 'incest', 'underage', 'minor',
-              'onlyfans', 'camgirl', 'camboy', 'nsfw', '18+', 'explicit',
-              'horny', 'aroused', 'seduct', 'seduce', 'sensual',
-              'threesome', 'orgy', 'hookup', 'one night stand',
-              'naughty', 'dirty talk', 'dom', 'sub ', 'submissive',
-              'domina', 'dominatrix', 'slave', 'bondage', 'spanking',
-              'intimate', 'intercourse', 'fornication',
-              'playboy', 'hustler', 'penthouse',
-              'cum ', 'cumshot', 'blowjob', 'handjob',
-              'af ', 'milf', 'dilf'
-          ]
-
-          def is_nsfw(prompt_data):
-              text = ' '.join([
-                  prompt_data.get('title', ''),
-                  prompt_data.get('description', ''),
-                  prompt_data.get('prompt', ''),
-                  prompt_data.get('category', ''),
-                  ' '.join(prompt_data.get('tags', []) or [])
-              ]).lower()
-              for keyword in NSFW_KEYWORDS:
-                  if keyword in text:
-                      return True
-              return False
 
           with open('data/prompts.yaml', 'r', encoding='utf-8') as f:
               prompts = yaml.safe_load(f)
 
-          clean_prompts = []
-          skipped = 0
-
-          for prompt in prompts:
-              if is_nsfw(prompt):
-                  skipped += 1
-                  print(f'  FILTERED (18+): {prompt.get(\"title\", \"unknown\")}')
-              else:
-                  clean_prompts.append(prompt)
-
-          print(f'Total filtered: {skipped} NSFW prompts removed')
-          print(f'Clean prompts: {len(clean_prompts)}')
-
-          with open('data/prompts.yaml', 'w', encoding='utf-8') as f:
-              yaml.dump(clean_prompts, f, allow_unicode=True, default_flow_style=False, sort_keys=False, width=1000)
-
           output_prompts = []
-          for i, prompt in enumerate(clean_prompts, start=1):
+          for i, prompt in enumerate(prompts, start=1):
               ordered = {'numeric_id': i}
               for k, v in prompt.items():
                   ordered[k] = v
