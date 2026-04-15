@@ -27,10 +27,94 @@ jobs:
           python -c "
           import yaml
           import json
+          import re
+          import sys
 
           with open('data/prompts.yaml', 'r', encoding='utf-8') as f:
               prompts = yaml.safe_load(f)
 
+          # ============================================================
+          # English-language validation filter
+          # ============================================================
+
+          COMMON_NON_ENGLISH_PATTERNS = [
+              # CJK (Chinese, Japanese, Korean)
+              re.compile(r'[\u4e00-\u9fff\u3040-\u309f\u30a0-\u30ff\uac00-\ud7af]'),
+              # Cyrillic (Russian, Ukrainian, Bulgarian, etc.)
+              re.compile(r'[\u0400-\u04ff]'),
+              # Arabic
+              re.compile(r'[\u0600-\u06ff\u0750-\u077f]'),
+              # Hebrew
+              re.compile(r'[\u0590-\u05ff]'),
+              # Devanagari (Hindi, Sanskrit, etc.)
+              re.compile(r'[\u0900-\u097f]'),
+              # Bengali
+              re.compile(r'[\u0980-\u09ff]'),
+              # Thai
+              re.compile(r'[\u0e00-\u0e7f]'),
+              # Vietnamese specific characters
+              re.compile(r'[\u01a0\u01a1\u01af\u01b0\u1ea0-\u1eff]'),
+              # Greek
+              re.compile(r'[\u0370-\u03ff]'),
+              # Korean Hangul
+              re.compile(r'[\u1100-\u11ff]'),
+          ]
+
+          def contains_non_english(text):
+              \"\"\"Check if text contains non-English characters.\"\"\"
+              if not isinstance(text, str):
+                  return False
+              for pattern in COMMON_NON_ENGLISH_PATTERNS:
+                  if pattern.search(text):
+                      return True
+              return False
+
+          def validate_prompt(prompt, index):
+              \"\"\"Validate that title, description, and prompt are English-only.\"\"\"
+              errors = []
+              
+              fields_to_check = {
+                  'title': prompt.get('title', ''),
+                  'description': prompt.get('description', ''),
+                  'prompt': prompt.get('prompt', ''),
+              }
+              
+              for field_name, field_value in fields_to_check.items():
+                  if contains_non_english(field_value):
+                      errors.append(
+                          f'  ❌ Prompt #{index} [{field_name}]: contains non-English characters'
+                      )
+              
+              return errors
+
+          # ============================================================
+          # Validation & Build
+          # ============================================================
+
+          print('=' * 60)
+          print('🔍 Validating prompts for English-only content...')
+          print('=' * 60)
+
+          all_errors = []
+          for i, prompt in enumerate(prompts, start=1):
+              errors = validate_prompt(prompt, i)
+              all_errors.extend(errors)
+
+          if all_errors:
+              print()
+              print('❌ VALIDATION FAILED - Non-English content detected:')
+              print()
+              for error in all_errors:
+                  print(error)
+              print()
+              print('Please remove all non-English characters from the prompts.')
+              print('=' * 60)
+              sys.exit(1)
+
+          print(f'✅ All {len(prompts)} prompts passed English-only validation.')
+          print('=' * 60)
+
+          # Build output
           output_prompts = []
           for i, prompt in enumerate(prompts, start=1):
               ordered = {'numeric_id': i}
@@ -40,6 +124,8 @@ jobs:
 
           with open('data/prompts.json', 'w', encoding='utf-8') as f:
               json.dump(output_prompts, f, ensure_ascii=False, indent=2, separators=(', ', ': '))
+
+          print(f'✅ Successfully built data/prompts.json with {len(output_prompts)} prompts.')
           "
 
       - name: Update prompt count in all READMEs
