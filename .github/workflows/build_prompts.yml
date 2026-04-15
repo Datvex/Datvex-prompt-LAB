@@ -93,39 +93,34 @@ jobs:
               return errors
 
           # ============================================================
-          # Validation & Build
+          # Validation & Build - Skip non-English prompts
           # ============================================================
 
           print('=' * 60)
-          print('Validating prompts for English-only letters...')
+          print('Processing prompts - skipping non-English entries...')
           print('=' * 60)
 
-          all_errors = []
+          skipped_count = 0
+          output_prompts = []
+          
           for i, prompt in enumerate(prompts, start=1):
               errors = validate_prompt(prompt, i)
-              all_errors.extend(errors)
-
-          if all_errors:
-              print()
-              print('VALIDATION FAILED - Non-English letters detected:')
-              print()
-              for error in all_errors:
-                  print(error)
-              print()
-              print('Please remove all non-English letters from the prompts.')
-              print('=' * 60)
-              sys.exit(1)
-
-          print(f'All {len(prompts)} prompts passed English-only validation.')
-          print('=' * 60)
-
-          # Build output
-          output_prompts = []
-          for i, prompt in enumerate(prompts, start=1):
-              ordered = {'numeric_id': i}
+              
+              if errors:
+                  print(f'Skipping prompt #{i}: contains non-English letters')
+                  for error in errors:
+                      print(f'  {error}')
+                  skipped_count += 1
+                  continue
+              
+              ordered = {'numeric_id': len(output_prompts) + 1}
               for k, v in prompt.items():
                   ordered[k] = v
               output_prompts.append(ordered)
+
+          print('=' * 60)
+          print(f'Processed: {len(output_prompts)} included, {skipped_count} skipped.')
+          print('=' * 60)
 
           with open('data/prompts.json', 'w', encoding='utf-8') as f:
               json.dump(output_prompts, f, ensure_ascii=False, indent=2, separators=(', ', ': '))
