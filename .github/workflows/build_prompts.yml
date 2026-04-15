@@ -35,36 +35,41 @@ jobs:
 
           # ============================================================
           # English-language validation filter
+          # Only blocks LETTERS from other languages, allows punctuation, digits, symbols
           # ============================================================
 
-          COMMON_NON_ENGLISH_PATTERNS = [
-              # CJK (Chinese, Japanese, Korean)
-              re.compile(r'[\u4e00-\u9fff\u3040-\u309f\u30a0-\u30ff\uac00-\ud7af]'),
-              # Cyrillic (Russian, Ukrainian, Bulgarian, etc.)
-              re.compile(r'[\u0400-\u04ff]'),
-              # Arabic
-              re.compile(r'[\u0600-\u06ff\u0750-\u077f]'),
-              # Hebrew
-              re.compile(r'[\u0590-\u05ff]'),
-              # Devanagari (Hindi, Sanskrit, etc.)
-              re.compile(r'[\u0900-\u097f]'),
-              # Bengali
-              re.compile(r'[\u0980-\u09ff]'),
-              # Thai
-              re.compile(r'[\u0e00-\u0e7f]'),
-              # Vietnamese specific characters
+          NON_ENGLISH_LETTER_PATTERNS = [
+              # Cyrillic letters only (not punctuation/numbers)
+              re.compile(r'[\u0410-\u044f\u0451]'),  # А-я + ё
+              # CJK letters (Chinese, Japanese, Korean)
+              re.compile(r'[\u4e00-\u9fff\uac00-\ud7af]'),
+              # Arabic letters
+              re.compile(r'[\u0621-\u064a\u0660-\u0669]'),
+              # Hebrew letters
+              re.compile(r'[\u05d0-\u05ea]'),
+              # Devanagari letters (Hindi, Sanskrit)
+              re.compile(r'[\u0905-\u0939\u093d\u0940-\u094e\u0950\u0958-\u0961\u0964-\u0966]'),
+              # Bengali letters
+              re.compile(r'[\u0985-\u09b9\u09be-\u09c4\u09c7\u09c8\u09cb-\u09ce\u09d7\u09dc\u09dd\u09df\u09e0-\u09e3]'),
+              # Thai letters
+              re.compile(r'[\u0e01-\u0e3a\u0e40-\u0e4e\u0e4f]'),
+              # Vietnamese special letters (not accented Latin)
               re.compile(r'[\u01a0\u01a1\u01af\u01b0\u1ea0-\u1eff]'),
-              # Greek
-              re.compile(r'[\u0370-\u03ff]'),
-              # Korean Hangul
+              # Greek letters
+              re.compile(r'[\u0391-\u03c9]'),
+              # Korean Hangul letters
               re.compile(r'[\u1100-\u11ff]'),
+              # Japanese Hiragana
+              re.compile(r'[\u3040-\u309f]'),
+              # Japanese Katakana
+              re.compile(r'[\u30a0-\u30ff]'),
           ]
 
-          def contains_non_english(text):
-              \"\"\"Check if text contains non-English characters.\"\"\"
+          def contains_non_english_letters(text):
+              \"\"\"Check if text contains LETTERS from non-English languages.\"\"\"
               if not isinstance(text, str):
                   return False
-              for pattern in COMMON_NON_ENGLISH_PATTERNS:
+              for pattern in NON_ENGLISH_LETTER_PATTERNS:
                   if pattern.search(text):
                       return True
               return False
@@ -80,9 +85,9 @@ jobs:
               }
               
               for field_name, field_value in fields_to_check.items():
-                  if contains_non_english(field_value):
+                  if contains_non_english_letters(field_value):
                       errors.append(
-                          f'  ❌ Prompt #{index} [{field_name}]: contains non-English characters'
+                          f'   Prompt #{index} [{field_name}]: contains non-English letters'
                       )
               
               return errors
@@ -92,7 +97,7 @@ jobs:
           # ============================================================
 
           print('=' * 60)
-          print('🔍 Validating prompts for English-only content...')
+          print('Validating prompts for English-only letters...')
           print('=' * 60)
 
           all_errors = []
@@ -102,16 +107,16 @@ jobs:
 
           if all_errors:
               print()
-              print('❌ VALIDATION FAILED - Non-English content detected:')
+              print('VALIDATION FAILED - Non-English letters detected:')
               print()
               for error in all_errors:
                   print(error)
               print()
-              print('Please remove all non-English characters from the prompts.')
+              print('Please remove all non-English letters from the prompts.')
               print('=' * 60)
               sys.exit(1)
 
-          print(f'✅ All {len(prompts)} prompts passed English-only validation.')
+          print(f'All {len(prompts)} prompts passed English-only validation.')
           print('=' * 60)
 
           # Build output
@@ -125,7 +130,7 @@ jobs:
           with open('data/prompts.json', 'w', encoding='utf-8') as f:
               json.dump(output_prompts, f, ensure_ascii=False, indent=2, separators=(', ', ': '))
 
-          print(f'✅ Successfully built data/prompts.json with {len(output_prompts)} prompts.')
+          print(f'Successfully built data/prompts.json with {len(output_prompts)} prompts.')
           "
 
       - name: Update prompt count in all READMEs
