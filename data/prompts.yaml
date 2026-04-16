@@ -274743,7 +274743,7 @@
     with rounded gray band (#F5F5F7). Inside: aligned icons + text, large English title, small (the language should be what
     users said in the prompt) subtitle." Design Rules: "High Resolution: All mockup images must be high resolution with no
     visible pixels.", "Reflection & Gloss: Reproduce realistic screen reflections for premium feel.", "UI Spacing: Device
-    UI should also follow a spacious, minimal layout."'
+    UI should also follow a spacious, minimall layout."'
   tags: *id002
 - id: sports_athletic_energy
   category: NotebookLM
