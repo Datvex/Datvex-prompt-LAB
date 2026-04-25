@@ -27,74 +27,15 @@ jobs:
           python -c "
           import yaml
           import json
-          import re
-          import sys
 
           with open('data/prompts.yaml', 'r', encoding='utf-8') as f:
-              prompts = yaml.safe_load(f)
+              prompts = yaml.safe_load(f) or []
 
-          # ============================================================
-          # English-language validation filter
-          # Only blocks LETTERS from other languages, allows punctuation, digits, symbols
-          # ============================================================
-
-          NON_ENGLISH_LETTER_PATTERNS = [
-              # Cyrillic letters only (not punctuation/numbers)
-              re.compile(r'[\u0410-\u044f\u0451]'),  # А-я + ё
-              # CJK letters (Chinese, Japanese, Korean)
-              re.compile(r'[\u4e00-\u9fff\uac00-\ud7af]'),
-              # Arabic letters
-              re.compile(r'[\u0621-\u064a\u0660-\u0669]'),
-              # Hebrew letters
-              re.compile(r'[\u05d0-\u05ea]'),
-              # Devanagari letters (Hindi, Sanskrit)
-              re.compile(r'[\u0905-\u0939\u093d\u0940-\u094e\u0950\u0958-\u0961\u0964-\u0966]'),
-              # Bengali letters
-              re.compile(r'[\u0985-\u09b9\u09be-\u09c4\u09c7\u09c8\u09cb-\u09ce\u09d7\u09dc\u09dd\u09df\u09e0-\u09e3]'),
-              # Thai letters
-              re.compile(r'[\u0e01-\u0e3a\u0e40-\u0e4e\u0e4f]'),
-              # Vietnamese special letters (not accented Latin)
-              re.compile(r'[\u01a0\u01a1\u01af\u01b0\u1ea0-\u1eff]'),
-              # Greek letters
-              re.compile(r'[\u0391-\u03c9]'),
-              # Korean Hangul letters
-              re.compile(r'[\u1100-\u11ff]'),
-              # Japanese Hiragana
-              re.compile(r'[\u3040-\u309f]'),
-              # Japanese Katakana
-              re.compile(r'[\u30a0-\u30ff]'),
-          ]
-
-          def contains_non_english_letters(text):
-              \"\"\"Check if text contains LETTERS from non-English languages.\"\"\"
+          def has_foreign_letters(text):
               if not isinstance(text, str):
                   return False
-              for pattern in NON_ENGLISH_LETTER_PATTERNS:
-                  if pattern.search(text):
-                      return True
-              return False
-
-          def validate_prompt(prompt, index):
-              \"\"\"Validate that title, description, and prompt are English-only.\"\"\"
-              errors = []
-              
-              fields_to_check = {
-                  'title': prompt.get('title', ''),
-                  'description': prompt.get('description', ''),
-                  'prompt': prompt.get('prompt', ''),
-              }
-              
-              for field_name, field_value in fields_to_check.items():
-                  if contains_non_english_letters(field_value):
-                      errors.append(
-                          f'   Prompt #{index} [{field_name}]: contains non-English letters'
-                      )
-              
-              return errors
-
-          # ============================================================
-          # Validation & Build - Skip non-English prompts
-          # ============================================================
+              # Блокируем ЛЮБУЮ букву, которая не является английской (не-ASCII)
+              return any(ch.isalpha() and not ch.isascii() for ch in text)
 
           print('=' * 60)
           print('Processing prompts - skipping non-English entries...')
@@ -102,20 +43,18 @@ jobs:
 
           skipped_count = 0
           output_prompts = []
-          
+
           for i, prompt in enumerate(prompts, start=1):
-              errors = validate_prompt(prompt, i)
-              
-              if errors:
-                  print(f'Skipping prompt #{i}: contains non-English letters')
-                  for error in errors:
-                      print(f'  {error}')
+              fields = {k: prompt.get(k, '') for k in ('title', 'description', 'prompt')}
+              bad = [k for k, v in fields.items() if has_foreign_letters(v)]
+
+              if bad:
+                  print(f\"Skipping prompt #{i}: non-English letters in: {', '.join(bad)}\")
                   skipped_count += 1
                   continue
-              
+
               ordered = {'numeric_id': len(output_prompts) + 1}
-              for k, v in prompt.items():
-                  ordered[k] = v
+              ordered.update(prompt)
               output_prompts.append(ordered)
 
           print('=' * 60)
